@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# Assemble
+# Assemble instructions and extract the bytecode using GNU as and objdump
 
 require 'tempfile'
 require 'optparse'
