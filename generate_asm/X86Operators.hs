@@ -3,19 +3,21 @@ module X86Operators where
 import X86Operands
 import Text.Printf
 
-nops1I = movsxd ++ mov ++ xchg ++ nop ++ cmov
-nops2I = pushPop ++ xchgXchg ++ pushfPopf ++ notNot
+nops1I = movsxd ++ mov ++ xchg ++ nop ++ cmov ++ movsx ++ movzx
+nops2I = pushPop ++ xchgXchg ++ pushfPopf ++ notNot ++ bswapBswap
 
 -- Move with sign extension
 movsxd = ["movsxd "++show dest++","++show dest | dest <- r32]
 
 -- Move
-mov = ["mov "++show dest++","++show dest | dest <- r16] ++
+mov = ["mov "++show dest++","++show dest | dest <- r8 ] ++
+      ["mov "++show dest++","++show dest | dest <- r16] ++
       ["mov "++show dest++","++show dest | dest <- r32] ++
       ["mov "++show dest++","++show dest | dest <- r64]
 
 -- Exchange register with register
-xchg = ["xchg "++show r | r <- r16] ++
+xchg = ["xchg "++show r | r <- r8 ] ++
+       ["xchg "++show r | r <- r16] ++
        ["xchg "++show r | r <- r32] ++
        ["xchg "++show r | r <- r64] 
 
@@ -43,19 +45,31 @@ cmov =
   ["cmovns " ++ show r ++ "," ++ show r | r <- r16 ] ++ ["cmovs " ++ show r ++ "," ++ show r | r <- r32 ] ++ ["cmovs " ++ show r ++ "," ++ show r | r <- r64 ]
 
 -- Move with sign extension
-movsx
+movsx = ["movsx "++show r | r <- r16 ]
+
+-- Move with zero extend
+movzx = ["movzx "++show r | r <- r16 ]
 
 -- Push followed by Pop
-pushPop = [ ("push "++show r, "pop "++show r) | r <- r64 ] ++
-          [ ("push "++show r, "pop "++show r) | r <- r16 ]
+pushPop = [ ("push "++show r, "pop "++show r) | r <- r64, not.pointer $ r ] ++
+          [ ("push "++show r, "pop "++show r) | r <- r16, not.pointer $ r ]
 
-xchgXchg = [ ("xchg "++show r1++","++show r2, "xchg "++show r1++","++show r2) | r1 <- r16, r2 <- r16, r1 /= r2 ] ++
-           [ ("xchg "++show r1++","++show r2, "xchg "++show r1++","++show r2) | r1 <- r32, r2 <- r32, r1 /= r2 ] ++
-           [ ("xchg "++show r1++","++show r2, "xchg "++show r1++","++show r2) | r1 <- r64, r2 <- r64, r1 /= r2 ]
+-- Exchange register with register... twice!
+xchgXchg = [ ("xchg "++show r1++","++show r2, "xchg "++show r1++","++show r2) | r1 <- r16, r2 <- r16, r1 /= r2, general r1, general r2 ] ++
+           [ ("xchg "++show r1++","++show r2, "xchg "++show r1++","++show r2) | r1 <- r32, r2 <- r32, r1 /= r2, general r1, general r2 ] ++
+           [ ("xchg "++show r1++","++show r2, "xchg "++show r1++","++show r2) | r1 <- r64, r2 <- r64, r1 /= r2, general r1, general r2 ]
 
+-- Push flags then pop them
 pushfPopf = [("pushf","popf")]
 
-notNot = [ ("not "++show r, "not "++show r) | r <- r16 ]++
-         [ ("not "++show r, "not "++show r) | r <- r32 ]++
-         [ ("not "++show r, "not "++show r) | r <- r64 ]
-          
+-- Not not
+notNot = [ ("not "++show r, "not "++show r) | r <- r8 , general r ]++
+         [ ("not "++show r, "not "++show r) | r <- r16, general r ]++
+         [ ("not "++show r, "not "++show r) | r <- r32, general r ]++
+         [ ("not "++show r, "not "++show r) | r <- r64, general r ]
+
+-- Byte swap twice
+bswapBswap = [ ("bswap "++show r, "bswap "++show r) | r <- r16, general r ]++
+             [ ("bswap "++show r, "bswap "++show r) | r <- r32, general r ]++
+             [ ("bswap "++show r, "bswap "++show r) | r <- r64, general r ]
+
