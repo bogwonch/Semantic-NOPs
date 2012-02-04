@@ -3,8 +3,8 @@
 $output = 'MIPS-semantic-nops'
 
 $registers = (0..31).map {|n| "$#{n}"}
-$imm16 = 0..2*16-1
-def opcode(op,args) "#{op}# #{args.join ','}" end
+$imm16 = (0..2**16-1)
+def opcode(op,args) "#{op} #{args.join ','}" end
 
 # Instructions we cas use for creating semantic nops
 def ADDU(d,s,t) opcode "ADDU", [d,s,t] end
@@ -17,7 +17,7 @@ def LUI(d,c) opcode "LUI", [d,c] end
 def ANDI(d,s,c) opcode "ANDI", [d,s,c] end
 def ORI(d,s,c) opcode "ORI", [d,s,c] end
 def XOR(d,s,c) opcode "XOR", [d,s,c] end
-def NOR(d,s,c) opcode "NOR", [d,s,t] end
+def NOR(d,s,t) opcode "NOR", [d,s,t] end
 def SLT(d,s,t) opcode "SLT", [d,s,t] end
 def SLTI(d,s,c) opcode "SLTI", [d,s,c] end
 
