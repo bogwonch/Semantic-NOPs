@@ -7,19 +7,20 @@ $imm16 = (0..2**16-1)
 def opcode(op,args) "#{op} #{args.join ','}" end
 
 # Instructions we cas use for creating semantic nops
-def ADDU(d,s,t) opcode "ADDU", [d,s,t] end
-def SUBU(d,s,t) opcode "SUBU", [d,s,t] end
 def ADDI(d,s,t) opcode "ADDI", [d,s,t] end
 def ADDIU(d,s,t) opcode "ADDIU", [d,s,t] end
-def SUBI(d,s,t) opcode "SUBI", [d,s,t] end
-def SUBIU(d,s,t) opcode "SUBIU", [d,s,t] end
-def LUI(d,c) opcode "LUI", [d,c] end
+def ADDU(d,s,t) opcode "ADDU", [d,s,t] end
+def AND(d,s,t) opcode "AND", [d,s,t] end
 def ANDI(d,s,c) opcode "ANDI", [d,s,c] end
-def ORI(d,s,c) opcode "ORI", [d,s,c] end
-def XOR(d,s,c) opcode "XOR", [d,s,c] end
+def LUI(d,c) opcode "LUI", [d,c] end
 def NOR(d,s,t) opcode "NOR", [d,s,t] end
+def ORI(d,s,c) opcode "ORI", [d,s,c] end
 def SLT(d,s,t) opcode "SLT", [d,s,t] end
 def SLTI(d,s,c) opcode "SLTI", [d,s,c] end
+def SUBI(d,s,t) opcode "SUBI", [d,s,t] end
+def SUBIU(d,s,t) opcode "SUBIU", [d,s,t] end
+def SUBU(d,s,t) opcode "SUBU", [d,s,t] end
+def XOR(d,s,c) opcode "XOR", [d,s,c] end
 
 File.open($output, 'w') do |f|
   f.puts "NOP"
@@ -51,6 +52,7 @@ File.open($output, 'w') do |f|
       # Exploiting $0 being held at 0 with two registers
       f.puts ADDU '$0', r, s
       f.puts SUBU '$0', r, s
+      f.puts AND '$0', r, s
       f.puts XOR '$0', r, s
       f.puts NOR '$0', r, s
       f.puts SLT '$0', r, s
