@@ -1,26 +1,29 @@
 #!/usr/bin/env ruby
-# Assemble instructions and extract the bytecode using GNU as and objdump
+# Assemble instructions and extract the bytecode using the GNU as and objdump
+# programs.  Hopefully works for multiple architectures.
 
 require 'tempfile'
 require 'optparse'
 
 # Options
-$as = 'as'
+$as       = 'as'
 $as_flags = ''
-$objdump = 'objdump'
+$objdump  = 'objdump'
+$machine  = 'x86'
 
 opts = OptionParser.new do |opts|
   opts.banner = "Usage: getopcode.rb [options]"
   opts.separator ""
   opts.separator "Specific options:"
 
-  opts.on("-a", "--asm PROG", "Assembler to use")                  { |prog| $as       = prog }
-  opts.on("-d", "--dump PROG", "Version of objdump to use")        { |prog| $objdump  = prog }
-  opts.on("-f", "--flags FLAGS", "Flags to pass to the assembler") { |flag| $as_flags = flag }
-  opts.on("-h", "--help", "Show this message") {
+  opts.on("-a", "--asm PROG", "Assembler to use") { |prog| $as = prog    }
+  opts.on("-d", "--dump PROG", "Version of objdump to use") { |prog| $objdump = prog    }
+  opts.on("-f", "--flags FLAGS", "Flags to pass to the assembler") { |flag| $as_flags = flag    }
+  opts.on("-m", "--machine MACHINE", "Machine we are assembling on") { |mach| $machine = mach }
+  opts.on("-h", "--help",            "Show this message") do
     puts opts
     exit
-  }
+  end
 end
 
 opts.parse!(ARGV)
@@ -38,12 +41,24 @@ def assemble(op)
     m = /\A\s+[0-9a-f]+:/i.match line
 
     # Extract the opcode field and remove any internal spaces
-    yield line.split(/\t/)[1].split.join unless m.nil?
+    return line.split(/\t/)[1].split.join unless m.nil?
   end
+end
+
+# Split input into prefix ops, and suffix ops
+def parse_input(line)
+  prefix, suffix = line.split '|'
+  prefixes = unless prefix.nil? then prefix.split(';') else [] end
+  suffixes = unless suffix.nil? then suffix.split(';') else [] end
+  return prefixes, suffixes
 end
 
 
 ARGF.each_line do |line|
   line.chomp!
-  assemble(line) { |op| print "#{op}|#{line}\n" }
+  prefixes, suffixes = parse_input line
+  compiled_prefixes = prefixes.map { |it| assemble it } 
+  compiled_suffixes = suffixes.map { |it| assemble it }
+
+  print "#{$machine}|#{prefixes.join '; '}|#{suffixes.join ';'}|#{compiled_prefixes.join}|#{compiled_suffixes.join}\n"
 end
