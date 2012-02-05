@@ -70,7 +70,7 @@ File.open($output, 'w') do |f|
       end
 
       # Operations with immediates
-      $imm16.each do |s|
+      $imm8.each do |s|
         f.puts "#{ADD cond,r,r,s};#{SUB cond,r,r,s}"
         f.puts "#{ADD cond,r,r,s}|#{SUB cond,r,r,s}"
 

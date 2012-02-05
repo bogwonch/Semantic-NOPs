@@ -1,0 +1,2136 @@
+add r0,r0,0
+sub r0,r0,0
+bitrev r0,r0;bitrev r0,r0
+bitrev r0,r0|bitrev r0,r0
+byterev r0,r0;byterev r0,r0
+byterev r0,r0|byterev r0,r0
+neg r0,r0;neg r0,r0
+neg r0,r0|neg r0,r0
+not r0,r0;not r0,r0
+not r0,r0|not r0,r0
+add r0,r0,r0;sub r0,r0,r0
+add r0,r0,r0|sub r0,r0,r0
+sub r0,r0,r0;add r0,r0,r0
+sub r0,r0,r0|add r0,r0,r0
+xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0
+xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0|xor r0,r0,r0
+xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0|xor r0,r0,r0;xor r0,r0,r0
+xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0|xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0
+xor r0,r0,r0;xor r0,r0,r0|xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0
+xor r0,r0,r0|xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0
+add r0,r0,r1;sub r0,r0,r1
+add r0,r0,r1|sub r0,r0,r1
+sub r0,r0,r1;add r0,r0,r1
+sub r0,r0,r1|add r0,r0,r1
+xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1;xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1
+xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1;xor r0,r0,r1;xor r1,r0,r1|xor r0,r0,r1
+xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1;xor r0,r0,r1|xor r1,r0,r1;xor r0,r0,r1
+xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1|xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1
+xor r0,r0,r1;xor r1,r0,r1|xor r0,r0,r1;xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1
+xor r0,r0,r1|xor r1,r0,r1;xor r0,r0,r1;xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1
+add r0,r0,r2;sub r0,r0,r2
+add r0,r0,r2|sub r0,r0,r2
+sub r0,r0,r2;add r0,r0,r2
+sub r0,r0,r2|add r0,r0,r2
+xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2;xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2
+xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2;xor r0,r0,r2;xor r2,r0,r2|xor r0,r0,r2
+xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2;xor r0,r0,r2|xor r2,r0,r2;xor r0,r0,r2
+xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2|xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2
+xor r0,r0,r2;xor r2,r0,r2|xor r0,r0,r2;xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2
+xor r0,r0,r2|xor r2,r0,r2;xor r0,r0,r2;xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2
+add r0,r0,r3;sub r0,r0,r3
+add r0,r0,r3|sub r0,r0,r3
+sub r0,r0,r3;add r0,r0,r3
+sub r0,r0,r3|add r0,r0,r3
+xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3;xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3
+xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3;xor r0,r0,r3;xor r3,r0,r3|xor r0,r0,r3
+xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3;xor r0,r0,r3|xor r3,r0,r3;xor r0,r0,r3
+xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3|xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3
+xor r0,r0,r3;xor r3,r0,r3|xor r0,r0,r3;xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3
+xor r0,r0,r3|xor r3,r0,r3;xor r0,r0,r3;xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3
+add r0,r0,r4;sub r0,r0,r4
+add r0,r0,r4|sub r0,r0,r4
+sub r0,r0,r4;add r0,r0,r4
+sub r0,r0,r4|add r0,r0,r4
+xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4;xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4
+xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4;xor r0,r0,r4;xor r4,r0,r4|xor r0,r0,r4
+xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4;xor r0,r0,r4|xor r4,r0,r4;xor r0,r0,r4
+xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4|xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4
+xor r0,r0,r4;xor r4,r0,r4|xor r0,r0,r4;xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4
+xor r0,r0,r4|xor r4,r0,r4;xor r0,r0,r4;xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4
+add r0,r0,r5;sub r0,r0,r5
+add r0,r0,r5|sub r0,r0,r5
+sub r0,r0,r5;add r0,r0,r5
+sub r0,r0,r5|add r0,r0,r5
+xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5;xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5
+xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5;xor r0,r0,r5;xor r5,r0,r5|xor r0,r0,r5
+xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5;xor r0,r0,r5|xor r5,r0,r5;xor r0,r0,r5
+xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5|xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5
+xor r0,r0,r5;xor r5,r0,r5|xor r0,r0,r5;xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5
+xor r0,r0,r5|xor r5,r0,r5;xor r0,r0,r5;xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5
+add r0,r0,r6;sub r0,r0,r6
+add r0,r0,r6|sub r0,r0,r6
+sub r0,r0,r6;add r0,r0,r6
+sub r0,r0,r6|add r0,r0,r6
+xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6;xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6
+xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6;xor r0,r0,r6;xor r6,r0,r6|xor r0,r0,r6
+xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6;xor r0,r0,r6|xor r6,r0,r6;xor r0,r0,r6
+xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6|xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6
+xor r0,r0,r6;xor r6,r0,r6|xor r0,r0,r6;xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6
+xor r0,r0,r6|xor r6,r0,r6;xor r0,r0,r6;xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6
+add r0,r0,r7;sub r0,r0,r7
+add r0,r0,r7|sub r0,r0,r7
+sub r0,r0,r7;add r0,r0,r7
+sub r0,r0,r7|add r0,r0,r7
+xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7;xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7
+xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7;xor r0,r0,r7;xor r7,r0,r7|xor r0,r0,r7
+xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7;xor r0,r0,r7|xor r7,r0,r7;xor r0,r0,r7
+xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7|xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7
+xor r0,r0,r7;xor r7,r0,r7|xor r0,r0,r7;xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7
+xor r0,r0,r7|xor r7,r0,r7;xor r0,r0,r7;xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7
+add r0,r0,r8;sub r0,r0,r8
+add r0,r0,r8|sub r0,r0,r8
+sub r0,r0,r8;add r0,r0,r8
+sub r0,r0,r8|add r0,r0,r8
+xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8;xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8
+xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8;xor r0,r0,r8;xor r8,r0,r8|xor r0,r0,r8
+xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8;xor r0,r0,r8|xor r8,r0,r8;xor r0,r0,r8
+xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8|xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8
+xor r0,r0,r8;xor r8,r0,r8|xor r0,r0,r8;xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8
+xor r0,r0,r8|xor r8,r0,r8;xor r0,r0,r8;xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8
+add r0,r0,r9;sub r0,r0,r9
+add r0,r0,r9|sub r0,r0,r9
+sub r0,r0,r9;add r0,r0,r9
+sub r0,r0,r9|add r0,r0,r9
+xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9;xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9
+xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9;xor r0,r0,r9;xor r9,r0,r9|xor r0,r0,r9
+xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9;xor r0,r0,r9|xor r9,r0,r9;xor r0,r0,r9
+xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9|xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9
+xor r0,r0,r9;xor r9,r0,r9|xor r0,r0,r9;xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9
+xor r0,r0,r9|xor r9,r0,r9;xor r0,r0,r9;xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9
+add r0,r0,r10;sub r0,r0,r10
+add r0,r0,r10|sub r0,r0,r10
+sub r0,r0,r10;add r0,r0,r10
+sub r0,r0,r10|add r0,r0,r10
+xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10;xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10
+xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10;xor r0,r0,r10;xor r10,r0,r10|xor r0,r0,r10
+xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10;xor r0,r0,r10|xor r10,r0,r10;xor r0,r0,r10
+xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10|xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10
+xor r0,r0,r10;xor r10,r0,r10|xor r0,r0,r10;xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10
+xor r0,r0,r10|xor r10,r0,r10;xor r0,r0,r10;xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10
+add r0,r0,r11;sub r0,r0,r11
+add r0,r0,r11|sub r0,r0,r11
+sub r0,r0,r11;add r0,r0,r11
+sub r0,r0,r11|add r0,r0,r11
+xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11;xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11
+xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11;xor r0,r0,r11;xor r11,r0,r11|xor r0,r0,r11
+xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11;xor r0,r0,r11|xor r11,r0,r11;xor r0,r0,r11
+xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11|xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11
+xor r0,r0,r11;xor r11,r0,r11|xor r0,r0,r11;xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11
+xor r0,r0,r11|xor r11,r0,r11;xor r0,r0,r11;xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11
+add r0,r0,0;sub r0,r0,0
+add r0,r0,0|sub r0,r0,0
+sub r0,r0,0;add r0,r0,0
+sub r0,r0,0|add r0,r0,0
+add r0,r0,1;sub r0,r0,1
+add r0,r0,1|sub r0,r0,1
+sub r0,r0,1;add r0,r0,1
+sub r0,r0,1|add r0,r0,1
+add r0,r0,2;sub r0,r0,2
+add r0,r0,2|sub r0,r0,2
+sub r0,r0,2;add r0,r0,2
+sub r0,r0,2|add r0,r0,2
+add r0,r0,3;sub r0,r0,3
+add r0,r0,3|sub r0,r0,3
+sub r0,r0,3;add r0,r0,3
+sub r0,r0,3|add r0,r0,3
+add r0,r0,4;sub r0,r0,4
+add r0,r0,4|sub r0,r0,4
+sub r0,r0,4;add r0,r0,4
+sub r0,r0,4|add r0,r0,4
+add r0,r0,5;sub r0,r0,5
+add r0,r0,5|sub r0,r0,5
+sub r0,r0,5;add r0,r0,5
+sub r0,r0,5|add r0,r0,5
+add r0,r0,6;sub r0,r0,6
+add r0,r0,6|sub r0,r0,6
+sub r0,r0,6;add r0,r0,6
+sub r0,r0,6|add r0,r0,6
+add r0,r0,7;sub r0,r0,7
+add r0,r0,7|sub r0,r0,7
+sub r0,r0,7;add r0,r0,7
+sub r0,r0,7|add r0,r0,7
+add r0,r0,8;sub r0,r0,8
+add r0,r0,8|sub r0,r0,8
+sub r0,r0,8;add r0,r0,8
+sub r0,r0,8|add r0,r0,8
+add r0,r0,9;sub r0,r0,9
+add r0,r0,9|sub r0,r0,9
+sub r0,r0,9;add r0,r0,9
+sub r0,r0,9|add r0,r0,9
+add r0,r0,10;sub r0,r0,10
+add r0,r0,10|sub r0,r0,10
+sub r0,r0,10;add r0,r0,10
+sub r0,r0,10|add r0,r0,10
+add r0,r0,11;sub r0,r0,11
+add r0,r0,11|sub r0,r0,11
+sub r0,r0,11;add r0,r0,11
+sub r0,r0,11|add r0,r0,11
+add r1,r1,0
+sub r1,r1,0
+bitrev r1,r1;bitrev r1,r1
+bitrev r1,r1|bitrev r1,r1
+byterev r1,r1;byterev r1,r1
+byterev r1,r1|byterev r1,r1
+neg r1,r1;neg r1,r1
+neg r1,r1|neg r1,r1
+not r1,r1;not r1,r1
+not r1,r1|not r1,r1
+add r1,r1,r0;sub r1,r1,r0
+add r1,r1,r0|sub r1,r1,r0
+sub r1,r1,r0;add r1,r1,r0
+sub r1,r1,r0|add r1,r1,r0
+xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0;xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0
+xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0;xor r1,r1,r0;xor r0,r1,r0|xor r1,r1,r0
+xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0;xor r1,r1,r0|xor r0,r1,r0;xor r1,r1,r0
+xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0|xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0
+xor r1,r1,r0;xor r0,r1,r0|xor r1,r1,r0;xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0
+xor r1,r1,r0|xor r0,r1,r0;xor r1,r1,r0;xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0
+add r1,r1,r1;sub r1,r1,r1
+add r1,r1,r1|sub r1,r1,r1
+sub r1,r1,r1;add r1,r1,r1
+sub r1,r1,r1|add r1,r1,r1
+xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1
+xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1|xor r1,r1,r1
+xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1|xor r1,r1,r1;xor r1,r1,r1
+xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1|xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1
+xor r1,r1,r1;xor r1,r1,r1|xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1
+xor r1,r1,r1|xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1
+add r1,r1,r2;sub r1,r1,r2
+add r1,r1,r2|sub r1,r1,r2
+sub r1,r1,r2;add r1,r1,r2
+sub r1,r1,r2|add r1,r1,r2
+xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2;xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2
+xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2;xor r1,r1,r2;xor r2,r1,r2|xor r1,r1,r2
+xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2;xor r1,r1,r2|xor r2,r1,r2;xor r1,r1,r2
+xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2|xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2
+xor r1,r1,r2;xor r2,r1,r2|xor r1,r1,r2;xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2
+xor r1,r1,r2|xor r2,r1,r2;xor r1,r1,r2;xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2
+add r1,r1,r3;sub r1,r1,r3
+add r1,r1,r3|sub r1,r1,r3
+sub r1,r1,r3;add r1,r1,r3
+sub r1,r1,r3|add r1,r1,r3
+xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3;xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3
+xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3;xor r1,r1,r3;xor r3,r1,r3|xor r1,r1,r3
+xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3;xor r1,r1,r3|xor r3,r1,r3;xor r1,r1,r3
+xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3|xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3
+xor r1,r1,r3;xor r3,r1,r3|xor r1,r1,r3;xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3
+xor r1,r1,r3|xor r3,r1,r3;xor r1,r1,r3;xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3
+add r1,r1,r4;sub r1,r1,r4
+add r1,r1,r4|sub r1,r1,r4
+sub r1,r1,r4;add r1,r1,r4
+sub r1,r1,r4|add r1,r1,r4
+xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4;xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4
+xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4;xor r1,r1,r4;xor r4,r1,r4|xor r1,r1,r4
+xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4;xor r1,r1,r4|xor r4,r1,r4;xor r1,r1,r4
+xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4|xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4
+xor r1,r1,r4;xor r4,r1,r4|xor r1,r1,r4;xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4
+xor r1,r1,r4|xor r4,r1,r4;xor r1,r1,r4;xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4
+add r1,r1,r5;sub r1,r1,r5
+add r1,r1,r5|sub r1,r1,r5
+sub r1,r1,r5;add r1,r1,r5
+sub r1,r1,r5|add r1,r1,r5
+xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5;xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5
+xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5;xor r1,r1,r5;xor r5,r1,r5|xor r1,r1,r5
+xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5;xor r1,r1,r5|xor r5,r1,r5;xor r1,r1,r5
+xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5|xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5
+xor r1,r1,r5;xor r5,r1,r5|xor r1,r1,r5;xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5
+xor r1,r1,r5|xor r5,r1,r5;xor r1,r1,r5;xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5
+add r1,r1,r6;sub r1,r1,r6
+add r1,r1,r6|sub r1,r1,r6
+sub r1,r1,r6;add r1,r1,r6
+sub r1,r1,r6|add r1,r1,r6
+xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6;xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6
+xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6;xor r1,r1,r6;xor r6,r1,r6|xor r1,r1,r6
+xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6;xor r1,r1,r6|xor r6,r1,r6;xor r1,r1,r6
+xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6|xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6
+xor r1,r1,r6;xor r6,r1,r6|xor r1,r1,r6;xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6
+xor r1,r1,r6|xor r6,r1,r6;xor r1,r1,r6;xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6
+add r1,r1,r7;sub r1,r1,r7
+add r1,r1,r7|sub r1,r1,r7
+sub r1,r1,r7;add r1,r1,r7
+sub r1,r1,r7|add r1,r1,r7
+xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7;xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7
+xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7;xor r1,r1,r7;xor r7,r1,r7|xor r1,r1,r7
+xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7;xor r1,r1,r7|xor r7,r1,r7;xor r1,r1,r7
+xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7|xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7
+xor r1,r1,r7;xor r7,r1,r7|xor r1,r1,r7;xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7
+xor r1,r1,r7|xor r7,r1,r7;xor r1,r1,r7;xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7
+add r1,r1,r8;sub r1,r1,r8
+add r1,r1,r8|sub r1,r1,r8
+sub r1,r1,r8;add r1,r1,r8
+sub r1,r1,r8|add r1,r1,r8
+xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8;xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8
+xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8;xor r1,r1,r8;xor r8,r1,r8|xor r1,r1,r8
+xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8;xor r1,r1,r8|xor r8,r1,r8;xor r1,r1,r8
+xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8|xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8
+xor r1,r1,r8;xor r8,r1,r8|xor r1,r1,r8;xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8
+xor r1,r1,r8|xor r8,r1,r8;xor r1,r1,r8;xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8
+add r1,r1,r9;sub r1,r1,r9
+add r1,r1,r9|sub r1,r1,r9
+sub r1,r1,r9;add r1,r1,r9
+sub r1,r1,r9|add r1,r1,r9
+xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9;xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9
+xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9;xor r1,r1,r9;xor r9,r1,r9|xor r1,r1,r9
+xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9;xor r1,r1,r9|xor r9,r1,r9;xor r1,r1,r9
+xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9|xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9
+xor r1,r1,r9;xor r9,r1,r9|xor r1,r1,r9;xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9
+xor r1,r1,r9|xor r9,r1,r9;xor r1,r1,r9;xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9
+add r1,r1,r10;sub r1,r1,r10
+add r1,r1,r10|sub r1,r1,r10
+sub r1,r1,r10;add r1,r1,r10
+sub r1,r1,r10|add r1,r1,r10
+xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10;xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10
+xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10;xor r1,r1,r10;xor r10,r1,r10|xor r1,r1,r10
+xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10;xor r1,r1,r10|xor r10,r1,r10;xor r1,r1,r10
+xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10|xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10
+xor r1,r1,r10;xor r10,r1,r10|xor r1,r1,r10;xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10
+xor r1,r1,r10|xor r10,r1,r10;xor r1,r1,r10;xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10
+add r1,r1,r11;sub r1,r1,r11
+add r1,r1,r11|sub r1,r1,r11
+sub r1,r1,r11;add r1,r1,r11
+sub r1,r1,r11|add r1,r1,r11
+xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11;xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11
+xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11;xor r1,r1,r11;xor r11,r1,r11|xor r1,r1,r11
+xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11;xor r1,r1,r11|xor r11,r1,r11;xor r1,r1,r11
+xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11|xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11
+xor r1,r1,r11;xor r11,r1,r11|xor r1,r1,r11;xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11
+xor r1,r1,r11|xor r11,r1,r11;xor r1,r1,r11;xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11
+add r1,r1,0;sub r1,r1,0
+add r1,r1,0|sub r1,r1,0
+sub r1,r1,0;add r1,r1,0
+sub r1,r1,0|add r1,r1,0
+add r1,r1,1;sub r1,r1,1
+add r1,r1,1|sub r1,r1,1
+sub r1,r1,1;add r1,r1,1
+sub r1,r1,1|add r1,r1,1
+add r1,r1,2;sub r1,r1,2
+add r1,r1,2|sub r1,r1,2
+sub r1,r1,2;add r1,r1,2
+sub r1,r1,2|add r1,r1,2
+add r1,r1,3;sub r1,r1,3
+add r1,r1,3|sub r1,r1,3
+sub r1,r1,3;add r1,r1,3
+sub r1,r1,3|add r1,r1,3
+add r1,r1,4;sub r1,r1,4
+add r1,r1,4|sub r1,r1,4
+sub r1,r1,4;add r1,r1,4
+sub r1,r1,4|add r1,r1,4
+add r1,r1,5;sub r1,r1,5
+add r1,r1,5|sub r1,r1,5
+sub r1,r1,5;add r1,r1,5
+sub r1,r1,5|add r1,r1,5
+add r1,r1,6;sub r1,r1,6
+add r1,r1,6|sub r1,r1,6
+sub r1,r1,6;add r1,r1,6
+sub r1,r1,6|add r1,r1,6
+add r1,r1,7;sub r1,r1,7
+add r1,r1,7|sub r1,r1,7
+sub r1,r1,7;add r1,r1,7
+sub r1,r1,7|add r1,r1,7
+add r1,r1,8;sub r1,r1,8
+add r1,r1,8|sub r1,r1,8
+sub r1,r1,8;add r1,r1,8
+sub r1,r1,8|add r1,r1,8
+add r1,r1,9;sub r1,r1,9
+add r1,r1,9|sub r1,r1,9
+sub r1,r1,9;add r1,r1,9
+sub r1,r1,9|add r1,r1,9
+add r1,r1,10;sub r1,r1,10
+add r1,r1,10|sub r1,r1,10
+sub r1,r1,10;add r1,r1,10
+sub r1,r1,10|add r1,r1,10
+add r1,r1,11;sub r1,r1,11
+add r1,r1,11|sub r1,r1,11
+sub r1,r1,11;add r1,r1,11
+sub r1,r1,11|add r1,r1,11
+add r2,r2,0
+sub r2,r2,0
+bitrev r2,r2;bitrev r2,r2
+bitrev r2,r2|bitrev r2,r2
+byterev r2,r2;byterev r2,r2
+byterev r2,r2|byterev r2,r2
+neg r2,r2;neg r2,r2
+neg r2,r2|neg r2,r2
+not r2,r2;not r2,r2
+not r2,r2|not r2,r2
+add r2,r2,r0;sub r2,r2,r0
+add r2,r2,r0|sub r2,r2,r0
+sub r2,r2,r0;add r2,r2,r0
+sub r2,r2,r0|add r2,r2,r0
+xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0;xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0
+xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0;xor r2,r2,r0;xor r0,r2,r0|xor r2,r2,r0
+xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0;xor r2,r2,r0|xor r0,r2,r0;xor r2,r2,r0
+xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0|xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0
+xor r2,r2,r0;xor r0,r2,r0|xor r2,r2,r0;xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0
+xor r2,r2,r0|xor r0,r2,r0;xor r2,r2,r0;xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0
+add r2,r2,r1;sub r2,r2,r1
+add r2,r2,r1|sub r2,r2,r1
+sub r2,r2,r1;add r2,r2,r1
+sub r2,r2,r1|add r2,r2,r1
+xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1;xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1
+xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1;xor r2,r2,r1;xor r1,r2,r1|xor r2,r2,r1
+xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1;xor r2,r2,r1|xor r1,r2,r1;xor r2,r2,r1
+xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1|xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1
+xor r2,r2,r1;xor r1,r2,r1|xor r2,r2,r1;xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1
+xor r2,r2,r1|xor r1,r2,r1;xor r2,r2,r1;xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1
+add r2,r2,r2;sub r2,r2,r2
+add r2,r2,r2|sub r2,r2,r2
+sub r2,r2,r2;add r2,r2,r2
+sub r2,r2,r2|add r2,r2,r2
+xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2
+xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2|xor r2,r2,r2
+xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2|xor r2,r2,r2;xor r2,r2,r2
+xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2|xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2
+xor r2,r2,r2;xor r2,r2,r2|xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2
+xor r2,r2,r2|xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2
+add r2,r2,r3;sub r2,r2,r3
+add r2,r2,r3|sub r2,r2,r3
+sub r2,r2,r3;add r2,r2,r3
+sub r2,r2,r3|add r2,r2,r3
+xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3;xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3
+xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3;xor r2,r2,r3;xor r3,r2,r3|xor r2,r2,r3
+xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3;xor r2,r2,r3|xor r3,r2,r3;xor r2,r2,r3
+xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3|xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3
+xor r2,r2,r3;xor r3,r2,r3|xor r2,r2,r3;xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3
+xor r2,r2,r3|xor r3,r2,r3;xor r2,r2,r3;xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3
+add r2,r2,r4;sub r2,r2,r4
+add r2,r2,r4|sub r2,r2,r4
+sub r2,r2,r4;add r2,r2,r4
+sub r2,r2,r4|add r2,r2,r4
+xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4;xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4
+xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4;xor r2,r2,r4;xor r4,r2,r4|xor r2,r2,r4
+xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4;xor r2,r2,r4|xor r4,r2,r4;xor r2,r2,r4
+xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4|xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4
+xor r2,r2,r4;xor r4,r2,r4|xor r2,r2,r4;xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4
+xor r2,r2,r4|xor r4,r2,r4;xor r2,r2,r4;xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4
+add r2,r2,r5;sub r2,r2,r5
+add r2,r2,r5|sub r2,r2,r5
+sub r2,r2,r5;add r2,r2,r5
+sub r2,r2,r5|add r2,r2,r5
+xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5;xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5
+xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5;xor r2,r2,r5;xor r5,r2,r5|xor r2,r2,r5
+xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5;xor r2,r2,r5|xor r5,r2,r5;xor r2,r2,r5
+xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5|xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5
+xor r2,r2,r5;xor r5,r2,r5|xor r2,r2,r5;xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5
+xor r2,r2,r5|xor r5,r2,r5;xor r2,r2,r5;xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5
+add r2,r2,r6;sub r2,r2,r6
+add r2,r2,r6|sub r2,r2,r6
+sub r2,r2,r6;add r2,r2,r6
+sub r2,r2,r6|add r2,r2,r6
+xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6;xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6
+xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6;xor r2,r2,r6;xor r6,r2,r6|xor r2,r2,r6
+xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6;xor r2,r2,r6|xor r6,r2,r6;xor r2,r2,r6
+xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6|xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6
+xor r2,r2,r6;xor r6,r2,r6|xor r2,r2,r6;xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6
+xor r2,r2,r6|xor r6,r2,r6;xor r2,r2,r6;xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6
+add r2,r2,r7;sub r2,r2,r7
+add r2,r2,r7|sub r2,r2,r7
+sub r2,r2,r7;add r2,r2,r7
+sub r2,r2,r7|add r2,r2,r7
+xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7;xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7
+xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7;xor r2,r2,r7;xor r7,r2,r7|xor r2,r2,r7
+xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7;xor r2,r2,r7|xor r7,r2,r7;xor r2,r2,r7
+xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7|xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7
+xor r2,r2,r7;xor r7,r2,r7|xor r2,r2,r7;xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7
+xor r2,r2,r7|xor r7,r2,r7;xor r2,r2,r7;xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7
+add r2,r2,r8;sub r2,r2,r8
+add r2,r2,r8|sub r2,r2,r8
+sub r2,r2,r8;add r2,r2,r8
+sub r2,r2,r8|add r2,r2,r8
+xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8;xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8
+xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8;xor r2,r2,r8;xor r8,r2,r8|xor r2,r2,r8
+xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8;xor r2,r2,r8|xor r8,r2,r8;xor r2,r2,r8
+xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8|xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8
+xor r2,r2,r8;xor r8,r2,r8|xor r2,r2,r8;xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8
+xor r2,r2,r8|xor r8,r2,r8;xor r2,r2,r8;xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8
+add r2,r2,r9;sub r2,r2,r9
+add r2,r2,r9|sub r2,r2,r9
+sub r2,r2,r9;add r2,r2,r9
+sub r2,r2,r9|add r2,r2,r9
+xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9;xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9
+xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9;xor r2,r2,r9;xor r9,r2,r9|xor r2,r2,r9
+xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9;xor r2,r2,r9|xor r9,r2,r9;xor r2,r2,r9
+xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9|xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9
+xor r2,r2,r9;xor r9,r2,r9|xor r2,r2,r9;xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9
+xor r2,r2,r9|xor r9,r2,r9;xor r2,r2,r9;xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9
+add r2,r2,r10;sub r2,r2,r10
+add r2,r2,r10|sub r2,r2,r10
+sub r2,r2,r10;add r2,r2,r10
+sub r2,r2,r10|add r2,r2,r10
+xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10;xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10
+xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10;xor r2,r2,r10;xor r10,r2,r10|xor r2,r2,r10
+xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10;xor r2,r2,r10|xor r10,r2,r10;xor r2,r2,r10
+xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10|xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10
+xor r2,r2,r10;xor r10,r2,r10|xor r2,r2,r10;xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10
+xor r2,r2,r10|xor r10,r2,r10;xor r2,r2,r10;xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10
+add r2,r2,r11;sub r2,r2,r11
+add r2,r2,r11|sub r2,r2,r11
+sub r2,r2,r11;add r2,r2,r11
+sub r2,r2,r11|add r2,r2,r11
+xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11;xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11
+xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11;xor r2,r2,r11;xor r11,r2,r11|xor r2,r2,r11
+xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11;xor r2,r2,r11|xor r11,r2,r11;xor r2,r2,r11
+xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11|xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11
+xor r2,r2,r11;xor r11,r2,r11|xor r2,r2,r11;xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11
+xor r2,r2,r11|xor r11,r2,r11;xor r2,r2,r11;xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11
+add r2,r2,0;sub r2,r2,0
+add r2,r2,0|sub r2,r2,0
+sub r2,r2,0;add r2,r2,0
+sub r2,r2,0|add r2,r2,0
+add r2,r2,1;sub r2,r2,1
+add r2,r2,1|sub r2,r2,1
+sub r2,r2,1;add r2,r2,1
+sub r2,r2,1|add r2,r2,1
+add r2,r2,2;sub r2,r2,2
+add r2,r2,2|sub r2,r2,2
+sub r2,r2,2;add r2,r2,2
+sub r2,r2,2|add r2,r2,2
+add r2,r2,3;sub r2,r2,3
+add r2,r2,3|sub r2,r2,3
+sub r2,r2,3;add r2,r2,3
+sub r2,r2,3|add r2,r2,3
+add r2,r2,4;sub r2,r2,4
+add r2,r2,4|sub r2,r2,4
+sub r2,r2,4;add r2,r2,4
+sub r2,r2,4|add r2,r2,4
+add r2,r2,5;sub r2,r2,5
+add r2,r2,5|sub r2,r2,5
+sub r2,r2,5;add r2,r2,5
+sub r2,r2,5|add r2,r2,5
+add r2,r2,6;sub r2,r2,6
+add r2,r2,6|sub r2,r2,6
+sub r2,r2,6;add r2,r2,6
+sub r2,r2,6|add r2,r2,6
+add r2,r2,7;sub r2,r2,7
+add r2,r2,7|sub r2,r2,7
+sub r2,r2,7;add r2,r2,7
+sub r2,r2,7|add r2,r2,7
+add r2,r2,8;sub r2,r2,8
+add r2,r2,8|sub r2,r2,8
+sub r2,r2,8;add r2,r2,8
+sub r2,r2,8|add r2,r2,8
+add r2,r2,9;sub r2,r2,9
+add r2,r2,9|sub r2,r2,9
+sub r2,r2,9;add r2,r2,9
+sub r2,r2,9|add r2,r2,9
+add r2,r2,10;sub r2,r2,10
+add r2,r2,10|sub r2,r2,10
+sub r2,r2,10;add r2,r2,10
+sub r2,r2,10|add r2,r2,10
+add r2,r2,11;sub r2,r2,11
+add r2,r2,11|sub r2,r2,11
+sub r2,r2,11;add r2,r2,11
+sub r2,r2,11|add r2,r2,11
+add r3,r3,0
+sub r3,r3,0
+bitrev r3,r3;bitrev r3,r3
+bitrev r3,r3|bitrev r3,r3
+byterev r3,r3;byterev r3,r3
+byterev r3,r3|byterev r3,r3
+neg r3,r3;neg r3,r3
+neg r3,r3|neg r3,r3
+not r3,r3;not r3,r3
+not r3,r3|not r3,r3
+add r3,r3,r0;sub r3,r3,r0
+add r3,r3,r0|sub r3,r3,r0
+sub r3,r3,r0;add r3,r3,r0
+sub r3,r3,r0|add r3,r3,r0
+xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0;xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0
+xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0;xor r3,r3,r0;xor r0,r3,r0|xor r3,r3,r0
+xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0;xor r3,r3,r0|xor r0,r3,r0;xor r3,r3,r0
+xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0|xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0
+xor r3,r3,r0;xor r0,r3,r0|xor r3,r3,r0;xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0
+xor r3,r3,r0|xor r0,r3,r0;xor r3,r3,r0;xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0
+add r3,r3,r1;sub r3,r3,r1
+add r3,r3,r1|sub r3,r3,r1
+sub r3,r3,r1;add r3,r3,r1
+sub r3,r3,r1|add r3,r3,r1
+xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1;xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1
+xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1;xor r3,r3,r1;xor r1,r3,r1|xor r3,r3,r1
+xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1;xor r3,r3,r1|xor r1,r3,r1;xor r3,r3,r1
+xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1|xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1
+xor r3,r3,r1;xor r1,r3,r1|xor r3,r3,r1;xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1
+xor r3,r3,r1|xor r1,r3,r1;xor r3,r3,r1;xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1
+add r3,r3,r2;sub r3,r3,r2
+add r3,r3,r2|sub r3,r3,r2
+sub r3,r3,r2;add r3,r3,r2
+sub r3,r3,r2|add r3,r3,r2
+xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2;xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2
+xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2;xor r3,r3,r2;xor r2,r3,r2|xor r3,r3,r2
+xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2;xor r3,r3,r2|xor r2,r3,r2;xor r3,r3,r2
+xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2|xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2
+xor r3,r3,r2;xor r2,r3,r2|xor r3,r3,r2;xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2
+xor r3,r3,r2|xor r2,r3,r2;xor r3,r3,r2;xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2
+add r3,r3,r3;sub r3,r3,r3
+add r3,r3,r3|sub r3,r3,r3
+sub r3,r3,r3;add r3,r3,r3
+sub r3,r3,r3|add r3,r3,r3
+xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3
+xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3|xor r3,r3,r3
+xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3|xor r3,r3,r3;xor r3,r3,r3
+xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3|xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3
+xor r3,r3,r3;xor r3,r3,r3|xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3
+xor r3,r3,r3|xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3
+add r3,r3,r4;sub r3,r3,r4
+add r3,r3,r4|sub r3,r3,r4
+sub r3,r3,r4;add r3,r3,r4
+sub r3,r3,r4|add r3,r3,r4
+xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4;xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4
+xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4;xor r3,r3,r4;xor r4,r3,r4|xor r3,r3,r4
+xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4;xor r3,r3,r4|xor r4,r3,r4;xor r3,r3,r4
+xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4|xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4
+xor r3,r3,r4;xor r4,r3,r4|xor r3,r3,r4;xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4
+xor r3,r3,r4|xor r4,r3,r4;xor r3,r3,r4;xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4
+add r3,r3,r5;sub r3,r3,r5
+add r3,r3,r5|sub r3,r3,r5
+sub r3,r3,r5;add r3,r3,r5
+sub r3,r3,r5|add r3,r3,r5
+xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5;xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5
+xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5;xor r3,r3,r5;xor r5,r3,r5|xor r3,r3,r5
+xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5;xor r3,r3,r5|xor r5,r3,r5;xor r3,r3,r5
+xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5|xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5
+xor r3,r3,r5;xor r5,r3,r5|xor r3,r3,r5;xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5
+xor r3,r3,r5|xor r5,r3,r5;xor r3,r3,r5;xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5
+add r3,r3,r6;sub r3,r3,r6
+add r3,r3,r6|sub r3,r3,r6
+sub r3,r3,r6;add r3,r3,r6
+sub r3,r3,r6|add r3,r3,r6
+xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6;xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6
+xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6;xor r3,r3,r6;xor r6,r3,r6|xor r3,r3,r6
+xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6;xor r3,r3,r6|xor r6,r3,r6;xor r3,r3,r6
+xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6|xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6
+xor r3,r3,r6;xor r6,r3,r6|xor r3,r3,r6;xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6
+xor r3,r3,r6|xor r6,r3,r6;xor r3,r3,r6;xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6
+add r3,r3,r7;sub r3,r3,r7
+add r3,r3,r7|sub r3,r3,r7
+sub r3,r3,r7;add r3,r3,r7
+sub r3,r3,r7|add r3,r3,r7
+xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7;xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7
+xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7;xor r3,r3,r7;xor r7,r3,r7|xor r3,r3,r7
+xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7;xor r3,r3,r7|xor r7,r3,r7;xor r3,r3,r7
+xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7|xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7
+xor r3,r3,r7;xor r7,r3,r7|xor r3,r3,r7;xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7
+xor r3,r3,r7|xor r7,r3,r7;xor r3,r3,r7;xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7
+add r3,r3,r8;sub r3,r3,r8
+add r3,r3,r8|sub r3,r3,r8
+sub r3,r3,r8;add r3,r3,r8
+sub r3,r3,r8|add r3,r3,r8
+xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8;xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8
+xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8;xor r3,r3,r8;xor r8,r3,r8|xor r3,r3,r8
+xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8;xor r3,r3,r8|xor r8,r3,r8;xor r3,r3,r8
+xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8|xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8
+xor r3,r3,r8;xor r8,r3,r8|xor r3,r3,r8;xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8
+xor r3,r3,r8|xor r8,r3,r8;xor r3,r3,r8;xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8
+add r3,r3,r9;sub r3,r3,r9
+add r3,r3,r9|sub r3,r3,r9
+sub r3,r3,r9;add r3,r3,r9
+sub r3,r3,r9|add r3,r3,r9
+xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9;xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9
+xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9;xor r3,r3,r9;xor r9,r3,r9|xor r3,r3,r9
+xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9;xor r3,r3,r9|xor r9,r3,r9;xor r3,r3,r9
+xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9|xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9
+xor r3,r3,r9;xor r9,r3,r9|xor r3,r3,r9;xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9
+xor r3,r3,r9|xor r9,r3,r9;xor r3,r3,r9;xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9
+add r3,r3,r10;sub r3,r3,r10
+add r3,r3,r10|sub r3,r3,r10
+sub r3,r3,r10;add r3,r3,r10
+sub r3,r3,r10|add r3,r3,r10
+xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10;xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10
+xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10;xor r3,r3,r10;xor r10,r3,r10|xor r3,r3,r10
+xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10;xor r3,r3,r10|xor r10,r3,r10;xor r3,r3,r10
+xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10|xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10
+xor r3,r3,r10;xor r10,r3,r10|xor r3,r3,r10;xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10
+xor r3,r3,r10|xor r10,r3,r10;xor r3,r3,r10;xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10
+add r3,r3,r11;sub r3,r3,r11
+add r3,r3,r11|sub r3,r3,r11
+sub r3,r3,r11;add r3,r3,r11
+sub r3,r3,r11|add r3,r3,r11
+xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11;xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11
+xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11;xor r3,r3,r11;xor r11,r3,r11|xor r3,r3,r11
+xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11;xor r3,r3,r11|xor r11,r3,r11;xor r3,r3,r11
+xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11|xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11
+xor r3,r3,r11;xor r11,r3,r11|xor r3,r3,r11;xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11
+xor r3,r3,r11|xor r11,r3,r11;xor r3,r3,r11;xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11
+add r3,r3,0;sub r3,r3,0
+add r3,r3,0|sub r3,r3,0
+sub r3,r3,0;add r3,r3,0
+sub r3,r3,0|add r3,r3,0
+add r3,r3,1;sub r3,r3,1
+add r3,r3,1|sub r3,r3,1
+sub r3,r3,1;add r3,r3,1
+sub r3,r3,1|add r3,r3,1
+add r3,r3,2;sub r3,r3,2
+add r3,r3,2|sub r3,r3,2
+sub r3,r3,2;add r3,r3,2
+sub r3,r3,2|add r3,r3,2
+add r3,r3,3;sub r3,r3,3
+add r3,r3,3|sub r3,r3,3
+sub r3,r3,3;add r3,r3,3
+sub r3,r3,3|add r3,r3,3
+add r3,r3,4;sub r3,r3,4
+add r3,r3,4|sub r3,r3,4
+sub r3,r3,4;add r3,r3,4
+sub r3,r3,4|add r3,r3,4
+add r3,r3,5;sub r3,r3,5
+add r3,r3,5|sub r3,r3,5
+sub r3,r3,5;add r3,r3,5
+sub r3,r3,5|add r3,r3,5
+add r3,r3,6;sub r3,r3,6
+add r3,r3,6|sub r3,r3,6
+sub r3,r3,6;add r3,r3,6
+sub r3,r3,6|add r3,r3,6
+add r3,r3,7;sub r3,r3,7
+add r3,r3,7|sub r3,r3,7
+sub r3,r3,7;add r3,r3,7
+sub r3,r3,7|add r3,r3,7
+add r3,r3,8;sub r3,r3,8
+add r3,r3,8|sub r3,r3,8
+sub r3,r3,8;add r3,r3,8
+sub r3,r3,8|add r3,r3,8
+add r3,r3,9;sub r3,r3,9
+add r3,r3,9|sub r3,r3,9
+sub r3,r3,9;add r3,r3,9
+sub r3,r3,9|add r3,r3,9
+add r3,r3,10;sub r3,r3,10
+add r3,r3,10|sub r3,r3,10
+sub r3,r3,10;add r3,r3,10
+sub r3,r3,10|add r3,r3,10
+add r3,r3,11;sub r3,r3,11
+add r3,r3,11|sub r3,r3,11
+sub r3,r3,11;add r3,r3,11
+sub r3,r3,11|add r3,r3,11
+add r4,r4,0
+sub r4,r4,0
+bitrev r4,r4;bitrev r4,r4
+bitrev r4,r4|bitrev r4,r4
+byterev r4,r4;byterev r4,r4
+byterev r4,r4|byterev r4,r4
+neg r4,r4;neg r4,r4
+neg r4,r4|neg r4,r4
+not r4,r4;not r4,r4
+not r4,r4|not r4,r4
+add r4,r4,r0;sub r4,r4,r0
+add r4,r4,r0|sub r4,r4,r0
+sub r4,r4,r0;add r4,r4,r0
+sub r4,r4,r0|add r4,r4,r0
+xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0;xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0
+xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0;xor r4,r4,r0;xor r0,r4,r0|xor r4,r4,r0
+xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0;xor r4,r4,r0|xor r0,r4,r0;xor r4,r4,r0
+xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0|xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0
+xor r4,r4,r0;xor r0,r4,r0|xor r4,r4,r0;xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0
+xor r4,r4,r0|xor r0,r4,r0;xor r4,r4,r0;xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0
+add r4,r4,r1;sub r4,r4,r1
+add r4,r4,r1|sub r4,r4,r1
+sub r4,r4,r1;add r4,r4,r1
+sub r4,r4,r1|add r4,r4,r1
+xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1;xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1
+xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1;xor r4,r4,r1;xor r1,r4,r1|xor r4,r4,r1
+xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1;xor r4,r4,r1|xor r1,r4,r1;xor r4,r4,r1
+xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1|xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1
+xor r4,r4,r1;xor r1,r4,r1|xor r4,r4,r1;xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1
+xor r4,r4,r1|xor r1,r4,r1;xor r4,r4,r1;xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1
+add r4,r4,r2;sub r4,r4,r2
+add r4,r4,r2|sub r4,r4,r2
+sub r4,r4,r2;add r4,r4,r2
+sub r4,r4,r2|add r4,r4,r2
+xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2;xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2
+xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2;xor r4,r4,r2;xor r2,r4,r2|xor r4,r4,r2
+xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2;xor r4,r4,r2|xor r2,r4,r2;xor r4,r4,r2
+xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2|xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2
+xor r4,r4,r2;xor r2,r4,r2|xor r4,r4,r2;xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2
+xor r4,r4,r2|xor r2,r4,r2;xor r4,r4,r2;xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2
+add r4,r4,r3;sub r4,r4,r3
+add r4,r4,r3|sub r4,r4,r3
+sub r4,r4,r3;add r4,r4,r3
+sub r4,r4,r3|add r4,r4,r3
+xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3;xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3
+xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3;xor r4,r4,r3;xor r3,r4,r3|xor r4,r4,r3
+xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3;xor r4,r4,r3|xor r3,r4,r3;xor r4,r4,r3
+xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3|xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3
+xor r4,r4,r3;xor r3,r4,r3|xor r4,r4,r3;xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3
+xor r4,r4,r3|xor r3,r4,r3;xor r4,r4,r3;xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3
+add r4,r4,r4;sub r4,r4,r4
+add r4,r4,r4|sub r4,r4,r4
+sub r4,r4,r4;add r4,r4,r4
+sub r4,r4,r4|add r4,r4,r4
+xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4
+xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4|xor r4,r4,r4
+xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4|xor r4,r4,r4;xor r4,r4,r4
+xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4|xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4
+xor r4,r4,r4;xor r4,r4,r4|xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4
+xor r4,r4,r4|xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4
+add r4,r4,r5;sub r4,r4,r5
+add r4,r4,r5|sub r4,r4,r5
+sub r4,r4,r5;add r4,r4,r5
+sub r4,r4,r5|add r4,r4,r5
+xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5;xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5
+xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5;xor r4,r4,r5;xor r5,r4,r5|xor r4,r4,r5
+xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5;xor r4,r4,r5|xor r5,r4,r5;xor r4,r4,r5
+xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5|xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5
+xor r4,r4,r5;xor r5,r4,r5|xor r4,r4,r5;xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5
+xor r4,r4,r5|xor r5,r4,r5;xor r4,r4,r5;xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5
+add r4,r4,r6;sub r4,r4,r6
+add r4,r4,r6|sub r4,r4,r6
+sub r4,r4,r6;add r4,r4,r6
+sub r4,r4,r6|add r4,r4,r6
+xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6;xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6
+xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6;xor r4,r4,r6;xor r6,r4,r6|xor r4,r4,r6
+xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6;xor r4,r4,r6|xor r6,r4,r6;xor r4,r4,r6
+xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6|xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6
+xor r4,r4,r6;xor r6,r4,r6|xor r4,r4,r6;xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6
+xor r4,r4,r6|xor r6,r4,r6;xor r4,r4,r6;xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6
+add r4,r4,r7;sub r4,r4,r7
+add r4,r4,r7|sub r4,r4,r7
+sub r4,r4,r7;add r4,r4,r7
+sub r4,r4,r7|add r4,r4,r7
+xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7;xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7
+xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7;xor r4,r4,r7;xor r7,r4,r7|xor r4,r4,r7
+xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7;xor r4,r4,r7|xor r7,r4,r7;xor r4,r4,r7
+xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7|xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7
+xor r4,r4,r7;xor r7,r4,r7|xor r4,r4,r7;xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7
+xor r4,r4,r7|xor r7,r4,r7;xor r4,r4,r7;xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7
+add r4,r4,r8;sub r4,r4,r8
+add r4,r4,r8|sub r4,r4,r8
+sub r4,r4,r8;add r4,r4,r8
+sub r4,r4,r8|add r4,r4,r8
+xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8;xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8
+xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8;xor r4,r4,r8;xor r8,r4,r8|xor r4,r4,r8
+xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8;xor r4,r4,r8|xor r8,r4,r8;xor r4,r4,r8
+xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8|xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8
+xor r4,r4,r8;xor r8,r4,r8|xor r4,r4,r8;xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8
+xor r4,r4,r8|xor r8,r4,r8;xor r4,r4,r8;xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8
+add r4,r4,r9;sub r4,r4,r9
+add r4,r4,r9|sub r4,r4,r9
+sub r4,r4,r9;add r4,r4,r9
+sub r4,r4,r9|add r4,r4,r9
+xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9;xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9
+xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9;xor r4,r4,r9;xor r9,r4,r9|xor r4,r4,r9
+xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9;xor r4,r4,r9|xor r9,r4,r9;xor r4,r4,r9
+xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9|xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9
+xor r4,r4,r9;xor r9,r4,r9|xor r4,r4,r9;xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9
+xor r4,r4,r9|xor r9,r4,r9;xor r4,r4,r9;xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9
+add r4,r4,r10;sub r4,r4,r10
+add r4,r4,r10|sub r4,r4,r10
+sub r4,r4,r10;add r4,r4,r10
+sub r4,r4,r10|add r4,r4,r10
+xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10;xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10
+xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10;xor r4,r4,r10;xor r10,r4,r10|xor r4,r4,r10
+xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10;xor r4,r4,r10|xor r10,r4,r10;xor r4,r4,r10
+xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10|xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10
+xor r4,r4,r10;xor r10,r4,r10|xor r4,r4,r10;xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10
+xor r4,r4,r10|xor r10,r4,r10;xor r4,r4,r10;xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10
+add r4,r4,r11;sub r4,r4,r11
+add r4,r4,r11|sub r4,r4,r11
+sub r4,r4,r11;add r4,r4,r11
+sub r4,r4,r11|add r4,r4,r11
+xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11;xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11
+xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11;xor r4,r4,r11;xor r11,r4,r11|xor r4,r4,r11
+xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11;xor r4,r4,r11|xor r11,r4,r11;xor r4,r4,r11
+xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11|xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11
+xor r4,r4,r11;xor r11,r4,r11|xor r4,r4,r11;xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11
+xor r4,r4,r11|xor r11,r4,r11;xor r4,r4,r11;xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11
+add r4,r4,0;sub r4,r4,0
+add r4,r4,0|sub r4,r4,0
+sub r4,r4,0;add r4,r4,0
+sub r4,r4,0|add r4,r4,0
+add r4,r4,1;sub r4,r4,1
+add r4,r4,1|sub r4,r4,1
+sub r4,r4,1;add r4,r4,1
+sub r4,r4,1|add r4,r4,1
+add r4,r4,2;sub r4,r4,2
+add r4,r4,2|sub r4,r4,2
+sub r4,r4,2;add r4,r4,2
+sub r4,r4,2|add r4,r4,2
+add r4,r4,3;sub r4,r4,3
+add r4,r4,3|sub r4,r4,3
+sub r4,r4,3;add r4,r4,3
+sub r4,r4,3|add r4,r4,3
+add r4,r4,4;sub r4,r4,4
+add r4,r4,4|sub r4,r4,4
+sub r4,r4,4;add r4,r4,4
+sub r4,r4,4|add r4,r4,4
+add r4,r4,5;sub r4,r4,5
+add r4,r4,5|sub r4,r4,5
+sub r4,r4,5;add r4,r4,5
+sub r4,r4,5|add r4,r4,5
+add r4,r4,6;sub r4,r4,6
+add r4,r4,6|sub r4,r4,6
+sub r4,r4,6;add r4,r4,6
+sub r4,r4,6|add r4,r4,6
+add r4,r4,7;sub r4,r4,7
+add r4,r4,7|sub r4,r4,7
+sub r4,r4,7;add r4,r4,7
+sub r4,r4,7|add r4,r4,7
+add r4,r4,8;sub r4,r4,8
+add r4,r4,8|sub r4,r4,8
+sub r4,r4,8;add r4,r4,8
+sub r4,r4,8|add r4,r4,8
+add r4,r4,9;sub r4,r4,9
+add r4,r4,9|sub r4,r4,9
+sub r4,r4,9;add r4,r4,9
+sub r4,r4,9|add r4,r4,9
+add r4,r4,10;sub r4,r4,10
+add r4,r4,10|sub r4,r4,10
+sub r4,r4,10;add r4,r4,10
+sub r4,r4,10|add r4,r4,10
+add r4,r4,11;sub r4,r4,11
+add r4,r4,11|sub r4,r4,11
+sub r4,r4,11;add r4,r4,11
+sub r4,r4,11|add r4,r4,11
+add r5,r5,0
+sub r5,r5,0
+bitrev r5,r5;bitrev r5,r5
+bitrev r5,r5|bitrev r5,r5
+byterev r5,r5;byterev r5,r5
+byterev r5,r5|byterev r5,r5
+neg r5,r5;neg r5,r5
+neg r5,r5|neg r5,r5
+not r5,r5;not r5,r5
+not r5,r5|not r5,r5
+add r5,r5,r0;sub r5,r5,r0
+add r5,r5,r0|sub r5,r5,r0
+sub r5,r5,r0;add r5,r5,r0
+sub r5,r5,r0|add r5,r5,r0
+xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0;xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0
+xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0;xor r5,r5,r0;xor r0,r5,r0|xor r5,r5,r0
+xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0;xor r5,r5,r0|xor r0,r5,r0;xor r5,r5,r0
+xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0|xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0
+xor r5,r5,r0;xor r0,r5,r0|xor r5,r5,r0;xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0
+xor r5,r5,r0|xor r0,r5,r0;xor r5,r5,r0;xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0
+add r5,r5,r1;sub r5,r5,r1
+add r5,r5,r1|sub r5,r5,r1
+sub r5,r5,r1;add r5,r5,r1
+sub r5,r5,r1|add r5,r5,r1
+xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1;xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1
+xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1;xor r5,r5,r1;xor r1,r5,r1|xor r5,r5,r1
+xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1;xor r5,r5,r1|xor r1,r5,r1;xor r5,r5,r1
+xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1|xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1
+xor r5,r5,r1;xor r1,r5,r1|xor r5,r5,r1;xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1
+xor r5,r5,r1|xor r1,r5,r1;xor r5,r5,r1;xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1
+add r5,r5,r2;sub r5,r5,r2
+add r5,r5,r2|sub r5,r5,r2
+sub r5,r5,r2;add r5,r5,r2
+sub r5,r5,r2|add r5,r5,r2
+xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2;xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2
+xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2;xor r5,r5,r2;xor r2,r5,r2|xor r5,r5,r2
+xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2;xor r5,r5,r2|xor r2,r5,r2;xor r5,r5,r2
+xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2|xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2
+xor r5,r5,r2;xor r2,r5,r2|xor r5,r5,r2;xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2
+xor r5,r5,r2|xor r2,r5,r2;xor r5,r5,r2;xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2
+add r5,r5,r3;sub r5,r5,r3
+add r5,r5,r3|sub r5,r5,r3
+sub r5,r5,r3;add r5,r5,r3
+sub r5,r5,r3|add r5,r5,r3
+xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3;xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3
+xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3;xor r5,r5,r3;xor r3,r5,r3|xor r5,r5,r3
+xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3;xor r5,r5,r3|xor r3,r5,r3;xor r5,r5,r3
+xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3|xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3
+xor r5,r5,r3;xor r3,r5,r3|xor r5,r5,r3;xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3
+xor r5,r5,r3|xor r3,r5,r3;xor r5,r5,r3;xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3
+add r5,r5,r4;sub r5,r5,r4
+add r5,r5,r4|sub r5,r5,r4
+sub r5,r5,r4;add r5,r5,r4
+sub r5,r5,r4|add r5,r5,r4
+xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4;xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4
+xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4;xor r5,r5,r4;xor r4,r5,r4|xor r5,r5,r4
+xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4;xor r5,r5,r4|xor r4,r5,r4;xor r5,r5,r4
+xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4|xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4
+xor r5,r5,r4;xor r4,r5,r4|xor r5,r5,r4;xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4
+xor r5,r5,r4|xor r4,r5,r4;xor r5,r5,r4;xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4
+add r5,r5,r5;sub r5,r5,r5
+add r5,r5,r5|sub r5,r5,r5
+sub r5,r5,r5;add r5,r5,r5
+sub r5,r5,r5|add r5,r5,r5
+xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5
+xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5|xor r5,r5,r5
+xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5|xor r5,r5,r5;xor r5,r5,r5
+xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5|xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5
+xor r5,r5,r5;xor r5,r5,r5|xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5
+xor r5,r5,r5|xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5
+add r5,r5,r6;sub r5,r5,r6
+add r5,r5,r6|sub r5,r5,r6
+sub r5,r5,r6;add r5,r5,r6
+sub r5,r5,r6|add r5,r5,r6
+xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6;xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6
+xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6;xor r5,r5,r6;xor r6,r5,r6|xor r5,r5,r6
+xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6;xor r5,r5,r6|xor r6,r5,r6;xor r5,r5,r6
+xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6|xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6
+xor r5,r5,r6;xor r6,r5,r6|xor r5,r5,r6;xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6
+xor r5,r5,r6|xor r6,r5,r6;xor r5,r5,r6;xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6
+add r5,r5,r7;sub r5,r5,r7
+add r5,r5,r7|sub r5,r5,r7
+sub r5,r5,r7;add r5,r5,r7
+sub r5,r5,r7|add r5,r5,r7
+xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7;xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7
+xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7;xor r5,r5,r7;xor r7,r5,r7|xor r5,r5,r7
+xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7;xor r5,r5,r7|xor r7,r5,r7;xor r5,r5,r7
+xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7|xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7
+xor r5,r5,r7;xor r7,r5,r7|xor r5,r5,r7;xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7
+xor r5,r5,r7|xor r7,r5,r7;xor r5,r5,r7;xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7
+add r5,r5,r8;sub r5,r5,r8
+add r5,r5,r8|sub r5,r5,r8
+sub r5,r5,r8;add r5,r5,r8
+sub r5,r5,r8|add r5,r5,r8
+xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8;xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8
+xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8;xor r5,r5,r8;xor r8,r5,r8|xor r5,r5,r8
+xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8;xor r5,r5,r8|xor r8,r5,r8;xor r5,r5,r8
+xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8|xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8
+xor r5,r5,r8;xor r8,r5,r8|xor r5,r5,r8;xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8
+xor r5,r5,r8|xor r8,r5,r8;xor r5,r5,r8;xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8
+add r5,r5,r9;sub r5,r5,r9
+add r5,r5,r9|sub r5,r5,r9
+sub r5,r5,r9;add r5,r5,r9
+sub r5,r5,r9|add r5,r5,r9
+xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9;xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9
+xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9;xor r5,r5,r9;xor r9,r5,r9|xor r5,r5,r9
+xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9;xor r5,r5,r9|xor r9,r5,r9;xor r5,r5,r9
+xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9|xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9
+xor r5,r5,r9;xor r9,r5,r9|xor r5,r5,r9;xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9
+xor r5,r5,r9|xor r9,r5,r9;xor r5,r5,r9;xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9
+add r5,r5,r10;sub r5,r5,r10
+add r5,r5,r10|sub r5,r5,r10
+sub r5,r5,r10;add r5,r5,r10
+sub r5,r5,r10|add r5,r5,r10
+xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10;xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10
+xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10;xor r5,r5,r10;xor r10,r5,r10|xor r5,r5,r10
+xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10;xor r5,r5,r10|xor r10,r5,r10;xor r5,r5,r10
+xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10|xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10
+xor r5,r5,r10;xor r10,r5,r10|xor r5,r5,r10;xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10
+xor r5,r5,r10|xor r10,r5,r10;xor r5,r5,r10;xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10
+add r5,r5,r11;sub r5,r5,r11
+add r5,r5,r11|sub r5,r5,r11
+sub r5,r5,r11;add r5,r5,r11
+sub r5,r5,r11|add r5,r5,r11
+xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11;xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11
+xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11;xor r5,r5,r11;xor r11,r5,r11|xor r5,r5,r11
+xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11;xor r5,r5,r11|xor r11,r5,r11;xor r5,r5,r11
+xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11|xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11
+xor r5,r5,r11;xor r11,r5,r11|xor r5,r5,r11;xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11
+xor r5,r5,r11|xor r11,r5,r11;xor r5,r5,r11;xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11
+add r5,r5,0;sub r5,r5,0
+add r5,r5,0|sub r5,r5,0
+sub r5,r5,0;add r5,r5,0
+sub r5,r5,0|add r5,r5,0
+add r5,r5,1;sub r5,r5,1
+add r5,r5,1|sub r5,r5,1
+sub r5,r5,1;add r5,r5,1
+sub r5,r5,1|add r5,r5,1
+add r5,r5,2;sub r5,r5,2
+add r5,r5,2|sub r5,r5,2
+sub r5,r5,2;add r5,r5,2
+sub r5,r5,2|add r5,r5,2
+add r5,r5,3;sub r5,r5,3
+add r5,r5,3|sub r5,r5,3
+sub r5,r5,3;add r5,r5,3
+sub r5,r5,3|add r5,r5,3
+add r5,r5,4;sub r5,r5,4
+add r5,r5,4|sub r5,r5,4
+sub r5,r5,4;add r5,r5,4
+sub r5,r5,4|add r5,r5,4
+add r5,r5,5;sub r5,r5,5
+add r5,r5,5|sub r5,r5,5
+sub r5,r5,5;add r5,r5,5
+sub r5,r5,5|add r5,r5,5
+add r5,r5,6;sub r5,r5,6
+add r5,r5,6|sub r5,r5,6
+sub r5,r5,6;add r5,r5,6
+sub r5,r5,6|add r5,r5,6
+add r5,r5,7;sub r5,r5,7
+add r5,r5,7|sub r5,r5,7
+sub r5,r5,7;add r5,r5,7
+sub r5,r5,7|add r5,r5,7
+add r5,r5,8;sub r5,r5,8
+add r5,r5,8|sub r5,r5,8
+sub r5,r5,8;add r5,r5,8
+sub r5,r5,8|add r5,r5,8
+add r5,r5,9;sub r5,r5,9
+add r5,r5,9|sub r5,r5,9
+sub r5,r5,9;add r5,r5,9
+sub r5,r5,9|add r5,r5,9
+add r5,r5,10;sub r5,r5,10
+add r5,r5,10|sub r5,r5,10
+sub r5,r5,10;add r5,r5,10
+sub r5,r5,10|add r5,r5,10
+add r5,r5,11;sub r5,r5,11
+add r5,r5,11|sub r5,r5,11
+sub r5,r5,11;add r5,r5,11
+sub r5,r5,11|add r5,r5,11
+add r6,r6,0
+sub r6,r6,0
+bitrev r6,r6;bitrev r6,r6
+bitrev r6,r6|bitrev r6,r6
+byterev r6,r6;byterev r6,r6
+byterev r6,r6|byterev r6,r6
+neg r6,r6;neg r6,r6
+neg r6,r6|neg r6,r6
+not r6,r6;not r6,r6
+not r6,r6|not r6,r6
+add r6,r6,r0;sub r6,r6,r0
+add r6,r6,r0|sub r6,r6,r0
+sub r6,r6,r0;add r6,r6,r0
+sub r6,r6,r0|add r6,r6,r0
+xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0;xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0
+xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0;xor r6,r6,r0;xor r0,r6,r0|xor r6,r6,r0
+xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0;xor r6,r6,r0|xor r0,r6,r0;xor r6,r6,r0
+xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0|xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0
+xor r6,r6,r0;xor r0,r6,r0|xor r6,r6,r0;xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0
+xor r6,r6,r0|xor r0,r6,r0;xor r6,r6,r0;xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0
+add r6,r6,r1;sub r6,r6,r1
+add r6,r6,r1|sub r6,r6,r1
+sub r6,r6,r1;add r6,r6,r1
+sub r6,r6,r1|add r6,r6,r1
+xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1;xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1
+xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1;xor r6,r6,r1;xor r1,r6,r1|xor r6,r6,r1
+xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1;xor r6,r6,r1|xor r1,r6,r1;xor r6,r6,r1
+xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1|xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1
+xor r6,r6,r1;xor r1,r6,r1|xor r6,r6,r1;xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1
+xor r6,r6,r1|xor r1,r6,r1;xor r6,r6,r1;xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1
+add r6,r6,r2;sub r6,r6,r2
+add r6,r6,r2|sub r6,r6,r2
+sub r6,r6,r2;add r6,r6,r2
+sub r6,r6,r2|add r6,r6,r2
+xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2;xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2
+xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2;xor r6,r6,r2;xor r2,r6,r2|xor r6,r6,r2
+xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2;xor r6,r6,r2|xor r2,r6,r2;xor r6,r6,r2
+xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2|xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2
+xor r6,r6,r2;xor r2,r6,r2|xor r6,r6,r2;xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2
+xor r6,r6,r2|xor r2,r6,r2;xor r6,r6,r2;xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2
+add r6,r6,r3;sub r6,r6,r3
+add r6,r6,r3|sub r6,r6,r3
+sub r6,r6,r3;add r6,r6,r3
+sub r6,r6,r3|add r6,r6,r3
+xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3;xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3
+xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3;xor r6,r6,r3;xor r3,r6,r3|xor r6,r6,r3
+xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3;xor r6,r6,r3|xor r3,r6,r3;xor r6,r6,r3
+xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3|xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3
+xor r6,r6,r3;xor r3,r6,r3|xor r6,r6,r3;xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3
+xor r6,r6,r3|xor r3,r6,r3;xor r6,r6,r3;xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3
+add r6,r6,r4;sub r6,r6,r4
+add r6,r6,r4|sub r6,r6,r4
+sub r6,r6,r4;add r6,r6,r4
+sub r6,r6,r4|add r6,r6,r4
+xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4;xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4
+xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4;xor r6,r6,r4;xor r4,r6,r4|xor r6,r6,r4
+xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4;xor r6,r6,r4|xor r4,r6,r4;xor r6,r6,r4
+xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4|xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4
+xor r6,r6,r4;xor r4,r6,r4|xor r6,r6,r4;xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4
+xor r6,r6,r4|xor r4,r6,r4;xor r6,r6,r4;xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4
+add r6,r6,r5;sub r6,r6,r5
+add r6,r6,r5|sub r6,r6,r5
+sub r6,r6,r5;add r6,r6,r5
+sub r6,r6,r5|add r6,r6,r5
+xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5;xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5
+xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5;xor r6,r6,r5;xor r5,r6,r5|xor r6,r6,r5
+xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5;xor r6,r6,r5|xor r5,r6,r5;xor r6,r6,r5
+xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5|xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5
+xor r6,r6,r5;xor r5,r6,r5|xor r6,r6,r5;xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5
+xor r6,r6,r5|xor r5,r6,r5;xor r6,r6,r5;xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5
+add r6,r6,r6;sub r6,r6,r6
+add r6,r6,r6|sub r6,r6,r6
+sub r6,r6,r6;add r6,r6,r6
+sub r6,r6,r6|add r6,r6,r6
+xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6
+xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6|xor r6,r6,r6
+xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6|xor r6,r6,r6;xor r6,r6,r6
+xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6|xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6
+xor r6,r6,r6;xor r6,r6,r6|xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6
+xor r6,r6,r6|xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6
+add r6,r6,r7;sub r6,r6,r7
+add r6,r6,r7|sub r6,r6,r7
+sub r6,r6,r7;add r6,r6,r7
+sub r6,r6,r7|add r6,r6,r7
+xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7;xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7
+xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7;xor r6,r6,r7;xor r7,r6,r7|xor r6,r6,r7
+xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7;xor r6,r6,r7|xor r7,r6,r7;xor r6,r6,r7
+xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7|xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7
+xor r6,r6,r7;xor r7,r6,r7|xor r6,r6,r7;xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7
+xor r6,r6,r7|xor r7,r6,r7;xor r6,r6,r7;xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7
+add r6,r6,r8;sub r6,r6,r8
+add r6,r6,r8|sub r6,r6,r8
+sub r6,r6,r8;add r6,r6,r8
+sub r6,r6,r8|add r6,r6,r8
+xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8;xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8
+xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8;xor r6,r6,r8;xor r8,r6,r8|xor r6,r6,r8
+xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8;xor r6,r6,r8|xor r8,r6,r8;xor r6,r6,r8
+xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8|xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8
+xor r6,r6,r8;xor r8,r6,r8|xor r6,r6,r8;xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8
+xor r6,r6,r8|xor r8,r6,r8;xor r6,r6,r8;xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8
+add r6,r6,r9;sub r6,r6,r9
+add r6,r6,r9|sub r6,r6,r9
+sub r6,r6,r9;add r6,r6,r9
+sub r6,r6,r9|add r6,r6,r9
+xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9;xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9
+xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9;xor r6,r6,r9;xor r9,r6,r9|xor r6,r6,r9
+xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9;xor r6,r6,r9|xor r9,r6,r9;xor r6,r6,r9
+xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9|xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9
+xor r6,r6,r9;xor r9,r6,r9|xor r6,r6,r9;xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9
+xor r6,r6,r9|xor r9,r6,r9;xor r6,r6,r9;xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9
+add r6,r6,r10;sub r6,r6,r10
+add r6,r6,r10|sub r6,r6,r10
+sub r6,r6,r10;add r6,r6,r10
+sub r6,r6,r10|add r6,r6,r10
+xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10;xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10
+xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10;xor r6,r6,r10;xor r10,r6,r10|xor r6,r6,r10
+xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10;xor r6,r6,r10|xor r10,r6,r10;xor r6,r6,r10
+xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10|xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10
+xor r6,r6,r10;xor r10,r6,r10|xor r6,r6,r10;xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10
+xor r6,r6,r10|xor r10,r6,r10;xor r6,r6,r10;xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10
+add r6,r6,r11;sub r6,r6,r11
+add r6,r6,r11|sub r6,r6,r11
+sub r6,r6,r11;add r6,r6,r11
+sub r6,r6,r11|add r6,r6,r11
+xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11;xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11
+xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11;xor r6,r6,r11;xor r11,r6,r11|xor r6,r6,r11
+xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11;xor r6,r6,r11|xor r11,r6,r11;xor r6,r6,r11
+xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11|xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11
+xor r6,r6,r11;xor r11,r6,r11|xor r6,r6,r11;xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11
+xor r6,r6,r11|xor r11,r6,r11;xor r6,r6,r11;xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11
+add r6,r6,0;sub r6,r6,0
+add r6,r6,0|sub r6,r6,0
+sub r6,r6,0;add r6,r6,0
+sub r6,r6,0|add r6,r6,0
+add r6,r6,1;sub r6,r6,1
+add r6,r6,1|sub r6,r6,1
+sub r6,r6,1;add r6,r6,1
+sub r6,r6,1|add r6,r6,1
+add r6,r6,2;sub r6,r6,2
+add r6,r6,2|sub r6,r6,2
+sub r6,r6,2;add r6,r6,2
+sub r6,r6,2|add r6,r6,2
+add r6,r6,3;sub r6,r6,3
+add r6,r6,3|sub r6,r6,3
+sub r6,r6,3;add r6,r6,3
+sub r6,r6,3|add r6,r6,3
+add r6,r6,4;sub r6,r6,4
+add r6,r6,4|sub r6,r6,4
+sub r6,r6,4;add r6,r6,4
+sub r6,r6,4|add r6,r6,4
+add r6,r6,5;sub r6,r6,5
+add r6,r6,5|sub r6,r6,5
+sub r6,r6,5;add r6,r6,5
+sub r6,r6,5|add r6,r6,5
+add r6,r6,6;sub r6,r6,6
+add r6,r6,6|sub r6,r6,6
+sub r6,r6,6;add r6,r6,6
+sub r6,r6,6|add r6,r6,6
+add r6,r6,7;sub r6,r6,7
+add r6,r6,7|sub r6,r6,7
+sub r6,r6,7;add r6,r6,7
+sub r6,r6,7|add r6,r6,7
+add r6,r6,8;sub r6,r6,8
+add r6,r6,8|sub r6,r6,8
+sub r6,r6,8;add r6,r6,8
+sub r6,r6,8|add r6,r6,8
+add r6,r6,9;sub r6,r6,9
+add r6,r6,9|sub r6,r6,9
+sub r6,r6,9;add r6,r6,9
+sub r6,r6,9|add r6,r6,9
+add r6,r6,10;sub r6,r6,10
+add r6,r6,10|sub r6,r6,10
+sub r6,r6,10;add r6,r6,10
+sub r6,r6,10|add r6,r6,10
+add r6,r6,11;sub r6,r6,11
+add r6,r6,11|sub r6,r6,11
+sub r6,r6,11;add r6,r6,11
+sub r6,r6,11|add r6,r6,11
+add r7,r7,0
+sub r7,r7,0
+bitrev r7,r7;bitrev r7,r7
+bitrev r7,r7|bitrev r7,r7
+byterev r7,r7;byterev r7,r7
+byterev r7,r7|byterev r7,r7
+neg r7,r7;neg r7,r7
+neg r7,r7|neg r7,r7
+not r7,r7;not r7,r7
+not r7,r7|not r7,r7
+add r7,r7,r0;sub r7,r7,r0
+add r7,r7,r0|sub r7,r7,r0
+sub r7,r7,r0;add r7,r7,r0
+sub r7,r7,r0|add r7,r7,r0
+xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0;xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0
+xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0;xor r7,r7,r0;xor r0,r7,r0|xor r7,r7,r0
+xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0;xor r7,r7,r0|xor r0,r7,r0;xor r7,r7,r0
+xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0|xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0
+xor r7,r7,r0;xor r0,r7,r0|xor r7,r7,r0;xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0
+xor r7,r7,r0|xor r0,r7,r0;xor r7,r7,r0;xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0
+add r7,r7,r1;sub r7,r7,r1
+add r7,r7,r1|sub r7,r7,r1
+sub r7,r7,r1;add r7,r7,r1
+sub r7,r7,r1|add r7,r7,r1
+xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1;xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1
+xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1;xor r7,r7,r1;xor r1,r7,r1|xor r7,r7,r1
+xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1;xor r7,r7,r1|xor r1,r7,r1;xor r7,r7,r1
+xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1|xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1
+xor r7,r7,r1;xor r1,r7,r1|xor r7,r7,r1;xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1
+xor r7,r7,r1|xor r1,r7,r1;xor r7,r7,r1;xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1
+add r7,r7,r2;sub r7,r7,r2
+add r7,r7,r2|sub r7,r7,r2
+sub r7,r7,r2;add r7,r7,r2
+sub r7,r7,r2|add r7,r7,r2
+xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2;xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2
+xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2;xor r7,r7,r2;xor r2,r7,r2|xor r7,r7,r2
+xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2;xor r7,r7,r2|xor r2,r7,r2;xor r7,r7,r2
+xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2|xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2
+xor r7,r7,r2;xor r2,r7,r2|xor r7,r7,r2;xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2
+xor r7,r7,r2|xor r2,r7,r2;xor r7,r7,r2;xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2
+add r7,r7,r3;sub r7,r7,r3
+add r7,r7,r3|sub r7,r7,r3
+sub r7,r7,r3;add r7,r7,r3
+sub r7,r7,r3|add r7,r7,r3
+xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3;xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3
+xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3;xor r7,r7,r3;xor r3,r7,r3|xor r7,r7,r3
+xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3;xor r7,r7,r3|xor r3,r7,r3;xor r7,r7,r3
+xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3|xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3
+xor r7,r7,r3;xor r3,r7,r3|xor r7,r7,r3;xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3
+xor r7,r7,r3|xor r3,r7,r3;xor r7,r7,r3;xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3
+add r7,r7,r4;sub r7,r7,r4
+add r7,r7,r4|sub r7,r7,r4
+sub r7,r7,r4;add r7,r7,r4
+sub r7,r7,r4|add r7,r7,r4
+xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4;xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4
+xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4;xor r7,r7,r4;xor r4,r7,r4|xor r7,r7,r4
+xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4;xor r7,r7,r4|xor r4,r7,r4;xor r7,r7,r4
+xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4|xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4
+xor r7,r7,r4;xor r4,r7,r4|xor r7,r7,r4;xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4
+xor r7,r7,r4|xor r4,r7,r4;xor r7,r7,r4;xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4
+add r7,r7,r5;sub r7,r7,r5
+add r7,r7,r5|sub r7,r7,r5
+sub r7,r7,r5;add r7,r7,r5
+sub r7,r7,r5|add r7,r7,r5
+xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5;xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5
+xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5;xor r7,r7,r5;xor r5,r7,r5|xor r7,r7,r5
+xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5;xor r7,r7,r5|xor r5,r7,r5;xor r7,r7,r5
+xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5|xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5
+xor r7,r7,r5;xor r5,r7,r5|xor r7,r7,r5;xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5
+xor r7,r7,r5|xor r5,r7,r5;xor r7,r7,r5;xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5
+add r7,r7,r6;sub r7,r7,r6
+add r7,r7,r6|sub r7,r7,r6
+sub r7,r7,r6;add r7,r7,r6
+sub r7,r7,r6|add r7,r7,r6
+xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6;xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6
+xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6;xor r7,r7,r6;xor r6,r7,r6|xor r7,r7,r6
+xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6;xor r7,r7,r6|xor r6,r7,r6;xor r7,r7,r6
+xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6|xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6
+xor r7,r7,r6;xor r6,r7,r6|xor r7,r7,r6;xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6
+xor r7,r7,r6|xor r6,r7,r6;xor r7,r7,r6;xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6
+add r7,r7,r7;sub r7,r7,r7
+add r7,r7,r7|sub r7,r7,r7
+sub r7,r7,r7;add r7,r7,r7
+sub r7,r7,r7|add r7,r7,r7
+xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7
+xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7|xor r7,r7,r7
+xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7|xor r7,r7,r7;xor r7,r7,r7
+xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7|xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7
+xor r7,r7,r7;xor r7,r7,r7|xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7
+xor r7,r7,r7|xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7
+add r7,r7,r8;sub r7,r7,r8
+add r7,r7,r8|sub r7,r7,r8
+sub r7,r7,r8;add r7,r7,r8
+sub r7,r7,r8|add r7,r7,r8
+xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8;xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8
+xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8;xor r7,r7,r8;xor r8,r7,r8|xor r7,r7,r8
+xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8;xor r7,r7,r8|xor r8,r7,r8;xor r7,r7,r8
+xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8|xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8
+xor r7,r7,r8;xor r8,r7,r8|xor r7,r7,r8;xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8
+xor r7,r7,r8|xor r8,r7,r8;xor r7,r7,r8;xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8
+add r7,r7,r9;sub r7,r7,r9
+add r7,r7,r9|sub r7,r7,r9
+sub r7,r7,r9;add r7,r7,r9
+sub r7,r7,r9|add r7,r7,r9
+xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9;xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9
+xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9;xor r7,r7,r9;xor r9,r7,r9|xor r7,r7,r9
+xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9;xor r7,r7,r9|xor r9,r7,r9;xor r7,r7,r9
+xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9|xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9
+xor r7,r7,r9;xor r9,r7,r9|xor r7,r7,r9;xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9
+xor r7,r7,r9|xor r9,r7,r9;xor r7,r7,r9;xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9
+add r7,r7,r10;sub r7,r7,r10
+add r7,r7,r10|sub r7,r7,r10
+sub r7,r7,r10;add r7,r7,r10
+sub r7,r7,r10|add r7,r7,r10
+xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10;xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10
+xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10;xor r7,r7,r10;xor r10,r7,r10|xor r7,r7,r10
+xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10;xor r7,r7,r10|xor r10,r7,r10;xor r7,r7,r10
+xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10|xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10
+xor r7,r7,r10;xor r10,r7,r10|xor r7,r7,r10;xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10
+xor r7,r7,r10|xor r10,r7,r10;xor r7,r7,r10;xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10
+add r7,r7,r11;sub r7,r7,r11
+add r7,r7,r11|sub r7,r7,r11
+sub r7,r7,r11;add r7,r7,r11
+sub r7,r7,r11|add r7,r7,r11
+xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11;xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11
+xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11;xor r7,r7,r11;xor r11,r7,r11|xor r7,r7,r11
+xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11;xor r7,r7,r11|xor r11,r7,r11;xor r7,r7,r11
+xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11|xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11
+xor r7,r7,r11;xor r11,r7,r11|xor r7,r7,r11;xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11
+xor r7,r7,r11|xor r11,r7,r11;xor r7,r7,r11;xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11
+add r7,r7,0;sub r7,r7,0
+add r7,r7,0|sub r7,r7,0
+sub r7,r7,0;add r7,r7,0
+sub r7,r7,0|add r7,r7,0
+add r7,r7,1;sub r7,r7,1
+add r7,r7,1|sub r7,r7,1
+sub r7,r7,1;add r7,r7,1
+sub r7,r7,1|add r7,r7,1
+add r7,r7,2;sub r7,r7,2
+add r7,r7,2|sub r7,r7,2
+sub r7,r7,2;add r7,r7,2
+sub r7,r7,2|add r7,r7,2
+add r7,r7,3;sub r7,r7,3
+add r7,r7,3|sub r7,r7,3
+sub r7,r7,3;add r7,r7,3
+sub r7,r7,3|add r7,r7,3
+add r7,r7,4;sub r7,r7,4
+add r7,r7,4|sub r7,r7,4
+sub r7,r7,4;add r7,r7,4
+sub r7,r7,4|add r7,r7,4
+add r7,r7,5;sub r7,r7,5
+add r7,r7,5|sub r7,r7,5
+sub r7,r7,5;add r7,r7,5
+sub r7,r7,5|add r7,r7,5
+add r7,r7,6;sub r7,r7,6
+add r7,r7,6|sub r7,r7,6
+sub r7,r7,6;add r7,r7,6
+sub r7,r7,6|add r7,r7,6
+add r7,r7,7;sub r7,r7,7
+add r7,r7,7|sub r7,r7,7
+sub r7,r7,7;add r7,r7,7
+sub r7,r7,7|add r7,r7,7
+add r7,r7,8;sub r7,r7,8
+add r7,r7,8|sub r7,r7,8
+sub r7,r7,8;add r7,r7,8
+sub r7,r7,8|add r7,r7,8
+add r7,r7,9;sub r7,r7,9
+add r7,r7,9|sub r7,r7,9
+sub r7,r7,9;add r7,r7,9
+sub r7,r7,9|add r7,r7,9
+add r7,r7,10;sub r7,r7,10
+add r7,r7,10|sub r7,r7,10
+sub r7,r7,10;add r7,r7,10
+sub r7,r7,10|add r7,r7,10
+add r7,r7,11;sub r7,r7,11
+add r7,r7,11|sub r7,r7,11
+sub r7,r7,11;add r7,r7,11
+sub r7,r7,11|add r7,r7,11
+add r8,r8,0
+sub r8,r8,0
+bitrev r8,r8;bitrev r8,r8
+bitrev r8,r8|bitrev r8,r8
+byterev r8,r8;byterev r8,r8
+byterev r8,r8|byterev r8,r8
+neg r8,r8;neg r8,r8
+neg r8,r8|neg r8,r8
+not r8,r8;not r8,r8
+not r8,r8|not r8,r8
+add r8,r8,r0;sub r8,r8,r0
+add r8,r8,r0|sub r8,r8,r0
+sub r8,r8,r0;add r8,r8,r0
+sub r8,r8,r0|add r8,r8,r0
+xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0;xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0
+xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0;xor r8,r8,r0;xor r0,r8,r0|xor r8,r8,r0
+xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0;xor r8,r8,r0|xor r0,r8,r0;xor r8,r8,r0
+xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0|xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0
+xor r8,r8,r0;xor r0,r8,r0|xor r8,r8,r0;xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0
+xor r8,r8,r0|xor r0,r8,r0;xor r8,r8,r0;xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0
+add r8,r8,r1;sub r8,r8,r1
+add r8,r8,r1|sub r8,r8,r1
+sub r8,r8,r1;add r8,r8,r1
+sub r8,r8,r1|add r8,r8,r1
+xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1;xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1
+xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1;xor r8,r8,r1;xor r1,r8,r1|xor r8,r8,r1
+xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1;xor r8,r8,r1|xor r1,r8,r1;xor r8,r8,r1
+xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1|xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1
+xor r8,r8,r1;xor r1,r8,r1|xor r8,r8,r1;xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1
+xor r8,r8,r1|xor r1,r8,r1;xor r8,r8,r1;xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1
+add r8,r8,r2;sub r8,r8,r2
+add r8,r8,r2|sub r8,r8,r2
+sub r8,r8,r2;add r8,r8,r2
+sub r8,r8,r2|add r8,r8,r2
+xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2;xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2
+xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2;xor r8,r8,r2;xor r2,r8,r2|xor r8,r8,r2
+xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2;xor r8,r8,r2|xor r2,r8,r2;xor r8,r8,r2
+xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2|xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2
+xor r8,r8,r2;xor r2,r8,r2|xor r8,r8,r2;xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2
+xor r8,r8,r2|xor r2,r8,r2;xor r8,r8,r2;xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2
+add r8,r8,r3;sub r8,r8,r3
+add r8,r8,r3|sub r8,r8,r3
+sub r8,r8,r3;add r8,r8,r3
+sub r8,r8,r3|add r8,r8,r3
+xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3;xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3
+xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3;xor r8,r8,r3;xor r3,r8,r3|xor r8,r8,r3
+xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3;xor r8,r8,r3|xor r3,r8,r3;xor r8,r8,r3
+xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3|xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3
+xor r8,r8,r3;xor r3,r8,r3|xor r8,r8,r3;xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3
+xor r8,r8,r3|xor r3,r8,r3;xor r8,r8,r3;xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3
+add r8,r8,r4;sub r8,r8,r4
+add r8,r8,r4|sub r8,r8,r4
+sub r8,r8,r4;add r8,r8,r4
+sub r8,r8,r4|add r8,r8,r4
+xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4;xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4
+xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4;xor r8,r8,r4;xor r4,r8,r4|xor r8,r8,r4
+xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4;xor r8,r8,r4|xor r4,r8,r4;xor r8,r8,r4
+xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4|xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4
+xor r8,r8,r4;xor r4,r8,r4|xor r8,r8,r4;xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4
+xor r8,r8,r4|xor r4,r8,r4;xor r8,r8,r4;xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4
+add r8,r8,r5;sub r8,r8,r5
+add r8,r8,r5|sub r8,r8,r5
+sub r8,r8,r5;add r8,r8,r5
+sub r8,r8,r5|add r8,r8,r5
+xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5;xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5
+xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5;xor r8,r8,r5;xor r5,r8,r5|xor r8,r8,r5
+xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5;xor r8,r8,r5|xor r5,r8,r5;xor r8,r8,r5
+xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5|xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5
+xor r8,r8,r5;xor r5,r8,r5|xor r8,r8,r5;xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5
+xor r8,r8,r5|xor r5,r8,r5;xor r8,r8,r5;xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5
+add r8,r8,r6;sub r8,r8,r6
+add r8,r8,r6|sub r8,r8,r6
+sub r8,r8,r6;add r8,r8,r6
+sub r8,r8,r6|add r8,r8,r6
+xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6;xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6
+xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6;xor r8,r8,r6;xor r6,r8,r6|xor r8,r8,r6
+xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6;xor r8,r8,r6|xor r6,r8,r6;xor r8,r8,r6
+xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6|xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6
+xor r8,r8,r6;xor r6,r8,r6|xor r8,r8,r6;xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6
+xor r8,r8,r6|xor r6,r8,r6;xor r8,r8,r6;xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6
+add r8,r8,r7;sub r8,r8,r7
+add r8,r8,r7|sub r8,r8,r7
+sub r8,r8,r7;add r8,r8,r7
+sub r8,r8,r7|add r8,r8,r7
+xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7;xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7
+xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7;xor r8,r8,r7;xor r7,r8,r7|xor r8,r8,r7
+xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7;xor r8,r8,r7|xor r7,r8,r7;xor r8,r8,r7
+xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7|xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7
+xor r8,r8,r7;xor r7,r8,r7|xor r8,r8,r7;xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7
+xor r8,r8,r7|xor r7,r8,r7;xor r8,r8,r7;xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7
+add r8,r8,r8;sub r8,r8,r8
+add r8,r8,r8|sub r8,r8,r8
+sub r8,r8,r8;add r8,r8,r8
+sub r8,r8,r8|add r8,r8,r8
+xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8
+xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8|xor r8,r8,r8
+xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8|xor r8,r8,r8;xor r8,r8,r8
+xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8|xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8
+xor r8,r8,r8;xor r8,r8,r8|xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8
+xor r8,r8,r8|xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8
+add r8,r8,r9;sub r8,r8,r9
+add r8,r8,r9|sub r8,r8,r9
+sub r8,r8,r9;add r8,r8,r9
+sub r8,r8,r9|add r8,r8,r9
+xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9;xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9
+xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9;xor r8,r8,r9;xor r9,r8,r9|xor r8,r8,r9
+xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9;xor r8,r8,r9|xor r9,r8,r9;xor r8,r8,r9
+xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9|xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9
+xor r8,r8,r9;xor r9,r8,r9|xor r8,r8,r9;xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9
+xor r8,r8,r9|xor r9,r8,r9;xor r8,r8,r9;xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9
+add r8,r8,r10;sub r8,r8,r10
+add r8,r8,r10|sub r8,r8,r10
+sub r8,r8,r10;add r8,r8,r10
+sub r8,r8,r10|add r8,r8,r10
+xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10;xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10
+xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10;xor r8,r8,r10;xor r10,r8,r10|xor r8,r8,r10
+xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10;xor r8,r8,r10|xor r10,r8,r10;xor r8,r8,r10
+xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10|xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10
+xor r8,r8,r10;xor r10,r8,r10|xor r8,r8,r10;xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10
+xor r8,r8,r10|xor r10,r8,r10;xor r8,r8,r10;xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10
+add r8,r8,r11;sub r8,r8,r11
+add r8,r8,r11|sub r8,r8,r11
+sub r8,r8,r11;add r8,r8,r11
+sub r8,r8,r11|add r8,r8,r11
+xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11;xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11
+xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11;xor r8,r8,r11;xor r11,r8,r11|xor r8,r8,r11
+xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11;xor r8,r8,r11|xor r11,r8,r11;xor r8,r8,r11
+xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11|xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11
+xor r8,r8,r11;xor r11,r8,r11|xor r8,r8,r11;xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11
+xor r8,r8,r11|xor r11,r8,r11;xor r8,r8,r11;xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11
+add r8,r8,0;sub r8,r8,0
+add r8,r8,0|sub r8,r8,0
+sub r8,r8,0;add r8,r8,0
+sub r8,r8,0|add r8,r8,0
+add r8,r8,1;sub r8,r8,1
+add r8,r8,1|sub r8,r8,1
+sub r8,r8,1;add r8,r8,1
+sub r8,r8,1|add r8,r8,1
+add r8,r8,2;sub r8,r8,2
+add r8,r8,2|sub r8,r8,2
+sub r8,r8,2;add r8,r8,2
+sub r8,r8,2|add r8,r8,2
+add r8,r8,3;sub r8,r8,3
+add r8,r8,3|sub r8,r8,3
+sub r8,r8,3;add r8,r8,3
+sub r8,r8,3|add r8,r8,3
+add r8,r8,4;sub r8,r8,4
+add r8,r8,4|sub r8,r8,4
+sub r8,r8,4;add r8,r8,4
+sub r8,r8,4|add r8,r8,4
+add r8,r8,5;sub r8,r8,5
+add r8,r8,5|sub r8,r8,5
+sub r8,r8,5;add r8,r8,5
+sub r8,r8,5|add r8,r8,5
+add r8,r8,6;sub r8,r8,6
+add r8,r8,6|sub r8,r8,6
+sub r8,r8,6;add r8,r8,6
+sub r8,r8,6|add r8,r8,6
+add r8,r8,7;sub r8,r8,7
+add r8,r8,7|sub r8,r8,7
+sub r8,r8,7;add r8,r8,7
+sub r8,r8,7|add r8,r8,7
+add r8,r8,8;sub r8,r8,8
+add r8,r8,8|sub r8,r8,8
+sub r8,r8,8;add r8,r8,8
+sub r8,r8,8|add r8,r8,8
+add r8,r8,9;sub r8,r8,9
+add r8,r8,9|sub r8,r8,9
+sub r8,r8,9;add r8,r8,9
+sub r8,r8,9|add r8,r8,9
+add r8,r8,10;sub r8,r8,10
+add r8,r8,10|sub r8,r8,10
+sub r8,r8,10;add r8,r8,10
+sub r8,r8,10|add r8,r8,10
+add r8,r8,11;sub r8,r8,11
+add r8,r8,11|sub r8,r8,11
+sub r8,r8,11;add r8,r8,11
+sub r8,r8,11|add r8,r8,11
+add r9,r9,0
+sub r9,r9,0
+bitrev r9,r9;bitrev r9,r9
+bitrev r9,r9|bitrev r9,r9
+byterev r9,r9;byterev r9,r9
+byterev r9,r9|byterev r9,r9
+neg r9,r9;neg r9,r9
+neg r9,r9|neg r9,r9
+not r9,r9;not r9,r9
+not r9,r9|not r9,r9
+add r9,r9,r0;sub r9,r9,r0
+add r9,r9,r0|sub r9,r9,r0
+sub r9,r9,r0;add r9,r9,r0
+sub r9,r9,r0|add r9,r9,r0
+xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0;xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0
+xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0;xor r9,r9,r0;xor r0,r9,r0|xor r9,r9,r0
+xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0;xor r9,r9,r0|xor r0,r9,r0;xor r9,r9,r0
+xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0|xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0
+xor r9,r9,r0;xor r0,r9,r0|xor r9,r9,r0;xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0
+xor r9,r9,r0|xor r0,r9,r0;xor r9,r9,r0;xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0
+add r9,r9,r1;sub r9,r9,r1
+add r9,r9,r1|sub r9,r9,r1
+sub r9,r9,r1;add r9,r9,r1
+sub r9,r9,r1|add r9,r9,r1
+xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1;xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1
+xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1;xor r9,r9,r1;xor r1,r9,r1|xor r9,r9,r1
+xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1;xor r9,r9,r1|xor r1,r9,r1;xor r9,r9,r1
+xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1|xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1
+xor r9,r9,r1;xor r1,r9,r1|xor r9,r9,r1;xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1
+xor r9,r9,r1|xor r1,r9,r1;xor r9,r9,r1;xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1
+add r9,r9,r2;sub r9,r9,r2
+add r9,r9,r2|sub r9,r9,r2
+sub r9,r9,r2;add r9,r9,r2
+sub r9,r9,r2|add r9,r9,r2
+xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2;xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2
+xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2;xor r9,r9,r2;xor r2,r9,r2|xor r9,r9,r2
+xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2;xor r9,r9,r2|xor r2,r9,r2;xor r9,r9,r2
+xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2|xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2
+xor r9,r9,r2;xor r2,r9,r2|xor r9,r9,r2;xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2
+xor r9,r9,r2|xor r2,r9,r2;xor r9,r9,r2;xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2
+add r9,r9,r3;sub r9,r9,r3
+add r9,r9,r3|sub r9,r9,r3
+sub r9,r9,r3;add r9,r9,r3
+sub r9,r9,r3|add r9,r9,r3
+xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3;xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3
+xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3;xor r9,r9,r3;xor r3,r9,r3|xor r9,r9,r3
+xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3;xor r9,r9,r3|xor r3,r9,r3;xor r9,r9,r3
+xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3|xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3
+xor r9,r9,r3;xor r3,r9,r3|xor r9,r9,r3;xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3
+xor r9,r9,r3|xor r3,r9,r3;xor r9,r9,r3;xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3
+add r9,r9,r4;sub r9,r9,r4
+add r9,r9,r4|sub r9,r9,r4
+sub r9,r9,r4;add r9,r9,r4
+sub r9,r9,r4|add r9,r9,r4
+xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4;xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4
+xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4;xor r9,r9,r4;xor r4,r9,r4|xor r9,r9,r4
+xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4;xor r9,r9,r4|xor r4,r9,r4;xor r9,r9,r4
+xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4|xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4
+xor r9,r9,r4;xor r4,r9,r4|xor r9,r9,r4;xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4
+xor r9,r9,r4|xor r4,r9,r4;xor r9,r9,r4;xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4
+add r9,r9,r5;sub r9,r9,r5
+add r9,r9,r5|sub r9,r9,r5
+sub r9,r9,r5;add r9,r9,r5
+sub r9,r9,r5|add r9,r9,r5
+xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5;xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5
+xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5;xor r9,r9,r5;xor r5,r9,r5|xor r9,r9,r5
+xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5;xor r9,r9,r5|xor r5,r9,r5;xor r9,r9,r5
+xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5|xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5
+xor r9,r9,r5;xor r5,r9,r5|xor r9,r9,r5;xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5
+xor r9,r9,r5|xor r5,r9,r5;xor r9,r9,r5;xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5
+add r9,r9,r6;sub r9,r9,r6
+add r9,r9,r6|sub r9,r9,r6
+sub r9,r9,r6;add r9,r9,r6
+sub r9,r9,r6|add r9,r9,r6
+xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6;xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6
+xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6;xor r9,r9,r6;xor r6,r9,r6|xor r9,r9,r6
+xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6;xor r9,r9,r6|xor r6,r9,r6;xor r9,r9,r6
+xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6|xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6
+xor r9,r9,r6;xor r6,r9,r6|xor r9,r9,r6;xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6
+xor r9,r9,r6|xor r6,r9,r6;xor r9,r9,r6;xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6
+add r9,r9,r7;sub r9,r9,r7
+add r9,r9,r7|sub r9,r9,r7
+sub r9,r9,r7;add r9,r9,r7
+sub r9,r9,r7|add r9,r9,r7
+xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7;xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7
+xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7;xor r9,r9,r7;xor r7,r9,r7|xor r9,r9,r7
+xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7;xor r9,r9,r7|xor r7,r9,r7;xor r9,r9,r7
+xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7|xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7
+xor r9,r9,r7;xor r7,r9,r7|xor r9,r9,r7;xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7
+xor r9,r9,r7|xor r7,r9,r7;xor r9,r9,r7;xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7
+add r9,r9,r8;sub r9,r9,r8
+add r9,r9,r8|sub r9,r9,r8
+sub r9,r9,r8;add r9,r9,r8
+sub r9,r9,r8|add r9,r9,r8
+xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8;xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8
+xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8;xor r9,r9,r8;xor r8,r9,r8|xor r9,r9,r8
+xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8;xor r9,r9,r8|xor r8,r9,r8;xor r9,r9,r8
+xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8|xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8
+xor r9,r9,r8;xor r8,r9,r8|xor r9,r9,r8;xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8
+xor r9,r9,r8|xor r8,r9,r8;xor r9,r9,r8;xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8
+add r9,r9,r9;sub r9,r9,r9
+add r9,r9,r9|sub r9,r9,r9
+sub r9,r9,r9;add r9,r9,r9
+sub r9,r9,r9|add r9,r9,r9
+xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9
+xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9|xor r9,r9,r9
+xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9|xor r9,r9,r9;xor r9,r9,r9
+xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9|xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9
+xor r9,r9,r9;xor r9,r9,r9|xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9
+xor r9,r9,r9|xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9
+add r9,r9,r10;sub r9,r9,r10
+add r9,r9,r10|sub r9,r9,r10
+sub r9,r9,r10;add r9,r9,r10
+sub r9,r9,r10|add r9,r9,r10
+xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10;xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10
+xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10;xor r9,r9,r10;xor r10,r9,r10|xor r9,r9,r10
+xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10;xor r9,r9,r10|xor r10,r9,r10;xor r9,r9,r10
+xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10|xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10
+xor r9,r9,r10;xor r10,r9,r10|xor r9,r9,r10;xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10
+xor r9,r9,r10|xor r10,r9,r10;xor r9,r9,r10;xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10
+add r9,r9,r11;sub r9,r9,r11
+add r9,r9,r11|sub r9,r9,r11
+sub r9,r9,r11;add r9,r9,r11
+sub r9,r9,r11|add r9,r9,r11
+xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11;xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11
+xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11;xor r9,r9,r11;xor r11,r9,r11|xor r9,r9,r11
+xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11;xor r9,r9,r11|xor r11,r9,r11;xor r9,r9,r11
+xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11|xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11
+xor r9,r9,r11;xor r11,r9,r11|xor r9,r9,r11;xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11
+xor r9,r9,r11|xor r11,r9,r11;xor r9,r9,r11;xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11
+add r9,r9,0;sub r9,r9,0
+add r9,r9,0|sub r9,r9,0
+sub r9,r9,0;add r9,r9,0
+sub r9,r9,0|add r9,r9,0
+add r9,r9,1;sub r9,r9,1
+add r9,r9,1|sub r9,r9,1
+sub r9,r9,1;add r9,r9,1
+sub r9,r9,1|add r9,r9,1
+add r9,r9,2;sub r9,r9,2
+add r9,r9,2|sub r9,r9,2
+sub r9,r9,2;add r9,r9,2
+sub r9,r9,2|add r9,r9,2
+add r9,r9,3;sub r9,r9,3
+add r9,r9,3|sub r9,r9,3
+sub r9,r9,3;add r9,r9,3
+sub r9,r9,3|add r9,r9,3
+add r9,r9,4;sub r9,r9,4
+add r9,r9,4|sub r9,r9,4
+sub r9,r9,4;add r9,r9,4
+sub r9,r9,4|add r9,r9,4
+add r9,r9,5;sub r9,r9,5
+add r9,r9,5|sub r9,r9,5
+sub r9,r9,5;add r9,r9,5
+sub r9,r9,5|add r9,r9,5
+add r9,r9,6;sub r9,r9,6
+add r9,r9,6|sub r9,r9,6
+sub r9,r9,6;add r9,r9,6
+sub r9,r9,6|add r9,r9,6
+add r9,r9,7;sub r9,r9,7
+add r9,r9,7|sub r9,r9,7
+sub r9,r9,7;add r9,r9,7
+sub r9,r9,7|add r9,r9,7
+add r9,r9,8;sub r9,r9,8
+add r9,r9,8|sub r9,r9,8
+sub r9,r9,8;add r9,r9,8
+sub r9,r9,8|add r9,r9,8
+add r9,r9,9;sub r9,r9,9
+add r9,r9,9|sub r9,r9,9
+sub r9,r9,9;add r9,r9,9
+sub r9,r9,9|add r9,r9,9
+add r9,r9,10;sub r9,r9,10
+add r9,r9,10|sub r9,r9,10
+sub r9,r9,10;add r9,r9,10
+sub r9,r9,10|add r9,r9,10
+add r9,r9,11;sub r9,r9,11
+add r9,r9,11|sub r9,r9,11
+sub r9,r9,11;add r9,r9,11
+sub r9,r9,11|add r9,r9,11
+add r10,r10,0
+sub r10,r10,0
+bitrev r10,r10;bitrev r10,r10
+bitrev r10,r10|bitrev r10,r10
+byterev r10,r10;byterev r10,r10
+byterev r10,r10|byterev r10,r10
+neg r10,r10;neg r10,r10
+neg r10,r10|neg r10,r10
+not r10,r10;not r10,r10
+not r10,r10|not r10,r10
+add r10,r10,r0;sub r10,r10,r0
+add r10,r10,r0|sub r10,r10,r0
+sub r10,r10,r0;add r10,r10,r0
+sub r10,r10,r0|add r10,r10,r0
+xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0;xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0
+xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0;xor r10,r10,r0;xor r0,r10,r0|xor r10,r10,r0
+xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0;xor r10,r10,r0|xor r0,r10,r0;xor r10,r10,r0
+xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0|xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0
+xor r10,r10,r0;xor r0,r10,r0|xor r10,r10,r0;xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0
+xor r10,r10,r0|xor r0,r10,r0;xor r10,r10,r0;xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0
+add r10,r10,r1;sub r10,r10,r1
+add r10,r10,r1|sub r10,r10,r1
+sub r10,r10,r1;add r10,r10,r1
+sub r10,r10,r1|add r10,r10,r1
+xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1;xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1
+xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1;xor r10,r10,r1;xor r1,r10,r1|xor r10,r10,r1
+xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1;xor r10,r10,r1|xor r1,r10,r1;xor r10,r10,r1
+xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1|xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1
+xor r10,r10,r1;xor r1,r10,r1|xor r10,r10,r1;xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1
+xor r10,r10,r1|xor r1,r10,r1;xor r10,r10,r1;xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1
+add r10,r10,r2;sub r10,r10,r2
+add r10,r10,r2|sub r10,r10,r2
+sub r10,r10,r2;add r10,r10,r2
+sub r10,r10,r2|add r10,r10,r2
+xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2;xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2
+xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2;xor r10,r10,r2;xor r2,r10,r2|xor r10,r10,r2
+xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2;xor r10,r10,r2|xor r2,r10,r2;xor r10,r10,r2
+xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2|xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2
+xor r10,r10,r2;xor r2,r10,r2|xor r10,r10,r2;xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2
+xor r10,r10,r2|xor r2,r10,r2;xor r10,r10,r2;xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2
+add r10,r10,r3;sub r10,r10,r3
+add r10,r10,r3|sub r10,r10,r3
+sub r10,r10,r3;add r10,r10,r3
+sub r10,r10,r3|add r10,r10,r3
+xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3;xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3
+xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3;xor r10,r10,r3;xor r3,r10,r3|xor r10,r10,r3
+xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3;xor r10,r10,r3|xor r3,r10,r3;xor r10,r10,r3
+xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3|xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3
+xor r10,r10,r3;xor r3,r10,r3|xor r10,r10,r3;xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3
+xor r10,r10,r3|xor r3,r10,r3;xor r10,r10,r3;xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3
+add r10,r10,r4;sub r10,r10,r4
+add r10,r10,r4|sub r10,r10,r4
+sub r10,r10,r4;add r10,r10,r4
+sub r10,r10,r4|add r10,r10,r4
+xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4;xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4
+xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4;xor r10,r10,r4;xor r4,r10,r4|xor r10,r10,r4
+xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4;xor r10,r10,r4|xor r4,r10,r4;xor r10,r10,r4
+xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4|xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4
+xor r10,r10,r4;xor r4,r10,r4|xor r10,r10,r4;xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4
+xor r10,r10,r4|xor r4,r10,r4;xor r10,r10,r4;xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4
+add r10,r10,r5;sub r10,r10,r5
+add r10,r10,r5|sub r10,r10,r5
+sub r10,r10,r5;add r10,r10,r5
+sub r10,r10,r5|add r10,r10,r5
+xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5;xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5
+xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5;xor r10,r10,r5;xor r5,r10,r5|xor r10,r10,r5
+xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5;xor r10,r10,r5|xor r5,r10,r5;xor r10,r10,r5
+xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5|xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5
+xor r10,r10,r5;xor r5,r10,r5|xor r10,r10,r5;xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5
+xor r10,r10,r5|xor r5,r10,r5;xor r10,r10,r5;xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5
+add r10,r10,r6;sub r10,r10,r6
+add r10,r10,r6|sub r10,r10,r6
+sub r10,r10,r6;add r10,r10,r6
+sub r10,r10,r6|add r10,r10,r6
+xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6;xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6
+xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6;xor r10,r10,r6;xor r6,r10,r6|xor r10,r10,r6
+xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6;xor r10,r10,r6|xor r6,r10,r6;xor r10,r10,r6
+xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6|xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6
+xor r10,r10,r6;xor r6,r10,r6|xor r10,r10,r6;xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6
+xor r10,r10,r6|xor r6,r10,r6;xor r10,r10,r6;xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6
+add r10,r10,r7;sub r10,r10,r7
+add r10,r10,r7|sub r10,r10,r7
+sub r10,r10,r7;add r10,r10,r7
+sub r10,r10,r7|add r10,r10,r7
+xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7;xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7
+xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7;xor r10,r10,r7;xor r7,r10,r7|xor r10,r10,r7
+xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7;xor r10,r10,r7|xor r7,r10,r7;xor r10,r10,r7
+xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7|xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7
+xor r10,r10,r7;xor r7,r10,r7|xor r10,r10,r7;xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7
+xor r10,r10,r7|xor r7,r10,r7;xor r10,r10,r7;xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7
+add r10,r10,r8;sub r10,r10,r8
+add r10,r10,r8|sub r10,r10,r8
+sub r10,r10,r8;add r10,r10,r8
+sub r10,r10,r8|add r10,r10,r8
+xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8;xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8
+xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8;xor r10,r10,r8;xor r8,r10,r8|xor r10,r10,r8
+xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8;xor r10,r10,r8|xor r8,r10,r8;xor r10,r10,r8
+xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8|xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8
+xor r10,r10,r8;xor r8,r10,r8|xor r10,r10,r8;xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8
+xor r10,r10,r8|xor r8,r10,r8;xor r10,r10,r8;xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8
+add r10,r10,r9;sub r10,r10,r9
+add r10,r10,r9|sub r10,r10,r9
+sub r10,r10,r9;add r10,r10,r9
+sub r10,r10,r9|add r10,r10,r9
+xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9;xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9
+xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9;xor r10,r10,r9;xor r9,r10,r9|xor r10,r10,r9
+xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9;xor r10,r10,r9|xor r9,r10,r9;xor r10,r10,r9
+xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9|xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9
+xor r10,r10,r9;xor r9,r10,r9|xor r10,r10,r9;xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9
+xor r10,r10,r9|xor r9,r10,r9;xor r10,r10,r9;xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9
+add r10,r10,r10;sub r10,r10,r10
+add r10,r10,r10|sub r10,r10,r10
+sub r10,r10,r10;add r10,r10,r10
+sub r10,r10,r10|add r10,r10,r10
+xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10
+xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10|xor r10,r10,r10
+xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10|xor r10,r10,r10;xor r10,r10,r10
+xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10|xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10
+xor r10,r10,r10;xor r10,r10,r10|xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10
+xor r10,r10,r10|xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10
+add r10,r10,r11;sub r10,r10,r11
+add r10,r10,r11|sub r10,r10,r11
+sub r10,r10,r11;add r10,r10,r11
+sub r10,r10,r11|add r10,r10,r11
+xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11;xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11
+xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11;xor r10,r10,r11;xor r11,r10,r11|xor r10,r10,r11
+xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11;xor r10,r10,r11|xor r11,r10,r11;xor r10,r10,r11
+xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11|xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11
+xor r10,r10,r11;xor r11,r10,r11|xor r10,r10,r11;xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11
+xor r10,r10,r11|xor r11,r10,r11;xor r10,r10,r11;xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11
+add r10,r10,0;sub r10,r10,0
+add r10,r10,0|sub r10,r10,0
+sub r10,r10,0;add r10,r10,0
+sub r10,r10,0|add r10,r10,0
+add r10,r10,1;sub r10,r10,1
+add r10,r10,1|sub r10,r10,1
+sub r10,r10,1;add r10,r10,1
+sub r10,r10,1|add r10,r10,1
+add r10,r10,2;sub r10,r10,2
+add r10,r10,2|sub r10,r10,2
+sub r10,r10,2;add r10,r10,2
+sub r10,r10,2|add r10,r10,2
+add r10,r10,3;sub r10,r10,3
+add r10,r10,3|sub r10,r10,3
+sub r10,r10,3;add r10,r10,3
+sub r10,r10,3|add r10,r10,3
+add r10,r10,4;sub r10,r10,4
+add r10,r10,4|sub r10,r10,4
+sub r10,r10,4;add r10,r10,4
+sub r10,r10,4|add r10,r10,4
+add r10,r10,5;sub r10,r10,5
+add r10,r10,5|sub r10,r10,5
+sub r10,r10,5;add r10,r10,5
+sub r10,r10,5|add r10,r10,5
+add r10,r10,6;sub r10,r10,6
+add r10,r10,6|sub r10,r10,6
+sub r10,r10,6;add r10,r10,6
+sub r10,r10,6|add r10,r10,6
+add r10,r10,7;sub r10,r10,7
+add r10,r10,7|sub r10,r10,7
+sub r10,r10,7;add r10,r10,7
+sub r10,r10,7|add r10,r10,7
+add r10,r10,8;sub r10,r10,8
+add r10,r10,8|sub r10,r10,8
+sub r10,r10,8;add r10,r10,8
+sub r10,r10,8|add r10,r10,8
+add r10,r10,9;sub r10,r10,9
+add r10,r10,9|sub r10,r10,9
+sub r10,r10,9;add r10,r10,9
+sub r10,r10,9|add r10,r10,9
+add r10,r10,10;sub r10,r10,10
+add r10,r10,10|sub r10,r10,10
+sub r10,r10,10;add r10,r10,10
+sub r10,r10,10|add r10,r10,10
+add r10,r10,11;sub r10,r10,11
+add r10,r10,11|sub r10,r10,11
+sub r10,r10,11;add r10,r10,11
+sub r10,r10,11|add r10,r10,11
+add r11,r11,0
+sub r11,r11,0
+bitrev r11,r11;bitrev r11,r11
+bitrev r11,r11|bitrev r11,r11
+byterev r11,r11;byterev r11,r11
+byterev r11,r11|byterev r11,r11
+neg r11,r11;neg r11,r11
+neg r11,r11|neg r11,r11
+not r11,r11;not r11,r11
+not r11,r11|not r11,r11
+add r11,r11,r0;sub r11,r11,r0
+add r11,r11,r0|sub r11,r11,r0
+sub r11,r11,r0;add r11,r11,r0
+sub r11,r11,r0|add r11,r11,r0
+xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0;xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0
+xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0;xor r11,r11,r0;xor r0,r11,r0|xor r11,r11,r0
+xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0;xor r11,r11,r0|xor r0,r11,r0;xor r11,r11,r0
+xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0|xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0
+xor r11,r11,r0;xor r0,r11,r0|xor r11,r11,r0;xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0
+xor r11,r11,r0|xor r0,r11,r0;xor r11,r11,r0;xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0
+add r11,r11,r1;sub r11,r11,r1
+add r11,r11,r1|sub r11,r11,r1
+sub r11,r11,r1;add r11,r11,r1
+sub r11,r11,r1|add r11,r11,r1
+xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1;xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1
+xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1;xor r11,r11,r1;xor r1,r11,r1|xor r11,r11,r1
+xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1;xor r11,r11,r1|xor r1,r11,r1;xor r11,r11,r1
+xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1|xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1
+xor r11,r11,r1;xor r1,r11,r1|xor r11,r11,r1;xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1
+xor r11,r11,r1|xor r1,r11,r1;xor r11,r11,r1;xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1
+add r11,r11,r2;sub r11,r11,r2
+add r11,r11,r2|sub r11,r11,r2
+sub r11,r11,r2;add r11,r11,r2
+sub r11,r11,r2|add r11,r11,r2
+xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2;xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2
+xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2;xor r11,r11,r2;xor r2,r11,r2|xor r11,r11,r2
+xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2;xor r11,r11,r2|xor r2,r11,r2;xor r11,r11,r2
+xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2|xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2
+xor r11,r11,r2;xor r2,r11,r2|xor r11,r11,r2;xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2
+xor r11,r11,r2|xor r2,r11,r2;xor r11,r11,r2;xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2
+add r11,r11,r3;sub r11,r11,r3
+add r11,r11,r3|sub r11,r11,r3
+sub r11,r11,r3;add r11,r11,r3
+sub r11,r11,r3|add r11,r11,r3
+xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3;xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3
+xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3;xor r11,r11,r3;xor r3,r11,r3|xor r11,r11,r3
+xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3;xor r11,r11,r3|xor r3,r11,r3;xor r11,r11,r3
+xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3|xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3
+xor r11,r11,r3;xor r3,r11,r3|xor r11,r11,r3;xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3
+xor r11,r11,r3|xor r3,r11,r3;xor r11,r11,r3;xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3
+add r11,r11,r4;sub r11,r11,r4
+add r11,r11,r4|sub r11,r11,r4
+sub r11,r11,r4;add r11,r11,r4
+sub r11,r11,r4|add r11,r11,r4
+xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4;xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4
+xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4;xor r11,r11,r4;xor r4,r11,r4|xor r11,r11,r4
+xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4;xor r11,r11,r4|xor r4,r11,r4;xor r11,r11,r4
+xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4|xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4
+xor r11,r11,r4;xor r4,r11,r4|xor r11,r11,r4;xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4
+xor r11,r11,r4|xor r4,r11,r4;xor r11,r11,r4;xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4
+add r11,r11,r5;sub r11,r11,r5
+add r11,r11,r5|sub r11,r11,r5
+sub r11,r11,r5;add r11,r11,r5
+sub r11,r11,r5|add r11,r11,r5
+xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5;xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5
+xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5;xor r11,r11,r5;xor r5,r11,r5|xor r11,r11,r5
+xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5;xor r11,r11,r5|xor r5,r11,r5;xor r11,r11,r5
+xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5|xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5
+xor r11,r11,r5;xor r5,r11,r5|xor r11,r11,r5;xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5
+xor r11,r11,r5|xor r5,r11,r5;xor r11,r11,r5;xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5
+add r11,r11,r6;sub r11,r11,r6
+add r11,r11,r6|sub r11,r11,r6
+sub r11,r11,r6;add r11,r11,r6
+sub r11,r11,r6|add r11,r11,r6
+xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6;xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6
+xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6;xor r11,r11,r6;xor r6,r11,r6|xor r11,r11,r6
+xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6;xor r11,r11,r6|xor r6,r11,r6;xor r11,r11,r6
+xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6|xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6
+xor r11,r11,r6;xor r6,r11,r6|xor r11,r11,r6;xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6
+xor r11,r11,r6|xor r6,r11,r6;xor r11,r11,r6;xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6
+add r11,r11,r7;sub r11,r11,r7
+add r11,r11,r7|sub r11,r11,r7
+sub r11,r11,r7;add r11,r11,r7
+sub r11,r11,r7|add r11,r11,r7
+xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7;xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7
+xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7;xor r11,r11,r7;xor r7,r11,r7|xor r11,r11,r7
+xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7;xor r11,r11,r7|xor r7,r11,r7;xor r11,r11,r7
+xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7|xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7
+xor r11,r11,r7;xor r7,r11,r7|xor r11,r11,r7;xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7
+xor r11,r11,r7|xor r7,r11,r7;xor r11,r11,r7;xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7
+add r11,r11,r8;sub r11,r11,r8
+add r11,r11,r8|sub r11,r11,r8
+sub r11,r11,r8;add r11,r11,r8
+sub r11,r11,r8|add r11,r11,r8
+xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8;xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8
+xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8;xor r11,r11,r8;xor r8,r11,r8|xor r11,r11,r8
+xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8;xor r11,r11,r8|xor r8,r11,r8;xor r11,r11,r8
+xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8|xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8
+xor r11,r11,r8;xor r8,r11,r8|xor r11,r11,r8;xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8
+xor r11,r11,r8|xor r8,r11,r8;xor r11,r11,r8;xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8
+add r11,r11,r9;sub r11,r11,r9
+add r11,r11,r9|sub r11,r11,r9
+sub r11,r11,r9;add r11,r11,r9
+sub r11,r11,r9|add r11,r11,r9
+xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9;xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9
+xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9;xor r11,r11,r9;xor r9,r11,r9|xor r11,r11,r9
+xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9;xor r11,r11,r9|xor r9,r11,r9;xor r11,r11,r9
+xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9|xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9
+xor r11,r11,r9;xor r9,r11,r9|xor r11,r11,r9;xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9
+xor r11,r11,r9|xor r9,r11,r9;xor r11,r11,r9;xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9
+add r11,r11,r10;sub r11,r11,r10
+add r11,r11,r10|sub r11,r11,r10
+sub r11,r11,r10;add r11,r11,r10
+sub r11,r11,r10|add r11,r11,r10
+xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10;xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10
+xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10;xor r11,r11,r10;xor r10,r11,r10|xor r11,r11,r10
+xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10;xor r11,r11,r10|xor r10,r11,r10;xor r11,r11,r10
+xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10|xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10
+xor r11,r11,r10;xor r10,r11,r10|xor r11,r11,r10;xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10
+xor r11,r11,r10|xor r10,r11,r10;xor r11,r11,r10;xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10
+add r11,r11,r11;sub r11,r11,r11
+add r11,r11,r11|sub r11,r11,r11
+sub r11,r11,r11;add r11,r11,r11
+sub r11,r11,r11|add r11,r11,r11
+xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11
+xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11|xor r11,r11,r11
+xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11|xor r11,r11,r11;xor r11,r11,r11
+xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11|xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11
+xor r11,r11,r11;xor r11,r11,r11|xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11
+xor r11,r11,r11|xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11
+add r11,r11,0;sub r11,r11,0
+add r11,r11,0|sub r11,r11,0
+sub r11,r11,0;add r11,r11,0
+sub r11,r11,0|add r11,r11,0
+add r11,r11,1;sub r11,r11,1
+add r11,r11,1|sub r11,r11,1
+sub r11,r11,1;add r11,r11,1
+sub r11,r11,1|add r11,r11,1
+add r11,r11,2;sub r11,r11,2
+add r11,r11,2|sub r11,r11,2
+sub r11,r11,2;add r11,r11,2
+sub r11,r11,2|add r11,r11,2
+add r11,r11,3;sub r11,r11,3
+add r11,r11,3|sub r11,r11,3
+sub r11,r11,3;add r11,r11,3
+sub r11,r11,3|add r11,r11,3
+add r11,r11,4;sub r11,r11,4
+add r11,r11,4|sub r11,r11,4
+sub r11,r11,4;add r11,r11,4
+sub r11,r11,4|add r11,r11,4
+add r11,r11,5;sub r11,r11,5
+add r11,r11,5|sub r11,r11,5
+sub r11,r11,5;add r11,r11,5
+sub r11,r11,5|add r11,r11,5
+add r11,r11,6;sub r11,r11,6
+add r11,r11,6|sub r11,r11,6
+sub r11,r11,6;add r11,r11,6
+sub r11,r11,6|add r11,r11,6
+add r11,r11,7;sub r11,r11,7
+add r11,r11,7|sub r11,r11,7
+sub r11,r11,7;add r11,r11,7
+sub r11,r11,7|add r11,r11,7
+add r11,r11,8;sub r11,r11,8
+add r11,r11,8|sub r11,r11,8
+sub r11,r11,8;add r11,r11,8
+sub r11,r11,8|add r11,r11,8
+add r11,r11,9;sub r11,r11,9
+add r11,r11,9|sub r11,r11,9
+sub r11,r11,9;add r11,r11,9
+sub r11,r11,9|add r11,r11,9
+add r11,r11,10;sub r11,r11,10
+add r11,r11,10|sub r11,r11,10
+sub r11,r11,10;add r11,r11,10
+sub r11,r11,10|add r11,r11,10
+add r11,r11,11;sub r11,r11,11
+add r11,r11,11|sub r11,r11,11
+sub r11,r11,11;add r11,r11,11
+sub r11,r11,11|add r11,r11,11
