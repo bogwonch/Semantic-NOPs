@@ -1,0 +1,2136 @@
+xs1|add r0,r0,0||0090|
+xs1|sub r0,r0,0||0098|
+xs1|bitrev r0,r0; bitrev r0,r0||c0feec07c0feec07|
+xs1|bitrev r0,r0|bitrev r0,r0|c0feec07|c0feec07
+xs1|byterev r0,r0; byterev r0,r0||d0feec07d0feec07|
+xs1|byterev r0,r0|byterev r0,r0|d0feec07|d0feec07
+xs1|neg r0,r0; neg r0,r0||c096c096|
+xs1|neg r0,r0|neg r0,r0|c096|c096
+xs1|not r0,r0; not r0,r0||c08ec08e|
+xs1|not r0,r0|not r0,r0|c08e|c08e
+xs1|add r0,r0,r0; sub r0,r0,r0||00100018|
+xs1|add r0,r0,r0|sub r0,r0,r0|0010|0018
+xs1|sub r0,r0,r0; add r0,r0,r0||00180010|
+xs1|sub r0,r0,r0|add r0,r0,r0|0018|0010
+xs1|xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0||00f8ec0f00f8ec0f00f8ec0f00f8ec0f00f8ec0f00f8ec0f|
+xs1|xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0|xor r0,r0,r0|00f8ec0f00f8ec0f00f8ec0f00f8ec0f00f8ec0f|00f8ec0f
+xs1|xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0|xor r0,r0,r0;xor r0,r0,r0|00f8ec0f00f8ec0f00f8ec0f00f8ec0f|00f8ec0f00f8ec0f
+xs1|xor r0,r0,r0; xor r0,r0,r0; xor r0,r0,r0|xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0|00f8ec0f00f8ec0f00f8ec0f|00f8ec0f00f8ec0f00f8ec0f
+xs1|xor r0,r0,r0; xor r0,r0,r0|xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0|00f8ec0f00f8ec0f|00f8ec0f00f8ec0f00f8ec0f00f8ec0f
+xs1|xor r0,r0,r0|xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0;xor r0,r0,r0|00f8ec0f|00f8ec0f00f8ec0f00f8ec0f00f8ec0f00f8ec0f
+xs1|add r0,r0,r1; sub r0,r0,r1||01100118|
+xs1|add r0,r0,r1|sub r0,r0,r1|0110|0118
+xs1|sub r0,r0,r1; add r0,r0,r1||01180110|
+xs1|sub r0,r0,r1|add r0,r0,r1|0118|0110
+xs1|xor r0,r0,r1; xor r1,r0,r1; xor r0,r0,r1; xor r0,r0,r1; xor r1,r0,r1; xor r0,r0,r1||01f8ec0f11f8ec0f01f8ec0f01f8ec0f11f8ec0f01f8ec0f|
+xs1|xor r0,r0,r1; xor r1,r0,r1; xor r0,r0,r1; xor r0,r0,r1; xor r1,r0,r1|xor r0,r0,r1|01f8ec0f11f8ec0f01f8ec0f01f8ec0f11f8ec0f|01f8ec0f
+xs1|xor r0,r0,r1; xor r1,r0,r1; xor r0,r0,r1; xor r0,r0,r1|xor r1,r0,r1;xor r0,r0,r1|01f8ec0f11f8ec0f01f8ec0f01f8ec0f|11f8ec0f01f8ec0f
+xs1|xor r0,r0,r1; xor r1,r0,r1; xor r0,r0,r1|xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1|01f8ec0f11f8ec0f01f8ec0f|01f8ec0f11f8ec0f01f8ec0f
+xs1|xor r0,r0,r1; xor r1,r0,r1|xor r0,r0,r1;xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1|01f8ec0f11f8ec0f|01f8ec0f01f8ec0f11f8ec0f01f8ec0f
+xs1|xor r0,r0,r1|xor r1,r0,r1;xor r0,r0,r1;xor r0,r0,r1;xor r1,r0,r1;xor r0,r0,r1|01f8ec0f|11f8ec0f01f8ec0f01f8ec0f11f8ec0f01f8ec0f
+xs1|add r0,r0,r2; sub r0,r0,r2||02100218|
+xs1|add r0,r0,r2|sub r0,r0,r2|0210|0218
+xs1|sub r0,r0,r2; add r0,r0,r2||02180210|
+xs1|sub r0,r0,r2|add r0,r0,r2|0218|0210
+xs1|xor r0,r0,r2; xor r2,r0,r2; xor r0,r0,r2; xor r0,r0,r2; xor r2,r0,r2; xor r0,r0,r2||02f8ec0f22f8ec0f02f8ec0f02f8ec0f22f8ec0f02f8ec0f|
+xs1|xor r0,r0,r2; xor r2,r0,r2; xor r0,r0,r2; xor r0,r0,r2; xor r2,r0,r2|xor r0,r0,r2|02f8ec0f22f8ec0f02f8ec0f02f8ec0f22f8ec0f|02f8ec0f
+xs1|xor r0,r0,r2; xor r2,r0,r2; xor r0,r0,r2; xor r0,r0,r2|xor r2,r0,r2;xor r0,r0,r2|02f8ec0f22f8ec0f02f8ec0f02f8ec0f|22f8ec0f02f8ec0f
+xs1|xor r0,r0,r2; xor r2,r0,r2; xor r0,r0,r2|xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2|02f8ec0f22f8ec0f02f8ec0f|02f8ec0f22f8ec0f02f8ec0f
+xs1|xor r0,r0,r2; xor r2,r0,r2|xor r0,r0,r2;xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2|02f8ec0f22f8ec0f|02f8ec0f02f8ec0f22f8ec0f02f8ec0f
+xs1|xor r0,r0,r2|xor r2,r0,r2;xor r0,r0,r2;xor r0,r0,r2;xor r2,r0,r2;xor r0,r0,r2|02f8ec0f|22f8ec0f02f8ec0f02f8ec0f22f8ec0f02f8ec0f
+xs1|add r0,r0,r3; sub r0,r0,r3||03100318|
+xs1|add r0,r0,r3|sub r0,r0,r3|0310|0318
+xs1|sub r0,r0,r3; add r0,r0,r3||03180310|
+xs1|sub r0,r0,r3|add r0,r0,r3|0318|0310
+xs1|xor r0,r0,r3; xor r3,r0,r3; xor r0,r0,r3; xor r0,r0,r3; xor r3,r0,r3; xor r0,r0,r3||03f8ec0f33f8ec0f03f8ec0f03f8ec0f33f8ec0f03f8ec0f|
+xs1|xor r0,r0,r3; xor r3,r0,r3; xor r0,r0,r3; xor r0,r0,r3; xor r3,r0,r3|xor r0,r0,r3|03f8ec0f33f8ec0f03f8ec0f03f8ec0f33f8ec0f|03f8ec0f
+xs1|xor r0,r0,r3; xor r3,r0,r3; xor r0,r0,r3; xor r0,r0,r3|xor r3,r0,r3;xor r0,r0,r3|03f8ec0f33f8ec0f03f8ec0f03f8ec0f|33f8ec0f03f8ec0f
+xs1|xor r0,r0,r3; xor r3,r0,r3; xor r0,r0,r3|xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3|03f8ec0f33f8ec0f03f8ec0f|03f8ec0f33f8ec0f03f8ec0f
+xs1|xor r0,r0,r3; xor r3,r0,r3|xor r0,r0,r3;xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3|03f8ec0f33f8ec0f|03f8ec0f03f8ec0f33f8ec0f03f8ec0f
+xs1|xor r0,r0,r3|xor r3,r0,r3;xor r0,r0,r3;xor r0,r0,r3;xor r3,r0,r3;xor r0,r0,r3|03f8ec0f|33f8ec0f03f8ec0f03f8ec0f33f8ec0f03f8ec0f
+xs1|add r0,r0,r4; sub r0,r0,r4||4012401a|
+xs1|add r0,r0,r4|sub r0,r0,r4|4012|401a
+xs1|sub r0,r0,r4; add r0,r0,r4||401a4012|
+xs1|sub r0,r0,r4|add r0,r0,r4|401a|4012
+xs1|xor r0,r0,r4; xor r4,r0,r4; xor r0,r0,r4; xor r0,r0,r4; xor r4,r0,r4; xor r0,r0,r4||40faec0f80faec0f40faec0f40faec0f80faec0f40faec0f|
+xs1|xor r0,r0,r4; xor r4,r0,r4; xor r0,r0,r4; xor r0,r0,r4; xor r4,r0,r4|xor r0,r0,r4|40faec0f80faec0f40faec0f40faec0f80faec0f|40faec0f
+xs1|xor r0,r0,r4; xor r4,r0,r4; xor r0,r0,r4; xor r0,r0,r4|xor r4,r0,r4;xor r0,r0,r4|40faec0f80faec0f40faec0f40faec0f|80faec0f40faec0f
+xs1|xor r0,r0,r4; xor r4,r0,r4; xor r0,r0,r4|xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4|40faec0f80faec0f40faec0f|40faec0f80faec0f40faec0f
+xs1|xor r0,r0,r4; xor r4,r0,r4|xor r0,r0,r4;xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4|40faec0f80faec0f|40faec0f40faec0f80faec0f40faec0f
+xs1|xor r0,r0,r4|xor r4,r0,r4;xor r0,r0,r4;xor r0,r0,r4;xor r4,r0,r4;xor r0,r0,r4|40faec0f|80faec0f40faec0f40faec0f80faec0f40faec0f
+xs1|add r0,r0,r5; sub r0,r0,r5||4112411a|
+xs1|add r0,r0,r5|sub r0,r0,r5|4112|411a
+xs1|sub r0,r0,r5; add r0,r0,r5||411a4112|
+xs1|sub r0,r0,r5|add r0,r0,r5|411a|4112
+xs1|xor r0,r0,r5; xor r5,r0,r5; xor r0,r0,r5; xor r0,r0,r5; xor r5,r0,r5; xor r0,r0,r5||41faec0f91faec0f41faec0f41faec0f91faec0f41faec0f|
+xs1|xor r0,r0,r5; xor r5,r0,r5; xor r0,r0,r5; xor r0,r0,r5; xor r5,r0,r5|xor r0,r0,r5|41faec0f91faec0f41faec0f41faec0f91faec0f|41faec0f
+xs1|xor r0,r0,r5; xor r5,r0,r5; xor r0,r0,r5; xor r0,r0,r5|xor r5,r0,r5;xor r0,r0,r5|41faec0f91faec0f41faec0f41faec0f|91faec0f41faec0f
+xs1|xor r0,r0,r5; xor r5,r0,r5; xor r0,r0,r5|xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5|41faec0f91faec0f41faec0f|41faec0f91faec0f41faec0f
+xs1|xor r0,r0,r5; xor r5,r0,r5|xor r0,r0,r5;xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5|41faec0f91faec0f|41faec0f41faec0f91faec0f41faec0f
+xs1|xor r0,r0,r5|xor r5,r0,r5;xor r0,r0,r5;xor r0,r0,r5;xor r5,r0,r5;xor r0,r0,r5|41faec0f|91faec0f41faec0f41faec0f91faec0f41faec0f
+xs1|add r0,r0,r6; sub r0,r0,r6||4212421a|
+xs1|add r0,r0,r6|sub r0,r0,r6|4212|421a
+xs1|sub r0,r0,r6; add r0,r0,r6||421a4212|
+xs1|sub r0,r0,r6|add r0,r0,r6|421a|4212
+xs1|xor r0,r0,r6; xor r6,r0,r6; xor r0,r0,r6; xor r0,r0,r6; xor r6,r0,r6; xor r0,r0,r6||42faec0fa2faec0f42faec0f42faec0fa2faec0f42faec0f|
+xs1|xor r0,r0,r6; xor r6,r0,r6; xor r0,r0,r6; xor r0,r0,r6; xor r6,r0,r6|xor r0,r0,r6|42faec0fa2faec0f42faec0f42faec0fa2faec0f|42faec0f
+xs1|xor r0,r0,r6; xor r6,r0,r6; xor r0,r0,r6; xor r0,r0,r6|xor r6,r0,r6;xor r0,r0,r6|42faec0fa2faec0f42faec0f42faec0f|a2faec0f42faec0f
+xs1|xor r0,r0,r6; xor r6,r0,r6; xor r0,r0,r6|xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6|42faec0fa2faec0f42faec0f|42faec0fa2faec0f42faec0f
+xs1|xor r0,r0,r6; xor r6,r0,r6|xor r0,r0,r6;xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6|42faec0fa2faec0f|42faec0f42faec0fa2faec0f42faec0f
+xs1|xor r0,r0,r6|xor r6,r0,r6;xor r0,r0,r6;xor r0,r0,r6;xor r6,r0,r6;xor r0,r0,r6|42faec0f|a2faec0f42faec0f42faec0fa2faec0f42faec0f
+xs1|add r0,r0,r7; sub r0,r0,r7||4312431a|
+xs1|add r0,r0,r7|sub r0,r0,r7|4312|431a
+xs1|sub r0,r0,r7; add r0,r0,r7||431a4312|
+xs1|sub r0,r0,r7|add r0,r0,r7|431a|4312
+xs1|xor r0,r0,r7; xor r7,r0,r7; xor r0,r0,r7; xor r0,r0,r7; xor r7,r0,r7; xor r0,r0,r7||43faec0fb3faec0f43faec0f43faec0fb3faec0f43faec0f|
+xs1|xor r0,r0,r7; xor r7,r0,r7; xor r0,r0,r7; xor r0,r0,r7; xor r7,r0,r7|xor r0,r0,r7|43faec0fb3faec0f43faec0f43faec0fb3faec0f|43faec0f
+xs1|xor r0,r0,r7; xor r7,r0,r7; xor r0,r0,r7; xor r0,r0,r7|xor r7,r0,r7;xor r0,r0,r7|43faec0fb3faec0f43faec0f43faec0f|b3faec0f43faec0f
+xs1|xor r0,r0,r7; xor r7,r0,r7; xor r0,r0,r7|xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7|43faec0fb3faec0f43faec0f|43faec0fb3faec0f43faec0f
+xs1|xor r0,r0,r7; xor r7,r0,r7|xor r0,r0,r7;xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7|43faec0fb3faec0f|43faec0f43faec0fb3faec0f43faec0f
+xs1|xor r0,r0,r7|xor r7,r0,r7;xor r0,r0,r7;xor r0,r0,r7;xor r7,r0,r7;xor r0,r0,r7|43faec0f|b3faec0f43faec0f43faec0fb3faec0f43faec0f
+xs1|add r0,r0,r8; sub r0,r0,r8||8014801c|
+xs1|add r0,r0,r8|sub r0,r0,r8|8014|801c
+xs1|sub r0,r0,r8; add r0,r0,r8||801c8014|
+xs1|sub r0,r0,r8|add r0,r0,r8|801c|8014
+xs1|xor r0,r0,r8; xor r8,r0,r8; xor r0,r0,r8; xor r0,r0,r8; xor r8,r0,r8; xor r0,r0,r8||80fcec0f00fdec0f80fcec0f80fcec0f00fdec0f80fcec0f|
+xs1|xor r0,r0,r8; xor r8,r0,r8; xor r0,r0,r8; xor r0,r0,r8; xor r8,r0,r8|xor r0,r0,r8|80fcec0f00fdec0f80fcec0f80fcec0f00fdec0f|80fcec0f
+xs1|xor r0,r0,r8; xor r8,r0,r8; xor r0,r0,r8; xor r0,r0,r8|xor r8,r0,r8;xor r0,r0,r8|80fcec0f00fdec0f80fcec0f80fcec0f|00fdec0f80fcec0f
+xs1|xor r0,r0,r8; xor r8,r0,r8; xor r0,r0,r8|xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8|80fcec0f00fdec0f80fcec0f|80fcec0f00fdec0f80fcec0f
+xs1|xor r0,r0,r8; xor r8,r0,r8|xor r0,r0,r8;xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8|80fcec0f00fdec0f|80fcec0f80fcec0f00fdec0f80fcec0f
+xs1|xor r0,r0,r8|xor r8,r0,r8;xor r0,r0,r8;xor r0,r0,r8;xor r8,r0,r8;xor r0,r0,r8|80fcec0f|00fdec0f80fcec0f80fcec0f00fdec0f80fcec0f
+xs1|add r0,r0,r9; sub r0,r0,r9||8114811c|
+xs1|add r0,r0,r9|sub r0,r0,r9|8114|811c
+xs1|sub r0,r0,r9; add r0,r0,r9||811c8114|
+xs1|sub r0,r0,r9|add r0,r0,r9|811c|8114
+xs1|xor r0,r0,r9; xor r9,r0,r9; xor r0,r0,r9; xor r0,r0,r9; xor r9,r0,r9; xor r0,r0,r9||81fcec0f11fdec0f81fcec0f81fcec0f11fdec0f81fcec0f|
+xs1|xor r0,r0,r9; xor r9,r0,r9; xor r0,r0,r9; xor r0,r0,r9; xor r9,r0,r9|xor r0,r0,r9|81fcec0f11fdec0f81fcec0f81fcec0f11fdec0f|81fcec0f
+xs1|xor r0,r0,r9; xor r9,r0,r9; xor r0,r0,r9; xor r0,r0,r9|xor r9,r0,r9;xor r0,r0,r9|81fcec0f11fdec0f81fcec0f81fcec0f|11fdec0f81fcec0f
+xs1|xor r0,r0,r9; xor r9,r0,r9; xor r0,r0,r9|xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9|81fcec0f11fdec0f81fcec0f|81fcec0f11fdec0f81fcec0f
+xs1|xor r0,r0,r9; xor r9,r0,r9|xor r0,r0,r9;xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9|81fcec0f11fdec0f|81fcec0f81fcec0f11fdec0f81fcec0f
+xs1|xor r0,r0,r9|xor r9,r0,r9;xor r0,r0,r9;xor r0,r0,r9;xor r9,r0,r9;xor r0,r0,r9|81fcec0f|11fdec0f81fcec0f81fcec0f11fdec0f81fcec0f
+xs1|add r0,r0,r10; sub r0,r0,r10||8214821c|
+xs1|add r0,r0,r10|sub r0,r0,r10|8214|821c
+xs1|sub r0,r0,r10; add r0,r0,r10||821c8214|
+xs1|sub r0,r0,r10|add r0,r0,r10|821c|8214
+xs1|xor r0,r0,r10; xor r10,r0,r10; xor r0,r0,r10; xor r0,r0,r10; xor r10,r0,r10; xor r0,r0,r10||82fcec0f22fdec0f82fcec0f82fcec0f22fdec0f82fcec0f|
+xs1|xor r0,r0,r10; xor r10,r0,r10; xor r0,r0,r10; xor r0,r0,r10; xor r10,r0,r10|xor r0,r0,r10|82fcec0f22fdec0f82fcec0f82fcec0f22fdec0f|82fcec0f
+xs1|xor r0,r0,r10; xor r10,r0,r10; xor r0,r0,r10; xor r0,r0,r10|xor r10,r0,r10;xor r0,r0,r10|82fcec0f22fdec0f82fcec0f82fcec0f|22fdec0f82fcec0f
+xs1|xor r0,r0,r10; xor r10,r0,r10; xor r0,r0,r10|xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10|82fcec0f22fdec0f82fcec0f|82fcec0f22fdec0f82fcec0f
+xs1|xor r0,r0,r10; xor r10,r0,r10|xor r0,r0,r10;xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10|82fcec0f22fdec0f|82fcec0f82fcec0f22fdec0f82fcec0f
+xs1|xor r0,r0,r10|xor r10,r0,r10;xor r0,r0,r10;xor r0,r0,r10;xor r10,r0,r10;xor r0,r0,r10|82fcec0f|22fdec0f82fcec0f82fcec0f22fdec0f82fcec0f
+xs1|add r0,r0,r11; sub r0,r0,r11||8314831c|
+xs1|add r0,r0,r11|sub r0,r0,r11|8314|831c
+xs1|sub r0,r0,r11; add r0,r0,r11||831c8314|
+xs1|sub r0,r0,r11|add r0,r0,r11|831c|8314
+xs1|xor r0,r0,r11; xor r11,r0,r11; xor r0,r0,r11; xor r0,r0,r11; xor r11,r0,r11; xor r0,r0,r11||83fcec0f33fdec0f83fcec0f83fcec0f33fdec0f83fcec0f|
+xs1|xor r0,r0,r11; xor r11,r0,r11; xor r0,r0,r11; xor r0,r0,r11; xor r11,r0,r11|xor r0,r0,r11|83fcec0f33fdec0f83fcec0f83fcec0f33fdec0f|83fcec0f
+xs1|xor r0,r0,r11; xor r11,r0,r11; xor r0,r0,r11; xor r0,r0,r11|xor r11,r0,r11;xor r0,r0,r11|83fcec0f33fdec0f83fcec0f83fcec0f|33fdec0f83fcec0f
+xs1|xor r0,r0,r11; xor r11,r0,r11; xor r0,r0,r11|xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11|83fcec0f33fdec0f83fcec0f|83fcec0f33fdec0f83fcec0f
+xs1|xor r0,r0,r11; xor r11,r0,r11|xor r0,r0,r11;xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11|83fcec0f33fdec0f|83fcec0f83fcec0f33fdec0f83fcec0f
+xs1|xor r0,r0,r11|xor r11,r0,r11;xor r0,r0,r11;xor r0,r0,r11;xor r11,r0,r11;xor r0,r0,r11|83fcec0f|33fdec0f83fcec0f83fcec0f33fdec0f83fcec0f
+xs1|add r0,r0,0; sub r0,r0,0||00900098|
+xs1|add r0,r0,0|sub r0,r0,0|0090|0098
+xs1|sub r0,r0,0; add r0,r0,0||00980090|
+xs1|sub r0,r0,0|add r0,r0,0|0098|0090
+xs1|add r0,r0,1; sub r0,r0,1||01900198|
+xs1|add r0,r0,1|sub r0,r0,1|0190|0198
+xs1|sub r0,r0,1; add r0,r0,1||01980190|
+xs1|sub r0,r0,1|add r0,r0,1|0198|0190
+xs1|add r0,r0,2; sub r0,r0,2||02900298|
+xs1|add r0,r0,2|sub r0,r0,2|0290|0298
+xs1|sub r0,r0,2; add r0,r0,2||02980290|
+xs1|sub r0,r0,2|add r0,r0,2|0298|0290
+xs1|add r0,r0,3; sub r0,r0,3||03900398|
+xs1|add r0,r0,3|sub r0,r0,3|0390|0398
+xs1|sub r0,r0,3; add r0,r0,3||03980390|
+xs1|sub r0,r0,3|add r0,r0,3|0398|0390
+xs1|add r0,r0,4; sub r0,r0,4||4092409a|
+xs1|add r0,r0,4|sub r0,r0,4|4092|409a
+xs1|sub r0,r0,4; add r0,r0,4||409a4092|
+xs1|sub r0,r0,4|add r0,r0,4|409a|4092
+xs1|add r0,r0,5; sub r0,r0,5||4192419a|
+xs1|add r0,r0,5|sub r0,r0,5|4192|419a
+xs1|sub r0,r0,5; add r0,r0,5||419a4192|
+xs1|sub r0,r0,5|add r0,r0,5|419a|4192
+xs1|add r0,r0,6; sub r0,r0,6||4292429a|
+xs1|add r0,r0,6|sub r0,r0,6|4292|429a
+xs1|sub r0,r0,6; add r0,r0,6||429a4292|
+xs1|sub r0,r0,6|add r0,r0,6|429a|4292
+xs1|add r0,r0,7; sub r0,r0,7||4392439a|
+xs1|add r0,r0,7|sub r0,r0,7|4392|439a
+xs1|sub r0,r0,7; add r0,r0,7||439a4392|
+xs1|sub r0,r0,7|add r0,r0,7|439a|4392
+xs1|add r0,r0,8; sub r0,r0,8||8094809c|
+xs1|add r0,r0,8|sub r0,r0,8|8094|809c
+xs1|sub r0,r0,8; add r0,r0,8||809c8094|
+xs1|sub r0,r0,8|add r0,r0,8|809c|8094
+xs1|add r0,r0,9; sub r0,r0,9||8194819c|
+xs1|add r0,r0,9|sub r0,r0,9|8194|819c
+xs1|sub r0,r0,9; add r0,r0,9||819c8194|
+xs1|sub r0,r0,9|add r0,r0,9|819c|8194
+xs1|add r0,r0,10; sub r0,r0,10||8294829c|
+xs1|add r0,r0,10|sub r0,r0,10|8294|829c
+xs1|sub r0,r0,10; add r0,r0,10||829c8294|
+xs1|sub r0,r0,10|add r0,r0,10|829c|8294
+xs1|add r0,r0,11; sub r0,r0,11||8394839c|
+xs1|add r0,r0,11|sub r0,r0,11|8394|839c
+xs1|sub r0,r0,11; add r0,r0,11||839c8394|
+xs1|sub r0,r0,11|add r0,r0,11|839c|8394
+xs1|add r1,r1,0||1490|
+xs1|sub r1,r1,0||1498|
+xs1|bitrev r1,r1; bitrev r1,r1||c5feec07c5feec07|
+xs1|bitrev r1,r1|bitrev r1,r1|c5feec07|c5feec07
+xs1|byterev r1,r1; byterev r1,r1||d5feec07d5feec07|
+xs1|byterev r1,r1|byterev r1,r1|d5feec07|d5feec07
+xs1|neg r1,r1; neg r1,r1||c596c596|
+xs1|neg r1,r1|neg r1,r1|c596|c596
+xs1|not r1,r1; not r1,r1||c58ec58e|
+xs1|not r1,r1|not r1,r1|c58e|c58e
+xs1|add r1,r1,r0; sub r1,r1,r0||14101418|
+xs1|add r1,r1,r0|sub r1,r1,r0|1410|1418
+xs1|sub r1,r1,r0; add r1,r1,r0||14181410|
+xs1|sub r1,r1,r0|add r1,r1,r0|1418|1410
+xs1|xor r1,r1,r0; xor r0,r1,r0; xor r1,r1,r0; xor r1,r1,r0; xor r0,r1,r0; xor r1,r1,r0||14f8ec0f04f8ec0f14f8ec0f14f8ec0f04f8ec0f14f8ec0f|
+xs1|xor r1,r1,r0; xor r0,r1,r0; xor r1,r1,r0; xor r1,r1,r0; xor r0,r1,r0|xor r1,r1,r0|14f8ec0f04f8ec0f14f8ec0f14f8ec0f04f8ec0f|14f8ec0f
+xs1|xor r1,r1,r0; xor r0,r1,r0; xor r1,r1,r0; xor r1,r1,r0|xor r0,r1,r0;xor r1,r1,r0|14f8ec0f04f8ec0f14f8ec0f14f8ec0f|04f8ec0f14f8ec0f
+xs1|xor r1,r1,r0; xor r0,r1,r0; xor r1,r1,r0|xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0|14f8ec0f04f8ec0f14f8ec0f|14f8ec0f04f8ec0f14f8ec0f
+xs1|xor r1,r1,r0; xor r0,r1,r0|xor r1,r1,r0;xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0|14f8ec0f04f8ec0f|14f8ec0f14f8ec0f04f8ec0f14f8ec0f
+xs1|xor r1,r1,r0|xor r0,r1,r0;xor r1,r1,r0;xor r1,r1,r0;xor r0,r1,r0;xor r1,r1,r0|14f8ec0f|04f8ec0f14f8ec0f14f8ec0f04f8ec0f14f8ec0f
+xs1|add r1,r1,r1; sub r1,r1,r1||15101518|
+xs1|add r1,r1,r1|sub r1,r1,r1|1510|1518
+xs1|sub r1,r1,r1; add r1,r1,r1||15181510|
+xs1|sub r1,r1,r1|add r1,r1,r1|1518|1510
+xs1|xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1||15f8ec0f15f8ec0f15f8ec0f15f8ec0f15f8ec0f15f8ec0f|
+xs1|xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1|xor r1,r1,r1|15f8ec0f15f8ec0f15f8ec0f15f8ec0f15f8ec0f|15f8ec0f
+xs1|xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1|xor r1,r1,r1;xor r1,r1,r1|15f8ec0f15f8ec0f15f8ec0f15f8ec0f|15f8ec0f15f8ec0f
+xs1|xor r1,r1,r1; xor r1,r1,r1; xor r1,r1,r1|xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1|15f8ec0f15f8ec0f15f8ec0f|15f8ec0f15f8ec0f15f8ec0f
+xs1|xor r1,r1,r1; xor r1,r1,r1|xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1|15f8ec0f15f8ec0f|15f8ec0f15f8ec0f15f8ec0f15f8ec0f
+xs1|xor r1,r1,r1|xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1;xor r1,r1,r1|15f8ec0f|15f8ec0f15f8ec0f15f8ec0f15f8ec0f15f8ec0f
+xs1|add r1,r1,r2; sub r1,r1,r2||16101618|
+xs1|add r1,r1,r2|sub r1,r1,r2|1610|1618
+xs1|sub r1,r1,r2; add r1,r1,r2||16181610|
+xs1|sub r1,r1,r2|add r1,r1,r2|1618|1610
+xs1|xor r1,r1,r2; xor r2,r1,r2; xor r1,r1,r2; xor r1,r1,r2; xor r2,r1,r2; xor r1,r1,r2||16f8ec0f26f8ec0f16f8ec0f16f8ec0f26f8ec0f16f8ec0f|
+xs1|xor r1,r1,r2; xor r2,r1,r2; xor r1,r1,r2; xor r1,r1,r2; xor r2,r1,r2|xor r1,r1,r2|16f8ec0f26f8ec0f16f8ec0f16f8ec0f26f8ec0f|16f8ec0f
+xs1|xor r1,r1,r2; xor r2,r1,r2; xor r1,r1,r2; xor r1,r1,r2|xor r2,r1,r2;xor r1,r1,r2|16f8ec0f26f8ec0f16f8ec0f16f8ec0f|26f8ec0f16f8ec0f
+xs1|xor r1,r1,r2; xor r2,r1,r2; xor r1,r1,r2|xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2|16f8ec0f26f8ec0f16f8ec0f|16f8ec0f26f8ec0f16f8ec0f
+xs1|xor r1,r1,r2; xor r2,r1,r2|xor r1,r1,r2;xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2|16f8ec0f26f8ec0f|16f8ec0f16f8ec0f26f8ec0f16f8ec0f
+xs1|xor r1,r1,r2|xor r2,r1,r2;xor r1,r1,r2;xor r1,r1,r2;xor r2,r1,r2;xor r1,r1,r2|16f8ec0f|26f8ec0f16f8ec0f16f8ec0f26f8ec0f16f8ec0f
+xs1|add r1,r1,r3; sub r1,r1,r3||17101718|
+xs1|add r1,r1,r3|sub r1,r1,r3|1710|1718
+xs1|sub r1,r1,r3; add r1,r1,r3||17181710|
+xs1|sub r1,r1,r3|add r1,r1,r3|1718|1710
+xs1|xor r1,r1,r3; xor r3,r1,r3; xor r1,r1,r3; xor r1,r1,r3; xor r3,r1,r3; xor r1,r1,r3||17f8ec0f37f8ec0f17f8ec0f17f8ec0f37f8ec0f17f8ec0f|
+xs1|xor r1,r1,r3; xor r3,r1,r3; xor r1,r1,r3; xor r1,r1,r3; xor r3,r1,r3|xor r1,r1,r3|17f8ec0f37f8ec0f17f8ec0f17f8ec0f37f8ec0f|17f8ec0f
+xs1|xor r1,r1,r3; xor r3,r1,r3; xor r1,r1,r3; xor r1,r1,r3|xor r3,r1,r3;xor r1,r1,r3|17f8ec0f37f8ec0f17f8ec0f17f8ec0f|37f8ec0f17f8ec0f
+xs1|xor r1,r1,r3; xor r3,r1,r3; xor r1,r1,r3|xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3|17f8ec0f37f8ec0f17f8ec0f|17f8ec0f37f8ec0f17f8ec0f
+xs1|xor r1,r1,r3; xor r3,r1,r3|xor r1,r1,r3;xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3|17f8ec0f37f8ec0f|17f8ec0f17f8ec0f37f8ec0f17f8ec0f
+xs1|xor r1,r1,r3|xor r3,r1,r3;xor r1,r1,r3;xor r1,r1,r3;xor r3,r1,r3;xor r1,r1,r3|17f8ec0f|37f8ec0f17f8ec0f17f8ec0f37f8ec0f17f8ec0f
+xs1|add r1,r1,r4; sub r1,r1,r4||5412541a|
+xs1|add r1,r1,r4|sub r1,r1,r4|5412|541a
+xs1|sub r1,r1,r4; add r1,r1,r4||541a5412|
+xs1|sub r1,r1,r4|add r1,r1,r4|541a|5412
+xs1|xor r1,r1,r4; xor r4,r1,r4; xor r1,r1,r4; xor r1,r1,r4; xor r4,r1,r4; xor r1,r1,r4||54faec0f84faec0f54faec0f54faec0f84faec0f54faec0f|
+xs1|xor r1,r1,r4; xor r4,r1,r4; xor r1,r1,r4; xor r1,r1,r4; xor r4,r1,r4|xor r1,r1,r4|54faec0f84faec0f54faec0f54faec0f84faec0f|54faec0f
+xs1|xor r1,r1,r4; xor r4,r1,r4; xor r1,r1,r4; xor r1,r1,r4|xor r4,r1,r4;xor r1,r1,r4|54faec0f84faec0f54faec0f54faec0f|84faec0f54faec0f
+xs1|xor r1,r1,r4; xor r4,r1,r4; xor r1,r1,r4|xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4|54faec0f84faec0f54faec0f|54faec0f84faec0f54faec0f
+xs1|xor r1,r1,r4; xor r4,r1,r4|xor r1,r1,r4;xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4|54faec0f84faec0f|54faec0f54faec0f84faec0f54faec0f
+xs1|xor r1,r1,r4|xor r4,r1,r4;xor r1,r1,r4;xor r1,r1,r4;xor r4,r1,r4;xor r1,r1,r4|54faec0f|84faec0f54faec0f54faec0f84faec0f54faec0f
+xs1|add r1,r1,r5; sub r1,r1,r5||5512551a|
+xs1|add r1,r1,r5|sub r1,r1,r5|5512|551a
+xs1|sub r1,r1,r5; add r1,r1,r5||551a5512|
+xs1|sub r1,r1,r5|add r1,r1,r5|551a|5512
+xs1|xor r1,r1,r5; xor r5,r1,r5; xor r1,r1,r5; xor r1,r1,r5; xor r5,r1,r5; xor r1,r1,r5||55faec0f95faec0f55faec0f55faec0f95faec0f55faec0f|
+xs1|xor r1,r1,r5; xor r5,r1,r5; xor r1,r1,r5; xor r1,r1,r5; xor r5,r1,r5|xor r1,r1,r5|55faec0f95faec0f55faec0f55faec0f95faec0f|55faec0f
+xs1|xor r1,r1,r5; xor r5,r1,r5; xor r1,r1,r5; xor r1,r1,r5|xor r5,r1,r5;xor r1,r1,r5|55faec0f95faec0f55faec0f55faec0f|95faec0f55faec0f
+xs1|xor r1,r1,r5; xor r5,r1,r5; xor r1,r1,r5|xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5|55faec0f95faec0f55faec0f|55faec0f95faec0f55faec0f
+xs1|xor r1,r1,r5; xor r5,r1,r5|xor r1,r1,r5;xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5|55faec0f95faec0f|55faec0f55faec0f95faec0f55faec0f
+xs1|xor r1,r1,r5|xor r5,r1,r5;xor r1,r1,r5;xor r1,r1,r5;xor r5,r1,r5;xor r1,r1,r5|55faec0f|95faec0f55faec0f55faec0f95faec0f55faec0f
+xs1|add r1,r1,r6; sub r1,r1,r6||5612561a|
+xs1|add r1,r1,r6|sub r1,r1,r6|5612|561a
+xs1|sub r1,r1,r6; add r1,r1,r6||561a5612|
+xs1|sub r1,r1,r6|add r1,r1,r6|561a|5612
+xs1|xor r1,r1,r6; xor r6,r1,r6; xor r1,r1,r6; xor r1,r1,r6; xor r6,r1,r6; xor r1,r1,r6||56faec0fa6faec0f56faec0f56faec0fa6faec0f56faec0f|
+xs1|xor r1,r1,r6; xor r6,r1,r6; xor r1,r1,r6; xor r1,r1,r6; xor r6,r1,r6|xor r1,r1,r6|56faec0fa6faec0f56faec0f56faec0fa6faec0f|56faec0f
+xs1|xor r1,r1,r6; xor r6,r1,r6; xor r1,r1,r6; xor r1,r1,r6|xor r6,r1,r6;xor r1,r1,r6|56faec0fa6faec0f56faec0f56faec0f|a6faec0f56faec0f
+xs1|xor r1,r1,r6; xor r6,r1,r6; xor r1,r1,r6|xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6|56faec0fa6faec0f56faec0f|56faec0fa6faec0f56faec0f
+xs1|xor r1,r1,r6; xor r6,r1,r6|xor r1,r1,r6;xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6|56faec0fa6faec0f|56faec0f56faec0fa6faec0f56faec0f
+xs1|xor r1,r1,r6|xor r6,r1,r6;xor r1,r1,r6;xor r1,r1,r6;xor r6,r1,r6;xor r1,r1,r6|56faec0f|a6faec0f56faec0f56faec0fa6faec0f56faec0f
+xs1|add r1,r1,r7; sub r1,r1,r7||5712571a|
+xs1|add r1,r1,r7|sub r1,r1,r7|5712|571a
+xs1|sub r1,r1,r7; add r1,r1,r7||571a5712|
+xs1|sub r1,r1,r7|add r1,r1,r7|571a|5712
+xs1|xor r1,r1,r7; xor r7,r1,r7; xor r1,r1,r7; xor r1,r1,r7; xor r7,r1,r7; xor r1,r1,r7||57faec0fb7faec0f57faec0f57faec0fb7faec0f57faec0f|
+xs1|xor r1,r1,r7; xor r7,r1,r7; xor r1,r1,r7; xor r1,r1,r7; xor r7,r1,r7|xor r1,r1,r7|57faec0fb7faec0f57faec0f57faec0fb7faec0f|57faec0f
+xs1|xor r1,r1,r7; xor r7,r1,r7; xor r1,r1,r7; xor r1,r1,r7|xor r7,r1,r7;xor r1,r1,r7|57faec0fb7faec0f57faec0f57faec0f|b7faec0f57faec0f
+xs1|xor r1,r1,r7; xor r7,r1,r7; xor r1,r1,r7|xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7|57faec0fb7faec0f57faec0f|57faec0fb7faec0f57faec0f
+xs1|xor r1,r1,r7; xor r7,r1,r7|xor r1,r1,r7;xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7|57faec0fb7faec0f|57faec0f57faec0fb7faec0f57faec0f
+xs1|xor r1,r1,r7|xor r7,r1,r7;xor r1,r1,r7;xor r1,r1,r7;xor r7,r1,r7;xor r1,r1,r7|57faec0f|b7faec0f57faec0f57faec0fb7faec0f57faec0f
+xs1|add r1,r1,r8; sub r1,r1,r8||9414941c|
+xs1|add r1,r1,r8|sub r1,r1,r8|9414|941c
+xs1|sub r1,r1,r8; add r1,r1,r8||941c9414|
+xs1|sub r1,r1,r8|add r1,r1,r8|941c|9414
+xs1|xor r1,r1,r8; xor r8,r1,r8; xor r1,r1,r8; xor r1,r1,r8; xor r8,r1,r8; xor r1,r1,r8||94fcec0f04fdec0f94fcec0f94fcec0f04fdec0f94fcec0f|
+xs1|xor r1,r1,r8; xor r8,r1,r8; xor r1,r1,r8; xor r1,r1,r8; xor r8,r1,r8|xor r1,r1,r8|94fcec0f04fdec0f94fcec0f94fcec0f04fdec0f|94fcec0f
+xs1|xor r1,r1,r8; xor r8,r1,r8; xor r1,r1,r8; xor r1,r1,r8|xor r8,r1,r8;xor r1,r1,r8|94fcec0f04fdec0f94fcec0f94fcec0f|04fdec0f94fcec0f
+xs1|xor r1,r1,r8; xor r8,r1,r8; xor r1,r1,r8|xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8|94fcec0f04fdec0f94fcec0f|94fcec0f04fdec0f94fcec0f
+xs1|xor r1,r1,r8; xor r8,r1,r8|xor r1,r1,r8;xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8|94fcec0f04fdec0f|94fcec0f94fcec0f04fdec0f94fcec0f
+xs1|xor r1,r1,r8|xor r8,r1,r8;xor r1,r1,r8;xor r1,r1,r8;xor r8,r1,r8;xor r1,r1,r8|94fcec0f|04fdec0f94fcec0f94fcec0f04fdec0f94fcec0f
+xs1|add r1,r1,r9; sub r1,r1,r9||9514951c|
+xs1|add r1,r1,r9|sub r1,r1,r9|9514|951c
+xs1|sub r1,r1,r9; add r1,r1,r9||951c9514|
+xs1|sub r1,r1,r9|add r1,r1,r9|951c|9514
+xs1|xor r1,r1,r9; xor r9,r1,r9; xor r1,r1,r9; xor r1,r1,r9; xor r9,r1,r9; xor r1,r1,r9||95fcec0f15fdec0f95fcec0f95fcec0f15fdec0f95fcec0f|
+xs1|xor r1,r1,r9; xor r9,r1,r9; xor r1,r1,r9; xor r1,r1,r9; xor r9,r1,r9|xor r1,r1,r9|95fcec0f15fdec0f95fcec0f95fcec0f15fdec0f|95fcec0f
+xs1|xor r1,r1,r9; xor r9,r1,r9; xor r1,r1,r9; xor r1,r1,r9|xor r9,r1,r9;xor r1,r1,r9|95fcec0f15fdec0f95fcec0f95fcec0f|15fdec0f95fcec0f
+xs1|xor r1,r1,r9; xor r9,r1,r9; xor r1,r1,r9|xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9|95fcec0f15fdec0f95fcec0f|95fcec0f15fdec0f95fcec0f
+xs1|xor r1,r1,r9; xor r9,r1,r9|xor r1,r1,r9;xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9|95fcec0f15fdec0f|95fcec0f95fcec0f15fdec0f95fcec0f
+xs1|xor r1,r1,r9|xor r9,r1,r9;xor r1,r1,r9;xor r1,r1,r9;xor r9,r1,r9;xor r1,r1,r9|95fcec0f|15fdec0f95fcec0f95fcec0f15fdec0f95fcec0f
+xs1|add r1,r1,r10; sub r1,r1,r10||9614961c|
+xs1|add r1,r1,r10|sub r1,r1,r10|9614|961c
+xs1|sub r1,r1,r10; add r1,r1,r10||961c9614|
+xs1|sub r1,r1,r10|add r1,r1,r10|961c|9614
+xs1|xor r1,r1,r10; xor r10,r1,r10; xor r1,r1,r10; xor r1,r1,r10; xor r10,r1,r10; xor r1,r1,r10||96fcec0f26fdec0f96fcec0f96fcec0f26fdec0f96fcec0f|
+xs1|xor r1,r1,r10; xor r10,r1,r10; xor r1,r1,r10; xor r1,r1,r10; xor r10,r1,r10|xor r1,r1,r10|96fcec0f26fdec0f96fcec0f96fcec0f26fdec0f|96fcec0f
+xs1|xor r1,r1,r10; xor r10,r1,r10; xor r1,r1,r10; xor r1,r1,r10|xor r10,r1,r10;xor r1,r1,r10|96fcec0f26fdec0f96fcec0f96fcec0f|26fdec0f96fcec0f
+xs1|xor r1,r1,r10; xor r10,r1,r10; xor r1,r1,r10|xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10|96fcec0f26fdec0f96fcec0f|96fcec0f26fdec0f96fcec0f
+xs1|xor r1,r1,r10; xor r10,r1,r10|xor r1,r1,r10;xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10|96fcec0f26fdec0f|96fcec0f96fcec0f26fdec0f96fcec0f
+xs1|xor r1,r1,r10|xor r10,r1,r10;xor r1,r1,r10;xor r1,r1,r10;xor r10,r1,r10;xor r1,r1,r10|96fcec0f|26fdec0f96fcec0f96fcec0f26fdec0f96fcec0f
+xs1|add r1,r1,r11; sub r1,r1,r11||9714971c|
+xs1|add r1,r1,r11|sub r1,r1,r11|9714|971c
+xs1|sub r1,r1,r11; add r1,r1,r11||971c9714|
+xs1|sub r1,r1,r11|add r1,r1,r11|971c|9714
+xs1|xor r1,r1,r11; xor r11,r1,r11; xor r1,r1,r11; xor r1,r1,r11; xor r11,r1,r11; xor r1,r1,r11||97fcec0f37fdec0f97fcec0f97fcec0f37fdec0f97fcec0f|
+xs1|xor r1,r1,r11; xor r11,r1,r11; xor r1,r1,r11; xor r1,r1,r11; xor r11,r1,r11|xor r1,r1,r11|97fcec0f37fdec0f97fcec0f97fcec0f37fdec0f|97fcec0f
+xs1|xor r1,r1,r11; xor r11,r1,r11; xor r1,r1,r11; xor r1,r1,r11|xor r11,r1,r11;xor r1,r1,r11|97fcec0f37fdec0f97fcec0f97fcec0f|37fdec0f97fcec0f
+xs1|xor r1,r1,r11; xor r11,r1,r11; xor r1,r1,r11|xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11|97fcec0f37fdec0f97fcec0f|97fcec0f37fdec0f97fcec0f
+xs1|xor r1,r1,r11; xor r11,r1,r11|xor r1,r1,r11;xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11|97fcec0f37fdec0f|97fcec0f97fcec0f37fdec0f97fcec0f
+xs1|xor r1,r1,r11|xor r11,r1,r11;xor r1,r1,r11;xor r1,r1,r11;xor r11,r1,r11;xor r1,r1,r11|97fcec0f|37fdec0f97fcec0f97fcec0f37fdec0f97fcec0f
+xs1|add r1,r1,0; sub r1,r1,0||14901498|
+xs1|add r1,r1,0|sub r1,r1,0|1490|1498
+xs1|sub r1,r1,0; add r1,r1,0||14981490|
+xs1|sub r1,r1,0|add r1,r1,0|1498|1490
+xs1|add r1,r1,1; sub r1,r1,1||15901598|
+xs1|add r1,r1,1|sub r1,r1,1|1590|1598
+xs1|sub r1,r1,1; add r1,r1,1||15981590|
+xs1|sub r1,r1,1|add r1,r1,1|1598|1590
+xs1|add r1,r1,2; sub r1,r1,2||16901698|
+xs1|add r1,r1,2|sub r1,r1,2|1690|1698
+xs1|sub r1,r1,2; add r1,r1,2||16981690|
+xs1|sub r1,r1,2|add r1,r1,2|1698|1690
+xs1|add r1,r1,3; sub r1,r1,3||17901798|
+xs1|add r1,r1,3|sub r1,r1,3|1790|1798
+xs1|sub r1,r1,3; add r1,r1,3||17981790|
+xs1|sub r1,r1,3|add r1,r1,3|1798|1790
+xs1|add r1,r1,4; sub r1,r1,4||5492549a|
+xs1|add r1,r1,4|sub r1,r1,4|5492|549a
+xs1|sub r1,r1,4; add r1,r1,4||549a5492|
+xs1|sub r1,r1,4|add r1,r1,4|549a|5492
+xs1|add r1,r1,5; sub r1,r1,5||5592559a|
+xs1|add r1,r1,5|sub r1,r1,5|5592|559a
+xs1|sub r1,r1,5; add r1,r1,5||559a5592|
+xs1|sub r1,r1,5|add r1,r1,5|559a|5592
+xs1|add r1,r1,6; sub r1,r1,6||5692569a|
+xs1|add r1,r1,6|sub r1,r1,6|5692|569a
+xs1|sub r1,r1,6; add r1,r1,6||569a5692|
+xs1|sub r1,r1,6|add r1,r1,6|569a|5692
+xs1|add r1,r1,7; sub r1,r1,7||5792579a|
+xs1|add r1,r1,7|sub r1,r1,7|5792|579a
+xs1|sub r1,r1,7; add r1,r1,7||579a5792|
+xs1|sub r1,r1,7|add r1,r1,7|579a|5792
+xs1|add r1,r1,8; sub r1,r1,8||9494949c|
+xs1|add r1,r1,8|sub r1,r1,8|9494|949c
+xs1|sub r1,r1,8; add r1,r1,8||949c9494|
+xs1|sub r1,r1,8|add r1,r1,8|949c|9494
+xs1|add r1,r1,9; sub r1,r1,9||9594959c|
+xs1|add r1,r1,9|sub r1,r1,9|9594|959c
+xs1|sub r1,r1,9; add r1,r1,9||959c9594|
+xs1|sub r1,r1,9|add r1,r1,9|959c|9594
+xs1|add r1,r1,10; sub r1,r1,10||9694969c|
+xs1|add r1,r1,10|sub r1,r1,10|9694|969c
+xs1|sub r1,r1,10; add r1,r1,10||969c9694|
+xs1|sub r1,r1,10|add r1,r1,10|969c|9694
+xs1|add r1,r1,11; sub r1,r1,11||9794979c|
+xs1|add r1,r1,11|sub r1,r1,11|9794|979c
+xs1|sub r1,r1,11; add r1,r1,11||979c9794|
+xs1|sub r1,r1,11|add r1,r1,11|979c|9794
+xs1|add r2,r2,0||2890|
+xs1|sub r2,r2,0||2898|
+xs1|bitrev r2,r2; bitrev r2,r2||cafeec07cafeec07|
+xs1|bitrev r2,r2|bitrev r2,r2|cafeec07|cafeec07
+xs1|byterev r2,r2; byterev r2,r2||dafeec07dafeec07|
+xs1|byterev r2,r2|byterev r2,r2|dafeec07|dafeec07
+xs1|neg r2,r2; neg r2,r2||ca96ca96|
+xs1|neg r2,r2|neg r2,r2|ca96|ca96
+xs1|not r2,r2; not r2,r2||ca8eca8e|
+xs1|not r2,r2|not r2,r2|ca8e|ca8e
+xs1|add r2,r2,r0; sub r2,r2,r0||28102818|
+xs1|add r2,r2,r0|sub r2,r2,r0|2810|2818
+xs1|sub r2,r2,r0; add r2,r2,r0||28182810|
+xs1|sub r2,r2,r0|add r2,r2,r0|2818|2810
+xs1|xor r2,r2,r0; xor r0,r2,r0; xor r2,r2,r0; xor r2,r2,r0; xor r0,r2,r0; xor r2,r2,r0||28f8ec0f08f8ec0f28f8ec0f28f8ec0f08f8ec0f28f8ec0f|
+xs1|xor r2,r2,r0; xor r0,r2,r0; xor r2,r2,r0; xor r2,r2,r0; xor r0,r2,r0|xor r2,r2,r0|28f8ec0f08f8ec0f28f8ec0f28f8ec0f08f8ec0f|28f8ec0f
+xs1|xor r2,r2,r0; xor r0,r2,r0; xor r2,r2,r0; xor r2,r2,r0|xor r0,r2,r0;xor r2,r2,r0|28f8ec0f08f8ec0f28f8ec0f28f8ec0f|08f8ec0f28f8ec0f
+xs1|xor r2,r2,r0; xor r0,r2,r0; xor r2,r2,r0|xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0|28f8ec0f08f8ec0f28f8ec0f|28f8ec0f08f8ec0f28f8ec0f
+xs1|xor r2,r2,r0; xor r0,r2,r0|xor r2,r2,r0;xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0|28f8ec0f08f8ec0f|28f8ec0f28f8ec0f08f8ec0f28f8ec0f
+xs1|xor r2,r2,r0|xor r0,r2,r0;xor r2,r2,r0;xor r2,r2,r0;xor r0,r2,r0;xor r2,r2,r0|28f8ec0f|08f8ec0f28f8ec0f28f8ec0f08f8ec0f28f8ec0f
+xs1|add r2,r2,r1; sub r2,r2,r1||29102918|
+xs1|add r2,r2,r1|sub r2,r2,r1|2910|2918
+xs1|sub r2,r2,r1; add r2,r2,r1||29182910|
+xs1|sub r2,r2,r1|add r2,r2,r1|2918|2910
+xs1|xor r2,r2,r1; xor r1,r2,r1; xor r2,r2,r1; xor r2,r2,r1; xor r1,r2,r1; xor r2,r2,r1||29f8ec0f19f8ec0f29f8ec0f29f8ec0f19f8ec0f29f8ec0f|
+xs1|xor r2,r2,r1; xor r1,r2,r1; xor r2,r2,r1; xor r2,r2,r1; xor r1,r2,r1|xor r2,r2,r1|29f8ec0f19f8ec0f29f8ec0f29f8ec0f19f8ec0f|29f8ec0f
+xs1|xor r2,r2,r1; xor r1,r2,r1; xor r2,r2,r1; xor r2,r2,r1|xor r1,r2,r1;xor r2,r2,r1|29f8ec0f19f8ec0f29f8ec0f29f8ec0f|19f8ec0f29f8ec0f
+xs1|xor r2,r2,r1; xor r1,r2,r1; xor r2,r2,r1|xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1|29f8ec0f19f8ec0f29f8ec0f|29f8ec0f19f8ec0f29f8ec0f
+xs1|xor r2,r2,r1; xor r1,r2,r1|xor r2,r2,r1;xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1|29f8ec0f19f8ec0f|29f8ec0f29f8ec0f19f8ec0f29f8ec0f
+xs1|xor r2,r2,r1|xor r1,r2,r1;xor r2,r2,r1;xor r2,r2,r1;xor r1,r2,r1;xor r2,r2,r1|29f8ec0f|19f8ec0f29f8ec0f29f8ec0f19f8ec0f29f8ec0f
+xs1|add r2,r2,r2; sub r2,r2,r2||2a102a18|
+xs1|add r2,r2,r2|sub r2,r2,r2|2a10|2a18
+xs1|sub r2,r2,r2; add r2,r2,r2||2a182a10|
+xs1|sub r2,r2,r2|add r2,r2,r2|2a18|2a10
+xs1|xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2||2af8ec0f2af8ec0f2af8ec0f2af8ec0f2af8ec0f2af8ec0f|
+xs1|xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2|xor r2,r2,r2|2af8ec0f2af8ec0f2af8ec0f2af8ec0f2af8ec0f|2af8ec0f
+xs1|xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2|xor r2,r2,r2;xor r2,r2,r2|2af8ec0f2af8ec0f2af8ec0f2af8ec0f|2af8ec0f2af8ec0f
+xs1|xor r2,r2,r2; xor r2,r2,r2; xor r2,r2,r2|xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2|2af8ec0f2af8ec0f2af8ec0f|2af8ec0f2af8ec0f2af8ec0f
+xs1|xor r2,r2,r2; xor r2,r2,r2|xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2|2af8ec0f2af8ec0f|2af8ec0f2af8ec0f2af8ec0f2af8ec0f
+xs1|xor r2,r2,r2|xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2;xor r2,r2,r2|2af8ec0f|2af8ec0f2af8ec0f2af8ec0f2af8ec0f2af8ec0f
+xs1|add r2,r2,r3; sub r2,r2,r3||2b102b18|
+xs1|add r2,r2,r3|sub r2,r2,r3|2b10|2b18
+xs1|sub r2,r2,r3; add r2,r2,r3||2b182b10|
+xs1|sub r2,r2,r3|add r2,r2,r3|2b18|2b10
+xs1|xor r2,r2,r3; xor r3,r2,r3; xor r2,r2,r3; xor r2,r2,r3; xor r3,r2,r3; xor r2,r2,r3||2bf8ec0f3bf8ec0f2bf8ec0f2bf8ec0f3bf8ec0f2bf8ec0f|
+xs1|xor r2,r2,r3; xor r3,r2,r3; xor r2,r2,r3; xor r2,r2,r3; xor r3,r2,r3|xor r2,r2,r3|2bf8ec0f3bf8ec0f2bf8ec0f2bf8ec0f3bf8ec0f|2bf8ec0f
+xs1|xor r2,r2,r3; xor r3,r2,r3; xor r2,r2,r3; xor r2,r2,r3|xor r3,r2,r3;xor r2,r2,r3|2bf8ec0f3bf8ec0f2bf8ec0f2bf8ec0f|3bf8ec0f2bf8ec0f
+xs1|xor r2,r2,r3; xor r3,r2,r3; xor r2,r2,r3|xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3|2bf8ec0f3bf8ec0f2bf8ec0f|2bf8ec0f3bf8ec0f2bf8ec0f
+xs1|xor r2,r2,r3; xor r3,r2,r3|xor r2,r2,r3;xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3|2bf8ec0f3bf8ec0f|2bf8ec0f2bf8ec0f3bf8ec0f2bf8ec0f
+xs1|xor r2,r2,r3|xor r3,r2,r3;xor r2,r2,r3;xor r2,r2,r3;xor r3,r2,r3;xor r2,r2,r3|2bf8ec0f|3bf8ec0f2bf8ec0f2bf8ec0f3bf8ec0f2bf8ec0f
+xs1|add r2,r2,r4; sub r2,r2,r4||6812681a|
+xs1|add r2,r2,r4|sub r2,r2,r4|6812|681a
+xs1|sub r2,r2,r4; add r2,r2,r4||681a6812|
+xs1|sub r2,r2,r4|add r2,r2,r4|681a|6812
+xs1|xor r2,r2,r4; xor r4,r2,r4; xor r2,r2,r4; xor r2,r2,r4; xor r4,r2,r4; xor r2,r2,r4||68faec0f88faec0f68faec0f68faec0f88faec0f68faec0f|
+xs1|xor r2,r2,r4; xor r4,r2,r4; xor r2,r2,r4; xor r2,r2,r4; xor r4,r2,r4|xor r2,r2,r4|68faec0f88faec0f68faec0f68faec0f88faec0f|68faec0f
+xs1|xor r2,r2,r4; xor r4,r2,r4; xor r2,r2,r4; xor r2,r2,r4|xor r4,r2,r4;xor r2,r2,r4|68faec0f88faec0f68faec0f68faec0f|88faec0f68faec0f
+xs1|xor r2,r2,r4; xor r4,r2,r4; xor r2,r2,r4|xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4|68faec0f88faec0f68faec0f|68faec0f88faec0f68faec0f
+xs1|xor r2,r2,r4; xor r4,r2,r4|xor r2,r2,r4;xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4|68faec0f88faec0f|68faec0f68faec0f88faec0f68faec0f
+xs1|xor r2,r2,r4|xor r4,r2,r4;xor r2,r2,r4;xor r2,r2,r4;xor r4,r2,r4;xor r2,r2,r4|68faec0f|88faec0f68faec0f68faec0f88faec0f68faec0f
+xs1|add r2,r2,r5; sub r2,r2,r5||6912691a|
+xs1|add r2,r2,r5|sub r2,r2,r5|6912|691a
+xs1|sub r2,r2,r5; add r2,r2,r5||691a6912|
+xs1|sub r2,r2,r5|add r2,r2,r5|691a|6912
+xs1|xor r2,r2,r5; xor r5,r2,r5; xor r2,r2,r5; xor r2,r2,r5; xor r5,r2,r5; xor r2,r2,r5||69faec0f99faec0f69faec0f69faec0f99faec0f69faec0f|
+xs1|xor r2,r2,r5; xor r5,r2,r5; xor r2,r2,r5; xor r2,r2,r5; xor r5,r2,r5|xor r2,r2,r5|69faec0f99faec0f69faec0f69faec0f99faec0f|69faec0f
+xs1|xor r2,r2,r5; xor r5,r2,r5; xor r2,r2,r5; xor r2,r2,r5|xor r5,r2,r5;xor r2,r2,r5|69faec0f99faec0f69faec0f69faec0f|99faec0f69faec0f
+xs1|xor r2,r2,r5; xor r5,r2,r5; xor r2,r2,r5|xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5|69faec0f99faec0f69faec0f|69faec0f99faec0f69faec0f
+xs1|xor r2,r2,r5; xor r5,r2,r5|xor r2,r2,r5;xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5|69faec0f99faec0f|69faec0f69faec0f99faec0f69faec0f
+xs1|xor r2,r2,r5|xor r5,r2,r5;xor r2,r2,r5;xor r2,r2,r5;xor r5,r2,r5;xor r2,r2,r5|69faec0f|99faec0f69faec0f69faec0f99faec0f69faec0f
+xs1|add r2,r2,r6; sub r2,r2,r6||6a126a1a|
+xs1|add r2,r2,r6|sub r2,r2,r6|6a12|6a1a
+xs1|sub r2,r2,r6; add r2,r2,r6||6a1a6a12|
+xs1|sub r2,r2,r6|add r2,r2,r6|6a1a|6a12
+xs1|xor r2,r2,r6; xor r6,r2,r6; xor r2,r2,r6; xor r2,r2,r6; xor r6,r2,r6; xor r2,r2,r6||6afaec0faafaec0f6afaec0f6afaec0faafaec0f6afaec0f|
+xs1|xor r2,r2,r6; xor r6,r2,r6; xor r2,r2,r6; xor r2,r2,r6; xor r6,r2,r6|xor r2,r2,r6|6afaec0faafaec0f6afaec0f6afaec0faafaec0f|6afaec0f
+xs1|xor r2,r2,r6; xor r6,r2,r6; xor r2,r2,r6; xor r2,r2,r6|xor r6,r2,r6;xor r2,r2,r6|6afaec0faafaec0f6afaec0f6afaec0f|aafaec0f6afaec0f
+xs1|xor r2,r2,r6; xor r6,r2,r6; xor r2,r2,r6|xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6|6afaec0faafaec0f6afaec0f|6afaec0faafaec0f6afaec0f
+xs1|xor r2,r2,r6; xor r6,r2,r6|xor r2,r2,r6;xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6|6afaec0faafaec0f|6afaec0f6afaec0faafaec0f6afaec0f
+xs1|xor r2,r2,r6|xor r6,r2,r6;xor r2,r2,r6;xor r2,r2,r6;xor r6,r2,r6;xor r2,r2,r6|6afaec0f|aafaec0f6afaec0f6afaec0faafaec0f6afaec0f
+xs1|add r2,r2,r7; sub r2,r2,r7||6b126b1a|
+xs1|add r2,r2,r7|sub r2,r2,r7|6b12|6b1a
+xs1|sub r2,r2,r7; add r2,r2,r7||6b1a6b12|
+xs1|sub r2,r2,r7|add r2,r2,r7|6b1a|6b12
+xs1|xor r2,r2,r7; xor r7,r2,r7; xor r2,r2,r7; xor r2,r2,r7; xor r7,r2,r7; xor r2,r2,r7||6bfaec0fbbfaec0f6bfaec0f6bfaec0fbbfaec0f6bfaec0f|
+xs1|xor r2,r2,r7; xor r7,r2,r7; xor r2,r2,r7; xor r2,r2,r7; xor r7,r2,r7|xor r2,r2,r7|6bfaec0fbbfaec0f6bfaec0f6bfaec0fbbfaec0f|6bfaec0f
+xs1|xor r2,r2,r7; xor r7,r2,r7; xor r2,r2,r7; xor r2,r2,r7|xor r7,r2,r7;xor r2,r2,r7|6bfaec0fbbfaec0f6bfaec0f6bfaec0f|bbfaec0f6bfaec0f
+xs1|xor r2,r2,r7; xor r7,r2,r7; xor r2,r2,r7|xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7|6bfaec0fbbfaec0f6bfaec0f|6bfaec0fbbfaec0f6bfaec0f
+xs1|xor r2,r2,r7; xor r7,r2,r7|xor r2,r2,r7;xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7|6bfaec0fbbfaec0f|6bfaec0f6bfaec0fbbfaec0f6bfaec0f
+xs1|xor r2,r2,r7|xor r7,r2,r7;xor r2,r2,r7;xor r2,r2,r7;xor r7,r2,r7;xor r2,r2,r7|6bfaec0f|bbfaec0f6bfaec0f6bfaec0fbbfaec0f6bfaec0f
+xs1|add r2,r2,r8; sub r2,r2,r8||a814a81c|
+xs1|add r2,r2,r8|sub r2,r2,r8|a814|a81c
+xs1|sub r2,r2,r8; add r2,r2,r8||a81ca814|
+xs1|sub r2,r2,r8|add r2,r2,r8|a81c|a814
+xs1|xor r2,r2,r8; xor r8,r2,r8; xor r2,r2,r8; xor r2,r2,r8; xor r8,r2,r8; xor r2,r2,r8||a8fcec0f08fdec0fa8fcec0fa8fcec0f08fdec0fa8fcec0f|
+xs1|xor r2,r2,r8; xor r8,r2,r8; xor r2,r2,r8; xor r2,r2,r8; xor r8,r2,r8|xor r2,r2,r8|a8fcec0f08fdec0fa8fcec0fa8fcec0f08fdec0f|a8fcec0f
+xs1|xor r2,r2,r8; xor r8,r2,r8; xor r2,r2,r8; xor r2,r2,r8|xor r8,r2,r8;xor r2,r2,r8|a8fcec0f08fdec0fa8fcec0fa8fcec0f|08fdec0fa8fcec0f
+xs1|xor r2,r2,r8; xor r8,r2,r8; xor r2,r2,r8|xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8|a8fcec0f08fdec0fa8fcec0f|a8fcec0f08fdec0fa8fcec0f
+xs1|xor r2,r2,r8; xor r8,r2,r8|xor r2,r2,r8;xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8|a8fcec0f08fdec0f|a8fcec0fa8fcec0f08fdec0fa8fcec0f
+xs1|xor r2,r2,r8|xor r8,r2,r8;xor r2,r2,r8;xor r2,r2,r8;xor r8,r2,r8;xor r2,r2,r8|a8fcec0f|08fdec0fa8fcec0fa8fcec0f08fdec0fa8fcec0f
+xs1|add r2,r2,r9; sub r2,r2,r9||a914a91c|
+xs1|add r2,r2,r9|sub r2,r2,r9|a914|a91c
+xs1|sub r2,r2,r9; add r2,r2,r9||a91ca914|
+xs1|sub r2,r2,r9|add r2,r2,r9|a91c|a914
+xs1|xor r2,r2,r9; xor r9,r2,r9; xor r2,r2,r9; xor r2,r2,r9; xor r9,r2,r9; xor r2,r2,r9||a9fcec0f19fdec0fa9fcec0fa9fcec0f19fdec0fa9fcec0f|
+xs1|xor r2,r2,r9; xor r9,r2,r9; xor r2,r2,r9; xor r2,r2,r9; xor r9,r2,r9|xor r2,r2,r9|a9fcec0f19fdec0fa9fcec0fa9fcec0f19fdec0f|a9fcec0f
+xs1|xor r2,r2,r9; xor r9,r2,r9; xor r2,r2,r9; xor r2,r2,r9|xor r9,r2,r9;xor r2,r2,r9|a9fcec0f19fdec0fa9fcec0fa9fcec0f|19fdec0fa9fcec0f
+xs1|xor r2,r2,r9; xor r9,r2,r9; xor r2,r2,r9|xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9|a9fcec0f19fdec0fa9fcec0f|a9fcec0f19fdec0fa9fcec0f
+xs1|xor r2,r2,r9; xor r9,r2,r9|xor r2,r2,r9;xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9|a9fcec0f19fdec0f|a9fcec0fa9fcec0f19fdec0fa9fcec0f
+xs1|xor r2,r2,r9|xor r9,r2,r9;xor r2,r2,r9;xor r2,r2,r9;xor r9,r2,r9;xor r2,r2,r9|a9fcec0f|19fdec0fa9fcec0fa9fcec0f19fdec0fa9fcec0f
+xs1|add r2,r2,r10; sub r2,r2,r10||aa14aa1c|
+xs1|add r2,r2,r10|sub r2,r2,r10|aa14|aa1c
+xs1|sub r2,r2,r10; add r2,r2,r10||aa1caa14|
+xs1|sub r2,r2,r10|add r2,r2,r10|aa1c|aa14
+xs1|xor r2,r2,r10; xor r10,r2,r10; xor r2,r2,r10; xor r2,r2,r10; xor r10,r2,r10; xor r2,r2,r10||aafcec0f2afdec0faafcec0faafcec0f2afdec0faafcec0f|
+xs1|xor r2,r2,r10; xor r10,r2,r10; xor r2,r2,r10; xor r2,r2,r10; xor r10,r2,r10|xor r2,r2,r10|aafcec0f2afdec0faafcec0faafcec0f2afdec0f|aafcec0f
+xs1|xor r2,r2,r10; xor r10,r2,r10; xor r2,r2,r10; xor r2,r2,r10|xor r10,r2,r10;xor r2,r2,r10|aafcec0f2afdec0faafcec0faafcec0f|2afdec0faafcec0f
+xs1|xor r2,r2,r10; xor r10,r2,r10; xor r2,r2,r10|xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10|aafcec0f2afdec0faafcec0f|aafcec0f2afdec0faafcec0f
+xs1|xor r2,r2,r10; xor r10,r2,r10|xor r2,r2,r10;xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10|aafcec0f2afdec0f|aafcec0faafcec0f2afdec0faafcec0f
+xs1|xor r2,r2,r10|xor r10,r2,r10;xor r2,r2,r10;xor r2,r2,r10;xor r10,r2,r10;xor r2,r2,r10|aafcec0f|2afdec0faafcec0faafcec0f2afdec0faafcec0f
+xs1|add r2,r2,r11; sub r2,r2,r11||ab14ab1c|
+xs1|add r2,r2,r11|sub r2,r2,r11|ab14|ab1c
+xs1|sub r2,r2,r11; add r2,r2,r11||ab1cab14|
+xs1|sub r2,r2,r11|add r2,r2,r11|ab1c|ab14
+xs1|xor r2,r2,r11; xor r11,r2,r11; xor r2,r2,r11; xor r2,r2,r11; xor r11,r2,r11; xor r2,r2,r11||abfcec0f3bfdec0fabfcec0fabfcec0f3bfdec0fabfcec0f|
+xs1|xor r2,r2,r11; xor r11,r2,r11; xor r2,r2,r11; xor r2,r2,r11; xor r11,r2,r11|xor r2,r2,r11|abfcec0f3bfdec0fabfcec0fabfcec0f3bfdec0f|abfcec0f
+xs1|xor r2,r2,r11; xor r11,r2,r11; xor r2,r2,r11; xor r2,r2,r11|xor r11,r2,r11;xor r2,r2,r11|abfcec0f3bfdec0fabfcec0fabfcec0f|3bfdec0fabfcec0f
+xs1|xor r2,r2,r11; xor r11,r2,r11; xor r2,r2,r11|xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11|abfcec0f3bfdec0fabfcec0f|abfcec0f3bfdec0fabfcec0f
+xs1|xor r2,r2,r11; xor r11,r2,r11|xor r2,r2,r11;xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11|abfcec0f3bfdec0f|abfcec0fabfcec0f3bfdec0fabfcec0f
+xs1|xor r2,r2,r11|xor r11,r2,r11;xor r2,r2,r11;xor r2,r2,r11;xor r11,r2,r11;xor r2,r2,r11|abfcec0f|3bfdec0fabfcec0fabfcec0f3bfdec0fabfcec0f
+xs1|add r2,r2,0; sub r2,r2,0||28902898|
+xs1|add r2,r2,0|sub r2,r2,0|2890|2898
+xs1|sub r2,r2,0; add r2,r2,0||28982890|
+xs1|sub r2,r2,0|add r2,r2,0|2898|2890
+xs1|add r2,r2,1; sub r2,r2,1||29902998|
+xs1|add r2,r2,1|sub r2,r2,1|2990|2998
+xs1|sub r2,r2,1; add r2,r2,1||29982990|
+xs1|sub r2,r2,1|add r2,r2,1|2998|2990
+xs1|add r2,r2,2; sub r2,r2,2||2a902a98|
+xs1|add r2,r2,2|sub r2,r2,2|2a90|2a98
+xs1|sub r2,r2,2; add r2,r2,2||2a982a90|
+xs1|sub r2,r2,2|add r2,r2,2|2a98|2a90
+xs1|add r2,r2,3; sub r2,r2,3||2b902b98|
+xs1|add r2,r2,3|sub r2,r2,3|2b90|2b98
+xs1|sub r2,r2,3; add r2,r2,3||2b982b90|
+xs1|sub r2,r2,3|add r2,r2,3|2b98|2b90
+xs1|add r2,r2,4; sub r2,r2,4||6892689a|
+xs1|add r2,r2,4|sub r2,r2,4|6892|689a
+xs1|sub r2,r2,4; add r2,r2,4||689a6892|
+xs1|sub r2,r2,4|add r2,r2,4|689a|6892
+xs1|add r2,r2,5; sub r2,r2,5||6992699a|
+xs1|add r2,r2,5|sub r2,r2,5|6992|699a
+xs1|sub r2,r2,5; add r2,r2,5||699a6992|
+xs1|sub r2,r2,5|add r2,r2,5|699a|6992
+xs1|add r2,r2,6; sub r2,r2,6||6a926a9a|
+xs1|add r2,r2,6|sub r2,r2,6|6a92|6a9a
+xs1|sub r2,r2,6; add r2,r2,6||6a9a6a92|
+xs1|sub r2,r2,6|add r2,r2,6|6a9a|6a92
+xs1|add r2,r2,7; sub r2,r2,7||6b926b9a|
+xs1|add r2,r2,7|sub r2,r2,7|6b92|6b9a
+xs1|sub r2,r2,7; add r2,r2,7||6b9a6b92|
+xs1|sub r2,r2,7|add r2,r2,7|6b9a|6b92
+xs1|add r2,r2,8; sub r2,r2,8||a894a89c|
+xs1|add r2,r2,8|sub r2,r2,8|a894|a89c
+xs1|sub r2,r2,8; add r2,r2,8||a89ca894|
+xs1|sub r2,r2,8|add r2,r2,8|a89c|a894
+xs1|add r2,r2,9; sub r2,r2,9||a994a99c|
+xs1|add r2,r2,9|sub r2,r2,9|a994|a99c
+xs1|sub r2,r2,9; add r2,r2,9||a99ca994|
+xs1|sub r2,r2,9|add r2,r2,9|a99c|a994
+xs1|add r2,r2,10; sub r2,r2,10||aa94aa9c|
+xs1|add r2,r2,10|sub r2,r2,10|aa94|aa9c
+xs1|sub r2,r2,10; add r2,r2,10||aa9caa94|
+xs1|sub r2,r2,10|add r2,r2,10|aa9c|aa94
+xs1|add r2,r2,11; sub r2,r2,11||ab94ab9c|
+xs1|add r2,r2,11|sub r2,r2,11|ab94|ab9c
+xs1|sub r2,r2,11; add r2,r2,11||ab9cab94|
+xs1|sub r2,r2,11|add r2,r2,11|ab9c|ab94
+xs1|add r3,r3,0||3c90|
+xs1|sub r3,r3,0||3c98|
+xs1|bitrev r3,r3; bitrev r3,r3||cffeec07cffeec07|
+xs1|bitrev r3,r3|bitrev r3,r3|cffeec07|cffeec07
+xs1|byterev r3,r3; byterev r3,r3||dffeec07dffeec07|
+xs1|byterev r3,r3|byterev r3,r3|dffeec07|dffeec07
+xs1|neg r3,r3; neg r3,r3||cf96cf96|
+xs1|neg r3,r3|neg r3,r3|cf96|cf96
+xs1|not r3,r3; not r3,r3||cf8ecf8e|
+xs1|not r3,r3|not r3,r3|cf8e|cf8e
+xs1|add r3,r3,r0; sub r3,r3,r0||3c103c18|
+xs1|add r3,r3,r0|sub r3,r3,r0|3c10|3c18
+xs1|sub r3,r3,r0; add r3,r3,r0||3c183c10|
+xs1|sub r3,r3,r0|add r3,r3,r0|3c18|3c10
+xs1|xor r3,r3,r0; xor r0,r3,r0; xor r3,r3,r0; xor r3,r3,r0; xor r0,r3,r0; xor r3,r3,r0||3cf8ec0f0cf8ec0f3cf8ec0f3cf8ec0f0cf8ec0f3cf8ec0f|
+xs1|xor r3,r3,r0; xor r0,r3,r0; xor r3,r3,r0; xor r3,r3,r0; xor r0,r3,r0|xor r3,r3,r0|3cf8ec0f0cf8ec0f3cf8ec0f3cf8ec0f0cf8ec0f|3cf8ec0f
+xs1|xor r3,r3,r0; xor r0,r3,r0; xor r3,r3,r0; xor r3,r3,r0|xor r0,r3,r0;xor r3,r3,r0|3cf8ec0f0cf8ec0f3cf8ec0f3cf8ec0f|0cf8ec0f3cf8ec0f
+xs1|xor r3,r3,r0; xor r0,r3,r0; xor r3,r3,r0|xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0|3cf8ec0f0cf8ec0f3cf8ec0f|3cf8ec0f0cf8ec0f3cf8ec0f
+xs1|xor r3,r3,r0; xor r0,r3,r0|xor r3,r3,r0;xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0|3cf8ec0f0cf8ec0f|3cf8ec0f3cf8ec0f0cf8ec0f3cf8ec0f
+xs1|xor r3,r3,r0|xor r0,r3,r0;xor r3,r3,r0;xor r3,r3,r0;xor r0,r3,r0;xor r3,r3,r0|3cf8ec0f|0cf8ec0f3cf8ec0f3cf8ec0f0cf8ec0f3cf8ec0f
+xs1|add r3,r3,r1; sub r3,r3,r1||3d103d18|
+xs1|add r3,r3,r1|sub r3,r3,r1|3d10|3d18
+xs1|sub r3,r3,r1; add r3,r3,r1||3d183d10|
+xs1|sub r3,r3,r1|add r3,r3,r1|3d18|3d10
+xs1|xor r3,r3,r1; xor r1,r3,r1; xor r3,r3,r1; xor r3,r3,r1; xor r1,r3,r1; xor r3,r3,r1||3df8ec0f1df8ec0f3df8ec0f3df8ec0f1df8ec0f3df8ec0f|
+xs1|xor r3,r3,r1; xor r1,r3,r1; xor r3,r3,r1; xor r3,r3,r1; xor r1,r3,r1|xor r3,r3,r1|3df8ec0f1df8ec0f3df8ec0f3df8ec0f1df8ec0f|3df8ec0f
+xs1|xor r3,r3,r1; xor r1,r3,r1; xor r3,r3,r1; xor r3,r3,r1|xor r1,r3,r1;xor r3,r3,r1|3df8ec0f1df8ec0f3df8ec0f3df8ec0f|1df8ec0f3df8ec0f
+xs1|xor r3,r3,r1; xor r1,r3,r1; xor r3,r3,r1|xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1|3df8ec0f1df8ec0f3df8ec0f|3df8ec0f1df8ec0f3df8ec0f
+xs1|xor r3,r3,r1; xor r1,r3,r1|xor r3,r3,r1;xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1|3df8ec0f1df8ec0f|3df8ec0f3df8ec0f1df8ec0f3df8ec0f
+xs1|xor r3,r3,r1|xor r1,r3,r1;xor r3,r3,r1;xor r3,r3,r1;xor r1,r3,r1;xor r3,r3,r1|3df8ec0f|1df8ec0f3df8ec0f3df8ec0f1df8ec0f3df8ec0f
+xs1|add r3,r3,r2; sub r3,r3,r2||3e103e18|
+xs1|add r3,r3,r2|sub r3,r3,r2|3e10|3e18
+xs1|sub r3,r3,r2; add r3,r3,r2||3e183e10|
+xs1|sub r3,r3,r2|add r3,r3,r2|3e18|3e10
+xs1|xor r3,r3,r2; xor r2,r3,r2; xor r3,r3,r2; xor r3,r3,r2; xor r2,r3,r2; xor r3,r3,r2||3ef8ec0f2ef8ec0f3ef8ec0f3ef8ec0f2ef8ec0f3ef8ec0f|
+xs1|xor r3,r3,r2; xor r2,r3,r2; xor r3,r3,r2; xor r3,r3,r2; xor r2,r3,r2|xor r3,r3,r2|3ef8ec0f2ef8ec0f3ef8ec0f3ef8ec0f2ef8ec0f|3ef8ec0f
+xs1|xor r3,r3,r2; xor r2,r3,r2; xor r3,r3,r2; xor r3,r3,r2|xor r2,r3,r2;xor r3,r3,r2|3ef8ec0f2ef8ec0f3ef8ec0f3ef8ec0f|2ef8ec0f3ef8ec0f
+xs1|xor r3,r3,r2; xor r2,r3,r2; xor r3,r3,r2|xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2|3ef8ec0f2ef8ec0f3ef8ec0f|3ef8ec0f2ef8ec0f3ef8ec0f
+xs1|xor r3,r3,r2; xor r2,r3,r2|xor r3,r3,r2;xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2|3ef8ec0f2ef8ec0f|3ef8ec0f3ef8ec0f2ef8ec0f3ef8ec0f
+xs1|xor r3,r3,r2|xor r2,r3,r2;xor r3,r3,r2;xor r3,r3,r2;xor r2,r3,r2;xor r3,r3,r2|3ef8ec0f|2ef8ec0f3ef8ec0f3ef8ec0f2ef8ec0f3ef8ec0f
+xs1|add r3,r3,r3; sub r3,r3,r3||3f103f18|
+xs1|add r3,r3,r3|sub r3,r3,r3|3f10|3f18
+xs1|sub r3,r3,r3; add r3,r3,r3||3f183f10|
+xs1|sub r3,r3,r3|add r3,r3,r3|3f18|3f10
+xs1|xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3||3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f|
+xs1|xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3|xor r3,r3,r3|3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f|3ff8ec0f
+xs1|xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3|xor r3,r3,r3;xor r3,r3,r3|3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f|3ff8ec0f3ff8ec0f
+xs1|xor r3,r3,r3; xor r3,r3,r3; xor r3,r3,r3|xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3|3ff8ec0f3ff8ec0f3ff8ec0f|3ff8ec0f3ff8ec0f3ff8ec0f
+xs1|xor r3,r3,r3; xor r3,r3,r3|xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3|3ff8ec0f3ff8ec0f|3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f
+xs1|xor r3,r3,r3|xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3;xor r3,r3,r3|3ff8ec0f|3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f3ff8ec0f
+xs1|add r3,r3,r4; sub r3,r3,r4||7c127c1a|
+xs1|add r3,r3,r4|sub r3,r3,r4|7c12|7c1a
+xs1|sub r3,r3,r4; add r3,r3,r4||7c1a7c12|
+xs1|sub r3,r3,r4|add r3,r3,r4|7c1a|7c12
+xs1|xor r3,r3,r4; xor r4,r3,r4; xor r3,r3,r4; xor r3,r3,r4; xor r4,r3,r4; xor r3,r3,r4||7cfaec0f8cfaec0f7cfaec0f7cfaec0f8cfaec0f7cfaec0f|
+xs1|xor r3,r3,r4; xor r4,r3,r4; xor r3,r3,r4; xor r3,r3,r4; xor r4,r3,r4|xor r3,r3,r4|7cfaec0f8cfaec0f7cfaec0f7cfaec0f8cfaec0f|7cfaec0f
+xs1|xor r3,r3,r4; xor r4,r3,r4; xor r3,r3,r4; xor r3,r3,r4|xor r4,r3,r4;xor r3,r3,r4|7cfaec0f8cfaec0f7cfaec0f7cfaec0f|8cfaec0f7cfaec0f
+xs1|xor r3,r3,r4; xor r4,r3,r4; xor r3,r3,r4|xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4|7cfaec0f8cfaec0f7cfaec0f|7cfaec0f8cfaec0f7cfaec0f
+xs1|xor r3,r3,r4; xor r4,r3,r4|xor r3,r3,r4;xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4|7cfaec0f8cfaec0f|7cfaec0f7cfaec0f8cfaec0f7cfaec0f
+xs1|xor r3,r3,r4|xor r4,r3,r4;xor r3,r3,r4;xor r3,r3,r4;xor r4,r3,r4;xor r3,r3,r4|7cfaec0f|8cfaec0f7cfaec0f7cfaec0f8cfaec0f7cfaec0f
+xs1|add r3,r3,r5; sub r3,r3,r5||7d127d1a|
+xs1|add r3,r3,r5|sub r3,r3,r5|7d12|7d1a
+xs1|sub r3,r3,r5; add r3,r3,r5||7d1a7d12|
+xs1|sub r3,r3,r5|add r3,r3,r5|7d1a|7d12
+xs1|xor r3,r3,r5; xor r5,r3,r5; xor r3,r3,r5; xor r3,r3,r5; xor r5,r3,r5; xor r3,r3,r5||7dfaec0f9dfaec0f7dfaec0f7dfaec0f9dfaec0f7dfaec0f|
+xs1|xor r3,r3,r5; xor r5,r3,r5; xor r3,r3,r5; xor r3,r3,r5; xor r5,r3,r5|xor r3,r3,r5|7dfaec0f9dfaec0f7dfaec0f7dfaec0f9dfaec0f|7dfaec0f
+xs1|xor r3,r3,r5; xor r5,r3,r5; xor r3,r3,r5; xor r3,r3,r5|xor r5,r3,r5;xor r3,r3,r5|7dfaec0f9dfaec0f7dfaec0f7dfaec0f|9dfaec0f7dfaec0f
+xs1|xor r3,r3,r5; xor r5,r3,r5; xor r3,r3,r5|xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5|7dfaec0f9dfaec0f7dfaec0f|7dfaec0f9dfaec0f7dfaec0f
+xs1|xor r3,r3,r5; xor r5,r3,r5|xor r3,r3,r5;xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5|7dfaec0f9dfaec0f|7dfaec0f7dfaec0f9dfaec0f7dfaec0f
+xs1|xor r3,r3,r5|xor r5,r3,r5;xor r3,r3,r5;xor r3,r3,r5;xor r5,r3,r5;xor r3,r3,r5|7dfaec0f|9dfaec0f7dfaec0f7dfaec0f9dfaec0f7dfaec0f
+xs1|add r3,r3,r6; sub r3,r3,r6||7e127e1a|
+xs1|add r3,r3,r6|sub r3,r3,r6|7e12|7e1a
+xs1|sub r3,r3,r6; add r3,r3,r6||7e1a7e12|
+xs1|sub r3,r3,r6|add r3,r3,r6|7e1a|7e12
+xs1|xor r3,r3,r6; xor r6,r3,r6; xor r3,r3,r6; xor r3,r3,r6; xor r6,r3,r6; xor r3,r3,r6||7efaec0faefaec0f7efaec0f7efaec0faefaec0f7efaec0f|
+xs1|xor r3,r3,r6; xor r6,r3,r6; xor r3,r3,r6; xor r3,r3,r6; xor r6,r3,r6|xor r3,r3,r6|7efaec0faefaec0f7efaec0f7efaec0faefaec0f|7efaec0f
+xs1|xor r3,r3,r6; xor r6,r3,r6; xor r3,r3,r6; xor r3,r3,r6|xor r6,r3,r6;xor r3,r3,r6|7efaec0faefaec0f7efaec0f7efaec0f|aefaec0f7efaec0f
+xs1|xor r3,r3,r6; xor r6,r3,r6; xor r3,r3,r6|xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6|7efaec0faefaec0f7efaec0f|7efaec0faefaec0f7efaec0f
+xs1|xor r3,r3,r6; xor r6,r3,r6|xor r3,r3,r6;xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6|7efaec0faefaec0f|7efaec0f7efaec0faefaec0f7efaec0f
+xs1|xor r3,r3,r6|xor r6,r3,r6;xor r3,r3,r6;xor r3,r3,r6;xor r6,r3,r6;xor r3,r3,r6|7efaec0f|aefaec0f7efaec0f7efaec0faefaec0f7efaec0f
+xs1|add r3,r3,r7; sub r3,r3,r7||7f127f1a|
+xs1|add r3,r3,r7|sub r3,r3,r7|7f12|7f1a
+xs1|sub r3,r3,r7; add r3,r3,r7||7f1a7f12|
+xs1|sub r3,r3,r7|add r3,r3,r7|7f1a|7f12
+xs1|xor r3,r3,r7; xor r7,r3,r7; xor r3,r3,r7; xor r3,r3,r7; xor r7,r3,r7; xor r3,r3,r7||7ffaec0fbffaec0f7ffaec0f7ffaec0fbffaec0f7ffaec0f|
+xs1|xor r3,r3,r7; xor r7,r3,r7; xor r3,r3,r7; xor r3,r3,r7; xor r7,r3,r7|xor r3,r3,r7|7ffaec0fbffaec0f7ffaec0f7ffaec0fbffaec0f|7ffaec0f
+xs1|xor r3,r3,r7; xor r7,r3,r7; xor r3,r3,r7; xor r3,r3,r7|xor r7,r3,r7;xor r3,r3,r7|7ffaec0fbffaec0f7ffaec0f7ffaec0f|bffaec0f7ffaec0f
+xs1|xor r3,r3,r7; xor r7,r3,r7; xor r3,r3,r7|xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7|7ffaec0fbffaec0f7ffaec0f|7ffaec0fbffaec0f7ffaec0f
+xs1|xor r3,r3,r7; xor r7,r3,r7|xor r3,r3,r7;xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7|7ffaec0fbffaec0f|7ffaec0f7ffaec0fbffaec0f7ffaec0f
+xs1|xor r3,r3,r7|xor r7,r3,r7;xor r3,r3,r7;xor r3,r3,r7;xor r7,r3,r7;xor r3,r3,r7|7ffaec0f|bffaec0f7ffaec0f7ffaec0fbffaec0f7ffaec0f
+xs1|add r3,r3,r8; sub r3,r3,r8||bc14bc1c|
+xs1|add r3,r3,r8|sub r3,r3,r8|bc14|bc1c
+xs1|sub r3,r3,r8; add r3,r3,r8||bc1cbc14|
+xs1|sub r3,r3,r8|add r3,r3,r8|bc1c|bc14
+xs1|xor r3,r3,r8; xor r8,r3,r8; xor r3,r3,r8; xor r3,r3,r8; xor r8,r3,r8; xor r3,r3,r8||bcfcec0f0cfdec0fbcfcec0fbcfcec0f0cfdec0fbcfcec0f|
+xs1|xor r3,r3,r8; xor r8,r3,r8; xor r3,r3,r8; xor r3,r3,r8; xor r8,r3,r8|xor r3,r3,r8|bcfcec0f0cfdec0fbcfcec0fbcfcec0f0cfdec0f|bcfcec0f
+xs1|xor r3,r3,r8; xor r8,r3,r8; xor r3,r3,r8; xor r3,r3,r8|xor r8,r3,r8;xor r3,r3,r8|bcfcec0f0cfdec0fbcfcec0fbcfcec0f|0cfdec0fbcfcec0f
+xs1|xor r3,r3,r8; xor r8,r3,r8; xor r3,r3,r8|xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8|bcfcec0f0cfdec0fbcfcec0f|bcfcec0f0cfdec0fbcfcec0f
+xs1|xor r3,r3,r8; xor r8,r3,r8|xor r3,r3,r8;xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8|bcfcec0f0cfdec0f|bcfcec0fbcfcec0f0cfdec0fbcfcec0f
+xs1|xor r3,r3,r8|xor r8,r3,r8;xor r3,r3,r8;xor r3,r3,r8;xor r8,r3,r8;xor r3,r3,r8|bcfcec0f|0cfdec0fbcfcec0fbcfcec0f0cfdec0fbcfcec0f
+xs1|add r3,r3,r9; sub r3,r3,r9||bd14bd1c|
+xs1|add r3,r3,r9|sub r3,r3,r9|bd14|bd1c
+xs1|sub r3,r3,r9; add r3,r3,r9||bd1cbd14|
+xs1|sub r3,r3,r9|add r3,r3,r9|bd1c|bd14
+xs1|xor r3,r3,r9; xor r9,r3,r9; xor r3,r3,r9; xor r3,r3,r9; xor r9,r3,r9; xor r3,r3,r9||bdfcec0f1dfdec0fbdfcec0fbdfcec0f1dfdec0fbdfcec0f|
+xs1|xor r3,r3,r9; xor r9,r3,r9; xor r3,r3,r9; xor r3,r3,r9; xor r9,r3,r9|xor r3,r3,r9|bdfcec0f1dfdec0fbdfcec0fbdfcec0f1dfdec0f|bdfcec0f
+xs1|xor r3,r3,r9; xor r9,r3,r9; xor r3,r3,r9; xor r3,r3,r9|xor r9,r3,r9;xor r3,r3,r9|bdfcec0f1dfdec0fbdfcec0fbdfcec0f|1dfdec0fbdfcec0f
+xs1|xor r3,r3,r9; xor r9,r3,r9; xor r3,r3,r9|xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9|bdfcec0f1dfdec0fbdfcec0f|bdfcec0f1dfdec0fbdfcec0f
+xs1|xor r3,r3,r9; xor r9,r3,r9|xor r3,r3,r9;xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9|bdfcec0f1dfdec0f|bdfcec0fbdfcec0f1dfdec0fbdfcec0f
+xs1|xor r3,r3,r9|xor r9,r3,r9;xor r3,r3,r9;xor r3,r3,r9;xor r9,r3,r9;xor r3,r3,r9|bdfcec0f|1dfdec0fbdfcec0fbdfcec0f1dfdec0fbdfcec0f
+xs1|add r3,r3,r10; sub r3,r3,r10||be14be1c|
+xs1|add r3,r3,r10|sub r3,r3,r10|be14|be1c
+xs1|sub r3,r3,r10; add r3,r3,r10||be1cbe14|
+xs1|sub r3,r3,r10|add r3,r3,r10|be1c|be14
+xs1|xor r3,r3,r10; xor r10,r3,r10; xor r3,r3,r10; xor r3,r3,r10; xor r10,r3,r10; xor r3,r3,r10||befcec0f2efdec0fbefcec0fbefcec0f2efdec0fbefcec0f|
+xs1|xor r3,r3,r10; xor r10,r3,r10; xor r3,r3,r10; xor r3,r3,r10; xor r10,r3,r10|xor r3,r3,r10|befcec0f2efdec0fbefcec0fbefcec0f2efdec0f|befcec0f
+xs1|xor r3,r3,r10; xor r10,r3,r10; xor r3,r3,r10; xor r3,r3,r10|xor r10,r3,r10;xor r3,r3,r10|befcec0f2efdec0fbefcec0fbefcec0f|2efdec0fbefcec0f
+xs1|xor r3,r3,r10; xor r10,r3,r10; xor r3,r3,r10|xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10|befcec0f2efdec0fbefcec0f|befcec0f2efdec0fbefcec0f
+xs1|xor r3,r3,r10; xor r10,r3,r10|xor r3,r3,r10;xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10|befcec0f2efdec0f|befcec0fbefcec0f2efdec0fbefcec0f
+xs1|xor r3,r3,r10|xor r10,r3,r10;xor r3,r3,r10;xor r3,r3,r10;xor r10,r3,r10;xor r3,r3,r10|befcec0f|2efdec0fbefcec0fbefcec0f2efdec0fbefcec0f
+xs1|add r3,r3,r11; sub r3,r3,r11||bf14bf1c|
+xs1|add r3,r3,r11|sub r3,r3,r11|bf14|bf1c
+xs1|sub r3,r3,r11; add r3,r3,r11||bf1cbf14|
+xs1|sub r3,r3,r11|add r3,r3,r11|bf1c|bf14
+xs1|xor r3,r3,r11; xor r11,r3,r11; xor r3,r3,r11; xor r3,r3,r11; xor r11,r3,r11; xor r3,r3,r11||bffcec0f3ffdec0fbffcec0fbffcec0f3ffdec0fbffcec0f|
+xs1|xor r3,r3,r11; xor r11,r3,r11; xor r3,r3,r11; xor r3,r3,r11; xor r11,r3,r11|xor r3,r3,r11|bffcec0f3ffdec0fbffcec0fbffcec0f3ffdec0f|bffcec0f
+xs1|xor r3,r3,r11; xor r11,r3,r11; xor r3,r3,r11; xor r3,r3,r11|xor r11,r3,r11;xor r3,r3,r11|bffcec0f3ffdec0fbffcec0fbffcec0f|3ffdec0fbffcec0f
+xs1|xor r3,r3,r11; xor r11,r3,r11; xor r3,r3,r11|xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11|bffcec0f3ffdec0fbffcec0f|bffcec0f3ffdec0fbffcec0f
+xs1|xor r3,r3,r11; xor r11,r3,r11|xor r3,r3,r11;xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11|bffcec0f3ffdec0f|bffcec0fbffcec0f3ffdec0fbffcec0f
+xs1|xor r3,r3,r11|xor r11,r3,r11;xor r3,r3,r11;xor r3,r3,r11;xor r11,r3,r11;xor r3,r3,r11|bffcec0f|3ffdec0fbffcec0fbffcec0f3ffdec0fbffcec0f
+xs1|add r3,r3,0; sub r3,r3,0||3c903c98|
+xs1|add r3,r3,0|sub r3,r3,0|3c90|3c98
+xs1|sub r3,r3,0; add r3,r3,0||3c983c90|
+xs1|sub r3,r3,0|add r3,r3,0|3c98|3c90
+xs1|add r3,r3,1; sub r3,r3,1||3d903d98|
+xs1|add r3,r3,1|sub r3,r3,1|3d90|3d98
+xs1|sub r3,r3,1; add r3,r3,1||3d983d90|
+xs1|sub r3,r3,1|add r3,r3,1|3d98|3d90
+xs1|add r3,r3,2; sub r3,r3,2||3e903e98|
+xs1|add r3,r3,2|sub r3,r3,2|3e90|3e98
+xs1|sub r3,r3,2; add r3,r3,2||3e983e90|
+xs1|sub r3,r3,2|add r3,r3,2|3e98|3e90
+xs1|add r3,r3,3; sub r3,r3,3||3f903f98|
+xs1|add r3,r3,3|sub r3,r3,3|3f90|3f98
+xs1|sub r3,r3,3; add r3,r3,3||3f983f90|
+xs1|sub r3,r3,3|add r3,r3,3|3f98|3f90
+xs1|add r3,r3,4; sub r3,r3,4||7c927c9a|
+xs1|add r3,r3,4|sub r3,r3,4|7c92|7c9a
+xs1|sub r3,r3,4; add r3,r3,4||7c9a7c92|
+xs1|sub r3,r3,4|add r3,r3,4|7c9a|7c92
+xs1|add r3,r3,5; sub r3,r3,5||7d927d9a|
+xs1|add r3,r3,5|sub r3,r3,5|7d92|7d9a
+xs1|sub r3,r3,5; add r3,r3,5||7d9a7d92|
+xs1|sub r3,r3,5|add r3,r3,5|7d9a|7d92
+xs1|add r3,r3,6; sub r3,r3,6||7e927e9a|
+xs1|add r3,r3,6|sub r3,r3,6|7e92|7e9a
+xs1|sub r3,r3,6; add r3,r3,6||7e9a7e92|
+xs1|sub r3,r3,6|add r3,r3,6|7e9a|7e92
+xs1|add r3,r3,7; sub r3,r3,7||7f927f9a|
+xs1|add r3,r3,7|sub r3,r3,7|7f92|7f9a
+xs1|sub r3,r3,7; add r3,r3,7||7f9a7f92|
+xs1|sub r3,r3,7|add r3,r3,7|7f9a|7f92
+xs1|add r3,r3,8; sub r3,r3,8||bc94bc9c|
+xs1|add r3,r3,8|sub r3,r3,8|bc94|bc9c
+xs1|sub r3,r3,8; add r3,r3,8||bc9cbc94|
+xs1|sub r3,r3,8|add r3,r3,8|bc9c|bc94
+xs1|add r3,r3,9; sub r3,r3,9||bd94bd9c|
+xs1|add r3,r3,9|sub r3,r3,9|bd94|bd9c
+xs1|sub r3,r3,9; add r3,r3,9||bd9cbd94|
+xs1|sub r3,r3,9|add r3,r3,9|bd9c|bd94
+xs1|add r3,r3,10; sub r3,r3,10||be94be9c|
+xs1|add r3,r3,10|sub r3,r3,10|be94|be9c
+xs1|sub r3,r3,10; add r3,r3,10||be9cbe94|
+xs1|sub r3,r3,10|add r3,r3,10|be9c|be94
+xs1|add r3,r3,11; sub r3,r3,11||bf94bf9c|
+xs1|add r3,r3,11|sub r3,r3,11|bf94|bf9c
+xs1|sub r3,r3,11; add r3,r3,11||bf9cbf94|
+xs1|sub r3,r3,11|add r3,r3,11|bf9c|bf94
+xs1|add r4,r4,0||0091|
+xs1|sub r4,r4,0||0099|
+xs1|bitrev r4,r4; bitrev r4,r4||c0ffec07c0ffec07|
+xs1|bitrev r4,r4|bitrev r4,r4|c0ffec07|c0ffec07
+xs1|byterev r4,r4; byterev r4,r4||d0ffec07d0ffec07|
+xs1|byterev r4,r4|byterev r4,r4|d0ffec07|d0ffec07
+xs1|neg r4,r4; neg r4,r4||c097c097|
+xs1|neg r4,r4|neg r4,r4|c097|c097
+xs1|not r4,r4; not r4,r4||c08fc08f|
+xs1|not r4,r4|not r4,r4|c08f|c08f
+xs1|add r4,r4,r0; sub r4,r4,r0||00110019|
+xs1|add r4,r4,r0|sub r4,r4,r0|0011|0019
+xs1|sub r4,r4,r0; add r4,r4,r0||00190011|
+xs1|sub r4,r4,r0|add r4,r4,r0|0019|0011
+xs1|xor r4,r4,r0; xor r0,r4,r0; xor r4,r4,r0; xor r4,r4,r0; xor r0,r4,r0; xor r4,r4,r0||00f9ec0fc0f8ec0f00f9ec0f00f9ec0fc0f8ec0f00f9ec0f|
+xs1|xor r4,r4,r0; xor r0,r4,r0; xor r4,r4,r0; xor r4,r4,r0; xor r0,r4,r0|xor r4,r4,r0|00f9ec0fc0f8ec0f00f9ec0f00f9ec0fc0f8ec0f|00f9ec0f
+xs1|xor r4,r4,r0; xor r0,r4,r0; xor r4,r4,r0; xor r4,r4,r0|xor r0,r4,r0;xor r4,r4,r0|00f9ec0fc0f8ec0f00f9ec0f00f9ec0f|c0f8ec0f00f9ec0f
+xs1|xor r4,r4,r0; xor r0,r4,r0; xor r4,r4,r0|xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0|00f9ec0fc0f8ec0f00f9ec0f|00f9ec0fc0f8ec0f00f9ec0f
+xs1|xor r4,r4,r0; xor r0,r4,r0|xor r4,r4,r0;xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0|00f9ec0fc0f8ec0f|00f9ec0f00f9ec0fc0f8ec0f00f9ec0f
+xs1|xor r4,r4,r0|xor r0,r4,r0;xor r4,r4,r0;xor r4,r4,r0;xor r0,r4,r0;xor r4,r4,r0|00f9ec0f|c0f8ec0f00f9ec0f00f9ec0fc0f8ec0f00f9ec0f
+xs1|add r4,r4,r1; sub r4,r4,r1||01110119|
+xs1|add r4,r4,r1|sub r4,r4,r1|0111|0119
+xs1|sub r4,r4,r1; add r4,r4,r1||01190111|
+xs1|sub r4,r4,r1|add r4,r4,r1|0119|0111
+xs1|xor r4,r4,r1; xor r1,r4,r1; xor r4,r4,r1; xor r4,r4,r1; xor r1,r4,r1; xor r4,r4,r1||01f9ec0fd1f8ec0f01f9ec0f01f9ec0fd1f8ec0f01f9ec0f|
+xs1|xor r4,r4,r1; xor r1,r4,r1; xor r4,r4,r1; xor r4,r4,r1; xor r1,r4,r1|xor r4,r4,r1|01f9ec0fd1f8ec0f01f9ec0f01f9ec0fd1f8ec0f|01f9ec0f
+xs1|xor r4,r4,r1; xor r1,r4,r1; xor r4,r4,r1; xor r4,r4,r1|xor r1,r4,r1;xor r4,r4,r1|01f9ec0fd1f8ec0f01f9ec0f01f9ec0f|d1f8ec0f01f9ec0f
+xs1|xor r4,r4,r1; xor r1,r4,r1; xor r4,r4,r1|xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1|01f9ec0fd1f8ec0f01f9ec0f|01f9ec0fd1f8ec0f01f9ec0f
+xs1|xor r4,r4,r1; xor r1,r4,r1|xor r4,r4,r1;xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1|01f9ec0fd1f8ec0f|01f9ec0f01f9ec0fd1f8ec0f01f9ec0f
+xs1|xor r4,r4,r1|xor r1,r4,r1;xor r4,r4,r1;xor r4,r4,r1;xor r1,r4,r1;xor r4,r4,r1|01f9ec0f|d1f8ec0f01f9ec0f01f9ec0fd1f8ec0f01f9ec0f
+xs1|add r4,r4,r2; sub r4,r4,r2||02110219|
+xs1|add r4,r4,r2|sub r4,r4,r2|0211|0219
+xs1|sub r4,r4,r2; add r4,r4,r2||02190211|
+xs1|sub r4,r4,r2|add r4,r4,r2|0219|0211
+xs1|xor r4,r4,r2; xor r2,r4,r2; xor r4,r4,r2; xor r4,r4,r2; xor r2,r4,r2; xor r4,r4,r2||02f9ec0fe2f8ec0f02f9ec0f02f9ec0fe2f8ec0f02f9ec0f|
+xs1|xor r4,r4,r2; xor r2,r4,r2; xor r4,r4,r2; xor r4,r4,r2; xor r2,r4,r2|xor r4,r4,r2|02f9ec0fe2f8ec0f02f9ec0f02f9ec0fe2f8ec0f|02f9ec0f
+xs1|xor r4,r4,r2; xor r2,r4,r2; xor r4,r4,r2; xor r4,r4,r2|xor r2,r4,r2;xor r4,r4,r2|02f9ec0fe2f8ec0f02f9ec0f02f9ec0f|e2f8ec0f02f9ec0f
+xs1|xor r4,r4,r2; xor r2,r4,r2; xor r4,r4,r2|xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2|02f9ec0fe2f8ec0f02f9ec0f|02f9ec0fe2f8ec0f02f9ec0f
+xs1|xor r4,r4,r2; xor r2,r4,r2|xor r4,r4,r2;xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2|02f9ec0fe2f8ec0f|02f9ec0f02f9ec0fe2f8ec0f02f9ec0f
+xs1|xor r4,r4,r2|xor r2,r4,r2;xor r4,r4,r2;xor r4,r4,r2;xor r2,r4,r2;xor r4,r4,r2|02f9ec0f|e2f8ec0f02f9ec0f02f9ec0fe2f8ec0f02f9ec0f
+xs1|add r4,r4,r3; sub r4,r4,r3||03110319|
+xs1|add r4,r4,r3|sub r4,r4,r3|0311|0319
+xs1|sub r4,r4,r3; add r4,r4,r3||03190311|
+xs1|sub r4,r4,r3|add r4,r4,r3|0319|0311
+xs1|xor r4,r4,r3; xor r3,r4,r3; xor r4,r4,r3; xor r4,r4,r3; xor r3,r4,r3; xor r4,r4,r3||03f9ec0ff3f8ec0f03f9ec0f03f9ec0ff3f8ec0f03f9ec0f|
+xs1|xor r4,r4,r3; xor r3,r4,r3; xor r4,r4,r3; xor r4,r4,r3; xor r3,r4,r3|xor r4,r4,r3|03f9ec0ff3f8ec0f03f9ec0f03f9ec0ff3f8ec0f|03f9ec0f
+xs1|xor r4,r4,r3; xor r3,r4,r3; xor r4,r4,r3; xor r4,r4,r3|xor r3,r4,r3;xor r4,r4,r3|03f9ec0ff3f8ec0f03f9ec0f03f9ec0f|f3f8ec0f03f9ec0f
+xs1|xor r4,r4,r3; xor r3,r4,r3; xor r4,r4,r3|xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3|03f9ec0ff3f8ec0f03f9ec0f|03f9ec0ff3f8ec0f03f9ec0f
+xs1|xor r4,r4,r3; xor r3,r4,r3|xor r4,r4,r3;xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3|03f9ec0ff3f8ec0f|03f9ec0f03f9ec0ff3f8ec0f03f9ec0f
+xs1|xor r4,r4,r3|xor r3,r4,r3;xor r4,r4,r3;xor r4,r4,r3;xor r3,r4,r3;xor r4,r4,r3|03f9ec0f|f3f8ec0f03f9ec0f03f9ec0ff3f8ec0f03f9ec0f
+xs1|add r4,r4,r4; sub r4,r4,r4||4013401b|
+xs1|add r4,r4,r4|sub r4,r4,r4|4013|401b
+xs1|sub r4,r4,r4; add r4,r4,r4||401b4013|
+xs1|sub r4,r4,r4|add r4,r4,r4|401b|4013
+xs1|xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4||40fbec0f40fbec0f40fbec0f40fbec0f40fbec0f40fbec0f|
+xs1|xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4|xor r4,r4,r4|40fbec0f40fbec0f40fbec0f40fbec0f40fbec0f|40fbec0f
+xs1|xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4|xor r4,r4,r4;xor r4,r4,r4|40fbec0f40fbec0f40fbec0f40fbec0f|40fbec0f40fbec0f
+xs1|xor r4,r4,r4; xor r4,r4,r4; xor r4,r4,r4|xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4|40fbec0f40fbec0f40fbec0f|40fbec0f40fbec0f40fbec0f
+xs1|xor r4,r4,r4; xor r4,r4,r4|xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4|40fbec0f40fbec0f|40fbec0f40fbec0f40fbec0f40fbec0f
+xs1|xor r4,r4,r4|xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4;xor r4,r4,r4|40fbec0f|40fbec0f40fbec0f40fbec0f40fbec0f40fbec0f
+xs1|add r4,r4,r5; sub r4,r4,r5||4113411b|
+xs1|add r4,r4,r5|sub r4,r4,r5|4113|411b
+xs1|sub r4,r4,r5; add r4,r4,r5||411b4113|
+xs1|sub r4,r4,r5|add r4,r4,r5|411b|4113
+xs1|xor r4,r4,r5; xor r5,r4,r5; xor r4,r4,r5; xor r4,r4,r5; xor r5,r4,r5; xor r4,r4,r5||41fbec0f51fbec0f41fbec0f41fbec0f51fbec0f41fbec0f|
+xs1|xor r4,r4,r5; xor r5,r4,r5; xor r4,r4,r5; xor r4,r4,r5; xor r5,r4,r5|xor r4,r4,r5|41fbec0f51fbec0f41fbec0f41fbec0f51fbec0f|41fbec0f
+xs1|xor r4,r4,r5; xor r5,r4,r5; xor r4,r4,r5; xor r4,r4,r5|xor r5,r4,r5;xor r4,r4,r5|41fbec0f51fbec0f41fbec0f41fbec0f|51fbec0f41fbec0f
+xs1|xor r4,r4,r5; xor r5,r4,r5; xor r4,r4,r5|xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5|41fbec0f51fbec0f41fbec0f|41fbec0f51fbec0f41fbec0f
+xs1|xor r4,r4,r5; xor r5,r4,r5|xor r4,r4,r5;xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5|41fbec0f51fbec0f|41fbec0f41fbec0f51fbec0f41fbec0f
+xs1|xor r4,r4,r5|xor r5,r4,r5;xor r4,r4,r5;xor r4,r4,r5;xor r5,r4,r5;xor r4,r4,r5|41fbec0f|51fbec0f41fbec0f41fbec0f51fbec0f41fbec0f
+xs1|add r4,r4,r6; sub r4,r4,r6||4213421b|
+xs1|add r4,r4,r6|sub r4,r4,r6|4213|421b
+xs1|sub r4,r4,r6; add r4,r4,r6||421b4213|
+xs1|sub r4,r4,r6|add r4,r4,r6|421b|4213
+xs1|xor r4,r4,r6; xor r6,r4,r6; xor r4,r4,r6; xor r4,r4,r6; xor r6,r4,r6; xor r4,r4,r6||42fbec0f62fbec0f42fbec0f42fbec0f62fbec0f42fbec0f|
+xs1|xor r4,r4,r6; xor r6,r4,r6; xor r4,r4,r6; xor r4,r4,r6; xor r6,r4,r6|xor r4,r4,r6|42fbec0f62fbec0f42fbec0f42fbec0f62fbec0f|42fbec0f
+xs1|xor r4,r4,r6; xor r6,r4,r6; xor r4,r4,r6; xor r4,r4,r6|xor r6,r4,r6;xor r4,r4,r6|42fbec0f62fbec0f42fbec0f42fbec0f|62fbec0f42fbec0f
+xs1|xor r4,r4,r6; xor r6,r4,r6; xor r4,r4,r6|xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6|42fbec0f62fbec0f42fbec0f|42fbec0f62fbec0f42fbec0f
+xs1|xor r4,r4,r6; xor r6,r4,r6|xor r4,r4,r6;xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6|42fbec0f62fbec0f|42fbec0f42fbec0f62fbec0f42fbec0f
+xs1|xor r4,r4,r6|xor r6,r4,r6;xor r4,r4,r6;xor r4,r4,r6;xor r6,r4,r6;xor r4,r4,r6|42fbec0f|62fbec0f42fbec0f42fbec0f62fbec0f42fbec0f
+xs1|add r4,r4,r7; sub r4,r4,r7||4313431b|
+xs1|add r4,r4,r7|sub r4,r4,r7|4313|431b
+xs1|sub r4,r4,r7; add r4,r4,r7||431b4313|
+xs1|sub r4,r4,r7|add r4,r4,r7|431b|4313
+xs1|xor r4,r4,r7; xor r7,r4,r7; xor r4,r4,r7; xor r4,r4,r7; xor r7,r4,r7; xor r4,r4,r7||43fbec0f73fbec0f43fbec0f43fbec0f73fbec0f43fbec0f|
+xs1|xor r4,r4,r7; xor r7,r4,r7; xor r4,r4,r7; xor r4,r4,r7; xor r7,r4,r7|xor r4,r4,r7|43fbec0f73fbec0f43fbec0f43fbec0f73fbec0f|43fbec0f
+xs1|xor r4,r4,r7; xor r7,r4,r7; xor r4,r4,r7; xor r4,r4,r7|xor r7,r4,r7;xor r4,r4,r7|43fbec0f73fbec0f43fbec0f43fbec0f|73fbec0f43fbec0f
+xs1|xor r4,r4,r7; xor r7,r4,r7; xor r4,r4,r7|xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7|43fbec0f73fbec0f43fbec0f|43fbec0f73fbec0f43fbec0f
+xs1|xor r4,r4,r7; xor r7,r4,r7|xor r4,r4,r7;xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7|43fbec0f73fbec0f|43fbec0f43fbec0f73fbec0f43fbec0f
+xs1|xor r4,r4,r7|xor r7,r4,r7;xor r4,r4,r7;xor r4,r4,r7;xor r7,r4,r7;xor r4,r4,r7|43fbec0f|73fbec0f43fbec0f43fbec0f73fbec0f43fbec0f
+xs1|add r4,r4,r8; sub r4,r4,r8||8015801d|
+xs1|add r4,r4,r8|sub r4,r4,r8|8015|801d
+xs1|sub r4,r4,r8; add r4,r4,r8||801d8015|
+xs1|sub r4,r4,r8|add r4,r4,r8|801d|8015
+xs1|xor r4,r4,r8; xor r8,r4,r8; xor r4,r4,r8; xor r4,r4,r8; xor r8,r4,r8; xor r4,r4,r8||80fdec0fc0fdec0f80fdec0f80fdec0fc0fdec0f80fdec0f|
+xs1|xor r4,r4,r8; xor r8,r4,r8; xor r4,r4,r8; xor r4,r4,r8; xor r8,r4,r8|xor r4,r4,r8|80fdec0fc0fdec0f80fdec0f80fdec0fc0fdec0f|80fdec0f
+xs1|xor r4,r4,r8; xor r8,r4,r8; xor r4,r4,r8; xor r4,r4,r8|xor r8,r4,r8;xor r4,r4,r8|80fdec0fc0fdec0f80fdec0f80fdec0f|c0fdec0f80fdec0f
+xs1|xor r4,r4,r8; xor r8,r4,r8; xor r4,r4,r8|xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8|80fdec0fc0fdec0f80fdec0f|80fdec0fc0fdec0f80fdec0f
+xs1|xor r4,r4,r8; xor r8,r4,r8|xor r4,r4,r8;xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8|80fdec0fc0fdec0f|80fdec0f80fdec0fc0fdec0f80fdec0f
+xs1|xor r4,r4,r8|xor r8,r4,r8;xor r4,r4,r8;xor r4,r4,r8;xor r8,r4,r8;xor r4,r4,r8|80fdec0f|c0fdec0f80fdec0f80fdec0fc0fdec0f80fdec0f
+xs1|add r4,r4,r9; sub r4,r4,r9||8115811d|
+xs1|add r4,r4,r9|sub r4,r4,r9|8115|811d
+xs1|sub r4,r4,r9; add r4,r4,r9||811d8115|
+xs1|sub r4,r4,r9|add r4,r4,r9|811d|8115
+xs1|xor r4,r4,r9; xor r9,r4,r9; xor r4,r4,r9; xor r4,r4,r9; xor r9,r4,r9; xor r4,r4,r9||81fdec0fd1fdec0f81fdec0f81fdec0fd1fdec0f81fdec0f|
+xs1|xor r4,r4,r9; xor r9,r4,r9; xor r4,r4,r9; xor r4,r4,r9; xor r9,r4,r9|xor r4,r4,r9|81fdec0fd1fdec0f81fdec0f81fdec0fd1fdec0f|81fdec0f
+xs1|xor r4,r4,r9; xor r9,r4,r9; xor r4,r4,r9; xor r4,r4,r9|xor r9,r4,r9;xor r4,r4,r9|81fdec0fd1fdec0f81fdec0f81fdec0f|d1fdec0f81fdec0f
+xs1|xor r4,r4,r9; xor r9,r4,r9; xor r4,r4,r9|xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9|81fdec0fd1fdec0f81fdec0f|81fdec0fd1fdec0f81fdec0f
+xs1|xor r4,r4,r9; xor r9,r4,r9|xor r4,r4,r9;xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9|81fdec0fd1fdec0f|81fdec0f81fdec0fd1fdec0f81fdec0f
+xs1|xor r4,r4,r9|xor r9,r4,r9;xor r4,r4,r9;xor r4,r4,r9;xor r9,r4,r9;xor r4,r4,r9|81fdec0f|d1fdec0f81fdec0f81fdec0fd1fdec0f81fdec0f
+xs1|add r4,r4,r10; sub r4,r4,r10||8215821d|
+xs1|add r4,r4,r10|sub r4,r4,r10|8215|821d
+xs1|sub r4,r4,r10; add r4,r4,r10||821d8215|
+xs1|sub r4,r4,r10|add r4,r4,r10|821d|8215
+xs1|xor r4,r4,r10; xor r10,r4,r10; xor r4,r4,r10; xor r4,r4,r10; xor r10,r4,r10; xor r4,r4,r10||82fdec0fe2fdec0f82fdec0f82fdec0fe2fdec0f82fdec0f|
+xs1|xor r4,r4,r10; xor r10,r4,r10; xor r4,r4,r10; xor r4,r4,r10; xor r10,r4,r10|xor r4,r4,r10|82fdec0fe2fdec0f82fdec0f82fdec0fe2fdec0f|82fdec0f
+xs1|xor r4,r4,r10; xor r10,r4,r10; xor r4,r4,r10; xor r4,r4,r10|xor r10,r4,r10;xor r4,r4,r10|82fdec0fe2fdec0f82fdec0f82fdec0f|e2fdec0f82fdec0f
+xs1|xor r4,r4,r10; xor r10,r4,r10; xor r4,r4,r10|xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10|82fdec0fe2fdec0f82fdec0f|82fdec0fe2fdec0f82fdec0f
+xs1|xor r4,r4,r10; xor r10,r4,r10|xor r4,r4,r10;xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10|82fdec0fe2fdec0f|82fdec0f82fdec0fe2fdec0f82fdec0f
+xs1|xor r4,r4,r10|xor r10,r4,r10;xor r4,r4,r10;xor r4,r4,r10;xor r10,r4,r10;xor r4,r4,r10|82fdec0f|e2fdec0f82fdec0f82fdec0fe2fdec0f82fdec0f
+xs1|add r4,r4,r11; sub r4,r4,r11||8315831d|
+xs1|add r4,r4,r11|sub r4,r4,r11|8315|831d
+xs1|sub r4,r4,r11; add r4,r4,r11||831d8315|
+xs1|sub r4,r4,r11|add r4,r4,r11|831d|8315
+xs1|xor r4,r4,r11; xor r11,r4,r11; xor r4,r4,r11; xor r4,r4,r11; xor r11,r4,r11; xor r4,r4,r11||83fdec0ff3fdec0f83fdec0f83fdec0ff3fdec0f83fdec0f|
+xs1|xor r4,r4,r11; xor r11,r4,r11; xor r4,r4,r11; xor r4,r4,r11; xor r11,r4,r11|xor r4,r4,r11|83fdec0ff3fdec0f83fdec0f83fdec0ff3fdec0f|83fdec0f
+xs1|xor r4,r4,r11; xor r11,r4,r11; xor r4,r4,r11; xor r4,r4,r11|xor r11,r4,r11;xor r4,r4,r11|83fdec0ff3fdec0f83fdec0f83fdec0f|f3fdec0f83fdec0f
+xs1|xor r4,r4,r11; xor r11,r4,r11; xor r4,r4,r11|xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11|83fdec0ff3fdec0f83fdec0f|83fdec0ff3fdec0f83fdec0f
+xs1|xor r4,r4,r11; xor r11,r4,r11|xor r4,r4,r11;xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11|83fdec0ff3fdec0f|83fdec0f83fdec0ff3fdec0f83fdec0f
+xs1|xor r4,r4,r11|xor r11,r4,r11;xor r4,r4,r11;xor r4,r4,r11;xor r11,r4,r11;xor r4,r4,r11|83fdec0f|f3fdec0f83fdec0f83fdec0ff3fdec0f83fdec0f
+xs1|add r4,r4,0; sub r4,r4,0||00910099|
+xs1|add r4,r4,0|sub r4,r4,0|0091|0099
+xs1|sub r4,r4,0; add r4,r4,0||00990091|
+xs1|sub r4,r4,0|add r4,r4,0|0099|0091
+xs1|add r4,r4,1; sub r4,r4,1||01910199|
+xs1|add r4,r4,1|sub r4,r4,1|0191|0199
+xs1|sub r4,r4,1; add r4,r4,1||01990191|
+xs1|sub r4,r4,1|add r4,r4,1|0199|0191
+xs1|add r4,r4,2; sub r4,r4,2||02910299|
+xs1|add r4,r4,2|sub r4,r4,2|0291|0299
+xs1|sub r4,r4,2; add r4,r4,2||02990291|
+xs1|sub r4,r4,2|add r4,r4,2|0299|0291
+xs1|add r4,r4,3; sub r4,r4,3||03910399|
+xs1|add r4,r4,3|sub r4,r4,3|0391|0399
+xs1|sub r4,r4,3; add r4,r4,3||03990391|
+xs1|sub r4,r4,3|add r4,r4,3|0399|0391
+xs1|add r4,r4,4; sub r4,r4,4||4093409b|
+xs1|add r4,r4,4|sub r4,r4,4|4093|409b
+xs1|sub r4,r4,4; add r4,r4,4||409b4093|
+xs1|sub r4,r4,4|add r4,r4,4|409b|4093
+xs1|add r4,r4,5; sub r4,r4,5||4193419b|
+xs1|add r4,r4,5|sub r4,r4,5|4193|419b
+xs1|sub r4,r4,5; add r4,r4,5||419b4193|
+xs1|sub r4,r4,5|add r4,r4,5|419b|4193
+xs1|add r4,r4,6; sub r4,r4,6||4293429b|
+xs1|add r4,r4,6|sub r4,r4,6|4293|429b
+xs1|sub r4,r4,6; add r4,r4,6||429b4293|
+xs1|sub r4,r4,6|add r4,r4,6|429b|4293
+xs1|add r4,r4,7; sub r4,r4,7||4393439b|
+xs1|add r4,r4,7|sub r4,r4,7|4393|439b
+xs1|sub r4,r4,7; add r4,r4,7||439b4393|
+xs1|sub r4,r4,7|add r4,r4,7|439b|4393
+xs1|add r4,r4,8; sub r4,r4,8||8095809d|
+xs1|add r4,r4,8|sub r4,r4,8|8095|809d
+xs1|sub r4,r4,8; add r4,r4,8||809d8095|
+xs1|sub r4,r4,8|add r4,r4,8|809d|8095
+xs1|add r4,r4,9; sub r4,r4,9||8195819d|
+xs1|add r4,r4,9|sub r4,r4,9|8195|819d
+xs1|sub r4,r4,9; add r4,r4,9||819d8195|
+xs1|sub r4,r4,9|add r4,r4,9|819d|8195
+xs1|add r4,r4,10; sub r4,r4,10||8295829d|
+xs1|add r4,r4,10|sub r4,r4,10|8295|829d
+xs1|sub r4,r4,10; add r4,r4,10||829d8295|
+xs1|sub r4,r4,10|add r4,r4,10|829d|8295
+xs1|add r4,r4,11; sub r4,r4,11||8395839d|
+xs1|add r4,r4,11|sub r4,r4,11|8395|839d
+xs1|sub r4,r4,11; add r4,r4,11||839d8395|
+xs1|sub r4,r4,11|add r4,r4,11|839d|8395
+xs1|add r5,r5,0||1491|
+xs1|sub r5,r5,0||1499|
+xs1|bitrev r5,r5; bitrev r5,r5||c5ffec07c5ffec07|
+xs1|bitrev r5,r5|bitrev r5,r5|c5ffec07|c5ffec07
+xs1|byterev r5,r5; byterev r5,r5||d5ffec07d5ffec07|
+xs1|byterev r5,r5|byterev r5,r5|d5ffec07|d5ffec07
+xs1|neg r5,r5; neg r5,r5||c597c597|
+xs1|neg r5,r5|neg r5,r5|c597|c597
+xs1|not r5,r5; not r5,r5||c58fc58f|
+xs1|not r5,r5|not r5,r5|c58f|c58f
+xs1|add r5,r5,r0; sub r5,r5,r0||14111419|
+xs1|add r5,r5,r0|sub r5,r5,r0|1411|1419
+xs1|sub r5,r5,r0; add r5,r5,r0||14191411|
+xs1|sub r5,r5,r0|add r5,r5,r0|1419|1411
+xs1|xor r5,r5,r0; xor r0,r5,r0; xor r5,r5,r0; xor r5,r5,r0; xor r0,r5,r0; xor r5,r5,r0||14f9ec0fc4f8ec0f14f9ec0f14f9ec0fc4f8ec0f14f9ec0f|
+xs1|xor r5,r5,r0; xor r0,r5,r0; xor r5,r5,r0; xor r5,r5,r0; xor r0,r5,r0|xor r5,r5,r0|14f9ec0fc4f8ec0f14f9ec0f14f9ec0fc4f8ec0f|14f9ec0f
+xs1|xor r5,r5,r0; xor r0,r5,r0; xor r5,r5,r0; xor r5,r5,r0|xor r0,r5,r0;xor r5,r5,r0|14f9ec0fc4f8ec0f14f9ec0f14f9ec0f|c4f8ec0f14f9ec0f
+xs1|xor r5,r5,r0; xor r0,r5,r0; xor r5,r5,r0|xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0|14f9ec0fc4f8ec0f14f9ec0f|14f9ec0fc4f8ec0f14f9ec0f
+xs1|xor r5,r5,r0; xor r0,r5,r0|xor r5,r5,r0;xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0|14f9ec0fc4f8ec0f|14f9ec0f14f9ec0fc4f8ec0f14f9ec0f
+xs1|xor r5,r5,r0|xor r0,r5,r0;xor r5,r5,r0;xor r5,r5,r0;xor r0,r5,r0;xor r5,r5,r0|14f9ec0f|c4f8ec0f14f9ec0f14f9ec0fc4f8ec0f14f9ec0f
+xs1|add r5,r5,r1; sub r5,r5,r1||15111519|
+xs1|add r5,r5,r1|sub r5,r5,r1|1511|1519
+xs1|sub r5,r5,r1; add r5,r5,r1||15191511|
+xs1|sub r5,r5,r1|add r5,r5,r1|1519|1511
+xs1|xor r5,r5,r1; xor r1,r5,r1; xor r5,r5,r1; xor r5,r5,r1; xor r1,r5,r1; xor r5,r5,r1||15f9ec0fd5f8ec0f15f9ec0f15f9ec0fd5f8ec0f15f9ec0f|
+xs1|xor r5,r5,r1; xor r1,r5,r1; xor r5,r5,r1; xor r5,r5,r1; xor r1,r5,r1|xor r5,r5,r1|15f9ec0fd5f8ec0f15f9ec0f15f9ec0fd5f8ec0f|15f9ec0f
+xs1|xor r5,r5,r1; xor r1,r5,r1; xor r5,r5,r1; xor r5,r5,r1|xor r1,r5,r1;xor r5,r5,r1|15f9ec0fd5f8ec0f15f9ec0f15f9ec0f|d5f8ec0f15f9ec0f
+xs1|xor r5,r5,r1; xor r1,r5,r1; xor r5,r5,r1|xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1|15f9ec0fd5f8ec0f15f9ec0f|15f9ec0fd5f8ec0f15f9ec0f
+xs1|xor r5,r5,r1; xor r1,r5,r1|xor r5,r5,r1;xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1|15f9ec0fd5f8ec0f|15f9ec0f15f9ec0fd5f8ec0f15f9ec0f
+xs1|xor r5,r5,r1|xor r1,r5,r1;xor r5,r5,r1;xor r5,r5,r1;xor r1,r5,r1;xor r5,r5,r1|15f9ec0f|d5f8ec0f15f9ec0f15f9ec0fd5f8ec0f15f9ec0f
+xs1|add r5,r5,r2; sub r5,r5,r2||16111619|
+xs1|add r5,r5,r2|sub r5,r5,r2|1611|1619
+xs1|sub r5,r5,r2; add r5,r5,r2||16191611|
+xs1|sub r5,r5,r2|add r5,r5,r2|1619|1611
+xs1|xor r5,r5,r2; xor r2,r5,r2; xor r5,r5,r2; xor r5,r5,r2; xor r2,r5,r2; xor r5,r5,r2||16f9ec0fe6f8ec0f16f9ec0f16f9ec0fe6f8ec0f16f9ec0f|
+xs1|xor r5,r5,r2; xor r2,r5,r2; xor r5,r5,r2; xor r5,r5,r2; xor r2,r5,r2|xor r5,r5,r2|16f9ec0fe6f8ec0f16f9ec0f16f9ec0fe6f8ec0f|16f9ec0f
+xs1|xor r5,r5,r2; xor r2,r5,r2; xor r5,r5,r2; xor r5,r5,r2|xor r2,r5,r2;xor r5,r5,r2|16f9ec0fe6f8ec0f16f9ec0f16f9ec0f|e6f8ec0f16f9ec0f
+xs1|xor r5,r5,r2; xor r2,r5,r2; xor r5,r5,r2|xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2|16f9ec0fe6f8ec0f16f9ec0f|16f9ec0fe6f8ec0f16f9ec0f
+xs1|xor r5,r5,r2; xor r2,r5,r2|xor r5,r5,r2;xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2|16f9ec0fe6f8ec0f|16f9ec0f16f9ec0fe6f8ec0f16f9ec0f
+xs1|xor r5,r5,r2|xor r2,r5,r2;xor r5,r5,r2;xor r5,r5,r2;xor r2,r5,r2;xor r5,r5,r2|16f9ec0f|e6f8ec0f16f9ec0f16f9ec0fe6f8ec0f16f9ec0f
+xs1|add r5,r5,r3; sub r5,r5,r3||17111719|
+xs1|add r5,r5,r3|sub r5,r5,r3|1711|1719
+xs1|sub r5,r5,r3; add r5,r5,r3||17191711|
+xs1|sub r5,r5,r3|add r5,r5,r3|1719|1711
+xs1|xor r5,r5,r3; xor r3,r5,r3; xor r5,r5,r3; xor r5,r5,r3; xor r3,r5,r3; xor r5,r5,r3||17f9ec0ff7f8ec0f17f9ec0f17f9ec0ff7f8ec0f17f9ec0f|
+xs1|xor r5,r5,r3; xor r3,r5,r3; xor r5,r5,r3; xor r5,r5,r3; xor r3,r5,r3|xor r5,r5,r3|17f9ec0ff7f8ec0f17f9ec0f17f9ec0ff7f8ec0f|17f9ec0f
+xs1|xor r5,r5,r3; xor r3,r5,r3; xor r5,r5,r3; xor r5,r5,r3|xor r3,r5,r3;xor r5,r5,r3|17f9ec0ff7f8ec0f17f9ec0f17f9ec0f|f7f8ec0f17f9ec0f
+xs1|xor r5,r5,r3; xor r3,r5,r3; xor r5,r5,r3|xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3|17f9ec0ff7f8ec0f17f9ec0f|17f9ec0ff7f8ec0f17f9ec0f
+xs1|xor r5,r5,r3; xor r3,r5,r3|xor r5,r5,r3;xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3|17f9ec0ff7f8ec0f|17f9ec0f17f9ec0ff7f8ec0f17f9ec0f
+xs1|xor r5,r5,r3|xor r3,r5,r3;xor r5,r5,r3;xor r5,r5,r3;xor r3,r5,r3;xor r5,r5,r3|17f9ec0f|f7f8ec0f17f9ec0f17f9ec0ff7f8ec0f17f9ec0f
+xs1|add r5,r5,r4; sub r5,r5,r4||5413541b|
+xs1|add r5,r5,r4|sub r5,r5,r4|5413|541b
+xs1|sub r5,r5,r4; add r5,r5,r4||541b5413|
+xs1|sub r5,r5,r4|add r5,r5,r4|541b|5413
+xs1|xor r5,r5,r4; xor r4,r5,r4; xor r5,r5,r4; xor r5,r5,r4; xor r4,r5,r4; xor r5,r5,r4||54fbec0f44fbec0f54fbec0f54fbec0f44fbec0f54fbec0f|
+xs1|xor r5,r5,r4; xor r4,r5,r4; xor r5,r5,r4; xor r5,r5,r4; xor r4,r5,r4|xor r5,r5,r4|54fbec0f44fbec0f54fbec0f54fbec0f44fbec0f|54fbec0f
+xs1|xor r5,r5,r4; xor r4,r5,r4; xor r5,r5,r4; xor r5,r5,r4|xor r4,r5,r4;xor r5,r5,r4|54fbec0f44fbec0f54fbec0f54fbec0f|44fbec0f54fbec0f
+xs1|xor r5,r5,r4; xor r4,r5,r4; xor r5,r5,r4|xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4|54fbec0f44fbec0f54fbec0f|54fbec0f44fbec0f54fbec0f
+xs1|xor r5,r5,r4; xor r4,r5,r4|xor r5,r5,r4;xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4|54fbec0f44fbec0f|54fbec0f54fbec0f44fbec0f54fbec0f
+xs1|xor r5,r5,r4|xor r4,r5,r4;xor r5,r5,r4;xor r5,r5,r4;xor r4,r5,r4;xor r5,r5,r4|54fbec0f|44fbec0f54fbec0f54fbec0f44fbec0f54fbec0f
+xs1|add r5,r5,r5; sub r5,r5,r5||5513551b|
+xs1|add r5,r5,r5|sub r5,r5,r5|5513|551b
+xs1|sub r5,r5,r5; add r5,r5,r5||551b5513|
+xs1|sub r5,r5,r5|add r5,r5,r5|551b|5513
+xs1|xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5||55fbec0f55fbec0f55fbec0f55fbec0f55fbec0f55fbec0f|
+xs1|xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5|xor r5,r5,r5|55fbec0f55fbec0f55fbec0f55fbec0f55fbec0f|55fbec0f
+xs1|xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5|xor r5,r5,r5;xor r5,r5,r5|55fbec0f55fbec0f55fbec0f55fbec0f|55fbec0f55fbec0f
+xs1|xor r5,r5,r5; xor r5,r5,r5; xor r5,r5,r5|xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5|55fbec0f55fbec0f55fbec0f|55fbec0f55fbec0f55fbec0f
+xs1|xor r5,r5,r5; xor r5,r5,r5|xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5|55fbec0f55fbec0f|55fbec0f55fbec0f55fbec0f55fbec0f
+xs1|xor r5,r5,r5|xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5;xor r5,r5,r5|55fbec0f|55fbec0f55fbec0f55fbec0f55fbec0f55fbec0f
+xs1|add r5,r5,r6; sub r5,r5,r6||5613561b|
+xs1|add r5,r5,r6|sub r5,r5,r6|5613|561b
+xs1|sub r5,r5,r6; add r5,r5,r6||561b5613|
+xs1|sub r5,r5,r6|add r5,r5,r6|561b|5613
+xs1|xor r5,r5,r6; xor r6,r5,r6; xor r5,r5,r6; xor r5,r5,r6; xor r6,r5,r6; xor r5,r5,r6||56fbec0f66fbec0f56fbec0f56fbec0f66fbec0f56fbec0f|
+xs1|xor r5,r5,r6; xor r6,r5,r6; xor r5,r5,r6; xor r5,r5,r6; xor r6,r5,r6|xor r5,r5,r6|56fbec0f66fbec0f56fbec0f56fbec0f66fbec0f|56fbec0f
+xs1|xor r5,r5,r6; xor r6,r5,r6; xor r5,r5,r6; xor r5,r5,r6|xor r6,r5,r6;xor r5,r5,r6|56fbec0f66fbec0f56fbec0f56fbec0f|66fbec0f56fbec0f
+xs1|xor r5,r5,r6; xor r6,r5,r6; xor r5,r5,r6|xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6|56fbec0f66fbec0f56fbec0f|56fbec0f66fbec0f56fbec0f
+xs1|xor r5,r5,r6; xor r6,r5,r6|xor r5,r5,r6;xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6|56fbec0f66fbec0f|56fbec0f56fbec0f66fbec0f56fbec0f
+xs1|xor r5,r5,r6|xor r6,r5,r6;xor r5,r5,r6;xor r5,r5,r6;xor r6,r5,r6;xor r5,r5,r6|56fbec0f|66fbec0f56fbec0f56fbec0f66fbec0f56fbec0f
+xs1|add r5,r5,r7; sub r5,r5,r7||5713571b|
+xs1|add r5,r5,r7|sub r5,r5,r7|5713|571b
+xs1|sub r5,r5,r7; add r5,r5,r7||571b5713|
+xs1|sub r5,r5,r7|add r5,r5,r7|571b|5713
+xs1|xor r5,r5,r7; xor r7,r5,r7; xor r5,r5,r7; xor r5,r5,r7; xor r7,r5,r7; xor r5,r5,r7||57fbec0f77fbec0f57fbec0f57fbec0f77fbec0f57fbec0f|
+xs1|xor r5,r5,r7; xor r7,r5,r7; xor r5,r5,r7; xor r5,r5,r7; xor r7,r5,r7|xor r5,r5,r7|57fbec0f77fbec0f57fbec0f57fbec0f77fbec0f|57fbec0f
+xs1|xor r5,r5,r7; xor r7,r5,r7; xor r5,r5,r7; xor r5,r5,r7|xor r7,r5,r7;xor r5,r5,r7|57fbec0f77fbec0f57fbec0f57fbec0f|77fbec0f57fbec0f
+xs1|xor r5,r5,r7; xor r7,r5,r7; xor r5,r5,r7|xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7|57fbec0f77fbec0f57fbec0f|57fbec0f77fbec0f57fbec0f
+xs1|xor r5,r5,r7; xor r7,r5,r7|xor r5,r5,r7;xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7|57fbec0f77fbec0f|57fbec0f57fbec0f77fbec0f57fbec0f
+xs1|xor r5,r5,r7|xor r7,r5,r7;xor r5,r5,r7;xor r5,r5,r7;xor r7,r5,r7;xor r5,r5,r7|57fbec0f|77fbec0f57fbec0f57fbec0f77fbec0f57fbec0f
+xs1|add r5,r5,r8; sub r5,r5,r8||9415941d|
+xs1|add r5,r5,r8|sub r5,r5,r8|9415|941d
+xs1|sub r5,r5,r8; add r5,r5,r8||941d9415|
+xs1|sub r5,r5,r8|add r5,r5,r8|941d|9415
+xs1|xor r5,r5,r8; xor r8,r5,r8; xor r5,r5,r8; xor r5,r5,r8; xor r8,r5,r8; xor r5,r5,r8||94fdec0fc4fdec0f94fdec0f94fdec0fc4fdec0f94fdec0f|
+xs1|xor r5,r5,r8; xor r8,r5,r8; xor r5,r5,r8; xor r5,r5,r8; xor r8,r5,r8|xor r5,r5,r8|94fdec0fc4fdec0f94fdec0f94fdec0fc4fdec0f|94fdec0f
+xs1|xor r5,r5,r8; xor r8,r5,r8; xor r5,r5,r8; xor r5,r5,r8|xor r8,r5,r8;xor r5,r5,r8|94fdec0fc4fdec0f94fdec0f94fdec0f|c4fdec0f94fdec0f
+xs1|xor r5,r5,r8; xor r8,r5,r8; xor r5,r5,r8|xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8|94fdec0fc4fdec0f94fdec0f|94fdec0fc4fdec0f94fdec0f
+xs1|xor r5,r5,r8; xor r8,r5,r8|xor r5,r5,r8;xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8|94fdec0fc4fdec0f|94fdec0f94fdec0fc4fdec0f94fdec0f
+xs1|xor r5,r5,r8|xor r8,r5,r8;xor r5,r5,r8;xor r5,r5,r8;xor r8,r5,r8;xor r5,r5,r8|94fdec0f|c4fdec0f94fdec0f94fdec0fc4fdec0f94fdec0f
+xs1|add r5,r5,r9; sub r5,r5,r9||9515951d|
+xs1|add r5,r5,r9|sub r5,r5,r9|9515|951d
+xs1|sub r5,r5,r9; add r5,r5,r9||951d9515|
+xs1|sub r5,r5,r9|add r5,r5,r9|951d|9515
+xs1|xor r5,r5,r9; xor r9,r5,r9; xor r5,r5,r9; xor r5,r5,r9; xor r9,r5,r9; xor r5,r5,r9||95fdec0fd5fdec0f95fdec0f95fdec0fd5fdec0f95fdec0f|
+xs1|xor r5,r5,r9; xor r9,r5,r9; xor r5,r5,r9; xor r5,r5,r9; xor r9,r5,r9|xor r5,r5,r9|95fdec0fd5fdec0f95fdec0f95fdec0fd5fdec0f|95fdec0f
+xs1|xor r5,r5,r9; xor r9,r5,r9; xor r5,r5,r9; xor r5,r5,r9|xor r9,r5,r9;xor r5,r5,r9|95fdec0fd5fdec0f95fdec0f95fdec0f|d5fdec0f95fdec0f
+xs1|xor r5,r5,r9; xor r9,r5,r9; xor r5,r5,r9|xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9|95fdec0fd5fdec0f95fdec0f|95fdec0fd5fdec0f95fdec0f
+xs1|xor r5,r5,r9; xor r9,r5,r9|xor r5,r5,r9;xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9|95fdec0fd5fdec0f|95fdec0f95fdec0fd5fdec0f95fdec0f
+xs1|xor r5,r5,r9|xor r9,r5,r9;xor r5,r5,r9;xor r5,r5,r9;xor r9,r5,r9;xor r5,r5,r9|95fdec0f|d5fdec0f95fdec0f95fdec0fd5fdec0f95fdec0f
+xs1|add r5,r5,r10; sub r5,r5,r10||9615961d|
+xs1|add r5,r5,r10|sub r5,r5,r10|9615|961d
+xs1|sub r5,r5,r10; add r5,r5,r10||961d9615|
+xs1|sub r5,r5,r10|add r5,r5,r10|961d|9615
+xs1|xor r5,r5,r10; xor r10,r5,r10; xor r5,r5,r10; xor r5,r5,r10; xor r10,r5,r10; xor r5,r5,r10||96fdec0fe6fdec0f96fdec0f96fdec0fe6fdec0f96fdec0f|
+xs1|xor r5,r5,r10; xor r10,r5,r10; xor r5,r5,r10; xor r5,r5,r10; xor r10,r5,r10|xor r5,r5,r10|96fdec0fe6fdec0f96fdec0f96fdec0fe6fdec0f|96fdec0f
+xs1|xor r5,r5,r10; xor r10,r5,r10; xor r5,r5,r10; xor r5,r5,r10|xor r10,r5,r10;xor r5,r5,r10|96fdec0fe6fdec0f96fdec0f96fdec0f|e6fdec0f96fdec0f
+xs1|xor r5,r5,r10; xor r10,r5,r10; xor r5,r5,r10|xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10|96fdec0fe6fdec0f96fdec0f|96fdec0fe6fdec0f96fdec0f
+xs1|xor r5,r5,r10; xor r10,r5,r10|xor r5,r5,r10;xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10|96fdec0fe6fdec0f|96fdec0f96fdec0fe6fdec0f96fdec0f
+xs1|xor r5,r5,r10|xor r10,r5,r10;xor r5,r5,r10;xor r5,r5,r10;xor r10,r5,r10;xor r5,r5,r10|96fdec0f|e6fdec0f96fdec0f96fdec0fe6fdec0f96fdec0f
+xs1|add r5,r5,r11; sub r5,r5,r11||9715971d|
+xs1|add r5,r5,r11|sub r5,r5,r11|9715|971d
+xs1|sub r5,r5,r11; add r5,r5,r11||971d9715|
+xs1|sub r5,r5,r11|add r5,r5,r11|971d|9715
+xs1|xor r5,r5,r11; xor r11,r5,r11; xor r5,r5,r11; xor r5,r5,r11; xor r11,r5,r11; xor r5,r5,r11||97fdec0ff7fdec0f97fdec0f97fdec0ff7fdec0f97fdec0f|
+xs1|xor r5,r5,r11; xor r11,r5,r11; xor r5,r5,r11; xor r5,r5,r11; xor r11,r5,r11|xor r5,r5,r11|97fdec0ff7fdec0f97fdec0f97fdec0ff7fdec0f|97fdec0f
+xs1|xor r5,r5,r11; xor r11,r5,r11; xor r5,r5,r11; xor r5,r5,r11|xor r11,r5,r11;xor r5,r5,r11|97fdec0ff7fdec0f97fdec0f97fdec0f|f7fdec0f97fdec0f
+xs1|xor r5,r5,r11; xor r11,r5,r11; xor r5,r5,r11|xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11|97fdec0ff7fdec0f97fdec0f|97fdec0ff7fdec0f97fdec0f
+xs1|xor r5,r5,r11; xor r11,r5,r11|xor r5,r5,r11;xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11|97fdec0ff7fdec0f|97fdec0f97fdec0ff7fdec0f97fdec0f
+xs1|xor r5,r5,r11|xor r11,r5,r11;xor r5,r5,r11;xor r5,r5,r11;xor r11,r5,r11;xor r5,r5,r11|97fdec0f|f7fdec0f97fdec0f97fdec0ff7fdec0f97fdec0f
+xs1|add r5,r5,0; sub r5,r5,0||14911499|
+xs1|add r5,r5,0|sub r5,r5,0|1491|1499
+xs1|sub r5,r5,0; add r5,r5,0||14991491|
+xs1|sub r5,r5,0|add r5,r5,0|1499|1491
+xs1|add r5,r5,1; sub r5,r5,1||15911599|
+xs1|add r5,r5,1|sub r5,r5,1|1591|1599
+xs1|sub r5,r5,1; add r5,r5,1||15991591|
+xs1|sub r5,r5,1|add r5,r5,1|1599|1591
+xs1|add r5,r5,2; sub r5,r5,2||16911699|
+xs1|add r5,r5,2|sub r5,r5,2|1691|1699
+xs1|sub r5,r5,2; add r5,r5,2||16991691|
+xs1|sub r5,r5,2|add r5,r5,2|1699|1691
+xs1|add r5,r5,3; sub r5,r5,3||17911799|
+xs1|add r5,r5,3|sub r5,r5,3|1791|1799
+xs1|sub r5,r5,3; add r5,r5,3||17991791|
+xs1|sub r5,r5,3|add r5,r5,3|1799|1791
+xs1|add r5,r5,4; sub r5,r5,4||5493549b|
+xs1|add r5,r5,4|sub r5,r5,4|5493|549b
+xs1|sub r5,r5,4; add r5,r5,4||549b5493|
+xs1|sub r5,r5,4|add r5,r5,4|549b|5493
+xs1|add r5,r5,5; sub r5,r5,5||5593559b|
+xs1|add r5,r5,5|sub r5,r5,5|5593|559b
+xs1|sub r5,r5,5; add r5,r5,5||559b5593|
+xs1|sub r5,r5,5|add r5,r5,5|559b|5593
+xs1|add r5,r5,6; sub r5,r5,6||5693569b|
+xs1|add r5,r5,6|sub r5,r5,6|5693|569b
+xs1|sub r5,r5,6; add r5,r5,6||569b5693|
+xs1|sub r5,r5,6|add r5,r5,6|569b|5693
+xs1|add r5,r5,7; sub r5,r5,7||5793579b|
+xs1|add r5,r5,7|sub r5,r5,7|5793|579b
+xs1|sub r5,r5,7; add r5,r5,7||579b5793|
+xs1|sub r5,r5,7|add r5,r5,7|579b|5793
+xs1|add r5,r5,8; sub r5,r5,8||9495949d|
+xs1|add r5,r5,8|sub r5,r5,8|9495|949d
+xs1|sub r5,r5,8; add r5,r5,8||949d9495|
+xs1|sub r5,r5,8|add r5,r5,8|949d|9495
+xs1|add r5,r5,9; sub r5,r5,9||9595959d|
+xs1|add r5,r5,9|sub r5,r5,9|9595|959d
+xs1|sub r5,r5,9; add r5,r5,9||959d9595|
+xs1|sub r5,r5,9|add r5,r5,9|959d|9595
+xs1|add r5,r5,10; sub r5,r5,10||9695969d|
+xs1|add r5,r5,10|sub r5,r5,10|9695|969d
+xs1|sub r5,r5,10; add r5,r5,10||969d9695|
+xs1|sub r5,r5,10|add r5,r5,10|969d|9695
+xs1|add r5,r5,11; sub r5,r5,11||9795979d|
+xs1|add r5,r5,11|sub r5,r5,11|9795|979d
+xs1|sub r5,r5,11; add r5,r5,11||979d9795|
+xs1|sub r5,r5,11|add r5,r5,11|979d|9795
+xs1|add r6,r6,0||2891|
+xs1|sub r6,r6,0||2899|
+xs1|bitrev r6,r6; bitrev r6,r6||caffec07caffec07|
+xs1|bitrev r6,r6|bitrev r6,r6|caffec07|caffec07
+xs1|byterev r6,r6; byterev r6,r6||daffec07daffec07|
+xs1|byterev r6,r6|byterev r6,r6|daffec07|daffec07
+xs1|neg r6,r6; neg r6,r6||ca97ca97|
+xs1|neg r6,r6|neg r6,r6|ca97|ca97
+xs1|not r6,r6; not r6,r6||ca8fca8f|
+xs1|not r6,r6|not r6,r6|ca8f|ca8f
+xs1|add r6,r6,r0; sub r6,r6,r0||28112819|
+xs1|add r6,r6,r0|sub r6,r6,r0|2811|2819
+xs1|sub r6,r6,r0; add r6,r6,r0||28192811|
+xs1|sub r6,r6,r0|add r6,r6,r0|2819|2811
+xs1|xor r6,r6,r0; xor r0,r6,r0; xor r6,r6,r0; xor r6,r6,r0; xor r0,r6,r0; xor r6,r6,r0||28f9ec0fc8f8ec0f28f9ec0f28f9ec0fc8f8ec0f28f9ec0f|
+xs1|xor r6,r6,r0; xor r0,r6,r0; xor r6,r6,r0; xor r6,r6,r0; xor r0,r6,r0|xor r6,r6,r0|28f9ec0fc8f8ec0f28f9ec0f28f9ec0fc8f8ec0f|28f9ec0f
+xs1|xor r6,r6,r0; xor r0,r6,r0; xor r6,r6,r0; xor r6,r6,r0|xor r0,r6,r0;xor r6,r6,r0|28f9ec0fc8f8ec0f28f9ec0f28f9ec0f|c8f8ec0f28f9ec0f
+xs1|xor r6,r6,r0; xor r0,r6,r0; xor r6,r6,r0|xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0|28f9ec0fc8f8ec0f28f9ec0f|28f9ec0fc8f8ec0f28f9ec0f
+xs1|xor r6,r6,r0; xor r0,r6,r0|xor r6,r6,r0;xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0|28f9ec0fc8f8ec0f|28f9ec0f28f9ec0fc8f8ec0f28f9ec0f
+xs1|xor r6,r6,r0|xor r0,r6,r0;xor r6,r6,r0;xor r6,r6,r0;xor r0,r6,r0;xor r6,r6,r0|28f9ec0f|c8f8ec0f28f9ec0f28f9ec0fc8f8ec0f28f9ec0f
+xs1|add r6,r6,r1; sub r6,r6,r1||29112919|
+xs1|add r6,r6,r1|sub r6,r6,r1|2911|2919
+xs1|sub r6,r6,r1; add r6,r6,r1||29192911|
+xs1|sub r6,r6,r1|add r6,r6,r1|2919|2911
+xs1|xor r6,r6,r1; xor r1,r6,r1; xor r6,r6,r1; xor r6,r6,r1; xor r1,r6,r1; xor r6,r6,r1||29f9ec0fd9f8ec0f29f9ec0f29f9ec0fd9f8ec0f29f9ec0f|
+xs1|xor r6,r6,r1; xor r1,r6,r1; xor r6,r6,r1; xor r6,r6,r1; xor r1,r6,r1|xor r6,r6,r1|29f9ec0fd9f8ec0f29f9ec0f29f9ec0fd9f8ec0f|29f9ec0f
+xs1|xor r6,r6,r1; xor r1,r6,r1; xor r6,r6,r1; xor r6,r6,r1|xor r1,r6,r1;xor r6,r6,r1|29f9ec0fd9f8ec0f29f9ec0f29f9ec0f|d9f8ec0f29f9ec0f
+xs1|xor r6,r6,r1; xor r1,r6,r1; xor r6,r6,r1|xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1|29f9ec0fd9f8ec0f29f9ec0f|29f9ec0fd9f8ec0f29f9ec0f
+xs1|xor r6,r6,r1; xor r1,r6,r1|xor r6,r6,r1;xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1|29f9ec0fd9f8ec0f|29f9ec0f29f9ec0fd9f8ec0f29f9ec0f
+xs1|xor r6,r6,r1|xor r1,r6,r1;xor r6,r6,r1;xor r6,r6,r1;xor r1,r6,r1;xor r6,r6,r1|29f9ec0f|d9f8ec0f29f9ec0f29f9ec0fd9f8ec0f29f9ec0f
+xs1|add r6,r6,r2; sub r6,r6,r2||2a112a19|
+xs1|add r6,r6,r2|sub r6,r6,r2|2a11|2a19
+xs1|sub r6,r6,r2; add r6,r6,r2||2a192a11|
+xs1|sub r6,r6,r2|add r6,r6,r2|2a19|2a11
+xs1|xor r6,r6,r2; xor r2,r6,r2; xor r6,r6,r2; xor r6,r6,r2; xor r2,r6,r2; xor r6,r6,r2||2af9ec0feaf8ec0f2af9ec0f2af9ec0feaf8ec0f2af9ec0f|
+xs1|xor r6,r6,r2; xor r2,r6,r2; xor r6,r6,r2; xor r6,r6,r2; xor r2,r6,r2|xor r6,r6,r2|2af9ec0feaf8ec0f2af9ec0f2af9ec0feaf8ec0f|2af9ec0f
+xs1|xor r6,r6,r2; xor r2,r6,r2; xor r6,r6,r2; xor r6,r6,r2|xor r2,r6,r2;xor r6,r6,r2|2af9ec0feaf8ec0f2af9ec0f2af9ec0f|eaf8ec0f2af9ec0f
+xs1|xor r6,r6,r2; xor r2,r6,r2; xor r6,r6,r2|xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2|2af9ec0feaf8ec0f2af9ec0f|2af9ec0feaf8ec0f2af9ec0f
+xs1|xor r6,r6,r2; xor r2,r6,r2|xor r6,r6,r2;xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2|2af9ec0feaf8ec0f|2af9ec0f2af9ec0feaf8ec0f2af9ec0f
+xs1|xor r6,r6,r2|xor r2,r6,r2;xor r6,r6,r2;xor r6,r6,r2;xor r2,r6,r2;xor r6,r6,r2|2af9ec0f|eaf8ec0f2af9ec0f2af9ec0feaf8ec0f2af9ec0f
+xs1|add r6,r6,r3; sub r6,r6,r3||2b112b19|
+xs1|add r6,r6,r3|sub r6,r6,r3|2b11|2b19
+xs1|sub r6,r6,r3; add r6,r6,r3||2b192b11|
+xs1|sub r6,r6,r3|add r6,r6,r3|2b19|2b11
+xs1|xor r6,r6,r3; xor r3,r6,r3; xor r6,r6,r3; xor r6,r6,r3; xor r3,r6,r3; xor r6,r6,r3||2bf9ec0ffbf8ec0f2bf9ec0f2bf9ec0ffbf8ec0f2bf9ec0f|
+xs1|xor r6,r6,r3; xor r3,r6,r3; xor r6,r6,r3; xor r6,r6,r3; xor r3,r6,r3|xor r6,r6,r3|2bf9ec0ffbf8ec0f2bf9ec0f2bf9ec0ffbf8ec0f|2bf9ec0f
+xs1|xor r6,r6,r3; xor r3,r6,r3; xor r6,r6,r3; xor r6,r6,r3|xor r3,r6,r3;xor r6,r6,r3|2bf9ec0ffbf8ec0f2bf9ec0f2bf9ec0f|fbf8ec0f2bf9ec0f
+xs1|xor r6,r6,r3; xor r3,r6,r3; xor r6,r6,r3|xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3|2bf9ec0ffbf8ec0f2bf9ec0f|2bf9ec0ffbf8ec0f2bf9ec0f
+xs1|xor r6,r6,r3; xor r3,r6,r3|xor r6,r6,r3;xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3|2bf9ec0ffbf8ec0f|2bf9ec0f2bf9ec0ffbf8ec0f2bf9ec0f
+xs1|xor r6,r6,r3|xor r3,r6,r3;xor r6,r6,r3;xor r6,r6,r3;xor r3,r6,r3;xor r6,r6,r3|2bf9ec0f|fbf8ec0f2bf9ec0f2bf9ec0ffbf8ec0f2bf9ec0f
+xs1|add r6,r6,r4; sub r6,r6,r4||6813681b|
+xs1|add r6,r6,r4|sub r6,r6,r4|6813|681b
+xs1|sub r6,r6,r4; add r6,r6,r4||681b6813|
+xs1|sub r6,r6,r4|add r6,r6,r4|681b|6813
+xs1|xor r6,r6,r4; xor r4,r6,r4; xor r6,r6,r4; xor r6,r6,r4; xor r4,r6,r4; xor r6,r6,r4||68fbec0f48fbec0f68fbec0f68fbec0f48fbec0f68fbec0f|
+xs1|xor r6,r6,r4; xor r4,r6,r4; xor r6,r6,r4; xor r6,r6,r4; xor r4,r6,r4|xor r6,r6,r4|68fbec0f48fbec0f68fbec0f68fbec0f48fbec0f|68fbec0f
+xs1|xor r6,r6,r4; xor r4,r6,r4; xor r6,r6,r4; xor r6,r6,r4|xor r4,r6,r4;xor r6,r6,r4|68fbec0f48fbec0f68fbec0f68fbec0f|48fbec0f68fbec0f
+xs1|xor r6,r6,r4; xor r4,r6,r4; xor r6,r6,r4|xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4|68fbec0f48fbec0f68fbec0f|68fbec0f48fbec0f68fbec0f
+xs1|xor r6,r6,r4; xor r4,r6,r4|xor r6,r6,r4;xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4|68fbec0f48fbec0f|68fbec0f68fbec0f48fbec0f68fbec0f
+xs1|xor r6,r6,r4|xor r4,r6,r4;xor r6,r6,r4;xor r6,r6,r4;xor r4,r6,r4;xor r6,r6,r4|68fbec0f|48fbec0f68fbec0f68fbec0f48fbec0f68fbec0f
+xs1|add r6,r6,r5; sub r6,r6,r5||6913691b|
+xs1|add r6,r6,r5|sub r6,r6,r5|6913|691b
+xs1|sub r6,r6,r5; add r6,r6,r5||691b6913|
+xs1|sub r6,r6,r5|add r6,r6,r5|691b|6913
+xs1|xor r6,r6,r5; xor r5,r6,r5; xor r6,r6,r5; xor r6,r6,r5; xor r5,r6,r5; xor r6,r6,r5||69fbec0f59fbec0f69fbec0f69fbec0f59fbec0f69fbec0f|
+xs1|xor r6,r6,r5; xor r5,r6,r5; xor r6,r6,r5; xor r6,r6,r5; xor r5,r6,r5|xor r6,r6,r5|69fbec0f59fbec0f69fbec0f69fbec0f59fbec0f|69fbec0f
+xs1|xor r6,r6,r5; xor r5,r6,r5; xor r6,r6,r5; xor r6,r6,r5|xor r5,r6,r5;xor r6,r6,r5|69fbec0f59fbec0f69fbec0f69fbec0f|59fbec0f69fbec0f
+xs1|xor r6,r6,r5; xor r5,r6,r5; xor r6,r6,r5|xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5|69fbec0f59fbec0f69fbec0f|69fbec0f59fbec0f69fbec0f
+xs1|xor r6,r6,r5; xor r5,r6,r5|xor r6,r6,r5;xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5|69fbec0f59fbec0f|69fbec0f69fbec0f59fbec0f69fbec0f
+xs1|xor r6,r6,r5|xor r5,r6,r5;xor r6,r6,r5;xor r6,r6,r5;xor r5,r6,r5;xor r6,r6,r5|69fbec0f|59fbec0f69fbec0f69fbec0f59fbec0f69fbec0f
+xs1|add r6,r6,r6; sub r6,r6,r6||6a136a1b|
+xs1|add r6,r6,r6|sub r6,r6,r6|6a13|6a1b
+xs1|sub r6,r6,r6; add r6,r6,r6||6a1b6a13|
+xs1|sub r6,r6,r6|add r6,r6,r6|6a1b|6a13
+xs1|xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6||6afbec0f6afbec0f6afbec0f6afbec0f6afbec0f6afbec0f|
+xs1|xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6|xor r6,r6,r6|6afbec0f6afbec0f6afbec0f6afbec0f6afbec0f|6afbec0f
+xs1|xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6|xor r6,r6,r6;xor r6,r6,r6|6afbec0f6afbec0f6afbec0f6afbec0f|6afbec0f6afbec0f
+xs1|xor r6,r6,r6; xor r6,r6,r6; xor r6,r6,r6|xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6|6afbec0f6afbec0f6afbec0f|6afbec0f6afbec0f6afbec0f
+xs1|xor r6,r6,r6; xor r6,r6,r6|xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6|6afbec0f6afbec0f|6afbec0f6afbec0f6afbec0f6afbec0f
+xs1|xor r6,r6,r6|xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6;xor r6,r6,r6|6afbec0f|6afbec0f6afbec0f6afbec0f6afbec0f6afbec0f
+xs1|add r6,r6,r7; sub r6,r6,r7||6b136b1b|
+xs1|add r6,r6,r7|sub r6,r6,r7|6b13|6b1b
+xs1|sub r6,r6,r7; add r6,r6,r7||6b1b6b13|
+xs1|sub r6,r6,r7|add r6,r6,r7|6b1b|6b13
+xs1|xor r6,r6,r7; xor r7,r6,r7; xor r6,r6,r7; xor r6,r6,r7; xor r7,r6,r7; xor r6,r6,r7||6bfbec0f7bfbec0f6bfbec0f6bfbec0f7bfbec0f6bfbec0f|
+xs1|xor r6,r6,r7; xor r7,r6,r7; xor r6,r6,r7; xor r6,r6,r7; xor r7,r6,r7|xor r6,r6,r7|6bfbec0f7bfbec0f6bfbec0f6bfbec0f7bfbec0f|6bfbec0f
+xs1|xor r6,r6,r7; xor r7,r6,r7; xor r6,r6,r7; xor r6,r6,r7|xor r7,r6,r7;xor r6,r6,r7|6bfbec0f7bfbec0f6bfbec0f6bfbec0f|7bfbec0f6bfbec0f
+xs1|xor r6,r6,r7; xor r7,r6,r7; xor r6,r6,r7|xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7|6bfbec0f7bfbec0f6bfbec0f|6bfbec0f7bfbec0f6bfbec0f
+xs1|xor r6,r6,r7; xor r7,r6,r7|xor r6,r6,r7;xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7|6bfbec0f7bfbec0f|6bfbec0f6bfbec0f7bfbec0f6bfbec0f
+xs1|xor r6,r6,r7|xor r7,r6,r7;xor r6,r6,r7;xor r6,r6,r7;xor r7,r6,r7;xor r6,r6,r7|6bfbec0f|7bfbec0f6bfbec0f6bfbec0f7bfbec0f6bfbec0f
+xs1|add r6,r6,r8; sub r6,r6,r8||a815a81d|
+xs1|add r6,r6,r8|sub r6,r6,r8|a815|a81d
+xs1|sub r6,r6,r8; add r6,r6,r8||a81da815|
+xs1|sub r6,r6,r8|add r6,r6,r8|a81d|a815
+xs1|xor r6,r6,r8; xor r8,r6,r8; xor r6,r6,r8; xor r6,r6,r8; xor r8,r6,r8; xor r6,r6,r8||a8fdec0fc8fdec0fa8fdec0fa8fdec0fc8fdec0fa8fdec0f|
+xs1|xor r6,r6,r8; xor r8,r6,r8; xor r6,r6,r8; xor r6,r6,r8; xor r8,r6,r8|xor r6,r6,r8|a8fdec0fc8fdec0fa8fdec0fa8fdec0fc8fdec0f|a8fdec0f
+xs1|xor r6,r6,r8; xor r8,r6,r8; xor r6,r6,r8; xor r6,r6,r8|xor r8,r6,r8;xor r6,r6,r8|a8fdec0fc8fdec0fa8fdec0fa8fdec0f|c8fdec0fa8fdec0f
+xs1|xor r6,r6,r8; xor r8,r6,r8; xor r6,r6,r8|xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8|a8fdec0fc8fdec0fa8fdec0f|a8fdec0fc8fdec0fa8fdec0f
+xs1|xor r6,r6,r8; xor r8,r6,r8|xor r6,r6,r8;xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8|a8fdec0fc8fdec0f|a8fdec0fa8fdec0fc8fdec0fa8fdec0f
+xs1|xor r6,r6,r8|xor r8,r6,r8;xor r6,r6,r8;xor r6,r6,r8;xor r8,r6,r8;xor r6,r6,r8|a8fdec0f|c8fdec0fa8fdec0fa8fdec0fc8fdec0fa8fdec0f
+xs1|add r6,r6,r9; sub r6,r6,r9||a915a91d|
+xs1|add r6,r6,r9|sub r6,r6,r9|a915|a91d
+xs1|sub r6,r6,r9; add r6,r6,r9||a91da915|
+xs1|sub r6,r6,r9|add r6,r6,r9|a91d|a915
+xs1|xor r6,r6,r9; xor r9,r6,r9; xor r6,r6,r9; xor r6,r6,r9; xor r9,r6,r9; xor r6,r6,r9||a9fdec0fd9fdec0fa9fdec0fa9fdec0fd9fdec0fa9fdec0f|
+xs1|xor r6,r6,r9; xor r9,r6,r9; xor r6,r6,r9; xor r6,r6,r9; xor r9,r6,r9|xor r6,r6,r9|a9fdec0fd9fdec0fa9fdec0fa9fdec0fd9fdec0f|a9fdec0f
+xs1|xor r6,r6,r9; xor r9,r6,r9; xor r6,r6,r9; xor r6,r6,r9|xor r9,r6,r9;xor r6,r6,r9|a9fdec0fd9fdec0fa9fdec0fa9fdec0f|d9fdec0fa9fdec0f
+xs1|xor r6,r6,r9; xor r9,r6,r9; xor r6,r6,r9|xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9|a9fdec0fd9fdec0fa9fdec0f|a9fdec0fd9fdec0fa9fdec0f
+xs1|xor r6,r6,r9; xor r9,r6,r9|xor r6,r6,r9;xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9|a9fdec0fd9fdec0f|a9fdec0fa9fdec0fd9fdec0fa9fdec0f
+xs1|xor r6,r6,r9|xor r9,r6,r9;xor r6,r6,r9;xor r6,r6,r9;xor r9,r6,r9;xor r6,r6,r9|a9fdec0f|d9fdec0fa9fdec0fa9fdec0fd9fdec0fa9fdec0f
+xs1|add r6,r6,r10; sub r6,r6,r10||aa15aa1d|
+xs1|add r6,r6,r10|sub r6,r6,r10|aa15|aa1d
+xs1|sub r6,r6,r10; add r6,r6,r10||aa1daa15|
+xs1|sub r6,r6,r10|add r6,r6,r10|aa1d|aa15
+xs1|xor r6,r6,r10; xor r10,r6,r10; xor r6,r6,r10; xor r6,r6,r10; xor r10,r6,r10; xor r6,r6,r10||aafdec0feafdec0faafdec0faafdec0feafdec0faafdec0f|
+xs1|xor r6,r6,r10; xor r10,r6,r10; xor r6,r6,r10; xor r6,r6,r10; xor r10,r6,r10|xor r6,r6,r10|aafdec0feafdec0faafdec0faafdec0feafdec0f|aafdec0f
+xs1|xor r6,r6,r10; xor r10,r6,r10; xor r6,r6,r10; xor r6,r6,r10|xor r10,r6,r10;xor r6,r6,r10|aafdec0feafdec0faafdec0faafdec0f|eafdec0faafdec0f
+xs1|xor r6,r6,r10; xor r10,r6,r10; xor r6,r6,r10|xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10|aafdec0feafdec0faafdec0f|aafdec0feafdec0faafdec0f
+xs1|xor r6,r6,r10; xor r10,r6,r10|xor r6,r6,r10;xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10|aafdec0feafdec0f|aafdec0faafdec0feafdec0faafdec0f
+xs1|xor r6,r6,r10|xor r10,r6,r10;xor r6,r6,r10;xor r6,r6,r10;xor r10,r6,r10;xor r6,r6,r10|aafdec0f|eafdec0faafdec0faafdec0feafdec0faafdec0f
+xs1|add r6,r6,r11; sub r6,r6,r11||ab15ab1d|
+xs1|add r6,r6,r11|sub r6,r6,r11|ab15|ab1d
+xs1|sub r6,r6,r11; add r6,r6,r11||ab1dab15|
+xs1|sub r6,r6,r11|add r6,r6,r11|ab1d|ab15
+xs1|xor r6,r6,r11; xor r11,r6,r11; xor r6,r6,r11; xor r6,r6,r11; xor r11,r6,r11; xor r6,r6,r11||abfdec0ffbfdec0fabfdec0fabfdec0ffbfdec0fabfdec0f|
+xs1|xor r6,r6,r11; xor r11,r6,r11; xor r6,r6,r11; xor r6,r6,r11; xor r11,r6,r11|xor r6,r6,r11|abfdec0ffbfdec0fabfdec0fabfdec0ffbfdec0f|abfdec0f
+xs1|xor r6,r6,r11; xor r11,r6,r11; xor r6,r6,r11; xor r6,r6,r11|xor r11,r6,r11;xor r6,r6,r11|abfdec0ffbfdec0fabfdec0fabfdec0f|fbfdec0fabfdec0f
+xs1|xor r6,r6,r11; xor r11,r6,r11; xor r6,r6,r11|xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11|abfdec0ffbfdec0fabfdec0f|abfdec0ffbfdec0fabfdec0f
+xs1|xor r6,r6,r11; xor r11,r6,r11|xor r6,r6,r11;xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11|abfdec0ffbfdec0f|abfdec0fabfdec0ffbfdec0fabfdec0f
+xs1|xor r6,r6,r11|xor r11,r6,r11;xor r6,r6,r11;xor r6,r6,r11;xor r11,r6,r11;xor r6,r6,r11|abfdec0f|fbfdec0fabfdec0fabfdec0ffbfdec0fabfdec0f
+xs1|add r6,r6,0; sub r6,r6,0||28912899|
+xs1|add r6,r6,0|sub r6,r6,0|2891|2899
+xs1|sub r6,r6,0; add r6,r6,0||28992891|
+xs1|sub r6,r6,0|add r6,r6,0|2899|2891
+xs1|add r6,r6,1; sub r6,r6,1||29912999|
+xs1|add r6,r6,1|sub r6,r6,1|2991|2999
+xs1|sub r6,r6,1; add r6,r6,1||29992991|
+xs1|sub r6,r6,1|add r6,r6,1|2999|2991
+xs1|add r6,r6,2; sub r6,r6,2||2a912a99|
+xs1|add r6,r6,2|sub r6,r6,2|2a91|2a99
+xs1|sub r6,r6,2; add r6,r6,2||2a992a91|
+xs1|sub r6,r6,2|add r6,r6,2|2a99|2a91
+xs1|add r6,r6,3; sub r6,r6,3||2b912b99|
+xs1|add r6,r6,3|sub r6,r6,3|2b91|2b99
+xs1|sub r6,r6,3; add r6,r6,3||2b992b91|
+xs1|sub r6,r6,3|add r6,r6,3|2b99|2b91
+xs1|add r6,r6,4; sub r6,r6,4||6893689b|
+xs1|add r6,r6,4|sub r6,r6,4|6893|689b
+xs1|sub r6,r6,4; add r6,r6,4||689b6893|
+xs1|sub r6,r6,4|add r6,r6,4|689b|6893
+xs1|add r6,r6,5; sub r6,r6,5||6993699b|
+xs1|add r6,r6,5|sub r6,r6,5|6993|699b
+xs1|sub r6,r6,5; add r6,r6,5||699b6993|
+xs1|sub r6,r6,5|add r6,r6,5|699b|6993
+xs1|add r6,r6,6; sub r6,r6,6||6a936a9b|
+xs1|add r6,r6,6|sub r6,r6,6|6a93|6a9b
+xs1|sub r6,r6,6; add r6,r6,6||6a9b6a93|
+xs1|sub r6,r6,6|add r6,r6,6|6a9b|6a93
+xs1|add r6,r6,7; sub r6,r6,7||6b936b9b|
+xs1|add r6,r6,7|sub r6,r6,7|6b93|6b9b
+xs1|sub r6,r6,7; add r6,r6,7||6b9b6b93|
+xs1|sub r6,r6,7|add r6,r6,7|6b9b|6b93
+xs1|add r6,r6,8; sub r6,r6,8||a895a89d|
+xs1|add r6,r6,8|sub r6,r6,8|a895|a89d
+xs1|sub r6,r6,8; add r6,r6,8||a89da895|
+xs1|sub r6,r6,8|add r6,r6,8|a89d|a895
+xs1|add r6,r6,9; sub r6,r6,9||a995a99d|
+xs1|add r6,r6,9|sub r6,r6,9|a995|a99d
+xs1|sub r6,r6,9; add r6,r6,9||a99da995|
+xs1|sub r6,r6,9|add r6,r6,9|a99d|a995
+xs1|add r6,r6,10; sub r6,r6,10||aa95aa9d|
+xs1|add r6,r6,10|sub r6,r6,10|aa95|aa9d
+xs1|sub r6,r6,10; add r6,r6,10||aa9daa95|
+xs1|sub r6,r6,10|add r6,r6,10|aa9d|aa95
+xs1|add r6,r6,11; sub r6,r6,11||ab95ab9d|
+xs1|add r6,r6,11|sub r6,r6,11|ab95|ab9d
+xs1|sub r6,r6,11; add r6,r6,11||ab9dab95|
+xs1|sub r6,r6,11|add r6,r6,11|ab9d|ab95
+xs1|add r7,r7,0||3c91|
+xs1|sub r7,r7,0||3c99|
+xs1|bitrev r7,r7; bitrev r7,r7||cfffec07cfffec07|
+xs1|bitrev r7,r7|bitrev r7,r7|cfffec07|cfffec07
+xs1|byterev r7,r7; byterev r7,r7||dfffec07dfffec07|
+xs1|byterev r7,r7|byterev r7,r7|dfffec07|dfffec07
+xs1|neg r7,r7; neg r7,r7||cf97cf97|
+xs1|neg r7,r7|neg r7,r7|cf97|cf97
+xs1|not r7,r7; not r7,r7||cf8fcf8f|
+xs1|not r7,r7|not r7,r7|cf8f|cf8f
+xs1|add r7,r7,r0; sub r7,r7,r0||3c113c19|
+xs1|add r7,r7,r0|sub r7,r7,r0|3c11|3c19
+xs1|sub r7,r7,r0; add r7,r7,r0||3c193c11|
+xs1|sub r7,r7,r0|add r7,r7,r0|3c19|3c11
+xs1|xor r7,r7,r0; xor r0,r7,r0; xor r7,r7,r0; xor r7,r7,r0; xor r0,r7,r0; xor r7,r7,r0||3cf9ec0fccf8ec0f3cf9ec0f3cf9ec0fccf8ec0f3cf9ec0f|
+xs1|xor r7,r7,r0; xor r0,r7,r0; xor r7,r7,r0; xor r7,r7,r0; xor r0,r7,r0|xor r7,r7,r0|3cf9ec0fccf8ec0f3cf9ec0f3cf9ec0fccf8ec0f|3cf9ec0f
+xs1|xor r7,r7,r0; xor r0,r7,r0; xor r7,r7,r0; xor r7,r7,r0|xor r0,r7,r0;xor r7,r7,r0|3cf9ec0fccf8ec0f3cf9ec0f3cf9ec0f|ccf8ec0f3cf9ec0f
+xs1|xor r7,r7,r0; xor r0,r7,r0; xor r7,r7,r0|xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0|3cf9ec0fccf8ec0f3cf9ec0f|3cf9ec0fccf8ec0f3cf9ec0f
+xs1|xor r7,r7,r0; xor r0,r7,r0|xor r7,r7,r0;xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0|3cf9ec0fccf8ec0f|3cf9ec0f3cf9ec0fccf8ec0f3cf9ec0f
+xs1|xor r7,r7,r0|xor r0,r7,r0;xor r7,r7,r0;xor r7,r7,r0;xor r0,r7,r0;xor r7,r7,r0|3cf9ec0f|ccf8ec0f3cf9ec0f3cf9ec0fccf8ec0f3cf9ec0f
+xs1|add r7,r7,r1; sub r7,r7,r1||3d113d19|
+xs1|add r7,r7,r1|sub r7,r7,r1|3d11|3d19
+xs1|sub r7,r7,r1; add r7,r7,r1||3d193d11|
+xs1|sub r7,r7,r1|add r7,r7,r1|3d19|3d11
+xs1|xor r7,r7,r1; xor r1,r7,r1; xor r7,r7,r1; xor r7,r7,r1; xor r1,r7,r1; xor r7,r7,r1||3df9ec0fddf8ec0f3df9ec0f3df9ec0fddf8ec0f3df9ec0f|
+xs1|xor r7,r7,r1; xor r1,r7,r1; xor r7,r7,r1; xor r7,r7,r1; xor r1,r7,r1|xor r7,r7,r1|3df9ec0fddf8ec0f3df9ec0f3df9ec0fddf8ec0f|3df9ec0f
+xs1|xor r7,r7,r1; xor r1,r7,r1; xor r7,r7,r1; xor r7,r7,r1|xor r1,r7,r1;xor r7,r7,r1|3df9ec0fddf8ec0f3df9ec0f3df9ec0f|ddf8ec0f3df9ec0f
+xs1|xor r7,r7,r1; xor r1,r7,r1; xor r7,r7,r1|xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1|3df9ec0fddf8ec0f3df9ec0f|3df9ec0fddf8ec0f3df9ec0f
+xs1|xor r7,r7,r1; xor r1,r7,r1|xor r7,r7,r1;xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1|3df9ec0fddf8ec0f|3df9ec0f3df9ec0fddf8ec0f3df9ec0f
+xs1|xor r7,r7,r1|xor r1,r7,r1;xor r7,r7,r1;xor r7,r7,r1;xor r1,r7,r1;xor r7,r7,r1|3df9ec0f|ddf8ec0f3df9ec0f3df9ec0fddf8ec0f3df9ec0f
+xs1|add r7,r7,r2; sub r7,r7,r2||3e113e19|
+xs1|add r7,r7,r2|sub r7,r7,r2|3e11|3e19
+xs1|sub r7,r7,r2; add r7,r7,r2||3e193e11|
+xs1|sub r7,r7,r2|add r7,r7,r2|3e19|3e11
+xs1|xor r7,r7,r2; xor r2,r7,r2; xor r7,r7,r2; xor r7,r7,r2; xor r2,r7,r2; xor r7,r7,r2||3ef9ec0feef8ec0f3ef9ec0f3ef9ec0feef8ec0f3ef9ec0f|
+xs1|xor r7,r7,r2; xor r2,r7,r2; xor r7,r7,r2; xor r7,r7,r2; xor r2,r7,r2|xor r7,r7,r2|3ef9ec0feef8ec0f3ef9ec0f3ef9ec0feef8ec0f|3ef9ec0f
+xs1|xor r7,r7,r2; xor r2,r7,r2; xor r7,r7,r2; xor r7,r7,r2|xor r2,r7,r2;xor r7,r7,r2|3ef9ec0feef8ec0f3ef9ec0f3ef9ec0f|eef8ec0f3ef9ec0f
+xs1|xor r7,r7,r2; xor r2,r7,r2; xor r7,r7,r2|xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2|3ef9ec0feef8ec0f3ef9ec0f|3ef9ec0feef8ec0f3ef9ec0f
+xs1|xor r7,r7,r2; xor r2,r7,r2|xor r7,r7,r2;xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2|3ef9ec0feef8ec0f|3ef9ec0f3ef9ec0feef8ec0f3ef9ec0f
+xs1|xor r7,r7,r2|xor r2,r7,r2;xor r7,r7,r2;xor r7,r7,r2;xor r2,r7,r2;xor r7,r7,r2|3ef9ec0f|eef8ec0f3ef9ec0f3ef9ec0feef8ec0f3ef9ec0f
+xs1|add r7,r7,r3; sub r7,r7,r3||3f113f19|
+xs1|add r7,r7,r3|sub r7,r7,r3|3f11|3f19
+xs1|sub r7,r7,r3; add r7,r7,r3||3f193f11|
+xs1|sub r7,r7,r3|add r7,r7,r3|3f19|3f11
+xs1|xor r7,r7,r3; xor r3,r7,r3; xor r7,r7,r3; xor r7,r7,r3; xor r3,r7,r3; xor r7,r7,r3||3ff9ec0ffff8ec0f3ff9ec0f3ff9ec0ffff8ec0f3ff9ec0f|
+xs1|xor r7,r7,r3; xor r3,r7,r3; xor r7,r7,r3; xor r7,r7,r3; xor r3,r7,r3|xor r7,r7,r3|3ff9ec0ffff8ec0f3ff9ec0f3ff9ec0ffff8ec0f|3ff9ec0f
+xs1|xor r7,r7,r3; xor r3,r7,r3; xor r7,r7,r3; xor r7,r7,r3|xor r3,r7,r3;xor r7,r7,r3|3ff9ec0ffff8ec0f3ff9ec0f3ff9ec0f|fff8ec0f3ff9ec0f
+xs1|xor r7,r7,r3; xor r3,r7,r3; xor r7,r7,r3|xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3|3ff9ec0ffff8ec0f3ff9ec0f|3ff9ec0ffff8ec0f3ff9ec0f
+xs1|xor r7,r7,r3; xor r3,r7,r3|xor r7,r7,r3;xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3|3ff9ec0ffff8ec0f|3ff9ec0f3ff9ec0ffff8ec0f3ff9ec0f
+xs1|xor r7,r7,r3|xor r3,r7,r3;xor r7,r7,r3;xor r7,r7,r3;xor r3,r7,r3;xor r7,r7,r3|3ff9ec0f|fff8ec0f3ff9ec0f3ff9ec0ffff8ec0f3ff9ec0f
+xs1|add r7,r7,r4; sub r7,r7,r4||7c137c1b|
+xs1|add r7,r7,r4|sub r7,r7,r4|7c13|7c1b
+xs1|sub r7,r7,r4; add r7,r7,r4||7c1b7c13|
+xs1|sub r7,r7,r4|add r7,r7,r4|7c1b|7c13
+xs1|xor r7,r7,r4; xor r4,r7,r4; xor r7,r7,r4; xor r7,r7,r4; xor r4,r7,r4; xor r7,r7,r4||7cfbec0f4cfbec0f7cfbec0f7cfbec0f4cfbec0f7cfbec0f|
+xs1|xor r7,r7,r4; xor r4,r7,r4; xor r7,r7,r4; xor r7,r7,r4; xor r4,r7,r4|xor r7,r7,r4|7cfbec0f4cfbec0f7cfbec0f7cfbec0f4cfbec0f|7cfbec0f
+xs1|xor r7,r7,r4; xor r4,r7,r4; xor r7,r7,r4; xor r7,r7,r4|xor r4,r7,r4;xor r7,r7,r4|7cfbec0f4cfbec0f7cfbec0f7cfbec0f|4cfbec0f7cfbec0f
+xs1|xor r7,r7,r4; xor r4,r7,r4; xor r7,r7,r4|xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4|7cfbec0f4cfbec0f7cfbec0f|7cfbec0f4cfbec0f7cfbec0f
+xs1|xor r7,r7,r4; xor r4,r7,r4|xor r7,r7,r4;xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4|7cfbec0f4cfbec0f|7cfbec0f7cfbec0f4cfbec0f7cfbec0f
+xs1|xor r7,r7,r4|xor r4,r7,r4;xor r7,r7,r4;xor r7,r7,r4;xor r4,r7,r4;xor r7,r7,r4|7cfbec0f|4cfbec0f7cfbec0f7cfbec0f4cfbec0f7cfbec0f
+xs1|add r7,r7,r5; sub r7,r7,r5||7d137d1b|
+xs1|add r7,r7,r5|sub r7,r7,r5|7d13|7d1b
+xs1|sub r7,r7,r5; add r7,r7,r5||7d1b7d13|
+xs1|sub r7,r7,r5|add r7,r7,r5|7d1b|7d13
+xs1|xor r7,r7,r5; xor r5,r7,r5; xor r7,r7,r5; xor r7,r7,r5; xor r5,r7,r5; xor r7,r7,r5||7dfbec0f5dfbec0f7dfbec0f7dfbec0f5dfbec0f7dfbec0f|
+xs1|xor r7,r7,r5; xor r5,r7,r5; xor r7,r7,r5; xor r7,r7,r5; xor r5,r7,r5|xor r7,r7,r5|7dfbec0f5dfbec0f7dfbec0f7dfbec0f5dfbec0f|7dfbec0f
+xs1|xor r7,r7,r5; xor r5,r7,r5; xor r7,r7,r5; xor r7,r7,r5|xor r5,r7,r5;xor r7,r7,r5|7dfbec0f5dfbec0f7dfbec0f7dfbec0f|5dfbec0f7dfbec0f
+xs1|xor r7,r7,r5; xor r5,r7,r5; xor r7,r7,r5|xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5|7dfbec0f5dfbec0f7dfbec0f|7dfbec0f5dfbec0f7dfbec0f
+xs1|xor r7,r7,r5; xor r5,r7,r5|xor r7,r7,r5;xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5|7dfbec0f5dfbec0f|7dfbec0f7dfbec0f5dfbec0f7dfbec0f
+xs1|xor r7,r7,r5|xor r5,r7,r5;xor r7,r7,r5;xor r7,r7,r5;xor r5,r7,r5;xor r7,r7,r5|7dfbec0f|5dfbec0f7dfbec0f7dfbec0f5dfbec0f7dfbec0f
+xs1|add r7,r7,r6; sub r7,r7,r6||7e137e1b|
+xs1|add r7,r7,r6|sub r7,r7,r6|7e13|7e1b
+xs1|sub r7,r7,r6; add r7,r7,r6||7e1b7e13|
+xs1|sub r7,r7,r6|add r7,r7,r6|7e1b|7e13
+xs1|xor r7,r7,r6; xor r6,r7,r6; xor r7,r7,r6; xor r7,r7,r6; xor r6,r7,r6; xor r7,r7,r6||7efbec0f6efbec0f7efbec0f7efbec0f6efbec0f7efbec0f|
+xs1|xor r7,r7,r6; xor r6,r7,r6; xor r7,r7,r6; xor r7,r7,r6; xor r6,r7,r6|xor r7,r7,r6|7efbec0f6efbec0f7efbec0f7efbec0f6efbec0f|7efbec0f
+xs1|xor r7,r7,r6; xor r6,r7,r6; xor r7,r7,r6; xor r7,r7,r6|xor r6,r7,r6;xor r7,r7,r6|7efbec0f6efbec0f7efbec0f7efbec0f|6efbec0f7efbec0f
+xs1|xor r7,r7,r6; xor r6,r7,r6; xor r7,r7,r6|xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6|7efbec0f6efbec0f7efbec0f|7efbec0f6efbec0f7efbec0f
+xs1|xor r7,r7,r6; xor r6,r7,r6|xor r7,r7,r6;xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6|7efbec0f6efbec0f|7efbec0f7efbec0f6efbec0f7efbec0f
+xs1|xor r7,r7,r6|xor r6,r7,r6;xor r7,r7,r6;xor r7,r7,r6;xor r6,r7,r6;xor r7,r7,r6|7efbec0f|6efbec0f7efbec0f7efbec0f6efbec0f7efbec0f
+xs1|add r7,r7,r7; sub r7,r7,r7||7f137f1b|
+xs1|add r7,r7,r7|sub r7,r7,r7|7f13|7f1b
+xs1|sub r7,r7,r7; add r7,r7,r7||7f1b7f13|
+xs1|sub r7,r7,r7|add r7,r7,r7|7f1b|7f13
+xs1|xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7||7ffbec0f7ffbec0f7ffbec0f7ffbec0f7ffbec0f7ffbec0f|
+xs1|xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7|xor r7,r7,r7|7ffbec0f7ffbec0f7ffbec0f7ffbec0f7ffbec0f|7ffbec0f
+xs1|xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7|xor r7,r7,r7;xor r7,r7,r7|7ffbec0f7ffbec0f7ffbec0f7ffbec0f|7ffbec0f7ffbec0f
+xs1|xor r7,r7,r7; xor r7,r7,r7; xor r7,r7,r7|xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7|7ffbec0f7ffbec0f7ffbec0f|7ffbec0f7ffbec0f7ffbec0f
+xs1|xor r7,r7,r7; xor r7,r7,r7|xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7|7ffbec0f7ffbec0f|7ffbec0f7ffbec0f7ffbec0f7ffbec0f
+xs1|xor r7,r7,r7|xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7;xor r7,r7,r7|7ffbec0f|7ffbec0f7ffbec0f7ffbec0f7ffbec0f7ffbec0f
+xs1|add r7,r7,r8; sub r7,r7,r8||bc15bc1d|
+xs1|add r7,r7,r8|sub r7,r7,r8|bc15|bc1d
+xs1|sub r7,r7,r8; add r7,r7,r8||bc1dbc15|
+xs1|sub r7,r7,r8|add r7,r7,r8|bc1d|bc15
+xs1|xor r7,r7,r8; xor r8,r7,r8; xor r7,r7,r8; xor r7,r7,r8; xor r8,r7,r8; xor r7,r7,r8||bcfdec0fccfdec0fbcfdec0fbcfdec0fccfdec0fbcfdec0f|
+xs1|xor r7,r7,r8; xor r8,r7,r8; xor r7,r7,r8; xor r7,r7,r8; xor r8,r7,r8|xor r7,r7,r8|bcfdec0fccfdec0fbcfdec0fbcfdec0fccfdec0f|bcfdec0f
+xs1|xor r7,r7,r8; xor r8,r7,r8; xor r7,r7,r8; xor r7,r7,r8|xor r8,r7,r8;xor r7,r7,r8|bcfdec0fccfdec0fbcfdec0fbcfdec0f|ccfdec0fbcfdec0f
+xs1|xor r7,r7,r8; xor r8,r7,r8; xor r7,r7,r8|xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8|bcfdec0fccfdec0fbcfdec0f|bcfdec0fccfdec0fbcfdec0f
+xs1|xor r7,r7,r8; xor r8,r7,r8|xor r7,r7,r8;xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8|bcfdec0fccfdec0f|bcfdec0fbcfdec0fccfdec0fbcfdec0f
+xs1|xor r7,r7,r8|xor r8,r7,r8;xor r7,r7,r8;xor r7,r7,r8;xor r8,r7,r8;xor r7,r7,r8|bcfdec0f|ccfdec0fbcfdec0fbcfdec0fccfdec0fbcfdec0f
+xs1|add r7,r7,r9; sub r7,r7,r9||bd15bd1d|
+xs1|add r7,r7,r9|sub r7,r7,r9|bd15|bd1d
+xs1|sub r7,r7,r9; add r7,r7,r9||bd1dbd15|
+xs1|sub r7,r7,r9|add r7,r7,r9|bd1d|bd15
+xs1|xor r7,r7,r9; xor r9,r7,r9; xor r7,r7,r9; xor r7,r7,r9; xor r9,r7,r9; xor r7,r7,r9||bdfdec0fddfdec0fbdfdec0fbdfdec0fddfdec0fbdfdec0f|
+xs1|xor r7,r7,r9; xor r9,r7,r9; xor r7,r7,r9; xor r7,r7,r9; xor r9,r7,r9|xor r7,r7,r9|bdfdec0fddfdec0fbdfdec0fbdfdec0fddfdec0f|bdfdec0f
+xs1|xor r7,r7,r9; xor r9,r7,r9; xor r7,r7,r9; xor r7,r7,r9|xor r9,r7,r9;xor r7,r7,r9|bdfdec0fddfdec0fbdfdec0fbdfdec0f|ddfdec0fbdfdec0f
+xs1|xor r7,r7,r9; xor r9,r7,r9; xor r7,r7,r9|xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9|bdfdec0fddfdec0fbdfdec0f|bdfdec0fddfdec0fbdfdec0f
+xs1|xor r7,r7,r9; xor r9,r7,r9|xor r7,r7,r9;xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9|bdfdec0fddfdec0f|bdfdec0fbdfdec0fddfdec0fbdfdec0f
+xs1|xor r7,r7,r9|xor r9,r7,r9;xor r7,r7,r9;xor r7,r7,r9;xor r9,r7,r9;xor r7,r7,r9|bdfdec0f|ddfdec0fbdfdec0fbdfdec0fddfdec0fbdfdec0f
+xs1|add r7,r7,r10; sub r7,r7,r10||be15be1d|
+xs1|add r7,r7,r10|sub r7,r7,r10|be15|be1d
+xs1|sub r7,r7,r10; add r7,r7,r10||be1dbe15|
+xs1|sub r7,r7,r10|add r7,r7,r10|be1d|be15
+xs1|xor r7,r7,r10; xor r10,r7,r10; xor r7,r7,r10; xor r7,r7,r10; xor r10,r7,r10; xor r7,r7,r10||befdec0feefdec0fbefdec0fbefdec0feefdec0fbefdec0f|
+xs1|xor r7,r7,r10; xor r10,r7,r10; xor r7,r7,r10; xor r7,r7,r10; xor r10,r7,r10|xor r7,r7,r10|befdec0feefdec0fbefdec0fbefdec0feefdec0f|befdec0f
+xs1|xor r7,r7,r10; xor r10,r7,r10; xor r7,r7,r10; xor r7,r7,r10|xor r10,r7,r10;xor r7,r7,r10|befdec0feefdec0fbefdec0fbefdec0f|eefdec0fbefdec0f
+xs1|xor r7,r7,r10; xor r10,r7,r10; xor r7,r7,r10|xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10|befdec0feefdec0fbefdec0f|befdec0feefdec0fbefdec0f
+xs1|xor r7,r7,r10; xor r10,r7,r10|xor r7,r7,r10;xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10|befdec0feefdec0f|befdec0fbefdec0feefdec0fbefdec0f
+xs1|xor r7,r7,r10|xor r10,r7,r10;xor r7,r7,r10;xor r7,r7,r10;xor r10,r7,r10;xor r7,r7,r10|befdec0f|eefdec0fbefdec0fbefdec0feefdec0fbefdec0f
+xs1|add r7,r7,r11; sub r7,r7,r11||bf15bf1d|
+xs1|add r7,r7,r11|sub r7,r7,r11|bf15|bf1d
+xs1|sub r7,r7,r11; add r7,r7,r11||bf1dbf15|
+xs1|sub r7,r7,r11|add r7,r7,r11|bf1d|bf15
+xs1|xor r7,r7,r11; xor r11,r7,r11; xor r7,r7,r11; xor r7,r7,r11; xor r11,r7,r11; xor r7,r7,r11||bffdec0ffffdec0fbffdec0fbffdec0ffffdec0fbffdec0f|
+xs1|xor r7,r7,r11; xor r11,r7,r11; xor r7,r7,r11; xor r7,r7,r11; xor r11,r7,r11|xor r7,r7,r11|bffdec0ffffdec0fbffdec0fbffdec0ffffdec0f|bffdec0f
+xs1|xor r7,r7,r11; xor r11,r7,r11; xor r7,r7,r11; xor r7,r7,r11|xor r11,r7,r11;xor r7,r7,r11|bffdec0ffffdec0fbffdec0fbffdec0f|fffdec0fbffdec0f
+xs1|xor r7,r7,r11; xor r11,r7,r11; xor r7,r7,r11|xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11|bffdec0ffffdec0fbffdec0f|bffdec0ffffdec0fbffdec0f
+xs1|xor r7,r7,r11; xor r11,r7,r11|xor r7,r7,r11;xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11|bffdec0ffffdec0f|bffdec0fbffdec0ffffdec0fbffdec0f
+xs1|xor r7,r7,r11|xor r11,r7,r11;xor r7,r7,r11;xor r7,r7,r11;xor r11,r7,r11;xor r7,r7,r11|bffdec0f|fffdec0fbffdec0fbffdec0ffffdec0fbffdec0f
+xs1|add r7,r7,0; sub r7,r7,0||3c913c99|
+xs1|add r7,r7,0|sub r7,r7,0|3c91|3c99
+xs1|sub r7,r7,0; add r7,r7,0||3c993c91|
+xs1|sub r7,r7,0|add r7,r7,0|3c99|3c91
+xs1|add r7,r7,1; sub r7,r7,1||3d913d99|
+xs1|add r7,r7,1|sub r7,r7,1|3d91|3d99
+xs1|sub r7,r7,1; add r7,r7,1||3d993d91|
+xs1|sub r7,r7,1|add r7,r7,1|3d99|3d91
+xs1|add r7,r7,2; sub r7,r7,2||3e913e99|
+xs1|add r7,r7,2|sub r7,r7,2|3e91|3e99
+xs1|sub r7,r7,2; add r7,r7,2||3e993e91|
+xs1|sub r7,r7,2|add r7,r7,2|3e99|3e91
+xs1|add r7,r7,3; sub r7,r7,3||3f913f99|
+xs1|add r7,r7,3|sub r7,r7,3|3f91|3f99
+xs1|sub r7,r7,3; add r7,r7,3||3f993f91|
+xs1|sub r7,r7,3|add r7,r7,3|3f99|3f91
+xs1|add r7,r7,4; sub r7,r7,4||7c937c9b|
+xs1|add r7,r7,4|sub r7,r7,4|7c93|7c9b
+xs1|sub r7,r7,4; add r7,r7,4||7c9b7c93|
+xs1|sub r7,r7,4|add r7,r7,4|7c9b|7c93
+xs1|add r7,r7,5; sub r7,r7,5||7d937d9b|
+xs1|add r7,r7,5|sub r7,r7,5|7d93|7d9b
+xs1|sub r7,r7,5; add r7,r7,5||7d9b7d93|
+xs1|sub r7,r7,5|add r7,r7,5|7d9b|7d93
+xs1|add r7,r7,6; sub r7,r7,6||7e937e9b|
+xs1|add r7,r7,6|sub r7,r7,6|7e93|7e9b
+xs1|sub r7,r7,6; add r7,r7,6||7e9b7e93|
+xs1|sub r7,r7,6|add r7,r7,6|7e9b|7e93
+xs1|add r7,r7,7; sub r7,r7,7||7f937f9b|
+xs1|add r7,r7,7|sub r7,r7,7|7f93|7f9b
+xs1|sub r7,r7,7; add r7,r7,7||7f9b7f93|
+xs1|sub r7,r7,7|add r7,r7,7|7f9b|7f93
+xs1|add r7,r7,8; sub r7,r7,8||bc95bc9d|
+xs1|add r7,r7,8|sub r7,r7,8|bc95|bc9d
+xs1|sub r7,r7,8; add r7,r7,8||bc9dbc95|
+xs1|sub r7,r7,8|add r7,r7,8|bc9d|bc95
+xs1|add r7,r7,9; sub r7,r7,9||bd95bd9d|
+xs1|add r7,r7,9|sub r7,r7,9|bd95|bd9d
+xs1|sub r7,r7,9; add r7,r7,9||bd9dbd95|
+xs1|sub r7,r7,9|add r7,r7,9|bd9d|bd95
+xs1|add r7,r7,10; sub r7,r7,10||be95be9d|
+xs1|add r7,r7,10|sub r7,r7,10|be95|be9d
+xs1|sub r7,r7,10; add r7,r7,10||be9dbe95|
+xs1|sub r7,r7,10|add r7,r7,10|be9d|be95
+xs1|add r7,r7,11; sub r7,r7,11||bf95bf9d|
+xs1|add r7,r7,11|sub r7,r7,11|bf95|bf9d
+xs1|sub r7,r7,11; add r7,r7,11||bf9dbf95|
+xs1|sub r7,r7,11|add r7,r7,11|bf9d|bf95
+xs1|add r8,r8,0||0092|
+xs1|sub r8,r8,0||009a|
+xs1|bitrev r8,r8; bitrev r8,r8||a0ffec07a0ffec07|
+xs1|bitrev r8,r8|bitrev r8,r8|a0ffec07|a0ffec07
+xs1|byterev r8,r8; byterev r8,r8||b0ffec07b0ffec07|
+xs1|byterev r8,r8|byterev r8,r8|b0ffec07|b0ffec07
+xs1|neg r8,r8; neg r8,r8||a097a097|
+xs1|neg r8,r8|neg r8,r8|a097|a097
+xs1|not r8,r8; not r8,r8||a08fa08f|
+xs1|not r8,r8|not r8,r8|a08f|a08f
+xs1|add r8,r8,r0; sub r8,r8,r0||0012001a|
+xs1|add r8,r8,r0|sub r8,r8,r0|0012|001a
+xs1|sub r8,r8,r0; add r8,r8,r0||001a0012|
+xs1|sub r8,r8,r0|add r8,r8,r0|001a|0012
+xs1|xor r8,r8,r0; xor r0,r8,r0; xor r8,r8,r0; xor r8,r8,r0; xor r0,r8,r0; xor r8,r8,r0||00faec0f80f9ec0f00faec0f00faec0f80f9ec0f00faec0f|
+xs1|xor r8,r8,r0; xor r0,r8,r0; xor r8,r8,r0; xor r8,r8,r0; xor r0,r8,r0|xor r8,r8,r0|00faec0f80f9ec0f00faec0f00faec0f80f9ec0f|00faec0f
+xs1|xor r8,r8,r0; xor r0,r8,r0; xor r8,r8,r0; xor r8,r8,r0|xor r0,r8,r0;xor r8,r8,r0|00faec0f80f9ec0f00faec0f00faec0f|80f9ec0f00faec0f
+xs1|xor r8,r8,r0; xor r0,r8,r0; xor r8,r8,r0|xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0|00faec0f80f9ec0f00faec0f|00faec0f80f9ec0f00faec0f
+xs1|xor r8,r8,r0; xor r0,r8,r0|xor r8,r8,r0;xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0|00faec0f80f9ec0f|00faec0f00faec0f80f9ec0f00faec0f
+xs1|xor r8,r8,r0|xor r0,r8,r0;xor r8,r8,r0;xor r8,r8,r0;xor r0,r8,r0;xor r8,r8,r0|00faec0f|80f9ec0f00faec0f00faec0f80f9ec0f00faec0f
+xs1|add r8,r8,r1; sub r8,r8,r1||0112011a|
+xs1|add r8,r8,r1|sub r8,r8,r1|0112|011a
+xs1|sub r8,r8,r1; add r8,r8,r1||011a0112|
+xs1|sub r8,r8,r1|add r8,r8,r1|011a|0112
+xs1|xor r8,r8,r1; xor r1,r8,r1; xor r8,r8,r1; xor r8,r8,r1; xor r1,r8,r1; xor r8,r8,r1||01faec0f91f9ec0f01faec0f01faec0f91f9ec0f01faec0f|
+xs1|xor r8,r8,r1; xor r1,r8,r1; xor r8,r8,r1; xor r8,r8,r1; xor r1,r8,r1|xor r8,r8,r1|01faec0f91f9ec0f01faec0f01faec0f91f9ec0f|01faec0f
+xs1|xor r8,r8,r1; xor r1,r8,r1; xor r8,r8,r1; xor r8,r8,r1|xor r1,r8,r1;xor r8,r8,r1|01faec0f91f9ec0f01faec0f01faec0f|91f9ec0f01faec0f
+xs1|xor r8,r8,r1; xor r1,r8,r1; xor r8,r8,r1|xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1|01faec0f91f9ec0f01faec0f|01faec0f91f9ec0f01faec0f
+xs1|xor r8,r8,r1; xor r1,r8,r1|xor r8,r8,r1;xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1|01faec0f91f9ec0f|01faec0f01faec0f91f9ec0f01faec0f
+xs1|xor r8,r8,r1|xor r1,r8,r1;xor r8,r8,r1;xor r8,r8,r1;xor r1,r8,r1;xor r8,r8,r1|01faec0f|91f9ec0f01faec0f01faec0f91f9ec0f01faec0f
+xs1|add r8,r8,r2; sub r8,r8,r2||0212021a|
+xs1|add r8,r8,r2|sub r8,r8,r2|0212|021a
+xs1|sub r8,r8,r2; add r8,r8,r2||021a0212|
+xs1|sub r8,r8,r2|add r8,r8,r2|021a|0212
+xs1|xor r8,r8,r2; xor r2,r8,r2; xor r8,r8,r2; xor r8,r8,r2; xor r2,r8,r2; xor r8,r8,r2||02faec0fa2f9ec0f02faec0f02faec0fa2f9ec0f02faec0f|
+xs1|xor r8,r8,r2; xor r2,r8,r2; xor r8,r8,r2; xor r8,r8,r2; xor r2,r8,r2|xor r8,r8,r2|02faec0fa2f9ec0f02faec0f02faec0fa2f9ec0f|02faec0f
+xs1|xor r8,r8,r2; xor r2,r8,r2; xor r8,r8,r2; xor r8,r8,r2|xor r2,r8,r2;xor r8,r8,r2|02faec0fa2f9ec0f02faec0f02faec0f|a2f9ec0f02faec0f
+xs1|xor r8,r8,r2; xor r2,r8,r2; xor r8,r8,r2|xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2|02faec0fa2f9ec0f02faec0f|02faec0fa2f9ec0f02faec0f
+xs1|xor r8,r8,r2; xor r2,r8,r2|xor r8,r8,r2;xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2|02faec0fa2f9ec0f|02faec0f02faec0fa2f9ec0f02faec0f
+xs1|xor r8,r8,r2|xor r2,r8,r2;xor r8,r8,r2;xor r8,r8,r2;xor r2,r8,r2;xor r8,r8,r2|02faec0f|a2f9ec0f02faec0f02faec0fa2f9ec0f02faec0f
+xs1|add r8,r8,r3; sub r8,r8,r3||0312031a|
+xs1|add r8,r8,r3|sub r8,r8,r3|0312|031a
+xs1|sub r8,r8,r3; add r8,r8,r3||031a0312|
+xs1|sub r8,r8,r3|add r8,r8,r3|031a|0312
+xs1|xor r8,r8,r3; xor r3,r8,r3; xor r8,r8,r3; xor r8,r8,r3; xor r3,r8,r3; xor r8,r8,r3||03faec0fb3f9ec0f03faec0f03faec0fb3f9ec0f03faec0f|
+xs1|xor r8,r8,r3; xor r3,r8,r3; xor r8,r8,r3; xor r8,r8,r3; xor r3,r8,r3|xor r8,r8,r3|03faec0fb3f9ec0f03faec0f03faec0fb3f9ec0f|03faec0f
+xs1|xor r8,r8,r3; xor r3,r8,r3; xor r8,r8,r3; xor r8,r8,r3|xor r3,r8,r3;xor r8,r8,r3|03faec0fb3f9ec0f03faec0f03faec0f|b3f9ec0f03faec0f
+xs1|xor r8,r8,r3; xor r3,r8,r3; xor r8,r8,r3|xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3|03faec0fb3f9ec0f03faec0f|03faec0fb3f9ec0f03faec0f
+xs1|xor r8,r8,r3; xor r3,r8,r3|xor r8,r8,r3;xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3|03faec0fb3f9ec0f|03faec0f03faec0fb3f9ec0f03faec0f
+xs1|xor r8,r8,r3|xor r3,r8,r3;xor r8,r8,r3;xor r8,r8,r3;xor r3,r8,r3;xor r8,r8,r3|03faec0f|b3f9ec0f03faec0f03faec0fb3f9ec0f03faec0f
+xs1|add r8,r8,r4; sub r8,r8,r4||4014401c|
+xs1|add r8,r8,r4|sub r8,r8,r4|4014|401c
+xs1|sub r8,r8,r4; add r8,r8,r4||401c4014|
+xs1|sub r8,r8,r4|add r8,r8,r4|401c|4014
+xs1|xor r8,r8,r4; xor r4,r8,r4; xor r8,r8,r4; xor r8,r8,r4; xor r4,r8,r4; xor r8,r8,r4||40fcec0f00fcec0f40fcec0f40fcec0f00fcec0f40fcec0f|
+xs1|xor r8,r8,r4; xor r4,r8,r4; xor r8,r8,r4; xor r8,r8,r4; xor r4,r8,r4|xor r8,r8,r4|40fcec0f00fcec0f40fcec0f40fcec0f00fcec0f|40fcec0f
+xs1|xor r8,r8,r4; xor r4,r8,r4; xor r8,r8,r4; xor r8,r8,r4|xor r4,r8,r4;xor r8,r8,r4|40fcec0f00fcec0f40fcec0f40fcec0f|00fcec0f40fcec0f
+xs1|xor r8,r8,r4; xor r4,r8,r4; xor r8,r8,r4|xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4|40fcec0f00fcec0f40fcec0f|40fcec0f00fcec0f40fcec0f
+xs1|xor r8,r8,r4; xor r4,r8,r4|xor r8,r8,r4;xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4|40fcec0f00fcec0f|40fcec0f40fcec0f00fcec0f40fcec0f
+xs1|xor r8,r8,r4|xor r4,r8,r4;xor r8,r8,r4;xor r8,r8,r4;xor r4,r8,r4;xor r8,r8,r4|40fcec0f|00fcec0f40fcec0f40fcec0f00fcec0f40fcec0f
+xs1|add r8,r8,r5; sub r8,r8,r5||4114411c|
+xs1|add r8,r8,r5|sub r8,r8,r5|4114|411c
+xs1|sub r8,r8,r5; add r8,r8,r5||411c4114|
+xs1|sub r8,r8,r5|add r8,r8,r5|411c|4114
+xs1|xor r8,r8,r5; xor r5,r8,r5; xor r8,r8,r5; xor r8,r8,r5; xor r5,r8,r5; xor r8,r8,r5||41fcec0f11fcec0f41fcec0f41fcec0f11fcec0f41fcec0f|
+xs1|xor r8,r8,r5; xor r5,r8,r5; xor r8,r8,r5; xor r8,r8,r5; xor r5,r8,r5|xor r8,r8,r5|41fcec0f11fcec0f41fcec0f41fcec0f11fcec0f|41fcec0f
+xs1|xor r8,r8,r5; xor r5,r8,r5; xor r8,r8,r5; xor r8,r8,r5|xor r5,r8,r5;xor r8,r8,r5|41fcec0f11fcec0f41fcec0f41fcec0f|11fcec0f41fcec0f
+xs1|xor r8,r8,r5; xor r5,r8,r5; xor r8,r8,r5|xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5|41fcec0f11fcec0f41fcec0f|41fcec0f11fcec0f41fcec0f
+xs1|xor r8,r8,r5; xor r5,r8,r5|xor r8,r8,r5;xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5|41fcec0f11fcec0f|41fcec0f41fcec0f11fcec0f41fcec0f
+xs1|xor r8,r8,r5|xor r5,r8,r5;xor r8,r8,r5;xor r8,r8,r5;xor r5,r8,r5;xor r8,r8,r5|41fcec0f|11fcec0f41fcec0f41fcec0f11fcec0f41fcec0f
+xs1|add r8,r8,r6; sub r8,r8,r6||4214421c|
+xs1|add r8,r8,r6|sub r8,r8,r6|4214|421c
+xs1|sub r8,r8,r6; add r8,r8,r6||421c4214|
+xs1|sub r8,r8,r6|add r8,r8,r6|421c|4214
+xs1|xor r8,r8,r6; xor r6,r8,r6; xor r8,r8,r6; xor r8,r8,r6; xor r6,r8,r6; xor r8,r8,r6||42fcec0f22fcec0f42fcec0f42fcec0f22fcec0f42fcec0f|
+xs1|xor r8,r8,r6; xor r6,r8,r6; xor r8,r8,r6; xor r8,r8,r6; xor r6,r8,r6|xor r8,r8,r6|42fcec0f22fcec0f42fcec0f42fcec0f22fcec0f|42fcec0f
+xs1|xor r8,r8,r6; xor r6,r8,r6; xor r8,r8,r6; xor r8,r8,r6|xor r6,r8,r6;xor r8,r8,r6|42fcec0f22fcec0f42fcec0f42fcec0f|22fcec0f42fcec0f
+xs1|xor r8,r8,r6; xor r6,r8,r6; xor r8,r8,r6|xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6|42fcec0f22fcec0f42fcec0f|42fcec0f22fcec0f42fcec0f
+xs1|xor r8,r8,r6; xor r6,r8,r6|xor r8,r8,r6;xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6|42fcec0f22fcec0f|42fcec0f42fcec0f22fcec0f42fcec0f
+xs1|xor r8,r8,r6|xor r6,r8,r6;xor r8,r8,r6;xor r8,r8,r6;xor r6,r8,r6;xor r8,r8,r6|42fcec0f|22fcec0f42fcec0f42fcec0f22fcec0f42fcec0f
+xs1|add r8,r8,r7; sub r8,r8,r7||4314431c|
+xs1|add r8,r8,r7|sub r8,r8,r7|4314|431c
+xs1|sub r8,r8,r7; add r8,r8,r7||431c4314|
+xs1|sub r8,r8,r7|add r8,r8,r7|431c|4314
+xs1|xor r8,r8,r7; xor r7,r8,r7; xor r8,r8,r7; xor r8,r8,r7; xor r7,r8,r7; xor r8,r8,r7||43fcec0f33fcec0f43fcec0f43fcec0f33fcec0f43fcec0f|
+xs1|xor r8,r8,r7; xor r7,r8,r7; xor r8,r8,r7; xor r8,r8,r7; xor r7,r8,r7|xor r8,r8,r7|43fcec0f33fcec0f43fcec0f43fcec0f33fcec0f|43fcec0f
+xs1|xor r8,r8,r7; xor r7,r8,r7; xor r8,r8,r7; xor r8,r8,r7|xor r7,r8,r7;xor r8,r8,r7|43fcec0f33fcec0f43fcec0f43fcec0f|33fcec0f43fcec0f
+xs1|xor r8,r8,r7; xor r7,r8,r7; xor r8,r8,r7|xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7|43fcec0f33fcec0f43fcec0f|43fcec0f33fcec0f43fcec0f
+xs1|xor r8,r8,r7; xor r7,r8,r7|xor r8,r8,r7;xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7|43fcec0f33fcec0f|43fcec0f43fcec0f33fcec0f43fcec0f
+xs1|xor r8,r8,r7|xor r7,r8,r7;xor r8,r8,r7;xor r8,r8,r7;xor r7,r8,r7;xor r8,r8,r7|43fcec0f|33fcec0f43fcec0f43fcec0f33fcec0f43fcec0f
+xs1|add r8,r8,r8; sub r8,r8,r8||8016801e|
+xs1|add r8,r8,r8|sub r8,r8,r8|8016|801e
+xs1|sub r8,r8,r8; add r8,r8,r8||801e8016|
+xs1|sub r8,r8,r8|add r8,r8,r8|801e|8016
+xs1|xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8||80feec0f80feec0f80feec0f80feec0f80feec0f80feec0f|
+xs1|xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8|xor r8,r8,r8|80feec0f80feec0f80feec0f80feec0f80feec0f|80feec0f
+xs1|xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8|xor r8,r8,r8;xor r8,r8,r8|80feec0f80feec0f80feec0f80feec0f|80feec0f80feec0f
+xs1|xor r8,r8,r8; xor r8,r8,r8; xor r8,r8,r8|xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8|80feec0f80feec0f80feec0f|80feec0f80feec0f80feec0f
+xs1|xor r8,r8,r8; xor r8,r8,r8|xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8|80feec0f80feec0f|80feec0f80feec0f80feec0f80feec0f
+xs1|xor r8,r8,r8|xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8;xor r8,r8,r8|80feec0f|80feec0f80feec0f80feec0f80feec0f80feec0f
+xs1|add r8,r8,r9; sub r8,r8,r9||8116811e|
+xs1|add r8,r8,r9|sub r8,r8,r9|8116|811e
+xs1|sub r8,r8,r9; add r8,r8,r9||811e8116|
+xs1|sub r8,r8,r9|add r8,r8,r9|811e|8116
+xs1|xor r8,r8,r9; xor r9,r8,r9; xor r8,r8,r9; xor r8,r8,r9; xor r9,r8,r9; xor r8,r8,r9||81feec0f91feec0f81feec0f81feec0f91feec0f81feec0f|
+xs1|xor r8,r8,r9; xor r9,r8,r9; xor r8,r8,r9; xor r8,r8,r9; xor r9,r8,r9|xor r8,r8,r9|81feec0f91feec0f81feec0f81feec0f91feec0f|81feec0f
+xs1|xor r8,r8,r9; xor r9,r8,r9; xor r8,r8,r9; xor r8,r8,r9|xor r9,r8,r9;xor r8,r8,r9|81feec0f91feec0f81feec0f81feec0f|91feec0f81feec0f
+xs1|xor r8,r8,r9; xor r9,r8,r9; xor r8,r8,r9|xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9|81feec0f91feec0f81feec0f|81feec0f91feec0f81feec0f
+xs1|xor r8,r8,r9; xor r9,r8,r9|xor r8,r8,r9;xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9|81feec0f91feec0f|81feec0f81feec0f91feec0f81feec0f
+xs1|xor r8,r8,r9|xor r9,r8,r9;xor r8,r8,r9;xor r8,r8,r9;xor r9,r8,r9;xor r8,r8,r9|81feec0f|91feec0f81feec0f81feec0f91feec0f81feec0f
+xs1|add r8,r8,r10; sub r8,r8,r10||8216821e|
+xs1|add r8,r8,r10|sub r8,r8,r10|8216|821e
+xs1|sub r8,r8,r10; add r8,r8,r10||821e8216|
+xs1|sub r8,r8,r10|add r8,r8,r10|821e|8216
+xs1|xor r8,r8,r10; xor r10,r8,r10; xor r8,r8,r10; xor r8,r8,r10; xor r10,r8,r10; xor r8,r8,r10||82feec0fa2feec0f82feec0f82feec0fa2feec0f82feec0f|
+xs1|xor r8,r8,r10; xor r10,r8,r10; xor r8,r8,r10; xor r8,r8,r10; xor r10,r8,r10|xor r8,r8,r10|82feec0fa2feec0f82feec0f82feec0fa2feec0f|82feec0f
+xs1|xor r8,r8,r10; xor r10,r8,r10; xor r8,r8,r10; xor r8,r8,r10|xor r10,r8,r10;xor r8,r8,r10|82feec0fa2feec0f82feec0f82feec0f|a2feec0f82feec0f
+xs1|xor r8,r8,r10; xor r10,r8,r10; xor r8,r8,r10|xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10|82feec0fa2feec0f82feec0f|82feec0fa2feec0f82feec0f
+xs1|xor r8,r8,r10; xor r10,r8,r10|xor r8,r8,r10;xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10|82feec0fa2feec0f|82feec0f82feec0fa2feec0f82feec0f
+xs1|xor r8,r8,r10|xor r10,r8,r10;xor r8,r8,r10;xor r8,r8,r10;xor r10,r8,r10;xor r8,r8,r10|82feec0f|a2feec0f82feec0f82feec0fa2feec0f82feec0f
+xs1|add r8,r8,r11; sub r8,r8,r11||8316831e|
+xs1|add r8,r8,r11|sub r8,r8,r11|8316|831e
+xs1|sub r8,r8,r11; add r8,r8,r11||831e8316|
+xs1|sub r8,r8,r11|add r8,r8,r11|831e|8316
+xs1|xor r8,r8,r11; xor r11,r8,r11; xor r8,r8,r11; xor r8,r8,r11; xor r11,r8,r11; xor r8,r8,r11||83feec0fb3feec0f83feec0f83feec0fb3feec0f83feec0f|
+xs1|xor r8,r8,r11; xor r11,r8,r11; xor r8,r8,r11; xor r8,r8,r11; xor r11,r8,r11|xor r8,r8,r11|83feec0fb3feec0f83feec0f83feec0fb3feec0f|83feec0f
+xs1|xor r8,r8,r11; xor r11,r8,r11; xor r8,r8,r11; xor r8,r8,r11|xor r11,r8,r11;xor r8,r8,r11|83feec0fb3feec0f83feec0f83feec0f|b3feec0f83feec0f
+xs1|xor r8,r8,r11; xor r11,r8,r11; xor r8,r8,r11|xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11|83feec0fb3feec0f83feec0f|83feec0fb3feec0f83feec0f
+xs1|xor r8,r8,r11; xor r11,r8,r11|xor r8,r8,r11;xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11|83feec0fb3feec0f|83feec0f83feec0fb3feec0f83feec0f
+xs1|xor r8,r8,r11|xor r11,r8,r11;xor r8,r8,r11;xor r8,r8,r11;xor r11,r8,r11;xor r8,r8,r11|83feec0f|b3feec0f83feec0f83feec0fb3feec0f83feec0f
+xs1|add r8,r8,0; sub r8,r8,0||0092009a|
+xs1|add r8,r8,0|sub r8,r8,0|0092|009a
+xs1|sub r8,r8,0; add r8,r8,0||009a0092|
+xs1|sub r8,r8,0|add r8,r8,0|009a|0092
+xs1|add r8,r8,1; sub r8,r8,1||0192019a|
+xs1|add r8,r8,1|sub r8,r8,1|0192|019a
+xs1|sub r8,r8,1; add r8,r8,1||019a0192|
+xs1|sub r8,r8,1|add r8,r8,1|019a|0192
+xs1|add r8,r8,2; sub r8,r8,2||0292029a|
+xs1|add r8,r8,2|sub r8,r8,2|0292|029a
+xs1|sub r8,r8,2; add r8,r8,2||029a0292|
+xs1|sub r8,r8,2|add r8,r8,2|029a|0292
+xs1|add r8,r8,3; sub r8,r8,3||0392039a|
+xs1|add r8,r8,3|sub r8,r8,3|0392|039a
+xs1|sub r8,r8,3; add r8,r8,3||039a0392|
+xs1|sub r8,r8,3|add r8,r8,3|039a|0392
+xs1|add r8,r8,4; sub r8,r8,4||4094409c|
+xs1|add r8,r8,4|sub r8,r8,4|4094|409c
+xs1|sub r8,r8,4; add r8,r8,4||409c4094|
+xs1|sub r8,r8,4|add r8,r8,4|409c|4094
+xs1|add r8,r8,5; sub r8,r8,5||4194419c|
+xs1|add r8,r8,5|sub r8,r8,5|4194|419c
+xs1|sub r8,r8,5; add r8,r8,5||419c4194|
+xs1|sub r8,r8,5|add r8,r8,5|419c|4194
+xs1|add r8,r8,6; sub r8,r8,6||4294429c|
+xs1|add r8,r8,6|sub r8,r8,6|4294|429c
+xs1|sub r8,r8,6; add r8,r8,6||429c4294|
+xs1|sub r8,r8,6|add r8,r8,6|429c|4294
+xs1|add r8,r8,7; sub r8,r8,7||4394439c|
+xs1|add r8,r8,7|sub r8,r8,7|4394|439c
+xs1|sub r8,r8,7; add r8,r8,7||439c4394|
+xs1|sub r8,r8,7|add r8,r8,7|439c|4394
+xs1|add r8,r8,8; sub r8,r8,8||8096809e|
+xs1|add r8,r8,8|sub r8,r8,8|8096|809e
+xs1|sub r8,r8,8; add r8,r8,8||809e8096|
+xs1|sub r8,r8,8|add r8,r8,8|809e|8096
+xs1|add r8,r8,9; sub r8,r8,9||8196819e|
+xs1|add r8,r8,9|sub r8,r8,9|8196|819e
+xs1|sub r8,r8,9; add r8,r8,9||819e8196|
+xs1|sub r8,r8,9|add r8,r8,9|819e|8196
+xs1|add r8,r8,10; sub r8,r8,10||8296829e|
+xs1|add r8,r8,10|sub r8,r8,10|8296|829e
+xs1|sub r8,r8,10; add r8,r8,10||829e8296|
+xs1|sub r8,r8,10|add r8,r8,10|829e|8296
+xs1|add r8,r8,11; sub r8,r8,11||8396839e|
+xs1|add r8,r8,11|sub r8,r8,11|8396|839e
+xs1|sub r8,r8,11; add r8,r8,11||839e8396|
+xs1|sub r8,r8,11|add r8,r8,11|839e|8396
+xs1|add r9,r9,0||1492|
+xs1|sub r9,r9,0||149a|
+xs1|bitrev r9,r9; bitrev r9,r9||a5ffec07a5ffec07|
+xs1|bitrev r9,r9|bitrev r9,r9|a5ffec07|a5ffec07
+xs1|byterev r9,r9; byterev r9,r9||b5ffec07b5ffec07|
+xs1|byterev r9,r9|byterev r9,r9|b5ffec07|b5ffec07
+xs1|neg r9,r9; neg r9,r9||a597a597|
+xs1|neg r9,r9|neg r9,r9|a597|a597
+xs1|not r9,r9; not r9,r9||a58fa58f|
+xs1|not r9,r9|not r9,r9|a58f|a58f
+xs1|add r9,r9,r0; sub r9,r9,r0||1412141a|
+xs1|add r9,r9,r0|sub r9,r9,r0|1412|141a
+xs1|sub r9,r9,r0; add r9,r9,r0||141a1412|
+xs1|sub r9,r9,r0|add r9,r9,r0|141a|1412
+xs1|xor r9,r9,r0; xor r0,r9,r0; xor r9,r9,r0; xor r9,r9,r0; xor r0,r9,r0; xor r9,r9,r0||14faec0f84f9ec0f14faec0f14faec0f84f9ec0f14faec0f|
+xs1|xor r9,r9,r0; xor r0,r9,r0; xor r9,r9,r0; xor r9,r9,r0; xor r0,r9,r0|xor r9,r9,r0|14faec0f84f9ec0f14faec0f14faec0f84f9ec0f|14faec0f
+xs1|xor r9,r9,r0; xor r0,r9,r0; xor r9,r9,r0; xor r9,r9,r0|xor r0,r9,r0;xor r9,r9,r0|14faec0f84f9ec0f14faec0f14faec0f|84f9ec0f14faec0f
+xs1|xor r9,r9,r0; xor r0,r9,r0; xor r9,r9,r0|xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0|14faec0f84f9ec0f14faec0f|14faec0f84f9ec0f14faec0f
+xs1|xor r9,r9,r0; xor r0,r9,r0|xor r9,r9,r0;xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0|14faec0f84f9ec0f|14faec0f14faec0f84f9ec0f14faec0f
+xs1|xor r9,r9,r0|xor r0,r9,r0;xor r9,r9,r0;xor r9,r9,r0;xor r0,r9,r0;xor r9,r9,r0|14faec0f|84f9ec0f14faec0f14faec0f84f9ec0f14faec0f
+xs1|add r9,r9,r1; sub r9,r9,r1||1512151a|
+xs1|add r9,r9,r1|sub r9,r9,r1|1512|151a
+xs1|sub r9,r9,r1; add r9,r9,r1||151a1512|
+xs1|sub r9,r9,r1|add r9,r9,r1|151a|1512
+xs1|xor r9,r9,r1; xor r1,r9,r1; xor r9,r9,r1; xor r9,r9,r1; xor r1,r9,r1; xor r9,r9,r1||15faec0f95f9ec0f15faec0f15faec0f95f9ec0f15faec0f|
+xs1|xor r9,r9,r1; xor r1,r9,r1; xor r9,r9,r1; xor r9,r9,r1; xor r1,r9,r1|xor r9,r9,r1|15faec0f95f9ec0f15faec0f15faec0f95f9ec0f|15faec0f
+xs1|xor r9,r9,r1; xor r1,r9,r1; xor r9,r9,r1; xor r9,r9,r1|xor r1,r9,r1;xor r9,r9,r1|15faec0f95f9ec0f15faec0f15faec0f|95f9ec0f15faec0f
+xs1|xor r9,r9,r1; xor r1,r9,r1; xor r9,r9,r1|xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1|15faec0f95f9ec0f15faec0f|15faec0f95f9ec0f15faec0f
+xs1|xor r9,r9,r1; xor r1,r9,r1|xor r9,r9,r1;xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1|15faec0f95f9ec0f|15faec0f15faec0f95f9ec0f15faec0f
+xs1|xor r9,r9,r1|xor r1,r9,r1;xor r9,r9,r1;xor r9,r9,r1;xor r1,r9,r1;xor r9,r9,r1|15faec0f|95f9ec0f15faec0f15faec0f95f9ec0f15faec0f
+xs1|add r9,r9,r2; sub r9,r9,r2||1612161a|
+xs1|add r9,r9,r2|sub r9,r9,r2|1612|161a
+xs1|sub r9,r9,r2; add r9,r9,r2||161a1612|
+xs1|sub r9,r9,r2|add r9,r9,r2|161a|1612
+xs1|xor r9,r9,r2; xor r2,r9,r2; xor r9,r9,r2; xor r9,r9,r2; xor r2,r9,r2; xor r9,r9,r2||16faec0fa6f9ec0f16faec0f16faec0fa6f9ec0f16faec0f|
+xs1|xor r9,r9,r2; xor r2,r9,r2; xor r9,r9,r2; xor r9,r9,r2; xor r2,r9,r2|xor r9,r9,r2|16faec0fa6f9ec0f16faec0f16faec0fa6f9ec0f|16faec0f
+xs1|xor r9,r9,r2; xor r2,r9,r2; xor r9,r9,r2; xor r9,r9,r2|xor r2,r9,r2;xor r9,r9,r2|16faec0fa6f9ec0f16faec0f16faec0f|a6f9ec0f16faec0f
+xs1|xor r9,r9,r2; xor r2,r9,r2; xor r9,r9,r2|xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2|16faec0fa6f9ec0f16faec0f|16faec0fa6f9ec0f16faec0f
+xs1|xor r9,r9,r2; xor r2,r9,r2|xor r9,r9,r2;xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2|16faec0fa6f9ec0f|16faec0f16faec0fa6f9ec0f16faec0f
+xs1|xor r9,r9,r2|xor r2,r9,r2;xor r9,r9,r2;xor r9,r9,r2;xor r2,r9,r2;xor r9,r9,r2|16faec0f|a6f9ec0f16faec0f16faec0fa6f9ec0f16faec0f
+xs1|add r9,r9,r3; sub r9,r9,r3||1712171a|
+xs1|add r9,r9,r3|sub r9,r9,r3|1712|171a
+xs1|sub r9,r9,r3; add r9,r9,r3||171a1712|
+xs1|sub r9,r9,r3|add r9,r9,r3|171a|1712
+xs1|xor r9,r9,r3; xor r3,r9,r3; xor r9,r9,r3; xor r9,r9,r3; xor r3,r9,r3; xor r9,r9,r3||17faec0fb7f9ec0f17faec0f17faec0fb7f9ec0f17faec0f|
+xs1|xor r9,r9,r3; xor r3,r9,r3; xor r9,r9,r3; xor r9,r9,r3; xor r3,r9,r3|xor r9,r9,r3|17faec0fb7f9ec0f17faec0f17faec0fb7f9ec0f|17faec0f
+xs1|xor r9,r9,r3; xor r3,r9,r3; xor r9,r9,r3; xor r9,r9,r3|xor r3,r9,r3;xor r9,r9,r3|17faec0fb7f9ec0f17faec0f17faec0f|b7f9ec0f17faec0f
+xs1|xor r9,r9,r3; xor r3,r9,r3; xor r9,r9,r3|xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3|17faec0fb7f9ec0f17faec0f|17faec0fb7f9ec0f17faec0f
+xs1|xor r9,r9,r3; xor r3,r9,r3|xor r9,r9,r3;xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3|17faec0fb7f9ec0f|17faec0f17faec0fb7f9ec0f17faec0f
+xs1|xor r9,r9,r3|xor r3,r9,r3;xor r9,r9,r3;xor r9,r9,r3;xor r3,r9,r3;xor r9,r9,r3|17faec0f|b7f9ec0f17faec0f17faec0fb7f9ec0f17faec0f
+xs1|add r9,r9,r4; sub r9,r9,r4||5414541c|
+xs1|add r9,r9,r4|sub r9,r9,r4|5414|541c
+xs1|sub r9,r9,r4; add r9,r9,r4||541c5414|
+xs1|sub r9,r9,r4|add r9,r9,r4|541c|5414
+xs1|xor r9,r9,r4; xor r4,r9,r4; xor r9,r9,r4; xor r9,r9,r4; xor r4,r9,r4; xor r9,r9,r4||54fcec0f04fcec0f54fcec0f54fcec0f04fcec0f54fcec0f|
+xs1|xor r9,r9,r4; xor r4,r9,r4; xor r9,r9,r4; xor r9,r9,r4; xor r4,r9,r4|xor r9,r9,r4|54fcec0f04fcec0f54fcec0f54fcec0f04fcec0f|54fcec0f
+xs1|xor r9,r9,r4; xor r4,r9,r4; xor r9,r9,r4; xor r9,r9,r4|xor r4,r9,r4;xor r9,r9,r4|54fcec0f04fcec0f54fcec0f54fcec0f|04fcec0f54fcec0f
+xs1|xor r9,r9,r4; xor r4,r9,r4; xor r9,r9,r4|xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4|54fcec0f04fcec0f54fcec0f|54fcec0f04fcec0f54fcec0f
+xs1|xor r9,r9,r4; xor r4,r9,r4|xor r9,r9,r4;xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4|54fcec0f04fcec0f|54fcec0f54fcec0f04fcec0f54fcec0f
+xs1|xor r9,r9,r4|xor r4,r9,r4;xor r9,r9,r4;xor r9,r9,r4;xor r4,r9,r4;xor r9,r9,r4|54fcec0f|04fcec0f54fcec0f54fcec0f04fcec0f54fcec0f
+xs1|add r9,r9,r5; sub r9,r9,r5||5514551c|
+xs1|add r9,r9,r5|sub r9,r9,r5|5514|551c
+xs1|sub r9,r9,r5; add r9,r9,r5||551c5514|
+xs1|sub r9,r9,r5|add r9,r9,r5|551c|5514
+xs1|xor r9,r9,r5; xor r5,r9,r5; xor r9,r9,r5; xor r9,r9,r5; xor r5,r9,r5; xor r9,r9,r5||55fcec0f15fcec0f55fcec0f55fcec0f15fcec0f55fcec0f|
+xs1|xor r9,r9,r5; xor r5,r9,r5; xor r9,r9,r5; xor r9,r9,r5; xor r5,r9,r5|xor r9,r9,r5|55fcec0f15fcec0f55fcec0f55fcec0f15fcec0f|55fcec0f
+xs1|xor r9,r9,r5; xor r5,r9,r5; xor r9,r9,r5; xor r9,r9,r5|xor r5,r9,r5;xor r9,r9,r5|55fcec0f15fcec0f55fcec0f55fcec0f|15fcec0f55fcec0f
+xs1|xor r9,r9,r5; xor r5,r9,r5; xor r9,r9,r5|xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5|55fcec0f15fcec0f55fcec0f|55fcec0f15fcec0f55fcec0f
+xs1|xor r9,r9,r5; xor r5,r9,r5|xor r9,r9,r5;xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5|55fcec0f15fcec0f|55fcec0f55fcec0f15fcec0f55fcec0f
+xs1|xor r9,r9,r5|xor r5,r9,r5;xor r9,r9,r5;xor r9,r9,r5;xor r5,r9,r5;xor r9,r9,r5|55fcec0f|15fcec0f55fcec0f55fcec0f15fcec0f55fcec0f
+xs1|add r9,r9,r6; sub r9,r9,r6||5614561c|
+xs1|add r9,r9,r6|sub r9,r9,r6|5614|561c
+xs1|sub r9,r9,r6; add r9,r9,r6||561c5614|
+xs1|sub r9,r9,r6|add r9,r9,r6|561c|5614
+xs1|xor r9,r9,r6; xor r6,r9,r6; xor r9,r9,r6; xor r9,r9,r6; xor r6,r9,r6; xor r9,r9,r6||56fcec0f26fcec0f56fcec0f56fcec0f26fcec0f56fcec0f|
+xs1|xor r9,r9,r6; xor r6,r9,r6; xor r9,r9,r6; xor r9,r9,r6; xor r6,r9,r6|xor r9,r9,r6|56fcec0f26fcec0f56fcec0f56fcec0f26fcec0f|56fcec0f
+xs1|xor r9,r9,r6; xor r6,r9,r6; xor r9,r9,r6; xor r9,r9,r6|xor r6,r9,r6;xor r9,r9,r6|56fcec0f26fcec0f56fcec0f56fcec0f|26fcec0f56fcec0f
+xs1|xor r9,r9,r6; xor r6,r9,r6; xor r9,r9,r6|xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6|56fcec0f26fcec0f56fcec0f|56fcec0f26fcec0f56fcec0f
+xs1|xor r9,r9,r6; xor r6,r9,r6|xor r9,r9,r6;xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6|56fcec0f26fcec0f|56fcec0f56fcec0f26fcec0f56fcec0f
+xs1|xor r9,r9,r6|xor r6,r9,r6;xor r9,r9,r6;xor r9,r9,r6;xor r6,r9,r6;xor r9,r9,r6|56fcec0f|26fcec0f56fcec0f56fcec0f26fcec0f56fcec0f
+xs1|add r9,r9,r7; sub r9,r9,r7||5714571c|
+xs1|add r9,r9,r7|sub r9,r9,r7|5714|571c
+xs1|sub r9,r9,r7; add r9,r9,r7||571c5714|
+xs1|sub r9,r9,r7|add r9,r9,r7|571c|5714
+xs1|xor r9,r9,r7; xor r7,r9,r7; xor r9,r9,r7; xor r9,r9,r7; xor r7,r9,r7; xor r9,r9,r7||57fcec0f37fcec0f57fcec0f57fcec0f37fcec0f57fcec0f|
+xs1|xor r9,r9,r7; xor r7,r9,r7; xor r9,r9,r7; xor r9,r9,r7; xor r7,r9,r7|xor r9,r9,r7|57fcec0f37fcec0f57fcec0f57fcec0f37fcec0f|57fcec0f
+xs1|xor r9,r9,r7; xor r7,r9,r7; xor r9,r9,r7; xor r9,r9,r7|xor r7,r9,r7;xor r9,r9,r7|57fcec0f37fcec0f57fcec0f57fcec0f|37fcec0f57fcec0f
+xs1|xor r9,r9,r7; xor r7,r9,r7; xor r9,r9,r7|xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7|57fcec0f37fcec0f57fcec0f|57fcec0f37fcec0f57fcec0f
+xs1|xor r9,r9,r7; xor r7,r9,r7|xor r9,r9,r7;xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7|57fcec0f37fcec0f|57fcec0f57fcec0f37fcec0f57fcec0f
+xs1|xor r9,r9,r7|xor r7,r9,r7;xor r9,r9,r7;xor r9,r9,r7;xor r7,r9,r7;xor r9,r9,r7|57fcec0f|37fcec0f57fcec0f57fcec0f37fcec0f57fcec0f
+xs1|add r9,r9,r8; sub r9,r9,r8||9416941e|
+xs1|add r9,r9,r8|sub r9,r9,r8|9416|941e
+xs1|sub r9,r9,r8; add r9,r9,r8||941e9416|
+xs1|sub r9,r9,r8|add r9,r9,r8|941e|9416
+xs1|xor r9,r9,r8; xor r8,r9,r8; xor r9,r9,r8; xor r9,r9,r8; xor r8,r9,r8; xor r9,r9,r8||94feec0f84feec0f94feec0f94feec0f84feec0f94feec0f|
+xs1|xor r9,r9,r8; xor r8,r9,r8; xor r9,r9,r8; xor r9,r9,r8; xor r8,r9,r8|xor r9,r9,r8|94feec0f84feec0f94feec0f94feec0f84feec0f|94feec0f
+xs1|xor r9,r9,r8; xor r8,r9,r8; xor r9,r9,r8; xor r9,r9,r8|xor r8,r9,r8;xor r9,r9,r8|94feec0f84feec0f94feec0f94feec0f|84feec0f94feec0f
+xs1|xor r9,r9,r8; xor r8,r9,r8; xor r9,r9,r8|xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8|94feec0f84feec0f94feec0f|94feec0f84feec0f94feec0f
+xs1|xor r9,r9,r8; xor r8,r9,r8|xor r9,r9,r8;xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8|94feec0f84feec0f|94feec0f94feec0f84feec0f94feec0f
+xs1|xor r9,r9,r8|xor r8,r9,r8;xor r9,r9,r8;xor r9,r9,r8;xor r8,r9,r8;xor r9,r9,r8|94feec0f|84feec0f94feec0f94feec0f84feec0f94feec0f
+xs1|add r9,r9,r9; sub r9,r9,r9||9516951e|
+xs1|add r9,r9,r9|sub r9,r9,r9|9516|951e
+xs1|sub r9,r9,r9; add r9,r9,r9||951e9516|
+xs1|sub r9,r9,r9|add r9,r9,r9|951e|9516
+xs1|xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9||95feec0f95feec0f95feec0f95feec0f95feec0f95feec0f|
+xs1|xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9|xor r9,r9,r9|95feec0f95feec0f95feec0f95feec0f95feec0f|95feec0f
+xs1|xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9|xor r9,r9,r9;xor r9,r9,r9|95feec0f95feec0f95feec0f95feec0f|95feec0f95feec0f
+xs1|xor r9,r9,r9; xor r9,r9,r9; xor r9,r9,r9|xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9|95feec0f95feec0f95feec0f|95feec0f95feec0f95feec0f
+xs1|xor r9,r9,r9; xor r9,r9,r9|xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9|95feec0f95feec0f|95feec0f95feec0f95feec0f95feec0f
+xs1|xor r9,r9,r9|xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9;xor r9,r9,r9|95feec0f|95feec0f95feec0f95feec0f95feec0f95feec0f
+xs1|add r9,r9,r10; sub r9,r9,r10||9616961e|
+xs1|add r9,r9,r10|sub r9,r9,r10|9616|961e
+xs1|sub r9,r9,r10; add r9,r9,r10||961e9616|
+xs1|sub r9,r9,r10|add r9,r9,r10|961e|9616
+xs1|xor r9,r9,r10; xor r10,r9,r10; xor r9,r9,r10; xor r9,r9,r10; xor r10,r9,r10; xor r9,r9,r10||96feec0fa6feec0f96feec0f96feec0fa6feec0f96feec0f|
+xs1|xor r9,r9,r10; xor r10,r9,r10; xor r9,r9,r10; xor r9,r9,r10; xor r10,r9,r10|xor r9,r9,r10|96feec0fa6feec0f96feec0f96feec0fa6feec0f|96feec0f
+xs1|xor r9,r9,r10; xor r10,r9,r10; xor r9,r9,r10; xor r9,r9,r10|xor r10,r9,r10;xor r9,r9,r10|96feec0fa6feec0f96feec0f96feec0f|a6feec0f96feec0f
+xs1|xor r9,r9,r10; xor r10,r9,r10; xor r9,r9,r10|xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10|96feec0fa6feec0f96feec0f|96feec0fa6feec0f96feec0f
+xs1|xor r9,r9,r10; xor r10,r9,r10|xor r9,r9,r10;xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10|96feec0fa6feec0f|96feec0f96feec0fa6feec0f96feec0f
+xs1|xor r9,r9,r10|xor r10,r9,r10;xor r9,r9,r10;xor r9,r9,r10;xor r10,r9,r10;xor r9,r9,r10|96feec0f|a6feec0f96feec0f96feec0fa6feec0f96feec0f
+xs1|add r9,r9,r11; sub r9,r9,r11||9716971e|
+xs1|add r9,r9,r11|sub r9,r9,r11|9716|971e
+xs1|sub r9,r9,r11; add r9,r9,r11||971e9716|
+xs1|sub r9,r9,r11|add r9,r9,r11|971e|9716
+xs1|xor r9,r9,r11; xor r11,r9,r11; xor r9,r9,r11; xor r9,r9,r11; xor r11,r9,r11; xor r9,r9,r11||97feec0fb7feec0f97feec0f97feec0fb7feec0f97feec0f|
+xs1|xor r9,r9,r11; xor r11,r9,r11; xor r9,r9,r11; xor r9,r9,r11; xor r11,r9,r11|xor r9,r9,r11|97feec0fb7feec0f97feec0f97feec0fb7feec0f|97feec0f
+xs1|xor r9,r9,r11; xor r11,r9,r11; xor r9,r9,r11; xor r9,r9,r11|xor r11,r9,r11;xor r9,r9,r11|97feec0fb7feec0f97feec0f97feec0f|b7feec0f97feec0f
+xs1|xor r9,r9,r11; xor r11,r9,r11; xor r9,r9,r11|xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11|97feec0fb7feec0f97feec0f|97feec0fb7feec0f97feec0f
+xs1|xor r9,r9,r11; xor r11,r9,r11|xor r9,r9,r11;xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11|97feec0fb7feec0f|97feec0f97feec0fb7feec0f97feec0f
+xs1|xor r9,r9,r11|xor r11,r9,r11;xor r9,r9,r11;xor r9,r9,r11;xor r11,r9,r11;xor r9,r9,r11|97feec0f|b7feec0f97feec0f97feec0fb7feec0f97feec0f
+xs1|add r9,r9,0; sub r9,r9,0||1492149a|
+xs1|add r9,r9,0|sub r9,r9,0|1492|149a
+xs1|sub r9,r9,0; add r9,r9,0||149a1492|
+xs1|sub r9,r9,0|add r9,r9,0|149a|1492
+xs1|add r9,r9,1; sub r9,r9,1||1592159a|
+xs1|add r9,r9,1|sub r9,r9,1|1592|159a
+xs1|sub r9,r9,1; add r9,r9,1||159a1592|
+xs1|sub r9,r9,1|add r9,r9,1|159a|1592
+xs1|add r9,r9,2; sub r9,r9,2||1692169a|
+xs1|add r9,r9,2|sub r9,r9,2|1692|169a
+xs1|sub r9,r9,2; add r9,r9,2||169a1692|
+xs1|sub r9,r9,2|add r9,r9,2|169a|1692
+xs1|add r9,r9,3; sub r9,r9,3||1792179a|
+xs1|add r9,r9,3|sub r9,r9,3|1792|179a
+xs1|sub r9,r9,3; add r9,r9,3||179a1792|
+xs1|sub r9,r9,3|add r9,r9,3|179a|1792
+xs1|add r9,r9,4; sub r9,r9,4||5494549c|
+xs1|add r9,r9,4|sub r9,r9,4|5494|549c
+xs1|sub r9,r9,4; add r9,r9,4||549c5494|
+xs1|sub r9,r9,4|add r9,r9,4|549c|5494
+xs1|add r9,r9,5; sub r9,r9,5||5594559c|
+xs1|add r9,r9,5|sub r9,r9,5|5594|559c
+xs1|sub r9,r9,5; add r9,r9,5||559c5594|
+xs1|sub r9,r9,5|add r9,r9,5|559c|5594
+xs1|add r9,r9,6; sub r9,r9,6||5694569c|
+xs1|add r9,r9,6|sub r9,r9,6|5694|569c
+xs1|sub r9,r9,6; add r9,r9,6||569c5694|
+xs1|sub r9,r9,6|add r9,r9,6|569c|5694
+xs1|add r9,r9,7; sub r9,r9,7||5794579c|
+xs1|add r9,r9,7|sub r9,r9,7|5794|579c
+xs1|sub r9,r9,7; add r9,r9,7||579c5794|
+xs1|sub r9,r9,7|add r9,r9,7|579c|5794
+xs1|add r9,r9,8; sub r9,r9,8||9496949e|
+xs1|add r9,r9,8|sub r9,r9,8|9496|949e
+xs1|sub r9,r9,8; add r9,r9,8||949e9496|
+xs1|sub r9,r9,8|add r9,r9,8|949e|9496
+xs1|add r9,r9,9; sub r9,r9,9||9596959e|
+xs1|add r9,r9,9|sub r9,r9,9|9596|959e
+xs1|sub r9,r9,9; add r9,r9,9||959e9596|
+xs1|sub r9,r9,9|add r9,r9,9|959e|9596
+xs1|add r9,r9,10; sub r9,r9,10||9696969e|
+xs1|add r9,r9,10|sub r9,r9,10|9696|969e
+xs1|sub r9,r9,10; add r9,r9,10||969e9696|
+xs1|sub r9,r9,10|add r9,r9,10|969e|9696
+xs1|add r9,r9,11; sub r9,r9,11||9796979e|
+xs1|add r9,r9,11|sub r9,r9,11|9796|979e
+xs1|sub r9,r9,11; add r9,r9,11||979e9796|
+xs1|sub r9,r9,11|add r9,r9,11|979e|9796
+xs1|add r10,r10,0||2892|
+xs1|sub r10,r10,0||289a|
+xs1|bitrev r10,r10; bitrev r10,r10||aaffec07aaffec07|
+xs1|bitrev r10,r10|bitrev r10,r10|aaffec07|aaffec07
+xs1|byterev r10,r10; byterev r10,r10||baffec07baffec07|
+xs1|byterev r10,r10|byterev r10,r10|baffec07|baffec07
+xs1|neg r10,r10; neg r10,r10||aa97aa97|
+xs1|neg r10,r10|neg r10,r10|aa97|aa97
+xs1|not r10,r10; not r10,r10||aa8faa8f|
+xs1|not r10,r10|not r10,r10|aa8f|aa8f
+xs1|add r10,r10,r0; sub r10,r10,r0||2812281a|
+xs1|add r10,r10,r0|sub r10,r10,r0|2812|281a
+xs1|sub r10,r10,r0; add r10,r10,r0||281a2812|
+xs1|sub r10,r10,r0|add r10,r10,r0|281a|2812
+xs1|xor r10,r10,r0; xor r0,r10,r0; xor r10,r10,r0; xor r10,r10,r0; xor r0,r10,r0; xor r10,r10,r0||28faec0f88f9ec0f28faec0f28faec0f88f9ec0f28faec0f|
+xs1|xor r10,r10,r0; xor r0,r10,r0; xor r10,r10,r0; xor r10,r10,r0; xor r0,r10,r0|xor r10,r10,r0|28faec0f88f9ec0f28faec0f28faec0f88f9ec0f|28faec0f
+xs1|xor r10,r10,r0; xor r0,r10,r0; xor r10,r10,r0; xor r10,r10,r0|xor r0,r10,r0;xor r10,r10,r0|28faec0f88f9ec0f28faec0f28faec0f|88f9ec0f28faec0f
+xs1|xor r10,r10,r0; xor r0,r10,r0; xor r10,r10,r0|xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0|28faec0f88f9ec0f28faec0f|28faec0f88f9ec0f28faec0f
+xs1|xor r10,r10,r0; xor r0,r10,r0|xor r10,r10,r0;xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0|28faec0f88f9ec0f|28faec0f28faec0f88f9ec0f28faec0f
+xs1|xor r10,r10,r0|xor r0,r10,r0;xor r10,r10,r0;xor r10,r10,r0;xor r0,r10,r0;xor r10,r10,r0|28faec0f|88f9ec0f28faec0f28faec0f88f9ec0f28faec0f
+xs1|add r10,r10,r1; sub r10,r10,r1||2912291a|
+xs1|add r10,r10,r1|sub r10,r10,r1|2912|291a
+xs1|sub r10,r10,r1; add r10,r10,r1||291a2912|
+xs1|sub r10,r10,r1|add r10,r10,r1|291a|2912
+xs1|xor r10,r10,r1; xor r1,r10,r1; xor r10,r10,r1; xor r10,r10,r1; xor r1,r10,r1; xor r10,r10,r1||29faec0f99f9ec0f29faec0f29faec0f99f9ec0f29faec0f|
+xs1|xor r10,r10,r1; xor r1,r10,r1; xor r10,r10,r1; xor r10,r10,r1; xor r1,r10,r1|xor r10,r10,r1|29faec0f99f9ec0f29faec0f29faec0f99f9ec0f|29faec0f
+xs1|xor r10,r10,r1; xor r1,r10,r1; xor r10,r10,r1; xor r10,r10,r1|xor r1,r10,r1;xor r10,r10,r1|29faec0f99f9ec0f29faec0f29faec0f|99f9ec0f29faec0f
+xs1|xor r10,r10,r1; xor r1,r10,r1; xor r10,r10,r1|xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1|29faec0f99f9ec0f29faec0f|29faec0f99f9ec0f29faec0f
+xs1|xor r10,r10,r1; xor r1,r10,r1|xor r10,r10,r1;xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1|29faec0f99f9ec0f|29faec0f29faec0f99f9ec0f29faec0f
+xs1|xor r10,r10,r1|xor r1,r10,r1;xor r10,r10,r1;xor r10,r10,r1;xor r1,r10,r1;xor r10,r10,r1|29faec0f|99f9ec0f29faec0f29faec0f99f9ec0f29faec0f
+xs1|add r10,r10,r2; sub r10,r10,r2||2a122a1a|
+xs1|add r10,r10,r2|sub r10,r10,r2|2a12|2a1a
+xs1|sub r10,r10,r2; add r10,r10,r2||2a1a2a12|
+xs1|sub r10,r10,r2|add r10,r10,r2|2a1a|2a12
+xs1|xor r10,r10,r2; xor r2,r10,r2; xor r10,r10,r2; xor r10,r10,r2; xor r2,r10,r2; xor r10,r10,r2||2afaec0faaf9ec0f2afaec0f2afaec0faaf9ec0f2afaec0f|
+xs1|xor r10,r10,r2; xor r2,r10,r2; xor r10,r10,r2; xor r10,r10,r2; xor r2,r10,r2|xor r10,r10,r2|2afaec0faaf9ec0f2afaec0f2afaec0faaf9ec0f|2afaec0f
+xs1|xor r10,r10,r2; xor r2,r10,r2; xor r10,r10,r2; xor r10,r10,r2|xor r2,r10,r2;xor r10,r10,r2|2afaec0faaf9ec0f2afaec0f2afaec0f|aaf9ec0f2afaec0f
+xs1|xor r10,r10,r2; xor r2,r10,r2; xor r10,r10,r2|xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2|2afaec0faaf9ec0f2afaec0f|2afaec0faaf9ec0f2afaec0f
+xs1|xor r10,r10,r2; xor r2,r10,r2|xor r10,r10,r2;xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2|2afaec0faaf9ec0f|2afaec0f2afaec0faaf9ec0f2afaec0f
+xs1|xor r10,r10,r2|xor r2,r10,r2;xor r10,r10,r2;xor r10,r10,r2;xor r2,r10,r2;xor r10,r10,r2|2afaec0f|aaf9ec0f2afaec0f2afaec0faaf9ec0f2afaec0f
+xs1|add r10,r10,r3; sub r10,r10,r3||2b122b1a|
+xs1|add r10,r10,r3|sub r10,r10,r3|2b12|2b1a
+xs1|sub r10,r10,r3; add r10,r10,r3||2b1a2b12|
+xs1|sub r10,r10,r3|add r10,r10,r3|2b1a|2b12
+xs1|xor r10,r10,r3; xor r3,r10,r3; xor r10,r10,r3; xor r10,r10,r3; xor r3,r10,r3; xor r10,r10,r3||2bfaec0fbbf9ec0f2bfaec0f2bfaec0fbbf9ec0f2bfaec0f|
+xs1|xor r10,r10,r3; xor r3,r10,r3; xor r10,r10,r3; xor r10,r10,r3; xor r3,r10,r3|xor r10,r10,r3|2bfaec0fbbf9ec0f2bfaec0f2bfaec0fbbf9ec0f|2bfaec0f
+xs1|xor r10,r10,r3; xor r3,r10,r3; xor r10,r10,r3; xor r10,r10,r3|xor r3,r10,r3;xor r10,r10,r3|2bfaec0fbbf9ec0f2bfaec0f2bfaec0f|bbf9ec0f2bfaec0f
+xs1|xor r10,r10,r3; xor r3,r10,r3; xor r10,r10,r3|xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3|2bfaec0fbbf9ec0f2bfaec0f|2bfaec0fbbf9ec0f2bfaec0f
+xs1|xor r10,r10,r3; xor r3,r10,r3|xor r10,r10,r3;xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3|2bfaec0fbbf9ec0f|2bfaec0f2bfaec0fbbf9ec0f2bfaec0f
+xs1|xor r10,r10,r3|xor r3,r10,r3;xor r10,r10,r3;xor r10,r10,r3;xor r3,r10,r3;xor r10,r10,r3|2bfaec0f|bbf9ec0f2bfaec0f2bfaec0fbbf9ec0f2bfaec0f
+xs1|add r10,r10,r4; sub r10,r10,r4||6814681c|
+xs1|add r10,r10,r4|sub r10,r10,r4|6814|681c
+xs1|sub r10,r10,r4; add r10,r10,r4||681c6814|
+xs1|sub r10,r10,r4|add r10,r10,r4|681c|6814
+xs1|xor r10,r10,r4; xor r4,r10,r4; xor r10,r10,r4; xor r10,r10,r4; xor r4,r10,r4; xor r10,r10,r4||68fcec0f08fcec0f68fcec0f68fcec0f08fcec0f68fcec0f|
+xs1|xor r10,r10,r4; xor r4,r10,r4; xor r10,r10,r4; xor r10,r10,r4; xor r4,r10,r4|xor r10,r10,r4|68fcec0f08fcec0f68fcec0f68fcec0f08fcec0f|68fcec0f
+xs1|xor r10,r10,r4; xor r4,r10,r4; xor r10,r10,r4; xor r10,r10,r4|xor r4,r10,r4;xor r10,r10,r4|68fcec0f08fcec0f68fcec0f68fcec0f|08fcec0f68fcec0f
+xs1|xor r10,r10,r4; xor r4,r10,r4; xor r10,r10,r4|xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4|68fcec0f08fcec0f68fcec0f|68fcec0f08fcec0f68fcec0f
+xs1|xor r10,r10,r4; xor r4,r10,r4|xor r10,r10,r4;xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4|68fcec0f08fcec0f|68fcec0f68fcec0f08fcec0f68fcec0f
+xs1|xor r10,r10,r4|xor r4,r10,r4;xor r10,r10,r4;xor r10,r10,r4;xor r4,r10,r4;xor r10,r10,r4|68fcec0f|08fcec0f68fcec0f68fcec0f08fcec0f68fcec0f
+xs1|add r10,r10,r5; sub r10,r10,r5||6914691c|
+xs1|add r10,r10,r5|sub r10,r10,r5|6914|691c
+xs1|sub r10,r10,r5; add r10,r10,r5||691c6914|
+xs1|sub r10,r10,r5|add r10,r10,r5|691c|6914
+xs1|xor r10,r10,r5; xor r5,r10,r5; xor r10,r10,r5; xor r10,r10,r5; xor r5,r10,r5; xor r10,r10,r5||69fcec0f19fcec0f69fcec0f69fcec0f19fcec0f69fcec0f|
+xs1|xor r10,r10,r5; xor r5,r10,r5; xor r10,r10,r5; xor r10,r10,r5; xor r5,r10,r5|xor r10,r10,r5|69fcec0f19fcec0f69fcec0f69fcec0f19fcec0f|69fcec0f
+xs1|xor r10,r10,r5; xor r5,r10,r5; xor r10,r10,r5; xor r10,r10,r5|xor r5,r10,r5;xor r10,r10,r5|69fcec0f19fcec0f69fcec0f69fcec0f|19fcec0f69fcec0f
+xs1|xor r10,r10,r5; xor r5,r10,r5; xor r10,r10,r5|xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5|69fcec0f19fcec0f69fcec0f|69fcec0f19fcec0f69fcec0f
+xs1|xor r10,r10,r5; xor r5,r10,r5|xor r10,r10,r5;xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5|69fcec0f19fcec0f|69fcec0f69fcec0f19fcec0f69fcec0f
+xs1|xor r10,r10,r5|xor r5,r10,r5;xor r10,r10,r5;xor r10,r10,r5;xor r5,r10,r5;xor r10,r10,r5|69fcec0f|19fcec0f69fcec0f69fcec0f19fcec0f69fcec0f
+xs1|add r10,r10,r6; sub r10,r10,r6||6a146a1c|
+xs1|add r10,r10,r6|sub r10,r10,r6|6a14|6a1c
+xs1|sub r10,r10,r6; add r10,r10,r6||6a1c6a14|
+xs1|sub r10,r10,r6|add r10,r10,r6|6a1c|6a14
+xs1|xor r10,r10,r6; xor r6,r10,r6; xor r10,r10,r6; xor r10,r10,r6; xor r6,r10,r6; xor r10,r10,r6||6afcec0f2afcec0f6afcec0f6afcec0f2afcec0f6afcec0f|
+xs1|xor r10,r10,r6; xor r6,r10,r6; xor r10,r10,r6; xor r10,r10,r6; xor r6,r10,r6|xor r10,r10,r6|6afcec0f2afcec0f6afcec0f6afcec0f2afcec0f|6afcec0f
+xs1|xor r10,r10,r6; xor r6,r10,r6; xor r10,r10,r6; xor r10,r10,r6|xor r6,r10,r6;xor r10,r10,r6|6afcec0f2afcec0f6afcec0f6afcec0f|2afcec0f6afcec0f
+xs1|xor r10,r10,r6; xor r6,r10,r6; xor r10,r10,r6|xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6|6afcec0f2afcec0f6afcec0f|6afcec0f2afcec0f6afcec0f
+xs1|xor r10,r10,r6; xor r6,r10,r6|xor r10,r10,r6;xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6|6afcec0f2afcec0f|6afcec0f6afcec0f2afcec0f6afcec0f
+xs1|xor r10,r10,r6|xor r6,r10,r6;xor r10,r10,r6;xor r10,r10,r6;xor r6,r10,r6;xor r10,r10,r6|6afcec0f|2afcec0f6afcec0f6afcec0f2afcec0f6afcec0f
+xs1|add r10,r10,r7; sub r10,r10,r7||6b146b1c|
+xs1|add r10,r10,r7|sub r10,r10,r7|6b14|6b1c
+xs1|sub r10,r10,r7; add r10,r10,r7||6b1c6b14|
+xs1|sub r10,r10,r7|add r10,r10,r7|6b1c|6b14
+xs1|xor r10,r10,r7; xor r7,r10,r7; xor r10,r10,r7; xor r10,r10,r7; xor r7,r10,r7; xor r10,r10,r7||6bfcec0f3bfcec0f6bfcec0f6bfcec0f3bfcec0f6bfcec0f|
+xs1|xor r10,r10,r7; xor r7,r10,r7; xor r10,r10,r7; xor r10,r10,r7; xor r7,r10,r7|xor r10,r10,r7|6bfcec0f3bfcec0f6bfcec0f6bfcec0f3bfcec0f|6bfcec0f
+xs1|xor r10,r10,r7; xor r7,r10,r7; xor r10,r10,r7; xor r10,r10,r7|xor r7,r10,r7;xor r10,r10,r7|6bfcec0f3bfcec0f6bfcec0f6bfcec0f|3bfcec0f6bfcec0f
+xs1|xor r10,r10,r7; xor r7,r10,r7; xor r10,r10,r7|xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7|6bfcec0f3bfcec0f6bfcec0f|6bfcec0f3bfcec0f6bfcec0f
+xs1|xor r10,r10,r7; xor r7,r10,r7|xor r10,r10,r7;xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7|6bfcec0f3bfcec0f|6bfcec0f6bfcec0f3bfcec0f6bfcec0f
+xs1|xor r10,r10,r7|xor r7,r10,r7;xor r10,r10,r7;xor r10,r10,r7;xor r7,r10,r7;xor r10,r10,r7|6bfcec0f|3bfcec0f6bfcec0f6bfcec0f3bfcec0f6bfcec0f
+xs1|add r10,r10,r8; sub r10,r10,r8||a816a81e|
+xs1|add r10,r10,r8|sub r10,r10,r8|a816|a81e
+xs1|sub r10,r10,r8; add r10,r10,r8||a81ea816|
+xs1|sub r10,r10,r8|add r10,r10,r8|a81e|a816
+xs1|xor r10,r10,r8; xor r8,r10,r8; xor r10,r10,r8; xor r10,r10,r8; xor r8,r10,r8; xor r10,r10,r8||a8feec0f88feec0fa8feec0fa8feec0f88feec0fa8feec0f|
+xs1|xor r10,r10,r8; xor r8,r10,r8; xor r10,r10,r8; xor r10,r10,r8; xor r8,r10,r8|xor r10,r10,r8|a8feec0f88feec0fa8feec0fa8feec0f88feec0f|a8feec0f
+xs1|xor r10,r10,r8; xor r8,r10,r8; xor r10,r10,r8; xor r10,r10,r8|xor r8,r10,r8;xor r10,r10,r8|a8feec0f88feec0fa8feec0fa8feec0f|88feec0fa8feec0f
+xs1|xor r10,r10,r8; xor r8,r10,r8; xor r10,r10,r8|xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8|a8feec0f88feec0fa8feec0f|a8feec0f88feec0fa8feec0f
+xs1|xor r10,r10,r8; xor r8,r10,r8|xor r10,r10,r8;xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8|a8feec0f88feec0f|a8feec0fa8feec0f88feec0fa8feec0f
+xs1|xor r10,r10,r8|xor r8,r10,r8;xor r10,r10,r8;xor r10,r10,r8;xor r8,r10,r8;xor r10,r10,r8|a8feec0f|88feec0fa8feec0fa8feec0f88feec0fa8feec0f
+xs1|add r10,r10,r9; sub r10,r10,r9||a916a91e|
+xs1|add r10,r10,r9|sub r10,r10,r9|a916|a91e
+xs1|sub r10,r10,r9; add r10,r10,r9||a91ea916|
+xs1|sub r10,r10,r9|add r10,r10,r9|a91e|a916
+xs1|xor r10,r10,r9; xor r9,r10,r9; xor r10,r10,r9; xor r10,r10,r9; xor r9,r10,r9; xor r10,r10,r9||a9feec0f99feec0fa9feec0fa9feec0f99feec0fa9feec0f|
+xs1|xor r10,r10,r9; xor r9,r10,r9; xor r10,r10,r9; xor r10,r10,r9; xor r9,r10,r9|xor r10,r10,r9|a9feec0f99feec0fa9feec0fa9feec0f99feec0f|a9feec0f
+xs1|xor r10,r10,r9; xor r9,r10,r9; xor r10,r10,r9; xor r10,r10,r9|xor r9,r10,r9;xor r10,r10,r9|a9feec0f99feec0fa9feec0fa9feec0f|99feec0fa9feec0f
+xs1|xor r10,r10,r9; xor r9,r10,r9; xor r10,r10,r9|xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9|a9feec0f99feec0fa9feec0f|a9feec0f99feec0fa9feec0f
+xs1|xor r10,r10,r9; xor r9,r10,r9|xor r10,r10,r9;xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9|a9feec0f99feec0f|a9feec0fa9feec0f99feec0fa9feec0f
+xs1|xor r10,r10,r9|xor r9,r10,r9;xor r10,r10,r9;xor r10,r10,r9;xor r9,r10,r9;xor r10,r10,r9|a9feec0f|99feec0fa9feec0fa9feec0f99feec0fa9feec0f
+xs1|add r10,r10,r10; sub r10,r10,r10||aa16aa1e|
+xs1|add r10,r10,r10|sub r10,r10,r10|aa16|aa1e
+xs1|sub r10,r10,r10; add r10,r10,r10||aa1eaa16|
+xs1|sub r10,r10,r10|add r10,r10,r10|aa1e|aa16
+xs1|xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10||aafeec0faafeec0faafeec0faafeec0faafeec0faafeec0f|
+xs1|xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10|xor r10,r10,r10|aafeec0faafeec0faafeec0faafeec0faafeec0f|aafeec0f
+xs1|xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10|xor r10,r10,r10;xor r10,r10,r10|aafeec0faafeec0faafeec0faafeec0f|aafeec0faafeec0f
+xs1|xor r10,r10,r10; xor r10,r10,r10; xor r10,r10,r10|xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10|aafeec0faafeec0faafeec0f|aafeec0faafeec0faafeec0f
+xs1|xor r10,r10,r10; xor r10,r10,r10|xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10|aafeec0faafeec0f|aafeec0faafeec0faafeec0faafeec0f
+xs1|xor r10,r10,r10|xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10;xor r10,r10,r10|aafeec0f|aafeec0faafeec0faafeec0faafeec0faafeec0f
+xs1|add r10,r10,r11; sub r10,r10,r11||ab16ab1e|
+xs1|add r10,r10,r11|sub r10,r10,r11|ab16|ab1e
+xs1|sub r10,r10,r11; add r10,r10,r11||ab1eab16|
+xs1|sub r10,r10,r11|add r10,r10,r11|ab1e|ab16
+xs1|xor r10,r10,r11; xor r11,r10,r11; xor r10,r10,r11; xor r10,r10,r11; xor r11,r10,r11; xor r10,r10,r11||abfeec0fbbfeec0fabfeec0fabfeec0fbbfeec0fabfeec0f|
+xs1|xor r10,r10,r11; xor r11,r10,r11; xor r10,r10,r11; xor r10,r10,r11; xor r11,r10,r11|xor r10,r10,r11|abfeec0fbbfeec0fabfeec0fabfeec0fbbfeec0f|abfeec0f
+xs1|xor r10,r10,r11; xor r11,r10,r11; xor r10,r10,r11; xor r10,r10,r11|xor r11,r10,r11;xor r10,r10,r11|abfeec0fbbfeec0fabfeec0fabfeec0f|bbfeec0fabfeec0f
+xs1|xor r10,r10,r11; xor r11,r10,r11; xor r10,r10,r11|xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11|abfeec0fbbfeec0fabfeec0f|abfeec0fbbfeec0fabfeec0f
+xs1|xor r10,r10,r11; xor r11,r10,r11|xor r10,r10,r11;xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11|abfeec0fbbfeec0f|abfeec0fabfeec0fbbfeec0fabfeec0f
+xs1|xor r10,r10,r11|xor r11,r10,r11;xor r10,r10,r11;xor r10,r10,r11;xor r11,r10,r11;xor r10,r10,r11|abfeec0f|bbfeec0fabfeec0fabfeec0fbbfeec0fabfeec0f
+xs1|add r10,r10,0; sub r10,r10,0||2892289a|
+xs1|add r10,r10,0|sub r10,r10,0|2892|289a
+xs1|sub r10,r10,0; add r10,r10,0||289a2892|
+xs1|sub r10,r10,0|add r10,r10,0|289a|2892
+xs1|add r10,r10,1; sub r10,r10,1||2992299a|
+xs1|add r10,r10,1|sub r10,r10,1|2992|299a
+xs1|sub r10,r10,1; add r10,r10,1||299a2992|
+xs1|sub r10,r10,1|add r10,r10,1|299a|2992
+xs1|add r10,r10,2; sub r10,r10,2||2a922a9a|
+xs1|add r10,r10,2|sub r10,r10,2|2a92|2a9a
+xs1|sub r10,r10,2; add r10,r10,2||2a9a2a92|
+xs1|sub r10,r10,2|add r10,r10,2|2a9a|2a92
+xs1|add r10,r10,3; sub r10,r10,3||2b922b9a|
+xs1|add r10,r10,3|sub r10,r10,3|2b92|2b9a
+xs1|sub r10,r10,3; add r10,r10,3||2b9a2b92|
+xs1|sub r10,r10,3|add r10,r10,3|2b9a|2b92
+xs1|add r10,r10,4; sub r10,r10,4||6894689c|
+xs1|add r10,r10,4|sub r10,r10,4|6894|689c
+xs1|sub r10,r10,4; add r10,r10,4||689c6894|
+xs1|sub r10,r10,4|add r10,r10,4|689c|6894
+xs1|add r10,r10,5; sub r10,r10,5||6994699c|
+xs1|add r10,r10,5|sub r10,r10,5|6994|699c
+xs1|sub r10,r10,5; add r10,r10,5||699c6994|
+xs1|sub r10,r10,5|add r10,r10,5|699c|6994
+xs1|add r10,r10,6; sub r10,r10,6||6a946a9c|
+xs1|add r10,r10,6|sub r10,r10,6|6a94|6a9c
+xs1|sub r10,r10,6; add r10,r10,6||6a9c6a94|
+xs1|sub r10,r10,6|add r10,r10,6|6a9c|6a94
+xs1|add r10,r10,7; sub r10,r10,7||6b946b9c|
+xs1|add r10,r10,7|sub r10,r10,7|6b94|6b9c
+xs1|sub r10,r10,7; add r10,r10,7||6b9c6b94|
+xs1|sub r10,r10,7|add r10,r10,7|6b9c|6b94
+xs1|add r10,r10,8; sub r10,r10,8||a896a89e|
+xs1|add r10,r10,8|sub r10,r10,8|a896|a89e
+xs1|sub r10,r10,8; add r10,r10,8||a89ea896|
+xs1|sub r10,r10,8|add r10,r10,8|a89e|a896
+xs1|add r10,r10,9; sub r10,r10,9||a996a99e|
+xs1|add r10,r10,9|sub r10,r10,9|a996|a99e
+xs1|sub r10,r10,9; add r10,r10,9||a99ea996|
+xs1|sub r10,r10,9|add r10,r10,9|a99e|a996
+xs1|add r10,r10,10; sub r10,r10,10||aa96aa9e|
+xs1|add r10,r10,10|sub r10,r10,10|aa96|aa9e
+xs1|sub r10,r10,10; add r10,r10,10||aa9eaa96|
+xs1|sub r10,r10,10|add r10,r10,10|aa9e|aa96
+xs1|add r10,r10,11; sub r10,r10,11||ab96ab9e|
+xs1|add r10,r10,11|sub r10,r10,11|ab96|ab9e
+xs1|sub r10,r10,11; add r10,r10,11||ab9eab96|
+xs1|sub r10,r10,11|add r10,r10,11|ab9e|ab96
+xs1|add r11,r11,0||3c92|
+xs1|sub r11,r11,0||3c9a|
+xs1|bitrev r11,r11; bitrev r11,r11||afffec07afffec07|
+xs1|bitrev r11,r11|bitrev r11,r11|afffec07|afffec07
+xs1|byterev r11,r11; byterev r11,r11||bfffec07bfffec07|
+xs1|byterev r11,r11|byterev r11,r11|bfffec07|bfffec07
+xs1|neg r11,r11; neg r11,r11||af97af97|
+xs1|neg r11,r11|neg r11,r11|af97|af97
+xs1|not r11,r11; not r11,r11||af8faf8f|
+xs1|not r11,r11|not r11,r11|af8f|af8f
+xs1|add r11,r11,r0; sub r11,r11,r0||3c123c1a|
+xs1|add r11,r11,r0|sub r11,r11,r0|3c12|3c1a
+xs1|sub r11,r11,r0; add r11,r11,r0||3c1a3c12|
+xs1|sub r11,r11,r0|add r11,r11,r0|3c1a|3c12
+xs1|xor r11,r11,r0; xor r0,r11,r0; xor r11,r11,r0; xor r11,r11,r0; xor r0,r11,r0; xor r11,r11,r0||3cfaec0f8cf9ec0f3cfaec0f3cfaec0f8cf9ec0f3cfaec0f|
+xs1|xor r11,r11,r0; xor r0,r11,r0; xor r11,r11,r0; xor r11,r11,r0; xor r0,r11,r0|xor r11,r11,r0|3cfaec0f8cf9ec0f3cfaec0f3cfaec0f8cf9ec0f|3cfaec0f
+xs1|xor r11,r11,r0; xor r0,r11,r0; xor r11,r11,r0; xor r11,r11,r0|xor r0,r11,r0;xor r11,r11,r0|3cfaec0f8cf9ec0f3cfaec0f3cfaec0f|8cf9ec0f3cfaec0f
+xs1|xor r11,r11,r0; xor r0,r11,r0; xor r11,r11,r0|xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0|3cfaec0f8cf9ec0f3cfaec0f|3cfaec0f8cf9ec0f3cfaec0f
+xs1|xor r11,r11,r0; xor r0,r11,r0|xor r11,r11,r0;xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0|3cfaec0f8cf9ec0f|3cfaec0f3cfaec0f8cf9ec0f3cfaec0f
+xs1|xor r11,r11,r0|xor r0,r11,r0;xor r11,r11,r0;xor r11,r11,r0;xor r0,r11,r0;xor r11,r11,r0|3cfaec0f|8cf9ec0f3cfaec0f3cfaec0f8cf9ec0f3cfaec0f
+xs1|add r11,r11,r1; sub r11,r11,r1||3d123d1a|
+xs1|add r11,r11,r1|sub r11,r11,r1|3d12|3d1a
+xs1|sub r11,r11,r1; add r11,r11,r1||3d1a3d12|
+xs1|sub r11,r11,r1|add r11,r11,r1|3d1a|3d12
+xs1|xor r11,r11,r1; xor r1,r11,r1; xor r11,r11,r1; xor r11,r11,r1; xor r1,r11,r1; xor r11,r11,r1||3dfaec0f9df9ec0f3dfaec0f3dfaec0f9df9ec0f3dfaec0f|
+xs1|xor r11,r11,r1; xor r1,r11,r1; xor r11,r11,r1; xor r11,r11,r1; xor r1,r11,r1|xor r11,r11,r1|3dfaec0f9df9ec0f3dfaec0f3dfaec0f9df9ec0f|3dfaec0f
+xs1|xor r11,r11,r1; xor r1,r11,r1; xor r11,r11,r1; xor r11,r11,r1|xor r1,r11,r1;xor r11,r11,r1|3dfaec0f9df9ec0f3dfaec0f3dfaec0f|9df9ec0f3dfaec0f
+xs1|xor r11,r11,r1; xor r1,r11,r1; xor r11,r11,r1|xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1|3dfaec0f9df9ec0f3dfaec0f|3dfaec0f9df9ec0f3dfaec0f
+xs1|xor r11,r11,r1; xor r1,r11,r1|xor r11,r11,r1;xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1|3dfaec0f9df9ec0f|3dfaec0f3dfaec0f9df9ec0f3dfaec0f
+xs1|xor r11,r11,r1|xor r1,r11,r1;xor r11,r11,r1;xor r11,r11,r1;xor r1,r11,r1;xor r11,r11,r1|3dfaec0f|9df9ec0f3dfaec0f3dfaec0f9df9ec0f3dfaec0f
+xs1|add r11,r11,r2; sub r11,r11,r2||3e123e1a|
+xs1|add r11,r11,r2|sub r11,r11,r2|3e12|3e1a
+xs1|sub r11,r11,r2; add r11,r11,r2||3e1a3e12|
+xs1|sub r11,r11,r2|add r11,r11,r2|3e1a|3e12
+xs1|xor r11,r11,r2; xor r2,r11,r2; xor r11,r11,r2; xor r11,r11,r2; xor r2,r11,r2; xor r11,r11,r2||3efaec0faef9ec0f3efaec0f3efaec0faef9ec0f3efaec0f|
+xs1|xor r11,r11,r2; xor r2,r11,r2; xor r11,r11,r2; xor r11,r11,r2; xor r2,r11,r2|xor r11,r11,r2|3efaec0faef9ec0f3efaec0f3efaec0faef9ec0f|3efaec0f
+xs1|xor r11,r11,r2; xor r2,r11,r2; xor r11,r11,r2; xor r11,r11,r2|xor r2,r11,r2;xor r11,r11,r2|3efaec0faef9ec0f3efaec0f3efaec0f|aef9ec0f3efaec0f
+xs1|xor r11,r11,r2; xor r2,r11,r2; xor r11,r11,r2|xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2|3efaec0faef9ec0f3efaec0f|3efaec0faef9ec0f3efaec0f
+xs1|xor r11,r11,r2; xor r2,r11,r2|xor r11,r11,r2;xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2|3efaec0faef9ec0f|3efaec0f3efaec0faef9ec0f3efaec0f
+xs1|xor r11,r11,r2|xor r2,r11,r2;xor r11,r11,r2;xor r11,r11,r2;xor r2,r11,r2;xor r11,r11,r2|3efaec0f|aef9ec0f3efaec0f3efaec0faef9ec0f3efaec0f
+xs1|add r11,r11,r3; sub r11,r11,r3||3f123f1a|
+xs1|add r11,r11,r3|sub r11,r11,r3|3f12|3f1a
+xs1|sub r11,r11,r3; add r11,r11,r3||3f1a3f12|
+xs1|sub r11,r11,r3|add r11,r11,r3|3f1a|3f12
+xs1|xor r11,r11,r3; xor r3,r11,r3; xor r11,r11,r3; xor r11,r11,r3; xor r3,r11,r3; xor r11,r11,r3||3ffaec0fbff9ec0f3ffaec0f3ffaec0fbff9ec0f3ffaec0f|
+xs1|xor r11,r11,r3; xor r3,r11,r3; xor r11,r11,r3; xor r11,r11,r3; xor r3,r11,r3|xor r11,r11,r3|3ffaec0fbff9ec0f3ffaec0f3ffaec0fbff9ec0f|3ffaec0f
+xs1|xor r11,r11,r3; xor r3,r11,r3; xor r11,r11,r3; xor r11,r11,r3|xor r3,r11,r3;xor r11,r11,r3|3ffaec0fbff9ec0f3ffaec0f3ffaec0f|bff9ec0f3ffaec0f
+xs1|xor r11,r11,r3; xor r3,r11,r3; xor r11,r11,r3|xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3|3ffaec0fbff9ec0f3ffaec0f|3ffaec0fbff9ec0f3ffaec0f
+xs1|xor r11,r11,r3; xor r3,r11,r3|xor r11,r11,r3;xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3|3ffaec0fbff9ec0f|3ffaec0f3ffaec0fbff9ec0f3ffaec0f
+xs1|xor r11,r11,r3|xor r3,r11,r3;xor r11,r11,r3;xor r11,r11,r3;xor r3,r11,r3;xor r11,r11,r3|3ffaec0f|bff9ec0f3ffaec0f3ffaec0fbff9ec0f3ffaec0f
+xs1|add r11,r11,r4; sub r11,r11,r4||7c147c1c|
+xs1|add r11,r11,r4|sub r11,r11,r4|7c14|7c1c
+xs1|sub r11,r11,r4; add r11,r11,r4||7c1c7c14|
+xs1|sub r11,r11,r4|add r11,r11,r4|7c1c|7c14
+xs1|xor r11,r11,r4; xor r4,r11,r4; xor r11,r11,r4; xor r11,r11,r4; xor r4,r11,r4; xor r11,r11,r4||7cfcec0f0cfcec0f7cfcec0f7cfcec0f0cfcec0f7cfcec0f|
+xs1|xor r11,r11,r4; xor r4,r11,r4; xor r11,r11,r4; xor r11,r11,r4; xor r4,r11,r4|xor r11,r11,r4|7cfcec0f0cfcec0f7cfcec0f7cfcec0f0cfcec0f|7cfcec0f
+xs1|xor r11,r11,r4; xor r4,r11,r4; xor r11,r11,r4; xor r11,r11,r4|xor r4,r11,r4;xor r11,r11,r4|7cfcec0f0cfcec0f7cfcec0f7cfcec0f|0cfcec0f7cfcec0f
+xs1|xor r11,r11,r4; xor r4,r11,r4; xor r11,r11,r4|xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4|7cfcec0f0cfcec0f7cfcec0f|7cfcec0f0cfcec0f7cfcec0f
+xs1|xor r11,r11,r4; xor r4,r11,r4|xor r11,r11,r4;xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4|7cfcec0f0cfcec0f|7cfcec0f7cfcec0f0cfcec0f7cfcec0f
+xs1|xor r11,r11,r4|xor r4,r11,r4;xor r11,r11,r4;xor r11,r11,r4;xor r4,r11,r4;xor r11,r11,r4|7cfcec0f|0cfcec0f7cfcec0f7cfcec0f0cfcec0f7cfcec0f
+xs1|add r11,r11,r5; sub r11,r11,r5||7d147d1c|
+xs1|add r11,r11,r5|sub r11,r11,r5|7d14|7d1c
+xs1|sub r11,r11,r5; add r11,r11,r5||7d1c7d14|
+xs1|sub r11,r11,r5|add r11,r11,r5|7d1c|7d14
+xs1|xor r11,r11,r5; xor r5,r11,r5; xor r11,r11,r5; xor r11,r11,r5; xor r5,r11,r5; xor r11,r11,r5||7dfcec0f1dfcec0f7dfcec0f7dfcec0f1dfcec0f7dfcec0f|
+xs1|xor r11,r11,r5; xor r5,r11,r5; xor r11,r11,r5; xor r11,r11,r5; xor r5,r11,r5|xor r11,r11,r5|7dfcec0f1dfcec0f7dfcec0f7dfcec0f1dfcec0f|7dfcec0f
+xs1|xor r11,r11,r5; xor r5,r11,r5; xor r11,r11,r5; xor r11,r11,r5|xor r5,r11,r5;xor r11,r11,r5|7dfcec0f1dfcec0f7dfcec0f7dfcec0f|1dfcec0f7dfcec0f
+xs1|xor r11,r11,r5; xor r5,r11,r5; xor r11,r11,r5|xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5|7dfcec0f1dfcec0f7dfcec0f|7dfcec0f1dfcec0f7dfcec0f
+xs1|xor r11,r11,r5; xor r5,r11,r5|xor r11,r11,r5;xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5|7dfcec0f1dfcec0f|7dfcec0f7dfcec0f1dfcec0f7dfcec0f
+xs1|xor r11,r11,r5|xor r5,r11,r5;xor r11,r11,r5;xor r11,r11,r5;xor r5,r11,r5;xor r11,r11,r5|7dfcec0f|1dfcec0f7dfcec0f7dfcec0f1dfcec0f7dfcec0f
+xs1|add r11,r11,r6; sub r11,r11,r6||7e147e1c|
+xs1|add r11,r11,r6|sub r11,r11,r6|7e14|7e1c
+xs1|sub r11,r11,r6; add r11,r11,r6||7e1c7e14|
+xs1|sub r11,r11,r6|add r11,r11,r6|7e1c|7e14
+xs1|xor r11,r11,r6; xor r6,r11,r6; xor r11,r11,r6; xor r11,r11,r6; xor r6,r11,r6; xor r11,r11,r6||7efcec0f2efcec0f7efcec0f7efcec0f2efcec0f7efcec0f|
+xs1|xor r11,r11,r6; xor r6,r11,r6; xor r11,r11,r6; xor r11,r11,r6; xor r6,r11,r6|xor r11,r11,r6|7efcec0f2efcec0f7efcec0f7efcec0f2efcec0f|7efcec0f
+xs1|xor r11,r11,r6; xor r6,r11,r6; xor r11,r11,r6; xor r11,r11,r6|xor r6,r11,r6;xor r11,r11,r6|7efcec0f2efcec0f7efcec0f7efcec0f|2efcec0f7efcec0f
+xs1|xor r11,r11,r6; xor r6,r11,r6; xor r11,r11,r6|xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6|7efcec0f2efcec0f7efcec0f|7efcec0f2efcec0f7efcec0f
+xs1|xor r11,r11,r6; xor r6,r11,r6|xor r11,r11,r6;xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6|7efcec0f2efcec0f|7efcec0f7efcec0f2efcec0f7efcec0f
+xs1|xor r11,r11,r6|xor r6,r11,r6;xor r11,r11,r6;xor r11,r11,r6;xor r6,r11,r6;xor r11,r11,r6|7efcec0f|2efcec0f7efcec0f7efcec0f2efcec0f7efcec0f
+xs1|add r11,r11,r7; sub r11,r11,r7||7f147f1c|
+xs1|add r11,r11,r7|sub r11,r11,r7|7f14|7f1c
+xs1|sub r11,r11,r7; add r11,r11,r7||7f1c7f14|
+xs1|sub r11,r11,r7|add r11,r11,r7|7f1c|7f14
+xs1|xor r11,r11,r7; xor r7,r11,r7; xor r11,r11,r7; xor r11,r11,r7; xor r7,r11,r7; xor r11,r11,r7||7ffcec0f3ffcec0f7ffcec0f7ffcec0f3ffcec0f7ffcec0f|
+xs1|xor r11,r11,r7; xor r7,r11,r7; xor r11,r11,r7; xor r11,r11,r7; xor r7,r11,r7|xor r11,r11,r7|7ffcec0f3ffcec0f7ffcec0f7ffcec0f3ffcec0f|7ffcec0f
+xs1|xor r11,r11,r7; xor r7,r11,r7; xor r11,r11,r7; xor r11,r11,r7|xor r7,r11,r7;xor r11,r11,r7|7ffcec0f3ffcec0f7ffcec0f7ffcec0f|3ffcec0f7ffcec0f
+xs1|xor r11,r11,r7; xor r7,r11,r7; xor r11,r11,r7|xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7|7ffcec0f3ffcec0f7ffcec0f|7ffcec0f3ffcec0f7ffcec0f
+xs1|xor r11,r11,r7; xor r7,r11,r7|xor r11,r11,r7;xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7|7ffcec0f3ffcec0f|7ffcec0f7ffcec0f3ffcec0f7ffcec0f
+xs1|xor r11,r11,r7|xor r7,r11,r7;xor r11,r11,r7;xor r11,r11,r7;xor r7,r11,r7;xor r11,r11,r7|7ffcec0f|3ffcec0f7ffcec0f7ffcec0f3ffcec0f7ffcec0f
+xs1|add r11,r11,r8; sub r11,r11,r8||bc16bc1e|
+xs1|add r11,r11,r8|sub r11,r11,r8|bc16|bc1e
+xs1|sub r11,r11,r8; add r11,r11,r8||bc1ebc16|
+xs1|sub r11,r11,r8|add r11,r11,r8|bc1e|bc16
+xs1|xor r11,r11,r8; xor r8,r11,r8; xor r11,r11,r8; xor r11,r11,r8; xor r8,r11,r8; xor r11,r11,r8||bcfeec0f8cfeec0fbcfeec0fbcfeec0f8cfeec0fbcfeec0f|
+xs1|xor r11,r11,r8; xor r8,r11,r8; xor r11,r11,r8; xor r11,r11,r8; xor r8,r11,r8|xor r11,r11,r8|bcfeec0f8cfeec0fbcfeec0fbcfeec0f8cfeec0f|bcfeec0f
+xs1|xor r11,r11,r8; xor r8,r11,r8; xor r11,r11,r8; xor r11,r11,r8|xor r8,r11,r8;xor r11,r11,r8|bcfeec0f8cfeec0fbcfeec0fbcfeec0f|8cfeec0fbcfeec0f
+xs1|xor r11,r11,r8; xor r8,r11,r8; xor r11,r11,r8|xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8|bcfeec0f8cfeec0fbcfeec0f|bcfeec0f8cfeec0fbcfeec0f
+xs1|xor r11,r11,r8; xor r8,r11,r8|xor r11,r11,r8;xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8|bcfeec0f8cfeec0f|bcfeec0fbcfeec0f8cfeec0fbcfeec0f
+xs1|xor r11,r11,r8|xor r8,r11,r8;xor r11,r11,r8;xor r11,r11,r8;xor r8,r11,r8;xor r11,r11,r8|bcfeec0f|8cfeec0fbcfeec0fbcfeec0f8cfeec0fbcfeec0f
+xs1|add r11,r11,r9; sub r11,r11,r9||bd16bd1e|
+xs1|add r11,r11,r9|sub r11,r11,r9|bd16|bd1e
+xs1|sub r11,r11,r9; add r11,r11,r9||bd1ebd16|
+xs1|sub r11,r11,r9|add r11,r11,r9|bd1e|bd16
+xs1|xor r11,r11,r9; xor r9,r11,r9; xor r11,r11,r9; xor r11,r11,r9; xor r9,r11,r9; xor r11,r11,r9||bdfeec0f9dfeec0fbdfeec0fbdfeec0f9dfeec0fbdfeec0f|
+xs1|xor r11,r11,r9; xor r9,r11,r9; xor r11,r11,r9; xor r11,r11,r9; xor r9,r11,r9|xor r11,r11,r9|bdfeec0f9dfeec0fbdfeec0fbdfeec0f9dfeec0f|bdfeec0f
+xs1|xor r11,r11,r9; xor r9,r11,r9; xor r11,r11,r9; xor r11,r11,r9|xor r9,r11,r9;xor r11,r11,r9|bdfeec0f9dfeec0fbdfeec0fbdfeec0f|9dfeec0fbdfeec0f
+xs1|xor r11,r11,r9; xor r9,r11,r9; xor r11,r11,r9|xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9|bdfeec0f9dfeec0fbdfeec0f|bdfeec0f9dfeec0fbdfeec0f
+xs1|xor r11,r11,r9; xor r9,r11,r9|xor r11,r11,r9;xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9|bdfeec0f9dfeec0f|bdfeec0fbdfeec0f9dfeec0fbdfeec0f
+xs1|xor r11,r11,r9|xor r9,r11,r9;xor r11,r11,r9;xor r11,r11,r9;xor r9,r11,r9;xor r11,r11,r9|bdfeec0f|9dfeec0fbdfeec0fbdfeec0f9dfeec0fbdfeec0f
+xs1|add r11,r11,r10; sub r11,r11,r10||be16be1e|
+xs1|add r11,r11,r10|sub r11,r11,r10|be16|be1e
+xs1|sub r11,r11,r10; add r11,r11,r10||be1ebe16|
+xs1|sub r11,r11,r10|add r11,r11,r10|be1e|be16
+xs1|xor r11,r11,r10; xor r10,r11,r10; xor r11,r11,r10; xor r11,r11,r10; xor r10,r11,r10; xor r11,r11,r10||befeec0faefeec0fbefeec0fbefeec0faefeec0fbefeec0f|
+xs1|xor r11,r11,r10; xor r10,r11,r10; xor r11,r11,r10; xor r11,r11,r10; xor r10,r11,r10|xor r11,r11,r10|befeec0faefeec0fbefeec0fbefeec0faefeec0f|befeec0f
+xs1|xor r11,r11,r10; xor r10,r11,r10; xor r11,r11,r10; xor r11,r11,r10|xor r10,r11,r10;xor r11,r11,r10|befeec0faefeec0fbefeec0fbefeec0f|aefeec0fbefeec0f
+xs1|xor r11,r11,r10; xor r10,r11,r10; xor r11,r11,r10|xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10|befeec0faefeec0fbefeec0f|befeec0faefeec0fbefeec0f
+xs1|xor r11,r11,r10; xor r10,r11,r10|xor r11,r11,r10;xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10|befeec0faefeec0f|befeec0fbefeec0faefeec0fbefeec0f
+xs1|xor r11,r11,r10|xor r10,r11,r10;xor r11,r11,r10;xor r11,r11,r10;xor r10,r11,r10;xor r11,r11,r10|befeec0f|aefeec0fbefeec0fbefeec0faefeec0fbefeec0f
+xs1|add r11,r11,r11; sub r11,r11,r11||bf16bf1e|
+xs1|add r11,r11,r11|sub r11,r11,r11|bf16|bf1e
+xs1|sub r11,r11,r11; add r11,r11,r11||bf1ebf16|
+xs1|sub r11,r11,r11|add r11,r11,r11|bf1e|bf16
+xs1|xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11||bffeec0fbffeec0fbffeec0fbffeec0fbffeec0fbffeec0f|
+xs1|xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11|xor r11,r11,r11|bffeec0fbffeec0fbffeec0fbffeec0fbffeec0f|bffeec0f
+xs1|xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11|xor r11,r11,r11;xor r11,r11,r11|bffeec0fbffeec0fbffeec0fbffeec0f|bffeec0fbffeec0f
+xs1|xor r11,r11,r11; xor r11,r11,r11; xor r11,r11,r11|xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11|bffeec0fbffeec0fbffeec0f|bffeec0fbffeec0fbffeec0f
+xs1|xor r11,r11,r11; xor r11,r11,r11|xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11|bffeec0fbffeec0f|bffeec0fbffeec0fbffeec0fbffeec0f
+xs1|xor r11,r11,r11|xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11;xor r11,r11,r11|bffeec0f|bffeec0fbffeec0fbffeec0fbffeec0fbffeec0f
+xs1|add r11,r11,0; sub r11,r11,0||3c923c9a|
+xs1|add r11,r11,0|sub r11,r11,0|3c92|3c9a
+xs1|sub r11,r11,0; add r11,r11,0||3c9a3c92|
+xs1|sub r11,r11,0|add r11,r11,0|3c9a|3c92
+xs1|add r11,r11,1; sub r11,r11,1||3d923d9a|
+xs1|add r11,r11,1|sub r11,r11,1|3d92|3d9a
+xs1|sub r11,r11,1; add r11,r11,1||3d9a3d92|
+xs1|sub r11,r11,1|add r11,r11,1|3d9a|3d92
+xs1|add r11,r11,2; sub r11,r11,2||3e923e9a|
+xs1|add r11,r11,2|sub r11,r11,2|3e92|3e9a
+xs1|sub r11,r11,2; add r11,r11,2||3e9a3e92|
+xs1|sub r11,r11,2|add r11,r11,2|3e9a|3e92
+xs1|add r11,r11,3; sub r11,r11,3||3f923f9a|
+xs1|add r11,r11,3|sub r11,r11,3|3f92|3f9a
+xs1|sub r11,r11,3; add r11,r11,3||3f9a3f92|
+xs1|sub r11,r11,3|add r11,r11,3|3f9a|3f92
+xs1|add r11,r11,4; sub r11,r11,4||7c947c9c|
+xs1|add r11,r11,4|sub r11,r11,4|7c94|7c9c
+xs1|sub r11,r11,4; add r11,r11,4||7c9c7c94|
+xs1|sub r11,r11,4|add r11,r11,4|7c9c|7c94
+xs1|add r11,r11,5; sub r11,r11,5||7d947d9c|
+xs1|add r11,r11,5|sub r11,r11,5|7d94|7d9c
+xs1|sub r11,r11,5; add r11,r11,5||7d9c7d94|
+xs1|sub r11,r11,5|add r11,r11,5|7d9c|7d94
+xs1|add r11,r11,6; sub r11,r11,6||7e947e9c|
+xs1|add r11,r11,6|sub r11,r11,6|7e94|7e9c
+xs1|sub r11,r11,6; add r11,r11,6||7e9c7e94|
+xs1|sub r11,r11,6|add r11,r11,6|7e9c|7e94
+xs1|add r11,r11,7; sub r11,r11,7||7f947f9c|
+xs1|add r11,r11,7|sub r11,r11,7|7f94|7f9c
+xs1|sub r11,r11,7; add r11,r11,7||7f9c7f94|
+xs1|sub r11,r11,7|add r11,r11,7|7f9c|7f94
+xs1|add r11,r11,8; sub r11,r11,8||bc96bc9e|
+xs1|add r11,r11,8|sub r11,r11,8|bc96|bc9e
+xs1|sub r11,r11,8; add r11,r11,8||bc9ebc96|
+xs1|sub r11,r11,8|add r11,r11,8|bc9e|bc96
+xs1|add r11,r11,9; sub r11,r11,9||bd96bd9e|
+xs1|add r11,r11,9|sub r11,r11,9|bd96|bd9e
+xs1|sub r11,r11,9; add r11,r11,9||bd9ebd96|
+xs1|sub r11,r11,9|add r11,r11,9|bd9e|bd96
+xs1|add r11,r11,10; sub r11,r11,10||be96be9e|
+xs1|add r11,r11,10|sub r11,r11,10|be96|be9e
+xs1|sub r11,r11,10; add r11,r11,10||be9ebe96|
+xs1|sub r11,r11,10|add r11,r11,10|be9e|be96
+xs1|add r11,r11,11; sub r11,r11,11||bf96bf9e|
+xs1|add r11,r11,11|sub r11,r11,11|bf96|bf9e
+xs1|sub r11,r11,11; add r11,r11,11||bf9ebf96|
+xs1|sub r11,r11,11|add r11,r11,11|bf9e|bf96
