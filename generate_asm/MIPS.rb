@@ -17,8 +17,8 @@ def NOR(d,s,t) opcode "NOR", [d,s,t] end
 def ORI(d,s,c) opcode "ORI", [d,s,c] end
 def SLT(d,s,t) opcode "SLT", [d,s,t] end
 def SLTI(d,s,c) opcode "SLTI", [d,s,c] end
-def SUBI(d,s,t) opcode "SUBI", [d,s,t] end
-def SUBIU(d,s,t) opcode "SUBIU", [d,s,t] end
+#def SUBI(d,s,t) opcode "SUBI", [d,s,t] end
+#def SUBIU(d,s,t) opcode "SUBIU", [d,s,t] end
 def SUBU(d,s,t) opcode "SUBU", [d,s,t] end
 def XOR(d,s,c) opcode "XOR", [d,s,c] end
 
@@ -28,24 +28,24 @@ File.open($output, 'w') do |f|
   $registers.each do |r|
     # One register identitiy
     f.puts ADDI r, r, 0
-    f.puts SUBI r, r, 0
+    #f.puts SUBI r, r, 0
     f.puts ANDI r, r, 2*16-1
     f.puts ORI r, r, 0
 
     $imm16.each do |i|
       # One register one immediate exploiting $0
       f.puts ADDIU '$0', r, i
-      f.puts SUBIU '$0', r, i
+      #f.puts SUBIU '$0', r, i
       f.puts ANDI '$0', r, i
       f.puts ORI '$0', r, i
       f.puts SLTI '$0', r, i
 
       # Two operation identities with an immediate
-      f.puts "#{ADDIU r,r,i};#{SUBIU r,r,i}"
-      f.puts "#{ADDIU r,r,i}|#{SUBIU r,r,i}"
+      #f.puts "#{ADDIU r,r,i};#{SUBIU r,r,i}"
+      #f.puts "#{ADDIU r,r,i}|#{SUBIU r,r,i}"
 
-      f.puts "#{SUBIU r,r,i};#{ADDIU r,r,i}"
-      f.puts "#{SUBIU r,r,i}|#{ADDIU r,r,i}"
+      #f.puts "#{SUBIU r,r,i};#{ADDIU r,r,i}"
+      #f.puts "#{SUBIU r,r,i}|#{ADDIU r,r,i}"
     end
 
     $registers.each do |s|
