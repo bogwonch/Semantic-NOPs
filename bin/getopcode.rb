@@ -83,5 +83,11 @@ ARGF.each_line do |line|
   compiled_prefixes = prefixes.map { |it| assemble it } 
   compiled_suffixes = suffixes.map { |it| assemble it }
 
-  print "#{$machine}|#{prefixes.join '; '}|#{suffixes.join ';'}|#{compiled_prefixes.join}|#{compiled_suffixes.join}\n"
+  # Only print the command if it assembled successfully
+  unless (compiled_prefixes.any? {|inst| inst == ''} or
+          compiled_suffixes.any? {|inst| inst == ''} )
+    print "#{$machine}|#{prefixes.join '; '}|#{suffixes.join ';'}|#{compiled_prefixes.join}|#{compiled_suffixes.join}\n"
+  end
+
+
 end
