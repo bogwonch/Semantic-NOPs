@@ -1,3 +1,16 @@
 # Semantic NOPs
 
 Part of my thesis for generating and finding semantic NOPs with the GNU binutils.
+
+Database is currently in *Semantic-NOPS.csv*. Fields are separated with a '|'
+character.  Semantic-NOPs which use more than one instruction have a prefix and
+a suffix.  More NOPs can be placed in between the prefix and suffix.
+
+
+Field 1: Architecture
+Field 2: Prefix instructions (semicolon separated if more than one)
+Field 3: Suffix instructions (semicolon separated if more than one)
+Field 4: Prefix bytecode
+Field 5: Suffix bytecode
+
+
