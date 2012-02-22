@@ -8,69 +8,47 @@ PUSH %rax;POP %rax
 PUSH %rax|POP %rax
 NOT %rax;NOT %rax
 NOT %rax|NOT %rax
-CMOVa %rax,%rax
-CMOVc %rax,%rax
-CMOVg %rax,%rax
-CMOVl %rax,%rax
-CMOVo %rax,%rax
-CMOVp %rax,%rax
-CMOVs %rax,%rax
-CMOVz %rax,%rax
-CMOVna %rax,%rax
-CMOVnc %rax,%rax
-CMOVng %rax,%rax
-CMOVnl %rax,%rax
-CMOVno %rax,%rax
-CMOVnp %rax,%rax
-CMOVns %rax,%rax
+BSWAP %rax;BSWAP %rax
+BSWAP %rax|BSWAP %rax
+CMOVA %rax,%rax
+CMOVC %rax,%rax
+CMOVG %rax,%rax
+CMOVL %rax,%rax
+CMOVO %rax,%rax
+CMOVP %rax,%rax
+CMOVS %rax,%rax
+CMOVZ %rax,%rax
+CMOVNA %rax,%rax
+CMOVNC %rax,%rax
+CMOVNG %rax,%rax
+CMOVNL %rax,%rax
+CMOVNO %rax,%rax
+CMOVNP %rax,%rax
+CMOVNS %rax,%rax
 XCHG %rax,%rax;XCHG %rax,%rax
 XCHG %rax,%rax|XCHG %rax,%rax
-BSWAP %rax,%rax;BSWAP %rax,%rax
-BSWAP %rax,%rax|BSWAP %rax,%rax
 XCHG %rax,%rbx;XCHG %rbx,%rax
 XCHG %rax,%rbx|XCHG %rbx,%rax
-BSWAP %rax,%rbx;BSWAP %rbx,%rax
-BSWAP %rax,%rbx|BSWAP %rbx,%rax
 XCHG %rax,%rcx;XCHG %rcx,%rax
 XCHG %rax,%rcx|XCHG %rcx,%rax
-BSWAP %rax,%rcx;BSWAP %rcx,%rax
-BSWAP %rax,%rcx|BSWAP %rcx,%rax
 XCHG %rax,%rdx;XCHG %rdx,%rax
 XCHG %rax,%rdx|XCHG %rdx,%rax
-BSWAP %rax,%rdx;BSWAP %rdx,%rax
-BSWAP %rax,%rdx|BSWAP %rdx,%rax
 XCHG %rax,%r8;XCHG %r8,%rax
 XCHG %rax,%r8|XCHG %r8,%rax
-BSWAP %rax,%r8;BSWAP %r8,%rax
-BSWAP %rax,%r8|BSWAP %r8,%rax
 XCHG %rax,%r9;XCHG %r9,%rax
 XCHG %rax,%r9|XCHG %r9,%rax
-BSWAP %rax,%r9;BSWAP %r9,%rax
-BSWAP %rax,%r9|BSWAP %r9,%rax
 XCHG %rax,%r10;XCHG %r10,%rax
 XCHG %rax,%r10|XCHG %r10,%rax
-BSWAP %rax,%r10;BSWAP %r10,%rax
-BSWAP %rax,%r10|BSWAP %r10,%rax
 XCHG %rax,%r11;XCHG %r11,%rax
 XCHG %rax,%r11|XCHG %r11,%rax
-BSWAP %rax,%r11;BSWAP %r11,%rax
-BSWAP %rax,%r11|BSWAP %r11,%rax
 XCHG %rax,%r12;XCHG %r12,%rax
 XCHG %rax,%r12|XCHG %r12,%rax
-BSWAP %rax,%r12;BSWAP %r12,%rax
-BSWAP %rax,%r12|BSWAP %r12,%rax
 XCHG %rax,%r13;XCHG %r13,%rax
 XCHG %rax,%r13|XCHG %r13,%rax
-BSWAP %rax,%r13;BSWAP %r13,%rax
-BSWAP %rax,%r13|BSWAP %r13,%rax
 XCHG %rax,%r14;XCHG %r14,%rax
 XCHG %rax,%r14|XCHG %r14,%rax
-BSWAP %rax,%r14;BSWAP %r14,%rax
-BSWAP %rax,%r14|BSWAP %r14,%rax
 XCHG %rax,%r15;XCHG %r15,%rax
 XCHG %rax,%r15|XCHG %r15,%rax
-BSWAP %rax,%r15;BSWAP %r15,%rax
-BSWAP %rax,%r15|BSWAP %r15,%rax
 MOV %rbx,%rbx
 XCHG %rbx,%rbx
 LEA (%rbx),%rbx
@@ -78,69 +56,47 @@ PUSH %rbx;POP %rbx
 PUSH %rbx|POP %rbx
 NOT %rbx;NOT %rbx
 NOT %rbx|NOT %rbx
-CMOVa %rbx,%rbx
-CMOVc %rbx,%rbx
-CMOVg %rbx,%rbx
-CMOVl %rbx,%rbx
-CMOVo %rbx,%rbx
-CMOVp %rbx,%rbx
-CMOVs %rbx,%rbx
-CMOVz %rbx,%rbx
-CMOVna %rbx,%rbx
-CMOVnc %rbx,%rbx
-CMOVng %rbx,%rbx
-CMOVnl %rbx,%rbx
-CMOVno %rbx,%rbx
-CMOVnp %rbx,%rbx
-CMOVns %rbx,%rbx
+BSWAP %rbx;BSWAP %rbx
+BSWAP %rbx|BSWAP %rbx
+CMOVA %rbx,%rbx
+CMOVC %rbx,%rbx
+CMOVG %rbx,%rbx
+CMOVL %rbx,%rbx
+CMOVO %rbx,%rbx
+CMOVP %rbx,%rbx
+CMOVS %rbx,%rbx
+CMOVZ %rbx,%rbx
+CMOVNA %rbx,%rbx
+CMOVNC %rbx,%rbx
+CMOVNG %rbx,%rbx
+CMOVNL %rbx,%rbx
+CMOVNO %rbx,%rbx
+CMOVNP %rbx,%rbx
+CMOVNS %rbx,%rbx
 XCHG %rbx,%rax;XCHG %rax,%rbx
 XCHG %rbx,%rax|XCHG %rax,%rbx
-BSWAP %rbx,%rax;BSWAP %rax,%rbx
-BSWAP %rbx,%rax|BSWAP %rax,%rbx
 XCHG %rbx,%rbx;XCHG %rbx,%rbx
 XCHG %rbx,%rbx|XCHG %rbx,%rbx
-BSWAP %rbx,%rbx;BSWAP %rbx,%rbx
-BSWAP %rbx,%rbx|BSWAP %rbx,%rbx
 XCHG %rbx,%rcx;XCHG %rcx,%rbx
 XCHG %rbx,%rcx|XCHG %rcx,%rbx
-BSWAP %rbx,%rcx;BSWAP %rcx,%rbx
-BSWAP %rbx,%rcx|BSWAP %rcx,%rbx
 XCHG %rbx,%rdx;XCHG %rdx,%rbx
 XCHG %rbx,%rdx|XCHG %rdx,%rbx
-BSWAP %rbx,%rdx;BSWAP %rdx,%rbx
-BSWAP %rbx,%rdx|BSWAP %rdx,%rbx
 XCHG %rbx,%r8;XCHG %r8,%rbx
 XCHG %rbx,%r8|XCHG %r8,%rbx
-BSWAP %rbx,%r8;BSWAP %r8,%rbx
-BSWAP %rbx,%r8|BSWAP %r8,%rbx
 XCHG %rbx,%r9;XCHG %r9,%rbx
 XCHG %rbx,%r9|XCHG %r9,%rbx
-BSWAP %rbx,%r9;BSWAP %r9,%rbx
-BSWAP %rbx,%r9|BSWAP %r9,%rbx
 XCHG %rbx,%r10;XCHG %r10,%rbx
 XCHG %rbx,%r10|XCHG %r10,%rbx
-BSWAP %rbx,%r10;BSWAP %r10,%rbx
-BSWAP %rbx,%r10|BSWAP %r10,%rbx
 XCHG %rbx,%r11;XCHG %r11,%rbx
 XCHG %rbx,%r11|XCHG %r11,%rbx
-BSWAP %rbx,%r11;BSWAP %r11,%rbx
-BSWAP %rbx,%r11|BSWAP %r11,%rbx
 XCHG %rbx,%r12;XCHG %r12,%rbx
 XCHG %rbx,%r12|XCHG %r12,%rbx
-BSWAP %rbx,%r12;BSWAP %r12,%rbx
-BSWAP %rbx,%r12|BSWAP %r12,%rbx
 XCHG %rbx,%r13;XCHG %r13,%rbx
 XCHG %rbx,%r13|XCHG %r13,%rbx
-BSWAP %rbx,%r13;BSWAP %r13,%rbx
-BSWAP %rbx,%r13|BSWAP %r13,%rbx
 XCHG %rbx,%r14;XCHG %r14,%rbx
 XCHG %rbx,%r14|XCHG %r14,%rbx
-BSWAP %rbx,%r14;BSWAP %r14,%rbx
-BSWAP %rbx,%r14|BSWAP %r14,%rbx
 XCHG %rbx,%r15;XCHG %r15,%rbx
 XCHG %rbx,%r15|XCHG %r15,%rbx
-BSWAP %rbx,%r15;BSWAP %r15,%rbx
-BSWAP %rbx,%r15|BSWAP %r15,%rbx
 MOV %rcx,%rcx
 XCHG %rcx,%rcx
 LEA (%rcx),%rcx
@@ -148,69 +104,47 @@ PUSH %rcx;POP %rcx
 PUSH %rcx|POP %rcx
 NOT %rcx;NOT %rcx
 NOT %rcx|NOT %rcx
-CMOVa %rcx,%rcx
-CMOVc %rcx,%rcx
-CMOVg %rcx,%rcx
-CMOVl %rcx,%rcx
-CMOVo %rcx,%rcx
-CMOVp %rcx,%rcx
-CMOVs %rcx,%rcx
-CMOVz %rcx,%rcx
-CMOVna %rcx,%rcx
-CMOVnc %rcx,%rcx
-CMOVng %rcx,%rcx
-CMOVnl %rcx,%rcx
-CMOVno %rcx,%rcx
-CMOVnp %rcx,%rcx
-CMOVns %rcx,%rcx
+BSWAP %rcx;BSWAP %rcx
+BSWAP %rcx|BSWAP %rcx
+CMOVA %rcx,%rcx
+CMOVC %rcx,%rcx
+CMOVG %rcx,%rcx
+CMOVL %rcx,%rcx
+CMOVO %rcx,%rcx
+CMOVP %rcx,%rcx
+CMOVS %rcx,%rcx
+CMOVZ %rcx,%rcx
+CMOVNA %rcx,%rcx
+CMOVNC %rcx,%rcx
+CMOVNG %rcx,%rcx
+CMOVNL %rcx,%rcx
+CMOVNO %rcx,%rcx
+CMOVNP %rcx,%rcx
+CMOVNS %rcx,%rcx
 XCHG %rcx,%rax;XCHG %rax,%rcx
 XCHG %rcx,%rax|XCHG %rax,%rcx
-BSWAP %rcx,%rax;BSWAP %rax,%rcx
-BSWAP %rcx,%rax|BSWAP %rax,%rcx
 XCHG %rcx,%rbx;XCHG %rbx,%rcx
 XCHG %rcx,%rbx|XCHG %rbx,%rcx
-BSWAP %rcx,%rbx;BSWAP %rbx,%rcx
-BSWAP %rcx,%rbx|BSWAP %rbx,%rcx
 XCHG %rcx,%rcx;XCHG %rcx,%rcx
 XCHG %rcx,%rcx|XCHG %rcx,%rcx
-BSWAP %rcx,%rcx;BSWAP %rcx,%rcx
-BSWAP %rcx,%rcx|BSWAP %rcx,%rcx
 XCHG %rcx,%rdx;XCHG %rdx,%rcx
 XCHG %rcx,%rdx|XCHG %rdx,%rcx
-BSWAP %rcx,%rdx;BSWAP %rdx,%rcx
-BSWAP %rcx,%rdx|BSWAP %rdx,%rcx
 XCHG %rcx,%r8;XCHG %r8,%rcx
 XCHG %rcx,%r8|XCHG %r8,%rcx
-BSWAP %rcx,%r8;BSWAP %r8,%rcx
-BSWAP %rcx,%r8|BSWAP %r8,%rcx
 XCHG %rcx,%r9;XCHG %r9,%rcx
 XCHG %rcx,%r9|XCHG %r9,%rcx
-BSWAP %rcx,%r9;BSWAP %r9,%rcx
-BSWAP %rcx,%r9|BSWAP %r9,%rcx
 XCHG %rcx,%r10;XCHG %r10,%rcx
 XCHG %rcx,%r10|XCHG %r10,%rcx
-BSWAP %rcx,%r10;BSWAP %r10,%rcx
-BSWAP %rcx,%r10|BSWAP %r10,%rcx
 XCHG %rcx,%r11;XCHG %r11,%rcx
 XCHG %rcx,%r11|XCHG %r11,%rcx
-BSWAP %rcx,%r11;BSWAP %r11,%rcx
-BSWAP %rcx,%r11|BSWAP %r11,%rcx
 XCHG %rcx,%r12;XCHG %r12,%rcx
 XCHG %rcx,%r12|XCHG %r12,%rcx
-BSWAP %rcx,%r12;BSWAP %r12,%rcx
-BSWAP %rcx,%r12|BSWAP %r12,%rcx
 XCHG %rcx,%r13;XCHG %r13,%rcx
 XCHG %rcx,%r13|XCHG %r13,%rcx
-BSWAP %rcx,%r13;BSWAP %r13,%rcx
-BSWAP %rcx,%r13|BSWAP %r13,%rcx
 XCHG %rcx,%r14;XCHG %r14,%rcx
 XCHG %rcx,%r14|XCHG %r14,%rcx
-BSWAP %rcx,%r14;BSWAP %r14,%rcx
-BSWAP %rcx,%r14|BSWAP %r14,%rcx
 XCHG %rcx,%r15;XCHG %r15,%rcx
 XCHG %rcx,%r15|XCHG %r15,%rcx
-BSWAP %rcx,%r15;BSWAP %r15,%rcx
-BSWAP %rcx,%r15|BSWAP %r15,%rcx
 MOV %rdx,%rdx
 XCHG %rdx,%rdx
 LEA (%rdx),%rdx
@@ -218,69 +152,47 @@ PUSH %rdx;POP %rdx
 PUSH %rdx|POP %rdx
 NOT %rdx;NOT %rdx
 NOT %rdx|NOT %rdx
-CMOVa %rdx,%rdx
-CMOVc %rdx,%rdx
-CMOVg %rdx,%rdx
-CMOVl %rdx,%rdx
-CMOVo %rdx,%rdx
-CMOVp %rdx,%rdx
-CMOVs %rdx,%rdx
-CMOVz %rdx,%rdx
-CMOVna %rdx,%rdx
-CMOVnc %rdx,%rdx
-CMOVng %rdx,%rdx
-CMOVnl %rdx,%rdx
-CMOVno %rdx,%rdx
-CMOVnp %rdx,%rdx
-CMOVns %rdx,%rdx
+BSWAP %rdx;BSWAP %rdx
+BSWAP %rdx|BSWAP %rdx
+CMOVA %rdx,%rdx
+CMOVC %rdx,%rdx
+CMOVG %rdx,%rdx
+CMOVL %rdx,%rdx
+CMOVO %rdx,%rdx
+CMOVP %rdx,%rdx
+CMOVS %rdx,%rdx
+CMOVZ %rdx,%rdx
+CMOVNA %rdx,%rdx
+CMOVNC %rdx,%rdx
+CMOVNG %rdx,%rdx
+CMOVNL %rdx,%rdx
+CMOVNO %rdx,%rdx
+CMOVNP %rdx,%rdx
+CMOVNS %rdx,%rdx
 XCHG %rdx,%rax;XCHG %rax,%rdx
 XCHG %rdx,%rax|XCHG %rax,%rdx
-BSWAP %rdx,%rax;BSWAP %rax,%rdx
-BSWAP %rdx,%rax|BSWAP %rax,%rdx
 XCHG %rdx,%rbx;XCHG %rbx,%rdx
 XCHG %rdx,%rbx|XCHG %rbx,%rdx
-BSWAP %rdx,%rbx;BSWAP %rbx,%rdx
-BSWAP %rdx,%rbx|BSWAP %rbx,%rdx
 XCHG %rdx,%rcx;XCHG %rcx,%rdx
 XCHG %rdx,%rcx|XCHG %rcx,%rdx
-BSWAP %rdx,%rcx;BSWAP %rcx,%rdx
-BSWAP %rdx,%rcx|BSWAP %rcx,%rdx
 XCHG %rdx,%rdx;XCHG %rdx,%rdx
 XCHG %rdx,%rdx|XCHG %rdx,%rdx
-BSWAP %rdx,%rdx;BSWAP %rdx,%rdx
-BSWAP %rdx,%rdx|BSWAP %rdx,%rdx
 XCHG %rdx,%r8;XCHG %r8,%rdx
 XCHG %rdx,%r8|XCHG %r8,%rdx
-BSWAP %rdx,%r8;BSWAP %r8,%rdx
-BSWAP %rdx,%r8|BSWAP %r8,%rdx
 XCHG %rdx,%r9;XCHG %r9,%rdx
 XCHG %rdx,%r9|XCHG %r9,%rdx
-BSWAP %rdx,%r9;BSWAP %r9,%rdx
-BSWAP %rdx,%r9|BSWAP %r9,%rdx
 XCHG %rdx,%r10;XCHG %r10,%rdx
 XCHG %rdx,%r10|XCHG %r10,%rdx
-BSWAP %rdx,%r10;BSWAP %r10,%rdx
-BSWAP %rdx,%r10|BSWAP %r10,%rdx
 XCHG %rdx,%r11;XCHG %r11,%rdx
 XCHG %rdx,%r11|XCHG %r11,%rdx
-BSWAP %rdx,%r11;BSWAP %r11,%rdx
-BSWAP %rdx,%r11|BSWAP %r11,%rdx
 XCHG %rdx,%r12;XCHG %r12,%rdx
 XCHG %rdx,%r12|XCHG %r12,%rdx
-BSWAP %rdx,%r12;BSWAP %r12,%rdx
-BSWAP %rdx,%r12|BSWAP %r12,%rdx
 XCHG %rdx,%r13;XCHG %r13,%rdx
 XCHG %rdx,%r13|XCHG %r13,%rdx
-BSWAP %rdx,%r13;BSWAP %r13,%rdx
-BSWAP %rdx,%r13|BSWAP %r13,%rdx
 XCHG %rdx,%r14;XCHG %r14,%rdx
 XCHG %rdx,%r14|XCHG %r14,%rdx
-BSWAP %rdx,%r14;BSWAP %r14,%rdx
-BSWAP %rdx,%r14|BSWAP %r14,%rdx
 XCHG %rdx,%r15;XCHG %r15,%rdx
 XCHG %rdx,%r15|XCHG %r15,%rdx
-BSWAP %rdx,%r15;BSWAP %r15,%rdx
-BSWAP %rdx,%r15|BSWAP %r15,%rdx
 MOV %r8,%r8
 XCHG %r8,%r8
 LEA (%r8),%r8
@@ -288,69 +200,47 @@ PUSH %r8;POP %r8
 PUSH %r8|POP %r8
 NOT %r8;NOT %r8
 NOT %r8|NOT %r8
-CMOVa %r8,%r8
-CMOVc %r8,%r8
-CMOVg %r8,%r8
-CMOVl %r8,%r8
-CMOVo %r8,%r8
-CMOVp %r8,%r8
-CMOVs %r8,%r8
-CMOVz %r8,%r8
-CMOVna %r8,%r8
-CMOVnc %r8,%r8
-CMOVng %r8,%r8
-CMOVnl %r8,%r8
-CMOVno %r8,%r8
-CMOVnp %r8,%r8
-CMOVns %r8,%r8
+BSWAP %r8;BSWAP %r8
+BSWAP %r8|BSWAP %r8
+CMOVA %r8,%r8
+CMOVC %r8,%r8
+CMOVG %r8,%r8
+CMOVL %r8,%r8
+CMOVO %r8,%r8
+CMOVP %r8,%r8
+CMOVS %r8,%r8
+CMOVZ %r8,%r8
+CMOVNA %r8,%r8
+CMOVNC %r8,%r8
+CMOVNG %r8,%r8
+CMOVNL %r8,%r8
+CMOVNO %r8,%r8
+CMOVNP %r8,%r8
+CMOVNS %r8,%r8
 XCHG %r8,%rax;XCHG %rax,%r8
 XCHG %r8,%rax|XCHG %rax,%r8
-BSWAP %r8,%rax;BSWAP %rax,%r8
-BSWAP %r8,%rax|BSWAP %rax,%r8
 XCHG %r8,%rbx;XCHG %rbx,%r8
 XCHG %r8,%rbx|XCHG %rbx,%r8
-BSWAP %r8,%rbx;BSWAP %rbx,%r8
-BSWAP %r8,%rbx|BSWAP %rbx,%r8
 XCHG %r8,%rcx;XCHG %rcx,%r8
 XCHG %r8,%rcx|XCHG %rcx,%r8
-BSWAP %r8,%rcx;BSWAP %rcx,%r8
-BSWAP %r8,%rcx|BSWAP %rcx,%r8
 XCHG %r8,%rdx;XCHG %rdx,%r8
 XCHG %r8,%rdx|XCHG %rdx,%r8
-BSWAP %r8,%rdx;BSWAP %rdx,%r8
-BSWAP %r8,%rdx|BSWAP %rdx,%r8
 XCHG %r8,%r8;XCHG %r8,%r8
 XCHG %r8,%r8|XCHG %r8,%r8
-BSWAP %r8,%r8;BSWAP %r8,%r8
-BSWAP %r8,%r8|BSWAP %r8,%r8
 XCHG %r8,%r9;XCHG %r9,%r8
 XCHG %r8,%r9|XCHG %r9,%r8
-BSWAP %r8,%r9;BSWAP %r9,%r8
-BSWAP %r8,%r9|BSWAP %r9,%r8
 XCHG %r8,%r10;XCHG %r10,%r8
 XCHG %r8,%r10|XCHG %r10,%r8
-BSWAP %r8,%r10;BSWAP %r10,%r8
-BSWAP %r8,%r10|BSWAP %r10,%r8
 XCHG %r8,%r11;XCHG %r11,%r8
 XCHG %r8,%r11|XCHG %r11,%r8
-BSWAP %r8,%r11;BSWAP %r11,%r8
-BSWAP %r8,%r11|BSWAP %r11,%r8
 XCHG %r8,%r12;XCHG %r12,%r8
 XCHG %r8,%r12|XCHG %r12,%r8
-BSWAP %r8,%r12;BSWAP %r12,%r8
-BSWAP %r8,%r12|BSWAP %r12,%r8
 XCHG %r8,%r13;XCHG %r13,%r8
 XCHG %r8,%r13|XCHG %r13,%r8
-BSWAP %r8,%r13;BSWAP %r13,%r8
-BSWAP %r8,%r13|BSWAP %r13,%r8
 XCHG %r8,%r14;XCHG %r14,%r8
 XCHG %r8,%r14|XCHG %r14,%r8
-BSWAP %r8,%r14;BSWAP %r14,%r8
-BSWAP %r8,%r14|BSWAP %r14,%r8
 XCHG %r8,%r15;XCHG %r15,%r8
 XCHG %r8,%r15|XCHG %r15,%r8
-BSWAP %r8,%r15;BSWAP %r15,%r8
-BSWAP %r8,%r15|BSWAP %r15,%r8
 MOV %r9,%r9
 XCHG %r9,%r9
 LEA (%r9),%r9
@@ -358,69 +248,47 @@ PUSH %r9;POP %r9
 PUSH %r9|POP %r9
 NOT %r9;NOT %r9
 NOT %r9|NOT %r9
-CMOVa %r9,%r9
-CMOVc %r9,%r9
-CMOVg %r9,%r9
-CMOVl %r9,%r9
-CMOVo %r9,%r9
-CMOVp %r9,%r9
-CMOVs %r9,%r9
-CMOVz %r9,%r9
-CMOVna %r9,%r9
-CMOVnc %r9,%r9
-CMOVng %r9,%r9
-CMOVnl %r9,%r9
-CMOVno %r9,%r9
-CMOVnp %r9,%r9
-CMOVns %r9,%r9
+BSWAP %r9;BSWAP %r9
+BSWAP %r9|BSWAP %r9
+CMOVA %r9,%r9
+CMOVC %r9,%r9
+CMOVG %r9,%r9
+CMOVL %r9,%r9
+CMOVO %r9,%r9
+CMOVP %r9,%r9
+CMOVS %r9,%r9
+CMOVZ %r9,%r9
+CMOVNA %r9,%r9
+CMOVNC %r9,%r9
+CMOVNG %r9,%r9
+CMOVNL %r9,%r9
+CMOVNO %r9,%r9
+CMOVNP %r9,%r9
+CMOVNS %r9,%r9
 XCHG %r9,%rax;XCHG %rax,%r9
 XCHG %r9,%rax|XCHG %rax,%r9
-BSWAP %r9,%rax;BSWAP %rax,%r9
-BSWAP %r9,%rax|BSWAP %rax,%r9
 XCHG %r9,%rbx;XCHG %rbx,%r9
 XCHG %r9,%rbx|XCHG %rbx,%r9
-BSWAP %r9,%rbx;BSWAP %rbx,%r9
-BSWAP %r9,%rbx|BSWAP %rbx,%r9
 XCHG %r9,%rcx;XCHG %rcx,%r9
 XCHG %r9,%rcx|XCHG %rcx,%r9
-BSWAP %r9,%rcx;BSWAP %rcx,%r9
-BSWAP %r9,%rcx|BSWAP %rcx,%r9
 XCHG %r9,%rdx;XCHG %rdx,%r9
 XCHG %r9,%rdx|XCHG %rdx,%r9
-BSWAP %r9,%rdx;BSWAP %rdx,%r9
-BSWAP %r9,%rdx|BSWAP %rdx,%r9
 XCHG %r9,%r8;XCHG %r8,%r9
 XCHG %r9,%r8|XCHG %r8,%r9
-BSWAP %r9,%r8;BSWAP %r8,%r9
-BSWAP %r9,%r8|BSWAP %r8,%r9
 XCHG %r9,%r9;XCHG %r9,%r9
 XCHG %r9,%r9|XCHG %r9,%r9
-BSWAP %r9,%r9;BSWAP %r9,%r9
-BSWAP %r9,%r9|BSWAP %r9,%r9
 XCHG %r9,%r10;XCHG %r10,%r9
 XCHG %r9,%r10|XCHG %r10,%r9
-BSWAP %r9,%r10;BSWAP %r10,%r9
-BSWAP %r9,%r10|BSWAP %r10,%r9
 XCHG %r9,%r11;XCHG %r11,%r9
 XCHG %r9,%r11|XCHG %r11,%r9
-BSWAP %r9,%r11;BSWAP %r11,%r9
-BSWAP %r9,%r11|BSWAP %r11,%r9
 XCHG %r9,%r12;XCHG %r12,%r9
 XCHG %r9,%r12|XCHG %r12,%r9
-BSWAP %r9,%r12;BSWAP %r12,%r9
-BSWAP %r9,%r12|BSWAP %r12,%r9
 XCHG %r9,%r13;XCHG %r13,%r9
 XCHG %r9,%r13|XCHG %r13,%r9
-BSWAP %r9,%r13;BSWAP %r13,%r9
-BSWAP %r9,%r13|BSWAP %r13,%r9
 XCHG %r9,%r14;XCHG %r14,%r9
 XCHG %r9,%r14|XCHG %r14,%r9
-BSWAP %r9,%r14;BSWAP %r14,%r9
-BSWAP %r9,%r14|BSWAP %r14,%r9
 XCHG %r9,%r15;XCHG %r15,%r9
 XCHG %r9,%r15|XCHG %r15,%r9
-BSWAP %r9,%r15;BSWAP %r15,%r9
-BSWAP %r9,%r15|BSWAP %r15,%r9
 MOV %r10,%r10
 XCHG %r10,%r10
 LEA (%r10),%r10
@@ -428,69 +296,47 @@ PUSH %r10;POP %r10
 PUSH %r10|POP %r10
 NOT %r10;NOT %r10
 NOT %r10|NOT %r10
-CMOVa %r10,%r10
-CMOVc %r10,%r10
-CMOVg %r10,%r10
-CMOVl %r10,%r10
-CMOVo %r10,%r10
-CMOVp %r10,%r10
-CMOVs %r10,%r10
-CMOVz %r10,%r10
-CMOVna %r10,%r10
-CMOVnc %r10,%r10
-CMOVng %r10,%r10
-CMOVnl %r10,%r10
-CMOVno %r10,%r10
-CMOVnp %r10,%r10
-CMOVns %r10,%r10
+BSWAP %r10;BSWAP %r10
+BSWAP %r10|BSWAP %r10
+CMOVA %r10,%r10
+CMOVC %r10,%r10
+CMOVG %r10,%r10
+CMOVL %r10,%r10
+CMOVO %r10,%r10
+CMOVP %r10,%r10
+CMOVS %r10,%r10
+CMOVZ %r10,%r10
+CMOVNA %r10,%r10
+CMOVNC %r10,%r10
+CMOVNG %r10,%r10
+CMOVNL %r10,%r10
+CMOVNO %r10,%r10
+CMOVNP %r10,%r10
+CMOVNS %r10,%r10
 XCHG %r10,%rax;XCHG %rax,%r10
 XCHG %r10,%rax|XCHG %rax,%r10
-BSWAP %r10,%rax;BSWAP %rax,%r10
-BSWAP %r10,%rax|BSWAP %rax,%r10
 XCHG %r10,%rbx;XCHG %rbx,%r10
 XCHG %r10,%rbx|XCHG %rbx,%r10
-BSWAP %r10,%rbx;BSWAP %rbx,%r10
-BSWAP %r10,%rbx|BSWAP %rbx,%r10
 XCHG %r10,%rcx;XCHG %rcx,%r10
 XCHG %r10,%rcx|XCHG %rcx,%r10
-BSWAP %r10,%rcx;BSWAP %rcx,%r10
-BSWAP %r10,%rcx|BSWAP %rcx,%r10
 XCHG %r10,%rdx;XCHG %rdx,%r10
 XCHG %r10,%rdx|XCHG %rdx,%r10
-BSWAP %r10,%rdx;BSWAP %rdx,%r10
-BSWAP %r10,%rdx|BSWAP %rdx,%r10
 XCHG %r10,%r8;XCHG %r8,%r10
 XCHG %r10,%r8|XCHG %r8,%r10
-BSWAP %r10,%r8;BSWAP %r8,%r10
-BSWAP %r10,%r8|BSWAP %r8,%r10
 XCHG %r10,%r9;XCHG %r9,%r10
 XCHG %r10,%r9|XCHG %r9,%r10
-BSWAP %r10,%r9;BSWAP %r9,%r10
-BSWAP %r10,%r9|BSWAP %r9,%r10
 XCHG %r10,%r10;XCHG %r10,%r10
 XCHG %r10,%r10|XCHG %r10,%r10
-BSWAP %r10,%r10;BSWAP %r10,%r10
-BSWAP %r10,%r10|BSWAP %r10,%r10
 XCHG %r10,%r11;XCHG %r11,%r10
 XCHG %r10,%r11|XCHG %r11,%r10
-BSWAP %r10,%r11;BSWAP %r11,%r10
-BSWAP %r10,%r11|BSWAP %r11,%r10
 XCHG %r10,%r12;XCHG %r12,%r10
 XCHG %r10,%r12|XCHG %r12,%r10
-BSWAP %r10,%r12;BSWAP %r12,%r10
-BSWAP %r10,%r12|BSWAP %r12,%r10
 XCHG %r10,%r13;XCHG %r13,%r10
 XCHG %r10,%r13|XCHG %r13,%r10
-BSWAP %r10,%r13;BSWAP %r13,%r10
-BSWAP %r10,%r13|BSWAP %r13,%r10
 XCHG %r10,%r14;XCHG %r14,%r10
 XCHG %r10,%r14|XCHG %r14,%r10
-BSWAP %r10,%r14;BSWAP %r14,%r10
-BSWAP %r10,%r14|BSWAP %r14,%r10
 XCHG %r10,%r15;XCHG %r15,%r10
 XCHG %r10,%r15|XCHG %r15,%r10
-BSWAP %r10,%r15;BSWAP %r15,%r10
-BSWAP %r10,%r15|BSWAP %r15,%r10
 MOV %r11,%r11
 XCHG %r11,%r11
 LEA (%r11),%r11
@@ -498,69 +344,47 @@ PUSH %r11;POP %r11
 PUSH %r11|POP %r11
 NOT %r11;NOT %r11
 NOT %r11|NOT %r11
-CMOVa %r11,%r11
-CMOVc %r11,%r11
-CMOVg %r11,%r11
-CMOVl %r11,%r11
-CMOVo %r11,%r11
-CMOVp %r11,%r11
-CMOVs %r11,%r11
-CMOVz %r11,%r11
-CMOVna %r11,%r11
-CMOVnc %r11,%r11
-CMOVng %r11,%r11
-CMOVnl %r11,%r11
-CMOVno %r11,%r11
-CMOVnp %r11,%r11
-CMOVns %r11,%r11
+BSWAP %r11;BSWAP %r11
+BSWAP %r11|BSWAP %r11
+CMOVA %r11,%r11
+CMOVC %r11,%r11
+CMOVG %r11,%r11
+CMOVL %r11,%r11
+CMOVO %r11,%r11
+CMOVP %r11,%r11
+CMOVS %r11,%r11
+CMOVZ %r11,%r11
+CMOVNA %r11,%r11
+CMOVNC %r11,%r11
+CMOVNG %r11,%r11
+CMOVNL %r11,%r11
+CMOVNO %r11,%r11
+CMOVNP %r11,%r11
+CMOVNS %r11,%r11
 XCHG %r11,%rax;XCHG %rax,%r11
 XCHG %r11,%rax|XCHG %rax,%r11
-BSWAP %r11,%rax;BSWAP %rax,%r11
-BSWAP %r11,%rax|BSWAP %rax,%r11
 XCHG %r11,%rbx;XCHG %rbx,%r11
 XCHG %r11,%rbx|XCHG %rbx,%r11
-BSWAP %r11,%rbx;BSWAP %rbx,%r11
-BSWAP %r11,%rbx|BSWAP %rbx,%r11
 XCHG %r11,%rcx;XCHG %rcx,%r11
 XCHG %r11,%rcx|XCHG %rcx,%r11
-BSWAP %r11,%rcx;BSWAP %rcx,%r11
-BSWAP %r11,%rcx|BSWAP %rcx,%r11
 XCHG %r11,%rdx;XCHG %rdx,%r11
 XCHG %r11,%rdx|XCHG %rdx,%r11
-BSWAP %r11,%rdx;BSWAP %rdx,%r11
-BSWAP %r11,%rdx|BSWAP %rdx,%r11
 XCHG %r11,%r8;XCHG %r8,%r11
 XCHG %r11,%r8|XCHG %r8,%r11
-BSWAP %r11,%r8;BSWAP %r8,%r11
-BSWAP %r11,%r8|BSWAP %r8,%r11
 XCHG %r11,%r9;XCHG %r9,%r11
 XCHG %r11,%r9|XCHG %r9,%r11
-BSWAP %r11,%r9;BSWAP %r9,%r11
-BSWAP %r11,%r9|BSWAP %r9,%r11
 XCHG %r11,%r10;XCHG %r10,%r11
 XCHG %r11,%r10|XCHG %r10,%r11
-BSWAP %r11,%r10;BSWAP %r10,%r11
-BSWAP %r11,%r10|BSWAP %r10,%r11
 XCHG %r11,%r11;XCHG %r11,%r11
 XCHG %r11,%r11|XCHG %r11,%r11
-BSWAP %r11,%r11;BSWAP %r11,%r11
-BSWAP %r11,%r11|BSWAP %r11,%r11
 XCHG %r11,%r12;XCHG %r12,%r11
 XCHG %r11,%r12|XCHG %r12,%r11
-BSWAP %r11,%r12;BSWAP %r12,%r11
-BSWAP %r11,%r12|BSWAP %r12,%r11
 XCHG %r11,%r13;XCHG %r13,%r11
 XCHG %r11,%r13|XCHG %r13,%r11
-BSWAP %r11,%r13;BSWAP %r13,%r11
-BSWAP %r11,%r13|BSWAP %r13,%r11
 XCHG %r11,%r14;XCHG %r14,%r11
 XCHG %r11,%r14|XCHG %r14,%r11
-BSWAP %r11,%r14;BSWAP %r14,%r11
-BSWAP %r11,%r14|BSWAP %r14,%r11
 XCHG %r11,%r15;XCHG %r15,%r11
 XCHG %r11,%r15|XCHG %r15,%r11
-BSWAP %r11,%r15;BSWAP %r15,%r11
-BSWAP %r11,%r15|BSWAP %r15,%r11
 MOV %r12,%r12
 XCHG %r12,%r12
 LEA (%r12),%r12
@@ -568,69 +392,47 @@ PUSH %r12;POP %r12
 PUSH %r12|POP %r12
 NOT %r12;NOT %r12
 NOT %r12|NOT %r12
-CMOVa %r12,%r12
-CMOVc %r12,%r12
-CMOVg %r12,%r12
-CMOVl %r12,%r12
-CMOVo %r12,%r12
-CMOVp %r12,%r12
-CMOVs %r12,%r12
-CMOVz %r12,%r12
-CMOVna %r12,%r12
-CMOVnc %r12,%r12
-CMOVng %r12,%r12
-CMOVnl %r12,%r12
-CMOVno %r12,%r12
-CMOVnp %r12,%r12
-CMOVns %r12,%r12
+BSWAP %r12;BSWAP %r12
+BSWAP %r12|BSWAP %r12
+CMOVA %r12,%r12
+CMOVC %r12,%r12
+CMOVG %r12,%r12
+CMOVL %r12,%r12
+CMOVO %r12,%r12
+CMOVP %r12,%r12
+CMOVS %r12,%r12
+CMOVZ %r12,%r12
+CMOVNA %r12,%r12
+CMOVNC %r12,%r12
+CMOVNG %r12,%r12
+CMOVNL %r12,%r12
+CMOVNO %r12,%r12
+CMOVNP %r12,%r12
+CMOVNS %r12,%r12
 XCHG %r12,%rax;XCHG %rax,%r12
 XCHG %r12,%rax|XCHG %rax,%r12
-BSWAP %r12,%rax;BSWAP %rax,%r12
-BSWAP %r12,%rax|BSWAP %rax,%r12
 XCHG %r12,%rbx;XCHG %rbx,%r12
 XCHG %r12,%rbx|XCHG %rbx,%r12
-BSWAP %r12,%rbx;BSWAP %rbx,%r12
-BSWAP %r12,%rbx|BSWAP %rbx,%r12
 XCHG %r12,%rcx;XCHG %rcx,%r12
 XCHG %r12,%rcx|XCHG %rcx,%r12
-BSWAP %r12,%rcx;BSWAP %rcx,%r12
-BSWAP %r12,%rcx|BSWAP %rcx,%r12
 XCHG %r12,%rdx;XCHG %rdx,%r12
 XCHG %r12,%rdx|XCHG %rdx,%r12
-BSWAP %r12,%rdx;BSWAP %rdx,%r12
-BSWAP %r12,%rdx|BSWAP %rdx,%r12
 XCHG %r12,%r8;XCHG %r8,%r12
 XCHG %r12,%r8|XCHG %r8,%r12
-BSWAP %r12,%r8;BSWAP %r8,%r12
-BSWAP %r12,%r8|BSWAP %r8,%r12
 XCHG %r12,%r9;XCHG %r9,%r12
 XCHG %r12,%r9|XCHG %r9,%r12
-BSWAP %r12,%r9;BSWAP %r9,%r12
-BSWAP %r12,%r9|BSWAP %r9,%r12
 XCHG %r12,%r10;XCHG %r10,%r12
 XCHG %r12,%r10|XCHG %r10,%r12
-BSWAP %r12,%r10;BSWAP %r10,%r12
-BSWAP %r12,%r10|BSWAP %r10,%r12
 XCHG %r12,%r11;XCHG %r11,%r12
 XCHG %r12,%r11|XCHG %r11,%r12
-BSWAP %r12,%r11;BSWAP %r11,%r12
-BSWAP %r12,%r11|BSWAP %r11,%r12
 XCHG %r12,%r12;XCHG %r12,%r12
 XCHG %r12,%r12|XCHG %r12,%r12
-BSWAP %r12,%r12;BSWAP %r12,%r12
-BSWAP %r12,%r12|BSWAP %r12,%r12
 XCHG %r12,%r13;XCHG %r13,%r12
 XCHG %r12,%r13|XCHG %r13,%r12
-BSWAP %r12,%r13;BSWAP %r13,%r12
-BSWAP %r12,%r13|BSWAP %r13,%r12
 XCHG %r12,%r14;XCHG %r14,%r12
 XCHG %r12,%r14|XCHG %r14,%r12
-BSWAP %r12,%r14;BSWAP %r14,%r12
-BSWAP %r12,%r14|BSWAP %r14,%r12
 XCHG %r12,%r15;XCHG %r15,%r12
 XCHG %r12,%r15|XCHG %r15,%r12
-BSWAP %r12,%r15;BSWAP %r15,%r12
-BSWAP %r12,%r15|BSWAP %r15,%r12
 MOV %r13,%r13
 XCHG %r13,%r13
 LEA (%r13),%r13
@@ -638,69 +440,47 @@ PUSH %r13;POP %r13
 PUSH %r13|POP %r13
 NOT %r13;NOT %r13
 NOT %r13|NOT %r13
-CMOVa %r13,%r13
-CMOVc %r13,%r13
-CMOVg %r13,%r13
-CMOVl %r13,%r13
-CMOVo %r13,%r13
-CMOVp %r13,%r13
-CMOVs %r13,%r13
-CMOVz %r13,%r13
-CMOVna %r13,%r13
-CMOVnc %r13,%r13
-CMOVng %r13,%r13
-CMOVnl %r13,%r13
-CMOVno %r13,%r13
-CMOVnp %r13,%r13
-CMOVns %r13,%r13
+BSWAP %r13;BSWAP %r13
+BSWAP %r13|BSWAP %r13
+CMOVA %r13,%r13
+CMOVC %r13,%r13
+CMOVG %r13,%r13
+CMOVL %r13,%r13
+CMOVO %r13,%r13
+CMOVP %r13,%r13
+CMOVS %r13,%r13
+CMOVZ %r13,%r13
+CMOVNA %r13,%r13
+CMOVNC %r13,%r13
+CMOVNG %r13,%r13
+CMOVNL %r13,%r13
+CMOVNO %r13,%r13
+CMOVNP %r13,%r13
+CMOVNS %r13,%r13
 XCHG %r13,%rax;XCHG %rax,%r13
 XCHG %r13,%rax|XCHG %rax,%r13
-BSWAP %r13,%rax;BSWAP %rax,%r13
-BSWAP %r13,%rax|BSWAP %rax,%r13
 XCHG %r13,%rbx;XCHG %rbx,%r13
 XCHG %r13,%rbx|XCHG %rbx,%r13
-BSWAP %r13,%rbx;BSWAP %rbx,%r13
-BSWAP %r13,%rbx|BSWAP %rbx,%r13
 XCHG %r13,%rcx;XCHG %rcx,%r13
 XCHG %r13,%rcx|XCHG %rcx,%r13
-BSWAP %r13,%rcx;BSWAP %rcx,%r13
-BSWAP %r13,%rcx|BSWAP %rcx,%r13
 XCHG %r13,%rdx;XCHG %rdx,%r13
 XCHG %r13,%rdx|XCHG %rdx,%r13
-BSWAP %r13,%rdx;BSWAP %rdx,%r13
-BSWAP %r13,%rdx|BSWAP %rdx,%r13
 XCHG %r13,%r8;XCHG %r8,%r13
 XCHG %r13,%r8|XCHG %r8,%r13
-BSWAP %r13,%r8;BSWAP %r8,%r13
-BSWAP %r13,%r8|BSWAP %r8,%r13
 XCHG %r13,%r9;XCHG %r9,%r13
 XCHG %r13,%r9|XCHG %r9,%r13
-BSWAP %r13,%r9;BSWAP %r9,%r13
-BSWAP %r13,%r9|BSWAP %r9,%r13
 XCHG %r13,%r10;XCHG %r10,%r13
 XCHG %r13,%r10|XCHG %r10,%r13
-BSWAP %r13,%r10;BSWAP %r10,%r13
-BSWAP %r13,%r10|BSWAP %r10,%r13
 XCHG %r13,%r11;XCHG %r11,%r13
 XCHG %r13,%r11|XCHG %r11,%r13
-BSWAP %r13,%r11;BSWAP %r11,%r13
-BSWAP %r13,%r11|BSWAP %r11,%r13
 XCHG %r13,%r12;XCHG %r12,%r13
 XCHG %r13,%r12|XCHG %r12,%r13
-BSWAP %r13,%r12;BSWAP %r12,%r13
-BSWAP %r13,%r12|BSWAP %r12,%r13
 XCHG %r13,%r13;XCHG %r13,%r13
 XCHG %r13,%r13|XCHG %r13,%r13
-BSWAP %r13,%r13;BSWAP %r13,%r13
-BSWAP %r13,%r13|BSWAP %r13,%r13
 XCHG %r13,%r14;XCHG %r14,%r13
 XCHG %r13,%r14|XCHG %r14,%r13
-BSWAP %r13,%r14;BSWAP %r14,%r13
-BSWAP %r13,%r14|BSWAP %r14,%r13
 XCHG %r13,%r15;XCHG %r15,%r13
 XCHG %r13,%r15|XCHG %r15,%r13
-BSWAP %r13,%r15;BSWAP %r15,%r13
-BSWAP %r13,%r15|BSWAP %r15,%r13
 MOV %r14,%r14
 XCHG %r14,%r14
 LEA (%r14),%r14
@@ -708,69 +488,47 @@ PUSH %r14;POP %r14
 PUSH %r14|POP %r14
 NOT %r14;NOT %r14
 NOT %r14|NOT %r14
-CMOVa %r14,%r14
-CMOVc %r14,%r14
-CMOVg %r14,%r14
-CMOVl %r14,%r14
-CMOVo %r14,%r14
-CMOVp %r14,%r14
-CMOVs %r14,%r14
-CMOVz %r14,%r14
-CMOVna %r14,%r14
-CMOVnc %r14,%r14
-CMOVng %r14,%r14
-CMOVnl %r14,%r14
-CMOVno %r14,%r14
-CMOVnp %r14,%r14
-CMOVns %r14,%r14
+BSWAP %r14;BSWAP %r14
+BSWAP %r14|BSWAP %r14
+CMOVA %r14,%r14
+CMOVC %r14,%r14
+CMOVG %r14,%r14
+CMOVL %r14,%r14
+CMOVO %r14,%r14
+CMOVP %r14,%r14
+CMOVS %r14,%r14
+CMOVZ %r14,%r14
+CMOVNA %r14,%r14
+CMOVNC %r14,%r14
+CMOVNG %r14,%r14
+CMOVNL %r14,%r14
+CMOVNO %r14,%r14
+CMOVNP %r14,%r14
+CMOVNS %r14,%r14
 XCHG %r14,%rax;XCHG %rax,%r14
 XCHG %r14,%rax|XCHG %rax,%r14
-BSWAP %r14,%rax;BSWAP %rax,%r14
-BSWAP %r14,%rax|BSWAP %rax,%r14
 XCHG %r14,%rbx;XCHG %rbx,%r14
 XCHG %r14,%rbx|XCHG %rbx,%r14
-BSWAP %r14,%rbx;BSWAP %rbx,%r14
-BSWAP %r14,%rbx|BSWAP %rbx,%r14
 XCHG %r14,%rcx;XCHG %rcx,%r14
 XCHG %r14,%rcx|XCHG %rcx,%r14
-BSWAP %r14,%rcx;BSWAP %rcx,%r14
-BSWAP %r14,%rcx|BSWAP %rcx,%r14
 XCHG %r14,%rdx;XCHG %rdx,%r14
 XCHG %r14,%rdx|XCHG %rdx,%r14
-BSWAP %r14,%rdx;BSWAP %rdx,%r14
-BSWAP %r14,%rdx|BSWAP %rdx,%r14
 XCHG %r14,%r8;XCHG %r8,%r14
 XCHG %r14,%r8|XCHG %r8,%r14
-BSWAP %r14,%r8;BSWAP %r8,%r14
-BSWAP %r14,%r8|BSWAP %r8,%r14
 XCHG %r14,%r9;XCHG %r9,%r14
 XCHG %r14,%r9|XCHG %r9,%r14
-BSWAP %r14,%r9;BSWAP %r9,%r14
-BSWAP %r14,%r9|BSWAP %r9,%r14
 XCHG %r14,%r10;XCHG %r10,%r14
 XCHG %r14,%r10|XCHG %r10,%r14
-BSWAP %r14,%r10;BSWAP %r10,%r14
-BSWAP %r14,%r10|BSWAP %r10,%r14
 XCHG %r14,%r11;XCHG %r11,%r14
 XCHG %r14,%r11|XCHG %r11,%r14
-BSWAP %r14,%r11;BSWAP %r11,%r14
-BSWAP %r14,%r11|BSWAP %r11,%r14
 XCHG %r14,%r12;XCHG %r12,%r14
 XCHG %r14,%r12|XCHG %r12,%r14
-BSWAP %r14,%r12;BSWAP %r12,%r14
-BSWAP %r14,%r12|BSWAP %r12,%r14
 XCHG %r14,%r13;XCHG %r13,%r14
 XCHG %r14,%r13|XCHG %r13,%r14
-BSWAP %r14,%r13;BSWAP %r13,%r14
-BSWAP %r14,%r13|BSWAP %r13,%r14
 XCHG %r14,%r14;XCHG %r14,%r14
 XCHG %r14,%r14|XCHG %r14,%r14
-BSWAP %r14,%r14;BSWAP %r14,%r14
-BSWAP %r14,%r14|BSWAP %r14,%r14
 XCHG %r14,%r15;XCHG %r15,%r14
 XCHG %r14,%r15|XCHG %r15,%r14
-BSWAP %r14,%r15;BSWAP %r15,%r14
-BSWAP %r14,%r15|BSWAP %r15,%r14
 MOV %r15,%r15
 XCHG %r15,%r15
 LEA (%r15),%r15
@@ -778,909 +536,611 @@ PUSH %r15;POP %r15
 PUSH %r15|POP %r15
 NOT %r15;NOT %r15
 NOT %r15|NOT %r15
-CMOVa %r15,%r15
-CMOVc %r15,%r15
-CMOVg %r15,%r15
-CMOVl %r15,%r15
-CMOVo %r15,%r15
-CMOVp %r15,%r15
-CMOVs %r15,%r15
-CMOVz %r15,%r15
-CMOVna %r15,%r15
-CMOVnc %r15,%r15
-CMOVng %r15,%r15
-CMOVnl %r15,%r15
-CMOVno %r15,%r15
-CMOVnp %r15,%r15
-CMOVns %r15,%r15
+BSWAP %r15;BSWAP %r15
+BSWAP %r15|BSWAP %r15
+CMOVA %r15,%r15
+CMOVC %r15,%r15
+CMOVG %r15,%r15
+CMOVL %r15,%r15
+CMOVO %r15,%r15
+CMOVP %r15,%r15
+CMOVS %r15,%r15
+CMOVZ %r15,%r15
+CMOVNA %r15,%r15
+CMOVNC %r15,%r15
+CMOVNG %r15,%r15
+CMOVNL %r15,%r15
+CMOVNO %r15,%r15
+CMOVNP %r15,%r15
+CMOVNS %r15,%r15
 XCHG %r15,%rax;XCHG %rax,%r15
 XCHG %r15,%rax|XCHG %rax,%r15
-BSWAP %r15,%rax;BSWAP %rax,%r15
-BSWAP %r15,%rax|BSWAP %rax,%r15
 XCHG %r15,%rbx;XCHG %rbx,%r15
 XCHG %r15,%rbx|XCHG %rbx,%r15
-BSWAP %r15,%rbx;BSWAP %rbx,%r15
-BSWAP %r15,%rbx|BSWAP %rbx,%r15
 XCHG %r15,%rcx;XCHG %rcx,%r15
 XCHG %r15,%rcx|XCHG %rcx,%r15
-BSWAP %r15,%rcx;BSWAP %rcx,%r15
-BSWAP %r15,%rcx|BSWAP %rcx,%r15
 XCHG %r15,%rdx;XCHG %rdx,%r15
 XCHG %r15,%rdx|XCHG %rdx,%r15
-BSWAP %r15,%rdx;BSWAP %rdx,%r15
-BSWAP %r15,%rdx|BSWAP %rdx,%r15
 XCHG %r15,%r8;XCHG %r8,%r15
 XCHG %r15,%r8|XCHG %r8,%r15
-BSWAP %r15,%r8;BSWAP %r8,%r15
-BSWAP %r15,%r8|BSWAP %r8,%r15
 XCHG %r15,%r9;XCHG %r9,%r15
 XCHG %r15,%r9|XCHG %r9,%r15
-BSWAP %r15,%r9;BSWAP %r9,%r15
-BSWAP %r15,%r9|BSWAP %r9,%r15
 XCHG %r15,%r10;XCHG %r10,%r15
 XCHG %r15,%r10|XCHG %r10,%r15
-BSWAP %r15,%r10;BSWAP %r10,%r15
-BSWAP %r15,%r10|BSWAP %r10,%r15
 XCHG %r15,%r11;XCHG %r11,%r15
 XCHG %r15,%r11|XCHG %r11,%r15
-BSWAP %r15,%r11;BSWAP %r11,%r15
-BSWAP %r15,%r11|BSWAP %r11,%r15
 XCHG %r15,%r12;XCHG %r12,%r15
 XCHG %r15,%r12|XCHG %r12,%r15
-BSWAP %r15,%r12;BSWAP %r12,%r15
-BSWAP %r15,%r12|BSWAP %r12,%r15
 XCHG %r15,%r13;XCHG %r13,%r15
 XCHG %r15,%r13|XCHG %r13,%r15
-BSWAP %r15,%r13;BSWAP %r13,%r15
-BSWAP %r15,%r13|BSWAP %r13,%r15
 XCHG %r15,%r14;XCHG %r14,%r15
 XCHG %r15,%r14|XCHG %r14,%r15
-BSWAP %r15,%r14;BSWAP %r14,%r15
-BSWAP %r15,%r14|BSWAP %r14,%r15
 XCHG %r15,%r15;XCHG %r15,%r15
 XCHG %r15,%r15|XCHG %r15,%r15
-BSWAP %r15,%r15;BSWAP %r15,%r15
-BSWAP %r15,%r15|BSWAP %r15,%r15
 MOV %eax,%eax
-MOVSXD %eax,%eax
 XCHG %eax,%eax
 NOP %eax
 LEA (%eax),%eax
 NOT %eax;NOT %eax
 NOT %eax|NOT %eax
-CMOVa %eax,%eax
-CMOVc %eax,%eax
-CMOVg %eax,%eax
-CMOVl %eax,%eax
-CMOVo %eax,%eax
-CMOVp %eax,%eax
-CMOVs %eax,%eax
-CMOVz %eax,%eax
-CMOVna %eax,%eax
-CMOVnc %eax,%eax
-CMOVng %eax,%eax
-CMOVnl %eax,%eax
-CMOVno %eax,%eax
-CMOVnp %eax,%eax
-CMOVns %eax,%eax
+BSWAP %eax;BSWAP %eax
+BSWAP %eax|BSWAP %eax
+CMOVA %eax,%eax
+CMOVC %eax,%eax
+CMOVG %eax,%eax
+CMOVL %eax,%eax
+CMOVO %eax,%eax
+CMOVP %eax,%eax
+CMOVS %eax,%eax
+CMOVZ %eax,%eax
+CMOVNA %eax,%eax
+CMOVNC %eax,%eax
+CMOVNG %eax,%eax
+CMOVNL %eax,%eax
+CMOVNO %eax,%eax
+CMOVNP %eax,%eax
+CMOVNS %eax,%eax
 XCHG %eax,%eax;XCHG %eax,%eax
 XCHG %eax,%eax|XCHG %eax,%eax
-BSWAP %eax,%eax;BSWAP %eax,%eax
-BSWAP %eax,%eax|BSWAP %eax,%eax
 XCHG %eax,%ebx;XCHG %ebx,%eax
 XCHG %eax,%ebx|XCHG %ebx,%eax
-BSWAP %eax,%ebx;BSWAP %ebx,%eax
-BSWAP %eax,%ebx|BSWAP %ebx,%eax
 XCHG %eax,%ecx;XCHG %ecx,%eax
 XCHG %eax,%ecx|XCHG %ecx,%eax
-BSWAP %eax,%ecx;BSWAP %ecx,%eax
-BSWAP %eax,%ecx|BSWAP %ecx,%eax
 XCHG %eax,%edx;XCHG %edx,%eax
 XCHG %eax,%edx|XCHG %edx,%eax
-BSWAP %eax,%edx;BSWAP %edx,%eax
-BSWAP %eax,%edx|BSWAP %edx,%eax
 XCHG %eax,%r8d;XCHG %r8d,%eax
 XCHG %eax,%r8d|XCHG %r8d,%eax
-BSWAP %eax,%r8d;BSWAP %r8d,%eax
-BSWAP %eax,%r8d|BSWAP %r8d,%eax
 XCHG %eax,%r9d;XCHG %r9d,%eax
 XCHG %eax,%r9d|XCHG %r9d,%eax
-BSWAP %eax,%r9d;BSWAP %r9d,%eax
-BSWAP %eax,%r9d|BSWAP %r9d,%eax
 XCHG %eax,%r10d;XCHG %r10d,%eax
 XCHG %eax,%r10d|XCHG %r10d,%eax
-BSWAP %eax,%r10d;BSWAP %r10d,%eax
-BSWAP %eax,%r10d|BSWAP %r10d,%eax
 XCHG %eax,%r11d;XCHG %r11d,%eax
 XCHG %eax,%r11d|XCHG %r11d,%eax
-BSWAP %eax,%r11d;BSWAP %r11d,%eax
-BSWAP %eax,%r11d|BSWAP %r11d,%eax
 XCHG %eax,%r12d;XCHG %r12d,%eax
 XCHG %eax,%r12d|XCHG %r12d,%eax
-BSWAP %eax,%r12d;BSWAP %r12d,%eax
-BSWAP %eax,%r12d|BSWAP %r12d,%eax
 XCHG %eax,%r13d;XCHG %r13d,%eax
 XCHG %eax,%r13d|XCHG %r13d,%eax
-BSWAP %eax,%r13d;BSWAP %r13d,%eax
-BSWAP %eax,%r13d|BSWAP %r13d,%eax
 XCHG %eax,%r14d;XCHG %r14d,%eax
 XCHG %eax,%r14d|XCHG %r14d,%eax
-BSWAP %eax,%r14d;BSWAP %r14d,%eax
-BSWAP %eax,%r14d|BSWAP %r14d,%eax
 XCHG %eax,%r15d;XCHG %r15d,%eax
 XCHG %eax,%r15d|XCHG %r15d,%eax
-BSWAP %eax,%r15d;BSWAP %r15d,%eax
-BSWAP %eax,%r15d|BSWAP %r15d,%eax
 MOV %ebx,%ebx
-MOVSXD %ebx,%ebx
 XCHG %ebx,%ebx
 NOP %ebx
 LEA (%ebx),%ebx
 NOT %ebx;NOT %ebx
 NOT %ebx|NOT %ebx
-CMOVa %ebx,%ebx
-CMOVc %ebx,%ebx
-CMOVg %ebx,%ebx
-CMOVl %ebx,%ebx
-CMOVo %ebx,%ebx
-CMOVp %ebx,%ebx
-CMOVs %ebx,%ebx
-CMOVz %ebx,%ebx
-CMOVna %ebx,%ebx
-CMOVnc %ebx,%ebx
-CMOVng %ebx,%ebx
-CMOVnl %ebx,%ebx
-CMOVno %ebx,%ebx
-CMOVnp %ebx,%ebx
-CMOVns %ebx,%ebx
+BSWAP %ebx;BSWAP %ebx
+BSWAP %ebx|BSWAP %ebx
+CMOVA %ebx,%ebx
+CMOVC %ebx,%ebx
+CMOVG %ebx,%ebx
+CMOVL %ebx,%ebx
+CMOVO %ebx,%ebx
+CMOVP %ebx,%ebx
+CMOVS %ebx,%ebx
+CMOVZ %ebx,%ebx
+CMOVNA %ebx,%ebx
+CMOVNC %ebx,%ebx
+CMOVNG %ebx,%ebx
+CMOVNL %ebx,%ebx
+CMOVNO %ebx,%ebx
+CMOVNP %ebx,%ebx
+CMOVNS %ebx,%ebx
 XCHG %ebx,%eax;XCHG %eax,%ebx
 XCHG %ebx,%eax|XCHG %eax,%ebx
-BSWAP %ebx,%eax;BSWAP %eax,%ebx
-BSWAP %ebx,%eax|BSWAP %eax,%ebx
 XCHG %ebx,%ebx;XCHG %ebx,%ebx
 XCHG %ebx,%ebx|XCHG %ebx,%ebx
-BSWAP %ebx,%ebx;BSWAP %ebx,%ebx
-BSWAP %ebx,%ebx|BSWAP %ebx,%ebx
 XCHG %ebx,%ecx;XCHG %ecx,%ebx
 XCHG %ebx,%ecx|XCHG %ecx,%ebx
-BSWAP %ebx,%ecx;BSWAP %ecx,%ebx
-BSWAP %ebx,%ecx|BSWAP %ecx,%ebx
 XCHG %ebx,%edx;XCHG %edx,%ebx
 XCHG %ebx,%edx|XCHG %edx,%ebx
-BSWAP %ebx,%edx;BSWAP %edx,%ebx
-BSWAP %ebx,%edx|BSWAP %edx,%ebx
 XCHG %ebx,%r8d;XCHG %r8d,%ebx
 XCHG %ebx,%r8d|XCHG %r8d,%ebx
-BSWAP %ebx,%r8d;BSWAP %r8d,%ebx
-BSWAP %ebx,%r8d|BSWAP %r8d,%ebx
 XCHG %ebx,%r9d;XCHG %r9d,%ebx
 XCHG %ebx,%r9d|XCHG %r9d,%ebx
-BSWAP %ebx,%r9d;BSWAP %r9d,%ebx
-BSWAP %ebx,%r9d|BSWAP %r9d,%ebx
 XCHG %ebx,%r10d;XCHG %r10d,%ebx
 XCHG %ebx,%r10d|XCHG %r10d,%ebx
-BSWAP %ebx,%r10d;BSWAP %r10d,%ebx
-BSWAP %ebx,%r10d|BSWAP %r10d,%ebx
 XCHG %ebx,%r11d;XCHG %r11d,%ebx
 XCHG %ebx,%r11d|XCHG %r11d,%ebx
-BSWAP %ebx,%r11d;BSWAP %r11d,%ebx
-BSWAP %ebx,%r11d|BSWAP %r11d,%ebx
 XCHG %ebx,%r12d;XCHG %r12d,%ebx
 XCHG %ebx,%r12d|XCHG %r12d,%ebx
-BSWAP %ebx,%r12d;BSWAP %r12d,%ebx
-BSWAP %ebx,%r12d|BSWAP %r12d,%ebx
 XCHG %ebx,%r13d;XCHG %r13d,%ebx
 XCHG %ebx,%r13d|XCHG %r13d,%ebx
-BSWAP %ebx,%r13d;BSWAP %r13d,%ebx
-BSWAP %ebx,%r13d|BSWAP %r13d,%ebx
 XCHG %ebx,%r14d;XCHG %r14d,%ebx
 XCHG %ebx,%r14d|XCHG %r14d,%ebx
-BSWAP %ebx,%r14d;BSWAP %r14d,%ebx
-BSWAP %ebx,%r14d|BSWAP %r14d,%ebx
 XCHG %ebx,%r15d;XCHG %r15d,%ebx
 XCHG %ebx,%r15d|XCHG %r15d,%ebx
-BSWAP %ebx,%r15d;BSWAP %r15d,%ebx
-BSWAP %ebx,%r15d|BSWAP %r15d,%ebx
 MOV %ecx,%ecx
-MOVSXD %ecx,%ecx
 XCHG %ecx,%ecx
 NOP %ecx
 LEA (%ecx),%ecx
 NOT %ecx;NOT %ecx
 NOT %ecx|NOT %ecx
-CMOVa %ecx,%ecx
-CMOVc %ecx,%ecx
-CMOVg %ecx,%ecx
-CMOVl %ecx,%ecx
-CMOVo %ecx,%ecx
-CMOVp %ecx,%ecx
-CMOVs %ecx,%ecx
-CMOVz %ecx,%ecx
-CMOVna %ecx,%ecx
-CMOVnc %ecx,%ecx
-CMOVng %ecx,%ecx
-CMOVnl %ecx,%ecx
-CMOVno %ecx,%ecx
-CMOVnp %ecx,%ecx
-CMOVns %ecx,%ecx
+BSWAP %ecx;BSWAP %ecx
+BSWAP %ecx|BSWAP %ecx
+CMOVA %ecx,%ecx
+CMOVC %ecx,%ecx
+CMOVG %ecx,%ecx
+CMOVL %ecx,%ecx
+CMOVO %ecx,%ecx
+CMOVP %ecx,%ecx
+CMOVS %ecx,%ecx
+CMOVZ %ecx,%ecx
+CMOVNA %ecx,%ecx
+CMOVNC %ecx,%ecx
+CMOVNG %ecx,%ecx
+CMOVNL %ecx,%ecx
+CMOVNO %ecx,%ecx
+CMOVNP %ecx,%ecx
+CMOVNS %ecx,%ecx
 XCHG %ecx,%eax;XCHG %eax,%ecx
 XCHG %ecx,%eax|XCHG %eax,%ecx
-BSWAP %ecx,%eax;BSWAP %eax,%ecx
-BSWAP %ecx,%eax|BSWAP %eax,%ecx
 XCHG %ecx,%ebx;XCHG %ebx,%ecx
 XCHG %ecx,%ebx|XCHG %ebx,%ecx
-BSWAP %ecx,%ebx;BSWAP %ebx,%ecx
-BSWAP %ecx,%ebx|BSWAP %ebx,%ecx
 XCHG %ecx,%ecx;XCHG %ecx,%ecx
 XCHG %ecx,%ecx|XCHG %ecx,%ecx
-BSWAP %ecx,%ecx;BSWAP %ecx,%ecx
-BSWAP %ecx,%ecx|BSWAP %ecx,%ecx
 XCHG %ecx,%edx;XCHG %edx,%ecx
 XCHG %ecx,%edx|XCHG %edx,%ecx
-BSWAP %ecx,%edx;BSWAP %edx,%ecx
-BSWAP %ecx,%edx|BSWAP %edx,%ecx
 XCHG %ecx,%r8d;XCHG %r8d,%ecx
 XCHG %ecx,%r8d|XCHG %r8d,%ecx
-BSWAP %ecx,%r8d;BSWAP %r8d,%ecx
-BSWAP %ecx,%r8d|BSWAP %r8d,%ecx
 XCHG %ecx,%r9d;XCHG %r9d,%ecx
 XCHG %ecx,%r9d|XCHG %r9d,%ecx
-BSWAP %ecx,%r9d;BSWAP %r9d,%ecx
-BSWAP %ecx,%r9d|BSWAP %r9d,%ecx
 XCHG %ecx,%r10d;XCHG %r10d,%ecx
 XCHG %ecx,%r10d|XCHG %r10d,%ecx
-BSWAP %ecx,%r10d;BSWAP %r10d,%ecx
-BSWAP %ecx,%r10d|BSWAP %r10d,%ecx
 XCHG %ecx,%r11d;XCHG %r11d,%ecx
 XCHG %ecx,%r11d|XCHG %r11d,%ecx
-BSWAP %ecx,%r11d;BSWAP %r11d,%ecx
-BSWAP %ecx,%r11d|BSWAP %r11d,%ecx
 XCHG %ecx,%r12d;XCHG %r12d,%ecx
 XCHG %ecx,%r12d|XCHG %r12d,%ecx
-BSWAP %ecx,%r12d;BSWAP %r12d,%ecx
-BSWAP %ecx,%r12d|BSWAP %r12d,%ecx
 XCHG %ecx,%r13d;XCHG %r13d,%ecx
 XCHG %ecx,%r13d|XCHG %r13d,%ecx
-BSWAP %ecx,%r13d;BSWAP %r13d,%ecx
-BSWAP %ecx,%r13d|BSWAP %r13d,%ecx
 XCHG %ecx,%r14d;XCHG %r14d,%ecx
 XCHG %ecx,%r14d|XCHG %r14d,%ecx
-BSWAP %ecx,%r14d;BSWAP %r14d,%ecx
-BSWAP %ecx,%r14d|BSWAP %r14d,%ecx
 XCHG %ecx,%r15d;XCHG %r15d,%ecx
 XCHG %ecx,%r15d|XCHG %r15d,%ecx
-BSWAP %ecx,%r15d;BSWAP %r15d,%ecx
-BSWAP %ecx,%r15d|BSWAP %r15d,%ecx
 MOV %edx,%edx
-MOVSXD %edx,%edx
 XCHG %edx,%edx
 NOP %edx
 LEA (%edx),%edx
 NOT %edx;NOT %edx
 NOT %edx|NOT %edx
-CMOVa %edx,%edx
-CMOVc %edx,%edx
-CMOVg %edx,%edx
-CMOVl %edx,%edx
-CMOVo %edx,%edx
-CMOVp %edx,%edx
-CMOVs %edx,%edx
-CMOVz %edx,%edx
-CMOVna %edx,%edx
-CMOVnc %edx,%edx
-CMOVng %edx,%edx
-CMOVnl %edx,%edx
-CMOVno %edx,%edx
-CMOVnp %edx,%edx
-CMOVns %edx,%edx
+BSWAP %edx;BSWAP %edx
+BSWAP %edx|BSWAP %edx
+CMOVA %edx,%edx
+CMOVC %edx,%edx
+CMOVG %edx,%edx
+CMOVL %edx,%edx
+CMOVO %edx,%edx
+CMOVP %edx,%edx
+CMOVS %edx,%edx
+CMOVZ %edx,%edx
+CMOVNA %edx,%edx
+CMOVNC %edx,%edx
+CMOVNG %edx,%edx
+CMOVNL %edx,%edx
+CMOVNO %edx,%edx
+CMOVNP %edx,%edx
+CMOVNS %edx,%edx
 XCHG %edx,%eax;XCHG %eax,%edx
 XCHG %edx,%eax|XCHG %eax,%edx
-BSWAP %edx,%eax;BSWAP %eax,%edx
-BSWAP %edx,%eax|BSWAP %eax,%edx
 XCHG %edx,%ebx;XCHG %ebx,%edx
 XCHG %edx,%ebx|XCHG %ebx,%edx
-BSWAP %edx,%ebx;BSWAP %ebx,%edx
-BSWAP %edx,%ebx|BSWAP %ebx,%edx
 XCHG %edx,%ecx;XCHG %ecx,%edx
 XCHG %edx,%ecx|XCHG %ecx,%edx
-BSWAP %edx,%ecx;BSWAP %ecx,%edx
-BSWAP %edx,%ecx|BSWAP %ecx,%edx
 XCHG %edx,%edx;XCHG %edx,%edx
 XCHG %edx,%edx|XCHG %edx,%edx
-BSWAP %edx,%edx;BSWAP %edx,%edx
-BSWAP %edx,%edx|BSWAP %edx,%edx
 XCHG %edx,%r8d;XCHG %r8d,%edx
 XCHG %edx,%r8d|XCHG %r8d,%edx
-BSWAP %edx,%r8d;BSWAP %r8d,%edx
-BSWAP %edx,%r8d|BSWAP %r8d,%edx
 XCHG %edx,%r9d;XCHG %r9d,%edx
 XCHG %edx,%r9d|XCHG %r9d,%edx
-BSWAP %edx,%r9d;BSWAP %r9d,%edx
-BSWAP %edx,%r9d|BSWAP %r9d,%edx
 XCHG %edx,%r10d;XCHG %r10d,%edx
 XCHG %edx,%r10d|XCHG %r10d,%edx
-BSWAP %edx,%r10d;BSWAP %r10d,%edx
-BSWAP %edx,%r10d|BSWAP %r10d,%edx
 XCHG %edx,%r11d;XCHG %r11d,%edx
 XCHG %edx,%r11d|XCHG %r11d,%edx
-BSWAP %edx,%r11d;BSWAP %r11d,%edx
-BSWAP %edx,%r11d|BSWAP %r11d,%edx
 XCHG %edx,%r12d;XCHG %r12d,%edx
 XCHG %edx,%r12d|XCHG %r12d,%edx
-BSWAP %edx,%r12d;BSWAP %r12d,%edx
-BSWAP %edx,%r12d|BSWAP %r12d,%edx
 XCHG %edx,%r13d;XCHG %r13d,%edx
 XCHG %edx,%r13d|XCHG %r13d,%edx
-BSWAP %edx,%r13d;BSWAP %r13d,%edx
-BSWAP %edx,%r13d|BSWAP %r13d,%edx
 XCHG %edx,%r14d;XCHG %r14d,%edx
 XCHG %edx,%r14d|XCHG %r14d,%edx
-BSWAP %edx,%r14d;BSWAP %r14d,%edx
-BSWAP %edx,%r14d|BSWAP %r14d,%edx
 XCHG %edx,%r15d;XCHG %r15d,%edx
 XCHG %edx,%r15d|XCHG %r15d,%edx
-BSWAP %edx,%r15d;BSWAP %r15d,%edx
-BSWAP %edx,%r15d|BSWAP %r15d,%edx
 MOV %r8d,%r8d
-MOVSXD %r8d,%r8d
 XCHG %r8d,%r8d
 NOP %r8d
 LEA (%r8d),%r8d
 NOT %r8d;NOT %r8d
 NOT %r8d|NOT %r8d
-CMOVa %r8d,%r8d
-CMOVc %r8d,%r8d
-CMOVg %r8d,%r8d
-CMOVl %r8d,%r8d
-CMOVo %r8d,%r8d
-CMOVp %r8d,%r8d
-CMOVs %r8d,%r8d
-CMOVz %r8d,%r8d
-CMOVna %r8d,%r8d
-CMOVnc %r8d,%r8d
-CMOVng %r8d,%r8d
-CMOVnl %r8d,%r8d
-CMOVno %r8d,%r8d
-CMOVnp %r8d,%r8d
-CMOVns %r8d,%r8d
+BSWAP %r8d;BSWAP %r8d
+BSWAP %r8d|BSWAP %r8d
+CMOVA %r8d,%r8d
+CMOVC %r8d,%r8d
+CMOVG %r8d,%r8d
+CMOVL %r8d,%r8d
+CMOVO %r8d,%r8d
+CMOVP %r8d,%r8d
+CMOVS %r8d,%r8d
+CMOVZ %r8d,%r8d
+CMOVNA %r8d,%r8d
+CMOVNC %r8d,%r8d
+CMOVNG %r8d,%r8d
+CMOVNL %r8d,%r8d
+CMOVNO %r8d,%r8d
+CMOVNP %r8d,%r8d
+CMOVNS %r8d,%r8d
 XCHG %r8d,%eax;XCHG %eax,%r8d
 XCHG %r8d,%eax|XCHG %eax,%r8d
-BSWAP %r8d,%eax;BSWAP %eax,%r8d
-BSWAP %r8d,%eax|BSWAP %eax,%r8d
 XCHG %r8d,%ebx;XCHG %ebx,%r8d
 XCHG %r8d,%ebx|XCHG %ebx,%r8d
-BSWAP %r8d,%ebx;BSWAP %ebx,%r8d
-BSWAP %r8d,%ebx|BSWAP %ebx,%r8d
 XCHG %r8d,%ecx;XCHG %ecx,%r8d
 XCHG %r8d,%ecx|XCHG %ecx,%r8d
-BSWAP %r8d,%ecx;BSWAP %ecx,%r8d
-BSWAP %r8d,%ecx|BSWAP %ecx,%r8d
 XCHG %r8d,%edx;XCHG %edx,%r8d
 XCHG %r8d,%edx|XCHG %edx,%r8d
-BSWAP %r8d,%edx;BSWAP %edx,%r8d
-BSWAP %r8d,%edx|BSWAP %edx,%r8d
 XCHG %r8d,%r8d;XCHG %r8d,%r8d
 XCHG %r8d,%r8d|XCHG %r8d,%r8d
-BSWAP %r8d,%r8d;BSWAP %r8d,%r8d
-BSWAP %r8d,%r8d|BSWAP %r8d,%r8d
 XCHG %r8d,%r9d;XCHG %r9d,%r8d
 XCHG %r8d,%r9d|XCHG %r9d,%r8d
-BSWAP %r8d,%r9d;BSWAP %r9d,%r8d
-BSWAP %r8d,%r9d|BSWAP %r9d,%r8d
 XCHG %r8d,%r10d;XCHG %r10d,%r8d
 XCHG %r8d,%r10d|XCHG %r10d,%r8d
-BSWAP %r8d,%r10d;BSWAP %r10d,%r8d
-BSWAP %r8d,%r10d|BSWAP %r10d,%r8d
 XCHG %r8d,%r11d;XCHG %r11d,%r8d
 XCHG %r8d,%r11d|XCHG %r11d,%r8d
-BSWAP %r8d,%r11d;BSWAP %r11d,%r8d
-BSWAP %r8d,%r11d|BSWAP %r11d,%r8d
 XCHG %r8d,%r12d;XCHG %r12d,%r8d
 XCHG %r8d,%r12d|XCHG %r12d,%r8d
-BSWAP %r8d,%r12d;BSWAP %r12d,%r8d
-BSWAP %r8d,%r12d|BSWAP %r12d,%r8d
 XCHG %r8d,%r13d;XCHG %r13d,%r8d
 XCHG %r8d,%r13d|XCHG %r13d,%r8d
-BSWAP %r8d,%r13d;BSWAP %r13d,%r8d
-BSWAP %r8d,%r13d|BSWAP %r13d,%r8d
 XCHG %r8d,%r14d;XCHG %r14d,%r8d
 XCHG %r8d,%r14d|XCHG %r14d,%r8d
-BSWAP %r8d,%r14d;BSWAP %r14d,%r8d
-BSWAP %r8d,%r14d|BSWAP %r14d,%r8d
 XCHG %r8d,%r15d;XCHG %r15d,%r8d
 XCHG %r8d,%r15d|XCHG %r15d,%r8d
-BSWAP %r8d,%r15d;BSWAP %r15d,%r8d
-BSWAP %r8d,%r15d|BSWAP %r15d,%r8d
 MOV %r9d,%r9d
-MOVSXD %r9d,%r9d
 XCHG %r9d,%r9d
 NOP %r9d
 LEA (%r9d),%r9d
 NOT %r9d;NOT %r9d
 NOT %r9d|NOT %r9d
-CMOVa %r9d,%r9d
-CMOVc %r9d,%r9d
-CMOVg %r9d,%r9d
-CMOVl %r9d,%r9d
-CMOVo %r9d,%r9d
-CMOVp %r9d,%r9d
-CMOVs %r9d,%r9d
-CMOVz %r9d,%r9d
-CMOVna %r9d,%r9d
-CMOVnc %r9d,%r9d
-CMOVng %r9d,%r9d
-CMOVnl %r9d,%r9d
-CMOVno %r9d,%r9d
-CMOVnp %r9d,%r9d
-CMOVns %r9d,%r9d
+BSWAP %r9d;BSWAP %r9d
+BSWAP %r9d|BSWAP %r9d
+CMOVA %r9d,%r9d
+CMOVC %r9d,%r9d
+CMOVG %r9d,%r9d
+CMOVL %r9d,%r9d
+CMOVO %r9d,%r9d
+CMOVP %r9d,%r9d
+CMOVS %r9d,%r9d
+CMOVZ %r9d,%r9d
+CMOVNA %r9d,%r9d
+CMOVNC %r9d,%r9d
+CMOVNG %r9d,%r9d
+CMOVNL %r9d,%r9d
+CMOVNO %r9d,%r9d
+CMOVNP %r9d,%r9d
+CMOVNS %r9d,%r9d
 XCHG %r9d,%eax;XCHG %eax,%r9d
 XCHG %r9d,%eax|XCHG %eax,%r9d
-BSWAP %r9d,%eax;BSWAP %eax,%r9d
-BSWAP %r9d,%eax|BSWAP %eax,%r9d
 XCHG %r9d,%ebx;XCHG %ebx,%r9d
 XCHG %r9d,%ebx|XCHG %ebx,%r9d
-BSWAP %r9d,%ebx;BSWAP %ebx,%r9d
-BSWAP %r9d,%ebx|BSWAP %ebx,%r9d
 XCHG %r9d,%ecx;XCHG %ecx,%r9d
 XCHG %r9d,%ecx|XCHG %ecx,%r9d
-BSWAP %r9d,%ecx;BSWAP %ecx,%r9d
-BSWAP %r9d,%ecx|BSWAP %ecx,%r9d
 XCHG %r9d,%edx;XCHG %edx,%r9d
 XCHG %r9d,%edx|XCHG %edx,%r9d
-BSWAP %r9d,%edx;BSWAP %edx,%r9d
-BSWAP %r9d,%edx|BSWAP %edx,%r9d
 XCHG %r9d,%r8d;XCHG %r8d,%r9d
 XCHG %r9d,%r8d|XCHG %r8d,%r9d
-BSWAP %r9d,%r8d;BSWAP %r8d,%r9d
-BSWAP %r9d,%r8d|BSWAP %r8d,%r9d
 XCHG %r9d,%r9d;XCHG %r9d,%r9d
 XCHG %r9d,%r9d|XCHG %r9d,%r9d
-BSWAP %r9d,%r9d;BSWAP %r9d,%r9d
-BSWAP %r9d,%r9d|BSWAP %r9d,%r9d
 XCHG %r9d,%r10d;XCHG %r10d,%r9d
 XCHG %r9d,%r10d|XCHG %r10d,%r9d
-BSWAP %r9d,%r10d;BSWAP %r10d,%r9d
-BSWAP %r9d,%r10d|BSWAP %r10d,%r9d
 XCHG %r9d,%r11d;XCHG %r11d,%r9d
 XCHG %r9d,%r11d|XCHG %r11d,%r9d
-BSWAP %r9d,%r11d;BSWAP %r11d,%r9d
-BSWAP %r9d,%r11d|BSWAP %r11d,%r9d
 XCHG %r9d,%r12d;XCHG %r12d,%r9d
 XCHG %r9d,%r12d|XCHG %r12d,%r9d
-BSWAP %r9d,%r12d;BSWAP %r12d,%r9d
-BSWAP %r9d,%r12d|BSWAP %r12d,%r9d
 XCHG %r9d,%r13d;XCHG %r13d,%r9d
 XCHG %r9d,%r13d|XCHG %r13d,%r9d
-BSWAP %r9d,%r13d;BSWAP %r13d,%r9d
-BSWAP %r9d,%r13d|BSWAP %r13d,%r9d
 XCHG %r9d,%r14d;XCHG %r14d,%r9d
 XCHG %r9d,%r14d|XCHG %r14d,%r9d
-BSWAP %r9d,%r14d;BSWAP %r14d,%r9d
-BSWAP %r9d,%r14d|BSWAP %r14d,%r9d
 XCHG %r9d,%r15d;XCHG %r15d,%r9d
 XCHG %r9d,%r15d|XCHG %r15d,%r9d
-BSWAP %r9d,%r15d;BSWAP %r15d,%r9d
-BSWAP %r9d,%r15d|BSWAP %r15d,%r9d
 MOV %r10d,%r10d
-MOVSXD %r10d,%r10d
 XCHG %r10d,%r10d
 NOP %r10d
 LEA (%r10d),%r10d
 NOT %r10d;NOT %r10d
 NOT %r10d|NOT %r10d
-CMOVa %r10d,%r10d
-CMOVc %r10d,%r10d
-CMOVg %r10d,%r10d
-CMOVl %r10d,%r10d
-CMOVo %r10d,%r10d
-CMOVp %r10d,%r10d
-CMOVs %r10d,%r10d
-CMOVz %r10d,%r10d
-CMOVna %r10d,%r10d
-CMOVnc %r10d,%r10d
-CMOVng %r10d,%r10d
-CMOVnl %r10d,%r10d
-CMOVno %r10d,%r10d
-CMOVnp %r10d,%r10d
-CMOVns %r10d,%r10d
+BSWAP %r10d;BSWAP %r10d
+BSWAP %r10d|BSWAP %r10d
+CMOVA %r10d,%r10d
+CMOVC %r10d,%r10d
+CMOVG %r10d,%r10d
+CMOVL %r10d,%r10d
+CMOVO %r10d,%r10d
+CMOVP %r10d,%r10d
+CMOVS %r10d,%r10d
+CMOVZ %r10d,%r10d
+CMOVNA %r10d,%r10d
+CMOVNC %r10d,%r10d
+CMOVNG %r10d,%r10d
+CMOVNL %r10d,%r10d
+CMOVNO %r10d,%r10d
+CMOVNP %r10d,%r10d
+CMOVNS %r10d,%r10d
 XCHG %r10d,%eax;XCHG %eax,%r10d
 XCHG %r10d,%eax|XCHG %eax,%r10d
-BSWAP %r10d,%eax;BSWAP %eax,%r10d
-BSWAP %r10d,%eax|BSWAP %eax,%r10d
 XCHG %r10d,%ebx;XCHG %ebx,%r10d
 XCHG %r10d,%ebx|XCHG %ebx,%r10d
-BSWAP %r10d,%ebx;BSWAP %ebx,%r10d
-BSWAP %r10d,%ebx|BSWAP %ebx,%r10d
 XCHG %r10d,%ecx;XCHG %ecx,%r10d
 XCHG %r10d,%ecx|XCHG %ecx,%r10d
-BSWAP %r10d,%ecx;BSWAP %ecx,%r10d
-BSWAP %r10d,%ecx|BSWAP %ecx,%r10d
 XCHG %r10d,%edx;XCHG %edx,%r10d
 XCHG %r10d,%edx|XCHG %edx,%r10d
-BSWAP %r10d,%edx;BSWAP %edx,%r10d
-BSWAP %r10d,%edx|BSWAP %edx,%r10d
 XCHG %r10d,%r8d;XCHG %r8d,%r10d
 XCHG %r10d,%r8d|XCHG %r8d,%r10d
-BSWAP %r10d,%r8d;BSWAP %r8d,%r10d
-BSWAP %r10d,%r8d|BSWAP %r8d,%r10d
 XCHG %r10d,%r9d;XCHG %r9d,%r10d
 XCHG %r10d,%r9d|XCHG %r9d,%r10d
-BSWAP %r10d,%r9d;BSWAP %r9d,%r10d
-BSWAP %r10d,%r9d|BSWAP %r9d,%r10d
 XCHG %r10d,%r10d;XCHG %r10d,%r10d
 XCHG %r10d,%r10d|XCHG %r10d,%r10d
-BSWAP %r10d,%r10d;BSWAP %r10d,%r10d
-BSWAP %r10d,%r10d|BSWAP %r10d,%r10d
 XCHG %r10d,%r11d;XCHG %r11d,%r10d
 XCHG %r10d,%r11d|XCHG %r11d,%r10d
-BSWAP %r10d,%r11d;BSWAP %r11d,%r10d
-BSWAP %r10d,%r11d|BSWAP %r11d,%r10d
 XCHG %r10d,%r12d;XCHG %r12d,%r10d
 XCHG %r10d,%r12d|XCHG %r12d,%r10d
-BSWAP %r10d,%r12d;BSWAP %r12d,%r10d
-BSWAP %r10d,%r12d|BSWAP %r12d,%r10d
 XCHG %r10d,%r13d;XCHG %r13d,%r10d
 XCHG %r10d,%r13d|XCHG %r13d,%r10d
-BSWAP %r10d,%r13d;BSWAP %r13d,%r10d
-BSWAP %r10d,%r13d|BSWAP %r13d,%r10d
 XCHG %r10d,%r14d;XCHG %r14d,%r10d
 XCHG %r10d,%r14d|XCHG %r14d,%r10d
-BSWAP %r10d,%r14d;BSWAP %r14d,%r10d
-BSWAP %r10d,%r14d|BSWAP %r14d,%r10d
 XCHG %r10d,%r15d;XCHG %r15d,%r10d
 XCHG %r10d,%r15d|XCHG %r15d,%r10d
-BSWAP %r10d,%r15d;BSWAP %r15d,%r10d
-BSWAP %r10d,%r15d|BSWAP %r15d,%r10d
 MOV %r11d,%r11d
-MOVSXD %r11d,%r11d
 XCHG %r11d,%r11d
 NOP %r11d
 LEA (%r11d),%r11d
 NOT %r11d;NOT %r11d
 NOT %r11d|NOT %r11d
-CMOVa %r11d,%r11d
-CMOVc %r11d,%r11d
-CMOVg %r11d,%r11d
-CMOVl %r11d,%r11d
-CMOVo %r11d,%r11d
-CMOVp %r11d,%r11d
-CMOVs %r11d,%r11d
-CMOVz %r11d,%r11d
-CMOVna %r11d,%r11d
-CMOVnc %r11d,%r11d
-CMOVng %r11d,%r11d
-CMOVnl %r11d,%r11d
-CMOVno %r11d,%r11d
-CMOVnp %r11d,%r11d
-CMOVns %r11d,%r11d
+BSWAP %r11d;BSWAP %r11d
+BSWAP %r11d|BSWAP %r11d
+CMOVA %r11d,%r11d
+CMOVC %r11d,%r11d
+CMOVG %r11d,%r11d
+CMOVL %r11d,%r11d
+CMOVO %r11d,%r11d
+CMOVP %r11d,%r11d
+CMOVS %r11d,%r11d
+CMOVZ %r11d,%r11d
+CMOVNA %r11d,%r11d
+CMOVNC %r11d,%r11d
+CMOVNG %r11d,%r11d
+CMOVNL %r11d,%r11d
+CMOVNO %r11d,%r11d
+CMOVNP %r11d,%r11d
+CMOVNS %r11d,%r11d
 XCHG %r11d,%eax;XCHG %eax,%r11d
 XCHG %r11d,%eax|XCHG %eax,%r11d
-BSWAP %r11d,%eax;BSWAP %eax,%r11d
-BSWAP %r11d,%eax|BSWAP %eax,%r11d
 XCHG %r11d,%ebx;XCHG %ebx,%r11d
 XCHG %r11d,%ebx|XCHG %ebx,%r11d
-BSWAP %r11d,%ebx;BSWAP %ebx,%r11d
-BSWAP %r11d,%ebx|BSWAP %ebx,%r11d
 XCHG %r11d,%ecx;XCHG %ecx,%r11d
 XCHG %r11d,%ecx|XCHG %ecx,%r11d
-BSWAP %r11d,%ecx;BSWAP %ecx,%r11d
-BSWAP %r11d,%ecx|BSWAP %ecx,%r11d
 XCHG %r11d,%edx;XCHG %edx,%r11d
 XCHG %r11d,%edx|XCHG %edx,%r11d
-BSWAP %r11d,%edx;BSWAP %edx,%r11d
-BSWAP %r11d,%edx|BSWAP %edx,%r11d
 XCHG %r11d,%r8d;XCHG %r8d,%r11d
 XCHG %r11d,%r8d|XCHG %r8d,%r11d
-BSWAP %r11d,%r8d;BSWAP %r8d,%r11d
-BSWAP %r11d,%r8d|BSWAP %r8d,%r11d
 XCHG %r11d,%r9d;XCHG %r9d,%r11d
 XCHG %r11d,%r9d|XCHG %r9d,%r11d
-BSWAP %r11d,%r9d;BSWAP %r9d,%r11d
-BSWAP %r11d,%r9d|BSWAP %r9d,%r11d
 XCHG %r11d,%r10d;XCHG %r10d,%r11d
 XCHG %r11d,%r10d|XCHG %r10d,%r11d
-BSWAP %r11d,%r10d;BSWAP %r10d,%r11d
-BSWAP %r11d,%r10d|BSWAP %r10d,%r11d
 XCHG %r11d,%r11d;XCHG %r11d,%r11d
 XCHG %r11d,%r11d|XCHG %r11d,%r11d
-BSWAP %r11d,%r11d;BSWAP %r11d,%r11d
-BSWAP %r11d,%r11d|BSWAP %r11d,%r11d
 XCHG %r11d,%r12d;XCHG %r12d,%r11d
 XCHG %r11d,%r12d|XCHG %r12d,%r11d
-BSWAP %r11d,%r12d;BSWAP %r12d,%r11d
-BSWAP %r11d,%r12d|BSWAP %r12d,%r11d
 XCHG %r11d,%r13d;XCHG %r13d,%r11d
 XCHG %r11d,%r13d|XCHG %r13d,%r11d
-BSWAP %r11d,%r13d;BSWAP %r13d,%r11d
-BSWAP %r11d,%r13d|BSWAP %r13d,%r11d
 XCHG %r11d,%r14d;XCHG %r14d,%r11d
 XCHG %r11d,%r14d|XCHG %r14d,%r11d
-BSWAP %r11d,%r14d;BSWAP %r14d,%r11d
-BSWAP %r11d,%r14d|BSWAP %r14d,%r11d
 XCHG %r11d,%r15d;XCHG %r15d,%r11d
 XCHG %r11d,%r15d|XCHG %r15d,%r11d
-BSWAP %r11d,%r15d;BSWAP %r15d,%r11d
-BSWAP %r11d,%r15d|BSWAP %r15d,%r11d
 MOV %r12d,%r12d
-MOVSXD %r12d,%r12d
 XCHG %r12d,%r12d
 NOP %r12d
 LEA (%r12d),%r12d
 NOT %r12d;NOT %r12d
 NOT %r12d|NOT %r12d
-CMOVa %r12d,%r12d
-CMOVc %r12d,%r12d
-CMOVg %r12d,%r12d
-CMOVl %r12d,%r12d
-CMOVo %r12d,%r12d
-CMOVp %r12d,%r12d
-CMOVs %r12d,%r12d
-CMOVz %r12d,%r12d
-CMOVna %r12d,%r12d
-CMOVnc %r12d,%r12d
-CMOVng %r12d,%r12d
-CMOVnl %r12d,%r12d
-CMOVno %r12d,%r12d
-CMOVnp %r12d,%r12d
-CMOVns %r12d,%r12d
+BSWAP %r12d;BSWAP %r12d
+BSWAP %r12d|BSWAP %r12d
+CMOVA %r12d,%r12d
+CMOVC %r12d,%r12d
+CMOVG %r12d,%r12d
+CMOVL %r12d,%r12d
+CMOVO %r12d,%r12d
+CMOVP %r12d,%r12d
+CMOVS %r12d,%r12d
+CMOVZ %r12d,%r12d
+CMOVNA %r12d,%r12d
+CMOVNC %r12d,%r12d
+CMOVNG %r12d,%r12d
+CMOVNL %r12d,%r12d
+CMOVNO %r12d,%r12d
+CMOVNP %r12d,%r12d
+CMOVNS %r12d,%r12d
 XCHG %r12d,%eax;XCHG %eax,%r12d
 XCHG %r12d,%eax|XCHG %eax,%r12d
-BSWAP %r12d,%eax;BSWAP %eax,%r12d
-BSWAP %r12d,%eax|BSWAP %eax,%r12d
 XCHG %r12d,%ebx;XCHG %ebx,%r12d
 XCHG %r12d,%ebx|XCHG %ebx,%r12d
-BSWAP %r12d,%ebx;BSWAP %ebx,%r12d
-BSWAP %r12d,%ebx|BSWAP %ebx,%r12d
 XCHG %r12d,%ecx;XCHG %ecx,%r12d
 XCHG %r12d,%ecx|XCHG %ecx,%r12d
-BSWAP %r12d,%ecx;BSWAP %ecx,%r12d
-BSWAP %r12d,%ecx|BSWAP %ecx,%r12d
 XCHG %r12d,%edx;XCHG %edx,%r12d
 XCHG %r12d,%edx|XCHG %edx,%r12d
-BSWAP %r12d,%edx;BSWAP %edx,%r12d
-BSWAP %r12d,%edx|BSWAP %edx,%r12d
 XCHG %r12d,%r8d;XCHG %r8d,%r12d
 XCHG %r12d,%r8d|XCHG %r8d,%r12d
-BSWAP %r12d,%r8d;BSWAP %r8d,%r12d
-BSWAP %r12d,%r8d|BSWAP %r8d,%r12d
 XCHG %r12d,%r9d;XCHG %r9d,%r12d
 XCHG %r12d,%r9d|XCHG %r9d,%r12d
-BSWAP %r12d,%r9d;BSWAP %r9d,%r12d
-BSWAP %r12d,%r9d|BSWAP %r9d,%r12d
 XCHG %r12d,%r10d;XCHG %r10d,%r12d
 XCHG %r12d,%r10d|XCHG %r10d,%r12d
-BSWAP %r12d,%r10d;BSWAP %r10d,%r12d
-BSWAP %r12d,%r10d|BSWAP %r10d,%r12d
 XCHG %r12d,%r11d;XCHG %r11d,%r12d
 XCHG %r12d,%r11d|XCHG %r11d,%r12d
-BSWAP %r12d,%r11d;BSWAP %r11d,%r12d
-BSWAP %r12d,%r11d|BSWAP %r11d,%r12d
 XCHG %r12d,%r12d;XCHG %r12d,%r12d
 XCHG %r12d,%r12d|XCHG %r12d,%r12d
-BSWAP %r12d,%r12d;BSWAP %r12d,%r12d
-BSWAP %r12d,%r12d|BSWAP %r12d,%r12d
 XCHG %r12d,%r13d;XCHG %r13d,%r12d
 XCHG %r12d,%r13d|XCHG %r13d,%r12d
-BSWAP %r12d,%r13d;BSWAP %r13d,%r12d
-BSWAP %r12d,%r13d|BSWAP %r13d,%r12d
 XCHG %r12d,%r14d;XCHG %r14d,%r12d
 XCHG %r12d,%r14d|XCHG %r14d,%r12d
-BSWAP %r12d,%r14d;BSWAP %r14d,%r12d
-BSWAP %r12d,%r14d|BSWAP %r14d,%r12d
 XCHG %r12d,%r15d;XCHG %r15d,%r12d
 XCHG %r12d,%r15d|XCHG %r15d,%r12d
-BSWAP %r12d,%r15d;BSWAP %r15d,%r12d
-BSWAP %r12d,%r15d|BSWAP %r15d,%r12d
 MOV %r13d,%r13d
-MOVSXD %r13d,%r13d
 XCHG %r13d,%r13d
 NOP %r13d
 LEA (%r13d),%r13d
 NOT %r13d;NOT %r13d
 NOT %r13d|NOT %r13d
-CMOVa %r13d,%r13d
-CMOVc %r13d,%r13d
-CMOVg %r13d,%r13d
-CMOVl %r13d,%r13d
-CMOVo %r13d,%r13d
-CMOVp %r13d,%r13d
-CMOVs %r13d,%r13d
-CMOVz %r13d,%r13d
-CMOVna %r13d,%r13d
-CMOVnc %r13d,%r13d
-CMOVng %r13d,%r13d
-CMOVnl %r13d,%r13d
-CMOVno %r13d,%r13d
-CMOVnp %r13d,%r13d
-CMOVns %r13d,%r13d
+BSWAP %r13d;BSWAP %r13d
+BSWAP %r13d|BSWAP %r13d
+CMOVA %r13d,%r13d
+CMOVC %r13d,%r13d
+CMOVG %r13d,%r13d
+CMOVL %r13d,%r13d
+CMOVO %r13d,%r13d
+CMOVP %r13d,%r13d
+CMOVS %r13d,%r13d
+CMOVZ %r13d,%r13d
+CMOVNA %r13d,%r13d
+CMOVNC %r13d,%r13d
+CMOVNG %r13d,%r13d
+CMOVNL %r13d,%r13d
+CMOVNO %r13d,%r13d
+CMOVNP %r13d,%r13d
+CMOVNS %r13d,%r13d
 XCHG %r13d,%eax;XCHG %eax,%r13d
 XCHG %r13d,%eax|XCHG %eax,%r13d
-BSWAP %r13d,%eax;BSWAP %eax,%r13d
-BSWAP %r13d,%eax|BSWAP %eax,%r13d
 XCHG %r13d,%ebx;XCHG %ebx,%r13d
 XCHG %r13d,%ebx|XCHG %ebx,%r13d
-BSWAP %r13d,%ebx;BSWAP %ebx,%r13d
-BSWAP %r13d,%ebx|BSWAP %ebx,%r13d
 XCHG %r13d,%ecx;XCHG %ecx,%r13d
 XCHG %r13d,%ecx|XCHG %ecx,%r13d
-BSWAP %r13d,%ecx;BSWAP %ecx,%r13d
-BSWAP %r13d,%ecx|BSWAP %ecx,%r13d
 XCHG %r13d,%edx;XCHG %edx,%r13d
 XCHG %r13d,%edx|XCHG %edx,%r13d
-BSWAP %r13d,%edx;BSWAP %edx,%r13d
-BSWAP %r13d,%edx|BSWAP %edx,%r13d
 XCHG %r13d,%r8d;XCHG %r8d,%r13d
 XCHG %r13d,%r8d|XCHG %r8d,%r13d
-BSWAP %r13d,%r8d;BSWAP %r8d,%r13d
-BSWAP %r13d,%r8d|BSWAP %r8d,%r13d
 XCHG %r13d,%r9d;XCHG %r9d,%r13d
 XCHG %r13d,%r9d|XCHG %r9d,%r13d
-BSWAP %r13d,%r9d;BSWAP %r9d,%r13d
-BSWAP %r13d,%r9d|BSWAP %r9d,%r13d
 XCHG %r13d,%r10d;XCHG %r10d,%r13d
 XCHG %r13d,%r10d|XCHG %r10d,%r13d
-BSWAP %r13d,%r10d;BSWAP %r10d,%r13d
-BSWAP %r13d,%r10d|BSWAP %r10d,%r13d
 XCHG %r13d,%r11d;XCHG %r11d,%r13d
 XCHG %r13d,%r11d|XCHG %r11d,%r13d
-BSWAP %r13d,%r11d;BSWAP %r11d,%r13d
-BSWAP %r13d,%r11d|BSWAP %r11d,%r13d
 XCHG %r13d,%r12d;XCHG %r12d,%r13d
 XCHG %r13d,%r12d|XCHG %r12d,%r13d
-BSWAP %r13d,%r12d;BSWAP %r12d,%r13d
-BSWAP %r13d,%r12d|BSWAP %r12d,%r13d
 XCHG %r13d,%r13d;XCHG %r13d,%r13d
 XCHG %r13d,%r13d|XCHG %r13d,%r13d
-BSWAP %r13d,%r13d;BSWAP %r13d,%r13d
-BSWAP %r13d,%r13d|BSWAP %r13d,%r13d
 XCHG %r13d,%r14d;XCHG %r14d,%r13d
 XCHG %r13d,%r14d|XCHG %r14d,%r13d
-BSWAP %r13d,%r14d;BSWAP %r14d,%r13d
-BSWAP %r13d,%r14d|BSWAP %r14d,%r13d
 XCHG %r13d,%r15d;XCHG %r15d,%r13d
 XCHG %r13d,%r15d|XCHG %r15d,%r13d
-BSWAP %r13d,%r15d;BSWAP %r15d,%r13d
-BSWAP %r13d,%r15d|BSWAP %r15d,%r13d
 MOV %r14d,%r14d
-MOVSXD %r14d,%r14d
 XCHG %r14d,%r14d
 NOP %r14d
 LEA (%r14d),%r14d
 NOT %r14d;NOT %r14d
 NOT %r14d|NOT %r14d
-CMOVa %r14d,%r14d
-CMOVc %r14d,%r14d
-CMOVg %r14d,%r14d
-CMOVl %r14d,%r14d
-CMOVo %r14d,%r14d
-CMOVp %r14d,%r14d
-CMOVs %r14d,%r14d
-CMOVz %r14d,%r14d
-CMOVna %r14d,%r14d
-CMOVnc %r14d,%r14d
-CMOVng %r14d,%r14d
-CMOVnl %r14d,%r14d
-CMOVno %r14d,%r14d
-CMOVnp %r14d,%r14d
-CMOVns %r14d,%r14d
+BSWAP %r14d;BSWAP %r14d
+BSWAP %r14d|BSWAP %r14d
+CMOVA %r14d,%r14d
+CMOVC %r14d,%r14d
+CMOVG %r14d,%r14d
+CMOVL %r14d,%r14d
+CMOVO %r14d,%r14d
+CMOVP %r14d,%r14d
+CMOVS %r14d,%r14d
+CMOVZ %r14d,%r14d
+CMOVNA %r14d,%r14d
+CMOVNC %r14d,%r14d
+CMOVNG %r14d,%r14d
+CMOVNL %r14d,%r14d
+CMOVNO %r14d,%r14d
+CMOVNP %r14d,%r14d
+CMOVNS %r14d,%r14d
 XCHG %r14d,%eax;XCHG %eax,%r14d
 XCHG %r14d,%eax|XCHG %eax,%r14d
-BSWAP %r14d,%eax;BSWAP %eax,%r14d
-BSWAP %r14d,%eax|BSWAP %eax,%r14d
 XCHG %r14d,%ebx;XCHG %ebx,%r14d
 XCHG %r14d,%ebx|XCHG %ebx,%r14d
-BSWAP %r14d,%ebx;BSWAP %ebx,%r14d
-BSWAP %r14d,%ebx|BSWAP %ebx,%r14d
 XCHG %r14d,%ecx;XCHG %ecx,%r14d
 XCHG %r14d,%ecx|XCHG %ecx,%r14d
-BSWAP %r14d,%ecx;BSWAP %ecx,%r14d
-BSWAP %r14d,%ecx|BSWAP %ecx,%r14d
 XCHG %r14d,%edx;XCHG %edx,%r14d
 XCHG %r14d,%edx|XCHG %edx,%r14d
-BSWAP %r14d,%edx;BSWAP %edx,%r14d
-BSWAP %r14d,%edx|BSWAP %edx,%r14d
 XCHG %r14d,%r8d;XCHG %r8d,%r14d
 XCHG %r14d,%r8d|XCHG %r8d,%r14d
-BSWAP %r14d,%r8d;BSWAP %r8d,%r14d
-BSWAP %r14d,%r8d|BSWAP %r8d,%r14d
 XCHG %r14d,%r9d;XCHG %r9d,%r14d
 XCHG %r14d,%r9d|XCHG %r9d,%r14d
-BSWAP %r14d,%r9d;BSWAP %r9d,%r14d
-BSWAP %r14d,%r9d|BSWAP %r9d,%r14d
 XCHG %r14d,%r10d;XCHG %r10d,%r14d
 XCHG %r14d,%r10d|XCHG %r10d,%r14d
-BSWAP %r14d,%r10d;BSWAP %r10d,%r14d
-BSWAP %r14d,%r10d|BSWAP %r10d,%r14d
 XCHG %r14d,%r11d;XCHG %r11d,%r14d
 XCHG %r14d,%r11d|XCHG %r11d,%r14d
-BSWAP %r14d,%r11d;BSWAP %r11d,%r14d
-BSWAP %r14d,%r11d|BSWAP %r11d,%r14d
 XCHG %r14d,%r12d;XCHG %r12d,%r14d
 XCHG %r14d,%r12d|XCHG %r12d,%r14d
-BSWAP %r14d,%r12d;BSWAP %r12d,%r14d
-BSWAP %r14d,%r12d|BSWAP %r12d,%r14d
 XCHG %r14d,%r13d;XCHG %r13d,%r14d
 XCHG %r14d,%r13d|XCHG %r13d,%r14d
-BSWAP %r14d,%r13d;BSWAP %r13d,%r14d
-BSWAP %r14d,%r13d|BSWAP %r13d,%r14d
 XCHG %r14d,%r14d;XCHG %r14d,%r14d
 XCHG %r14d,%r14d|XCHG %r14d,%r14d
-BSWAP %r14d,%r14d;BSWAP %r14d,%r14d
-BSWAP %r14d,%r14d|BSWAP %r14d,%r14d
 XCHG %r14d,%r15d;XCHG %r15d,%r14d
 XCHG %r14d,%r15d|XCHG %r15d,%r14d
-BSWAP %r14d,%r15d;BSWAP %r15d,%r14d
-BSWAP %r14d,%r15d|BSWAP %r15d,%r14d
 MOV %r15d,%r15d
-MOVSXD %r15d,%r15d
 XCHG %r15d,%r15d
 NOP %r15d
 LEA (%r15d),%r15d
 NOT %r15d;NOT %r15d
 NOT %r15d|NOT %r15d
-CMOVa %r15d,%r15d
-CMOVc %r15d,%r15d
-CMOVg %r15d,%r15d
-CMOVl %r15d,%r15d
-CMOVo %r15d,%r15d
-CMOVp %r15d,%r15d
-CMOVs %r15d,%r15d
-CMOVz %r15d,%r15d
-CMOVna %r15d,%r15d
-CMOVnc %r15d,%r15d
-CMOVng %r15d,%r15d
-CMOVnl %r15d,%r15d
-CMOVno %r15d,%r15d
-CMOVnp %r15d,%r15d
-CMOVns %r15d,%r15d
+BSWAP %r15d;BSWAP %r15d
+BSWAP %r15d|BSWAP %r15d
+CMOVA %r15d,%r15d
+CMOVC %r15d,%r15d
+CMOVG %r15d,%r15d
+CMOVL %r15d,%r15d
+CMOVO %r15d,%r15d
+CMOVP %r15d,%r15d
+CMOVS %r15d,%r15d
+CMOVZ %r15d,%r15d
+CMOVNA %r15d,%r15d
+CMOVNC %r15d,%r15d
+CMOVNG %r15d,%r15d
+CMOVNL %r15d,%r15d
+CMOVNO %r15d,%r15d
+CMOVNP %r15d,%r15d
+CMOVNS %r15d,%r15d
 XCHG %r15d,%eax;XCHG %eax,%r15d
 XCHG %r15d,%eax|XCHG %eax,%r15d
-BSWAP %r15d,%eax;BSWAP %eax,%r15d
-BSWAP %r15d,%eax|BSWAP %eax,%r15d
 XCHG %r15d,%ebx;XCHG %ebx,%r15d
 XCHG %r15d,%ebx|XCHG %ebx,%r15d
-BSWAP %r15d,%ebx;BSWAP %ebx,%r15d
-BSWAP %r15d,%ebx|BSWAP %ebx,%r15d
 XCHG %r15d,%ecx;XCHG %ecx,%r15d
 XCHG %r15d,%ecx|XCHG %ecx,%r15d
-BSWAP %r15d,%ecx;BSWAP %ecx,%r15d
-BSWAP %r15d,%ecx|BSWAP %ecx,%r15d
 XCHG %r15d,%edx;XCHG %edx,%r15d
 XCHG %r15d,%edx|XCHG %edx,%r15d
-BSWAP %r15d,%edx;BSWAP %edx,%r15d
-BSWAP %r15d,%edx|BSWAP %edx,%r15d
 XCHG %r15d,%r8d;XCHG %r8d,%r15d
 XCHG %r15d,%r8d|XCHG %r8d,%r15d
-BSWAP %r15d,%r8d;BSWAP %r8d,%r15d
-BSWAP %r15d,%r8d|BSWAP %r8d,%r15d
 XCHG %r15d,%r9d;XCHG %r9d,%r15d
 XCHG %r15d,%r9d|XCHG %r9d,%r15d
-BSWAP %r15d,%r9d;BSWAP %r9d,%r15d
-BSWAP %r15d,%r9d|BSWAP %r9d,%r15d
 XCHG %r15d,%r10d;XCHG %r10d,%r15d
 XCHG %r15d,%r10d|XCHG %r10d,%r15d
-BSWAP %r15d,%r10d;BSWAP %r10d,%r15d
-BSWAP %r15d,%r10d|BSWAP %r10d,%r15d
 XCHG %r15d,%r11d;XCHG %r11d,%r15d
 XCHG %r15d,%r11d|XCHG %r11d,%r15d
-BSWAP %r15d,%r11d;BSWAP %r11d,%r15d
-BSWAP %r15d,%r11d|BSWAP %r11d,%r15d
 XCHG %r15d,%r12d;XCHG %r12d,%r15d
 XCHG %r15d,%r12d|XCHG %r12d,%r15d
-BSWAP %r15d,%r12d;BSWAP %r12d,%r15d
-BSWAP %r15d,%r12d|BSWAP %r12d,%r15d
 XCHG %r15d,%r13d;XCHG %r13d,%r15d
 XCHG %r15d,%r13d|XCHG %r13d,%r15d
-BSWAP %r15d,%r13d;BSWAP %r13d,%r15d
-BSWAP %r15d,%r13d|BSWAP %r13d,%r15d
 XCHG %r15d,%r14d;XCHG %r14d,%r15d
 XCHG %r15d,%r14d|XCHG %r14d,%r15d
-BSWAP %r15d,%r14d;BSWAP %r14d,%r15d
-BSWAP %r15d,%r14d|BSWAP %r14d,%r15d
 XCHG %r15d,%r15d;XCHG %r15d,%r15d
 XCHG %r15d,%r15d|XCHG %r15d,%r15d
-BSWAP %r15d,%r15d;BSWAP %r15d,%r15d
-BSWAP %r15d,%r15d|BSWAP %r15d,%r15d
 MOV %ax,%ax
 XCHG %ax,%ax
 NOP %ax
@@ -1688,69 +1148,45 @@ PUSH %ax;POP %ax
 PUSH %ax|POP %ax
 NOT %ax;NOT %ax
 NOT %ax|NOT %ax
-CMOVa %ax,%ax
-CMOVc %ax,%ax
-CMOVg %ax,%ax
-CMOVl %ax,%ax
-CMOVo %ax,%ax
-CMOVp %ax,%ax
-CMOVs %ax,%ax
-CMOVz %ax,%ax
-CMOVna %ax,%ax
-CMOVnc %ax,%ax
-CMOVng %ax,%ax
-CMOVnl %ax,%ax
-CMOVno %ax,%ax
-CMOVnp %ax,%ax
-CMOVns %ax,%ax
+CMOVA %ax,%ax
+CMOVC %ax,%ax
+CMOVG %ax,%ax
+CMOVL %ax,%ax
+CMOVO %ax,%ax
+CMOVP %ax,%ax
+CMOVS %ax,%ax
+CMOVZ %ax,%ax
+CMOVNA %ax,%ax
+CMOVNC %ax,%ax
+CMOVNG %ax,%ax
+CMOVNL %ax,%ax
+CMOVNO %ax,%ax
+CMOVNP %ax,%ax
+CMOVNS %ax,%ax
 XCHG %ax,%ax;XCHG %ax,%ax
 XCHG %ax,%ax|XCHG %ax,%ax
-BSWAP %ax,%ax;BSWAP %ax,%ax
-BSWAP %ax,%ax|BSWAP %ax,%ax
 XCHG %ax,%bx;XCHG %bx,%ax
 XCHG %ax,%bx|XCHG %bx,%ax
-BSWAP %ax,%bx;BSWAP %bx,%ax
-BSWAP %ax,%bx|BSWAP %bx,%ax
 XCHG %ax,%cx;XCHG %cx,%ax
 XCHG %ax,%cx|XCHG %cx,%ax
-BSWAP %ax,%cx;BSWAP %cx,%ax
-BSWAP %ax,%cx|BSWAP %cx,%ax
 XCHG %ax,%dx;XCHG %dx,%ax
 XCHG %ax,%dx|XCHG %dx,%ax
-BSWAP %ax,%dx;BSWAP %dx,%ax
-BSWAP %ax,%dx|BSWAP %dx,%ax
 XCHG %ax,%r8w;XCHG %r8w,%ax
 XCHG %ax,%r8w|XCHG %r8w,%ax
-BSWAP %ax,%r8w;BSWAP %r8w,%ax
-BSWAP %ax,%r8w|BSWAP %r8w,%ax
 XCHG %ax,%r9w;XCHG %r9w,%ax
 XCHG %ax,%r9w|XCHG %r9w,%ax
-BSWAP %ax,%r9w;BSWAP %r9w,%ax
-BSWAP %ax,%r9w|BSWAP %r9w,%ax
 XCHG %ax,%r10w;XCHG %r10w,%ax
 XCHG %ax,%r10w|XCHG %r10w,%ax
-BSWAP %ax,%r10w;BSWAP %r10w,%ax
-BSWAP %ax,%r10w|BSWAP %r10w,%ax
 XCHG %ax,%r11w;XCHG %r11w,%ax
 XCHG %ax,%r11w|XCHG %r11w,%ax
-BSWAP %ax,%r11w;BSWAP %r11w,%ax
-BSWAP %ax,%r11w|BSWAP %r11w,%ax
 XCHG %ax,%r12w;XCHG %r12w,%ax
 XCHG %ax,%r12w|XCHG %r12w,%ax
-BSWAP %ax,%r12w;BSWAP %r12w,%ax
-BSWAP %ax,%r12w|BSWAP %r12w,%ax
 XCHG %ax,%r13w;XCHG %r13w,%ax
 XCHG %ax,%r13w|XCHG %r13w,%ax
-BSWAP %ax,%r13w;BSWAP %r13w,%ax
-BSWAP %ax,%r13w|BSWAP %r13w,%ax
 XCHG %ax,%r14w;XCHG %r14w,%ax
 XCHG %ax,%r14w|XCHG %r14w,%ax
-BSWAP %ax,%r14w;BSWAP %r14w,%ax
-BSWAP %ax,%r14w|BSWAP %r14w,%ax
 XCHG %ax,%r15w;XCHG %r15w,%ax
 XCHG %ax,%r15w|XCHG %r15w,%ax
-BSWAP %ax,%r15w;BSWAP %r15w,%ax
-BSWAP %ax,%r15w|BSWAP %r15w,%ax
 MOV %bx,%bx
 XCHG %bx,%bx
 NOP %bx
@@ -1758,69 +1194,45 @@ PUSH %bx;POP %bx
 PUSH %bx|POP %bx
 NOT %bx;NOT %bx
 NOT %bx|NOT %bx
-CMOVa %bx,%bx
-CMOVc %bx,%bx
-CMOVg %bx,%bx
-CMOVl %bx,%bx
-CMOVo %bx,%bx
-CMOVp %bx,%bx
-CMOVs %bx,%bx
-CMOVz %bx,%bx
-CMOVna %bx,%bx
-CMOVnc %bx,%bx
-CMOVng %bx,%bx
-CMOVnl %bx,%bx
-CMOVno %bx,%bx
-CMOVnp %bx,%bx
-CMOVns %bx,%bx
+CMOVA %bx,%bx
+CMOVC %bx,%bx
+CMOVG %bx,%bx
+CMOVL %bx,%bx
+CMOVO %bx,%bx
+CMOVP %bx,%bx
+CMOVS %bx,%bx
+CMOVZ %bx,%bx
+CMOVNA %bx,%bx
+CMOVNC %bx,%bx
+CMOVNG %bx,%bx
+CMOVNL %bx,%bx
+CMOVNO %bx,%bx
+CMOVNP %bx,%bx
+CMOVNS %bx,%bx
 XCHG %bx,%ax;XCHG %ax,%bx
 XCHG %bx,%ax|XCHG %ax,%bx
-BSWAP %bx,%ax;BSWAP %ax,%bx
-BSWAP %bx,%ax|BSWAP %ax,%bx
 XCHG %bx,%bx;XCHG %bx,%bx
 XCHG %bx,%bx|XCHG %bx,%bx
-BSWAP %bx,%bx;BSWAP %bx,%bx
-BSWAP %bx,%bx|BSWAP %bx,%bx
 XCHG %bx,%cx;XCHG %cx,%bx
 XCHG %bx,%cx|XCHG %cx,%bx
-BSWAP %bx,%cx;BSWAP %cx,%bx
-BSWAP %bx,%cx|BSWAP %cx,%bx
 XCHG %bx,%dx;XCHG %dx,%bx
 XCHG %bx,%dx|XCHG %dx,%bx
-BSWAP %bx,%dx;BSWAP %dx,%bx
-BSWAP %bx,%dx|BSWAP %dx,%bx
 XCHG %bx,%r8w;XCHG %r8w,%bx
 XCHG %bx,%r8w|XCHG %r8w,%bx
-BSWAP %bx,%r8w;BSWAP %r8w,%bx
-BSWAP %bx,%r8w|BSWAP %r8w,%bx
 XCHG %bx,%r9w;XCHG %r9w,%bx
 XCHG %bx,%r9w|XCHG %r9w,%bx
-BSWAP %bx,%r9w;BSWAP %r9w,%bx
-BSWAP %bx,%r9w|BSWAP %r9w,%bx
 XCHG %bx,%r10w;XCHG %r10w,%bx
 XCHG %bx,%r10w|XCHG %r10w,%bx
-BSWAP %bx,%r10w;BSWAP %r10w,%bx
-BSWAP %bx,%r10w|BSWAP %r10w,%bx
 XCHG %bx,%r11w;XCHG %r11w,%bx
 XCHG %bx,%r11w|XCHG %r11w,%bx
-BSWAP %bx,%r11w;BSWAP %r11w,%bx
-BSWAP %bx,%r11w|BSWAP %r11w,%bx
 XCHG %bx,%r12w;XCHG %r12w,%bx
 XCHG %bx,%r12w|XCHG %r12w,%bx
-BSWAP %bx,%r12w;BSWAP %r12w,%bx
-BSWAP %bx,%r12w|BSWAP %r12w,%bx
 XCHG %bx,%r13w;XCHG %r13w,%bx
 XCHG %bx,%r13w|XCHG %r13w,%bx
-BSWAP %bx,%r13w;BSWAP %r13w,%bx
-BSWAP %bx,%r13w|BSWAP %r13w,%bx
 XCHG %bx,%r14w;XCHG %r14w,%bx
 XCHG %bx,%r14w|XCHG %r14w,%bx
-BSWAP %bx,%r14w;BSWAP %r14w,%bx
-BSWAP %bx,%r14w|BSWAP %r14w,%bx
 XCHG %bx,%r15w;XCHG %r15w,%bx
 XCHG %bx,%r15w|XCHG %r15w,%bx
-BSWAP %bx,%r15w;BSWAP %r15w,%bx
-BSWAP %bx,%r15w|BSWAP %r15w,%bx
 MOV %cx,%cx
 XCHG %cx,%cx
 NOP %cx
@@ -1828,69 +1240,45 @@ PUSH %cx;POP %cx
 PUSH %cx|POP %cx
 NOT %cx;NOT %cx
 NOT %cx|NOT %cx
-CMOVa %cx,%cx
-CMOVc %cx,%cx
-CMOVg %cx,%cx
-CMOVl %cx,%cx
-CMOVo %cx,%cx
-CMOVp %cx,%cx
-CMOVs %cx,%cx
-CMOVz %cx,%cx
-CMOVna %cx,%cx
-CMOVnc %cx,%cx
-CMOVng %cx,%cx
-CMOVnl %cx,%cx
-CMOVno %cx,%cx
-CMOVnp %cx,%cx
-CMOVns %cx,%cx
+CMOVA %cx,%cx
+CMOVC %cx,%cx
+CMOVG %cx,%cx
+CMOVL %cx,%cx
+CMOVO %cx,%cx
+CMOVP %cx,%cx
+CMOVS %cx,%cx
+CMOVZ %cx,%cx
+CMOVNA %cx,%cx
+CMOVNC %cx,%cx
+CMOVNG %cx,%cx
+CMOVNL %cx,%cx
+CMOVNO %cx,%cx
+CMOVNP %cx,%cx
+CMOVNS %cx,%cx
 XCHG %cx,%ax;XCHG %ax,%cx
 XCHG %cx,%ax|XCHG %ax,%cx
-BSWAP %cx,%ax;BSWAP %ax,%cx
-BSWAP %cx,%ax|BSWAP %ax,%cx
 XCHG %cx,%bx;XCHG %bx,%cx
 XCHG %cx,%bx|XCHG %bx,%cx
-BSWAP %cx,%bx;BSWAP %bx,%cx
-BSWAP %cx,%bx|BSWAP %bx,%cx
 XCHG %cx,%cx;XCHG %cx,%cx
 XCHG %cx,%cx|XCHG %cx,%cx
-BSWAP %cx,%cx;BSWAP %cx,%cx
-BSWAP %cx,%cx|BSWAP %cx,%cx
 XCHG %cx,%dx;XCHG %dx,%cx
 XCHG %cx,%dx|XCHG %dx,%cx
-BSWAP %cx,%dx;BSWAP %dx,%cx
-BSWAP %cx,%dx|BSWAP %dx,%cx
 XCHG %cx,%r8w;XCHG %r8w,%cx
 XCHG %cx,%r8w|XCHG %r8w,%cx
-BSWAP %cx,%r8w;BSWAP %r8w,%cx
-BSWAP %cx,%r8w|BSWAP %r8w,%cx
 XCHG %cx,%r9w;XCHG %r9w,%cx
 XCHG %cx,%r9w|XCHG %r9w,%cx
-BSWAP %cx,%r9w;BSWAP %r9w,%cx
-BSWAP %cx,%r9w|BSWAP %r9w,%cx
 XCHG %cx,%r10w;XCHG %r10w,%cx
 XCHG %cx,%r10w|XCHG %r10w,%cx
-BSWAP %cx,%r10w;BSWAP %r10w,%cx
-BSWAP %cx,%r10w|BSWAP %r10w,%cx
 XCHG %cx,%r11w;XCHG %r11w,%cx
 XCHG %cx,%r11w|XCHG %r11w,%cx
-BSWAP %cx,%r11w;BSWAP %r11w,%cx
-BSWAP %cx,%r11w|BSWAP %r11w,%cx
 XCHG %cx,%r12w;XCHG %r12w,%cx
 XCHG %cx,%r12w|XCHG %r12w,%cx
-BSWAP %cx,%r12w;BSWAP %r12w,%cx
-BSWAP %cx,%r12w|BSWAP %r12w,%cx
 XCHG %cx,%r13w;XCHG %r13w,%cx
 XCHG %cx,%r13w|XCHG %r13w,%cx
-BSWAP %cx,%r13w;BSWAP %r13w,%cx
-BSWAP %cx,%r13w|BSWAP %r13w,%cx
 XCHG %cx,%r14w;XCHG %r14w,%cx
 XCHG %cx,%r14w|XCHG %r14w,%cx
-BSWAP %cx,%r14w;BSWAP %r14w,%cx
-BSWAP %cx,%r14w|BSWAP %r14w,%cx
 XCHG %cx,%r15w;XCHG %r15w,%cx
 XCHG %cx,%r15w|XCHG %r15w,%cx
-BSWAP %cx,%r15w;BSWAP %r15w,%cx
-BSWAP %cx,%r15w|BSWAP %r15w,%cx
 MOV %dx,%dx
 XCHG %dx,%dx
 NOP %dx
@@ -1898,69 +1286,45 @@ PUSH %dx;POP %dx
 PUSH %dx|POP %dx
 NOT %dx;NOT %dx
 NOT %dx|NOT %dx
-CMOVa %dx,%dx
-CMOVc %dx,%dx
-CMOVg %dx,%dx
-CMOVl %dx,%dx
-CMOVo %dx,%dx
-CMOVp %dx,%dx
-CMOVs %dx,%dx
-CMOVz %dx,%dx
-CMOVna %dx,%dx
-CMOVnc %dx,%dx
-CMOVng %dx,%dx
-CMOVnl %dx,%dx
-CMOVno %dx,%dx
-CMOVnp %dx,%dx
-CMOVns %dx,%dx
+CMOVA %dx,%dx
+CMOVC %dx,%dx
+CMOVG %dx,%dx
+CMOVL %dx,%dx
+CMOVO %dx,%dx
+CMOVP %dx,%dx
+CMOVS %dx,%dx
+CMOVZ %dx,%dx
+CMOVNA %dx,%dx
+CMOVNC %dx,%dx
+CMOVNG %dx,%dx
+CMOVNL %dx,%dx
+CMOVNO %dx,%dx
+CMOVNP %dx,%dx
+CMOVNS %dx,%dx
 XCHG %dx,%ax;XCHG %ax,%dx
 XCHG %dx,%ax|XCHG %ax,%dx
-BSWAP %dx,%ax;BSWAP %ax,%dx
-BSWAP %dx,%ax|BSWAP %ax,%dx
 XCHG %dx,%bx;XCHG %bx,%dx
 XCHG %dx,%bx|XCHG %bx,%dx
-BSWAP %dx,%bx;BSWAP %bx,%dx
-BSWAP %dx,%bx|BSWAP %bx,%dx
 XCHG %dx,%cx;XCHG %cx,%dx
 XCHG %dx,%cx|XCHG %cx,%dx
-BSWAP %dx,%cx;BSWAP %cx,%dx
-BSWAP %dx,%cx|BSWAP %cx,%dx
 XCHG %dx,%dx;XCHG %dx,%dx
 XCHG %dx,%dx|XCHG %dx,%dx
-BSWAP %dx,%dx;BSWAP %dx,%dx
-BSWAP %dx,%dx|BSWAP %dx,%dx
 XCHG %dx,%r8w;XCHG %r8w,%dx
 XCHG %dx,%r8w|XCHG %r8w,%dx
-BSWAP %dx,%r8w;BSWAP %r8w,%dx
-BSWAP %dx,%r8w|BSWAP %r8w,%dx
 XCHG %dx,%r9w;XCHG %r9w,%dx
 XCHG %dx,%r9w|XCHG %r9w,%dx
-BSWAP %dx,%r9w;BSWAP %r9w,%dx
-BSWAP %dx,%r9w|BSWAP %r9w,%dx
 XCHG %dx,%r10w;XCHG %r10w,%dx
 XCHG %dx,%r10w|XCHG %r10w,%dx
-BSWAP %dx,%r10w;BSWAP %r10w,%dx
-BSWAP %dx,%r10w|BSWAP %r10w,%dx
 XCHG %dx,%r11w;XCHG %r11w,%dx
 XCHG %dx,%r11w|XCHG %r11w,%dx
-BSWAP %dx,%r11w;BSWAP %r11w,%dx
-BSWAP %dx,%r11w|BSWAP %r11w,%dx
 XCHG %dx,%r12w;XCHG %r12w,%dx
 XCHG %dx,%r12w|XCHG %r12w,%dx
-BSWAP %dx,%r12w;BSWAP %r12w,%dx
-BSWAP %dx,%r12w|BSWAP %r12w,%dx
 XCHG %dx,%r13w;XCHG %r13w,%dx
 XCHG %dx,%r13w|XCHG %r13w,%dx
-BSWAP %dx,%r13w;BSWAP %r13w,%dx
-BSWAP %dx,%r13w|BSWAP %r13w,%dx
 XCHG %dx,%r14w;XCHG %r14w,%dx
 XCHG %dx,%r14w|XCHG %r14w,%dx
-BSWAP %dx,%r14w;BSWAP %r14w,%dx
-BSWAP %dx,%r14w|BSWAP %r14w,%dx
 XCHG %dx,%r15w;XCHG %r15w,%dx
 XCHG %dx,%r15w|XCHG %r15w,%dx
-BSWAP %dx,%r15w;BSWAP %r15w,%dx
-BSWAP %dx,%r15w|BSWAP %r15w,%dx
 MOV %r8w,%r8w
 XCHG %r8w,%r8w
 NOP %r8w
@@ -1968,69 +1332,45 @@ PUSH %r8w;POP %r8w
 PUSH %r8w|POP %r8w
 NOT %r8w;NOT %r8w
 NOT %r8w|NOT %r8w
-CMOVa %r8w,%r8w
-CMOVc %r8w,%r8w
-CMOVg %r8w,%r8w
-CMOVl %r8w,%r8w
-CMOVo %r8w,%r8w
-CMOVp %r8w,%r8w
-CMOVs %r8w,%r8w
-CMOVz %r8w,%r8w
-CMOVna %r8w,%r8w
-CMOVnc %r8w,%r8w
-CMOVng %r8w,%r8w
-CMOVnl %r8w,%r8w
-CMOVno %r8w,%r8w
-CMOVnp %r8w,%r8w
-CMOVns %r8w,%r8w
+CMOVA %r8w,%r8w
+CMOVC %r8w,%r8w
+CMOVG %r8w,%r8w
+CMOVL %r8w,%r8w
+CMOVO %r8w,%r8w
+CMOVP %r8w,%r8w
+CMOVS %r8w,%r8w
+CMOVZ %r8w,%r8w
+CMOVNA %r8w,%r8w
+CMOVNC %r8w,%r8w
+CMOVNG %r8w,%r8w
+CMOVNL %r8w,%r8w
+CMOVNO %r8w,%r8w
+CMOVNP %r8w,%r8w
+CMOVNS %r8w,%r8w
 XCHG %r8w,%ax;XCHG %ax,%r8w
 XCHG %r8w,%ax|XCHG %ax,%r8w
-BSWAP %r8w,%ax;BSWAP %ax,%r8w
-BSWAP %r8w,%ax|BSWAP %ax,%r8w
 XCHG %r8w,%bx;XCHG %bx,%r8w
 XCHG %r8w,%bx|XCHG %bx,%r8w
-BSWAP %r8w,%bx;BSWAP %bx,%r8w
-BSWAP %r8w,%bx|BSWAP %bx,%r8w
 XCHG %r8w,%cx;XCHG %cx,%r8w
 XCHG %r8w,%cx|XCHG %cx,%r8w
-BSWAP %r8w,%cx;BSWAP %cx,%r8w
-BSWAP %r8w,%cx|BSWAP %cx,%r8w
 XCHG %r8w,%dx;XCHG %dx,%r8w
 XCHG %r8w,%dx|XCHG %dx,%r8w
-BSWAP %r8w,%dx;BSWAP %dx,%r8w
-BSWAP %r8w,%dx|BSWAP %dx,%r8w
 XCHG %r8w,%r8w;XCHG %r8w,%r8w
 XCHG %r8w,%r8w|XCHG %r8w,%r8w
-BSWAP %r8w,%r8w;BSWAP %r8w,%r8w
-BSWAP %r8w,%r8w|BSWAP %r8w,%r8w
 XCHG %r8w,%r9w;XCHG %r9w,%r8w
 XCHG %r8w,%r9w|XCHG %r9w,%r8w
-BSWAP %r8w,%r9w;BSWAP %r9w,%r8w
-BSWAP %r8w,%r9w|BSWAP %r9w,%r8w
 XCHG %r8w,%r10w;XCHG %r10w,%r8w
 XCHG %r8w,%r10w|XCHG %r10w,%r8w
-BSWAP %r8w,%r10w;BSWAP %r10w,%r8w
-BSWAP %r8w,%r10w|BSWAP %r10w,%r8w
 XCHG %r8w,%r11w;XCHG %r11w,%r8w
 XCHG %r8w,%r11w|XCHG %r11w,%r8w
-BSWAP %r8w,%r11w;BSWAP %r11w,%r8w
-BSWAP %r8w,%r11w|BSWAP %r11w,%r8w
 XCHG %r8w,%r12w;XCHG %r12w,%r8w
 XCHG %r8w,%r12w|XCHG %r12w,%r8w
-BSWAP %r8w,%r12w;BSWAP %r12w,%r8w
-BSWAP %r8w,%r12w|BSWAP %r12w,%r8w
 XCHG %r8w,%r13w;XCHG %r13w,%r8w
 XCHG %r8w,%r13w|XCHG %r13w,%r8w
-BSWAP %r8w,%r13w;BSWAP %r13w,%r8w
-BSWAP %r8w,%r13w|BSWAP %r13w,%r8w
 XCHG %r8w,%r14w;XCHG %r14w,%r8w
 XCHG %r8w,%r14w|XCHG %r14w,%r8w
-BSWAP %r8w,%r14w;BSWAP %r14w,%r8w
-BSWAP %r8w,%r14w|BSWAP %r14w,%r8w
 XCHG %r8w,%r15w;XCHG %r15w,%r8w
 XCHG %r8w,%r15w|XCHG %r15w,%r8w
-BSWAP %r8w,%r15w;BSWAP %r15w,%r8w
-BSWAP %r8w,%r15w|BSWAP %r15w,%r8w
 MOV %r9w,%r9w
 XCHG %r9w,%r9w
 NOP %r9w
@@ -2038,69 +1378,45 @@ PUSH %r9w;POP %r9w
 PUSH %r9w|POP %r9w
 NOT %r9w;NOT %r9w
 NOT %r9w|NOT %r9w
-CMOVa %r9w,%r9w
-CMOVc %r9w,%r9w
-CMOVg %r9w,%r9w
-CMOVl %r9w,%r9w
-CMOVo %r9w,%r9w
-CMOVp %r9w,%r9w
-CMOVs %r9w,%r9w
-CMOVz %r9w,%r9w
-CMOVna %r9w,%r9w
-CMOVnc %r9w,%r9w
-CMOVng %r9w,%r9w
-CMOVnl %r9w,%r9w
-CMOVno %r9w,%r9w
-CMOVnp %r9w,%r9w
-CMOVns %r9w,%r9w
+CMOVA %r9w,%r9w
+CMOVC %r9w,%r9w
+CMOVG %r9w,%r9w
+CMOVL %r9w,%r9w
+CMOVO %r9w,%r9w
+CMOVP %r9w,%r9w
+CMOVS %r9w,%r9w
+CMOVZ %r9w,%r9w
+CMOVNA %r9w,%r9w
+CMOVNC %r9w,%r9w
+CMOVNG %r9w,%r9w
+CMOVNL %r9w,%r9w
+CMOVNO %r9w,%r9w
+CMOVNP %r9w,%r9w
+CMOVNS %r9w,%r9w
 XCHG %r9w,%ax;XCHG %ax,%r9w
 XCHG %r9w,%ax|XCHG %ax,%r9w
-BSWAP %r9w,%ax;BSWAP %ax,%r9w
-BSWAP %r9w,%ax|BSWAP %ax,%r9w
 XCHG %r9w,%bx;XCHG %bx,%r9w
 XCHG %r9w,%bx|XCHG %bx,%r9w
-BSWAP %r9w,%bx;BSWAP %bx,%r9w
-BSWAP %r9w,%bx|BSWAP %bx,%r9w
 XCHG %r9w,%cx;XCHG %cx,%r9w
 XCHG %r9w,%cx|XCHG %cx,%r9w
-BSWAP %r9w,%cx;BSWAP %cx,%r9w
-BSWAP %r9w,%cx|BSWAP %cx,%r9w
 XCHG %r9w,%dx;XCHG %dx,%r9w
 XCHG %r9w,%dx|XCHG %dx,%r9w
-BSWAP %r9w,%dx;BSWAP %dx,%r9w
-BSWAP %r9w,%dx|BSWAP %dx,%r9w
 XCHG %r9w,%r8w;XCHG %r8w,%r9w
 XCHG %r9w,%r8w|XCHG %r8w,%r9w
-BSWAP %r9w,%r8w;BSWAP %r8w,%r9w
-BSWAP %r9w,%r8w|BSWAP %r8w,%r9w
 XCHG %r9w,%r9w;XCHG %r9w,%r9w
 XCHG %r9w,%r9w|XCHG %r9w,%r9w
-BSWAP %r9w,%r9w;BSWAP %r9w,%r9w
-BSWAP %r9w,%r9w|BSWAP %r9w,%r9w
 XCHG %r9w,%r10w;XCHG %r10w,%r9w
 XCHG %r9w,%r10w|XCHG %r10w,%r9w
-BSWAP %r9w,%r10w;BSWAP %r10w,%r9w
-BSWAP %r9w,%r10w|BSWAP %r10w,%r9w
 XCHG %r9w,%r11w;XCHG %r11w,%r9w
 XCHG %r9w,%r11w|XCHG %r11w,%r9w
-BSWAP %r9w,%r11w;BSWAP %r11w,%r9w
-BSWAP %r9w,%r11w|BSWAP %r11w,%r9w
 XCHG %r9w,%r12w;XCHG %r12w,%r9w
 XCHG %r9w,%r12w|XCHG %r12w,%r9w
-BSWAP %r9w,%r12w;BSWAP %r12w,%r9w
-BSWAP %r9w,%r12w|BSWAP %r12w,%r9w
 XCHG %r9w,%r13w;XCHG %r13w,%r9w
 XCHG %r9w,%r13w|XCHG %r13w,%r9w
-BSWAP %r9w,%r13w;BSWAP %r13w,%r9w
-BSWAP %r9w,%r13w|BSWAP %r13w,%r9w
 XCHG %r9w,%r14w;XCHG %r14w,%r9w
 XCHG %r9w,%r14w|XCHG %r14w,%r9w
-BSWAP %r9w,%r14w;BSWAP %r14w,%r9w
-BSWAP %r9w,%r14w|BSWAP %r14w,%r9w
 XCHG %r9w,%r15w;XCHG %r15w,%r9w
 XCHG %r9w,%r15w|XCHG %r15w,%r9w
-BSWAP %r9w,%r15w;BSWAP %r15w,%r9w
-BSWAP %r9w,%r15w|BSWAP %r15w,%r9w
 MOV %r10w,%r10w
 XCHG %r10w,%r10w
 NOP %r10w
@@ -2108,69 +1424,45 @@ PUSH %r10w;POP %r10w
 PUSH %r10w|POP %r10w
 NOT %r10w;NOT %r10w
 NOT %r10w|NOT %r10w
-CMOVa %r10w,%r10w
-CMOVc %r10w,%r10w
-CMOVg %r10w,%r10w
-CMOVl %r10w,%r10w
-CMOVo %r10w,%r10w
-CMOVp %r10w,%r10w
-CMOVs %r10w,%r10w
-CMOVz %r10w,%r10w
-CMOVna %r10w,%r10w
-CMOVnc %r10w,%r10w
-CMOVng %r10w,%r10w
-CMOVnl %r10w,%r10w
-CMOVno %r10w,%r10w
-CMOVnp %r10w,%r10w
-CMOVns %r10w,%r10w
+CMOVA %r10w,%r10w
+CMOVC %r10w,%r10w
+CMOVG %r10w,%r10w
+CMOVL %r10w,%r10w
+CMOVO %r10w,%r10w
+CMOVP %r10w,%r10w
+CMOVS %r10w,%r10w
+CMOVZ %r10w,%r10w
+CMOVNA %r10w,%r10w
+CMOVNC %r10w,%r10w
+CMOVNG %r10w,%r10w
+CMOVNL %r10w,%r10w
+CMOVNO %r10w,%r10w
+CMOVNP %r10w,%r10w
+CMOVNS %r10w,%r10w
 XCHG %r10w,%ax;XCHG %ax,%r10w
 XCHG %r10w,%ax|XCHG %ax,%r10w
-BSWAP %r10w,%ax;BSWAP %ax,%r10w
-BSWAP %r10w,%ax|BSWAP %ax,%r10w
 XCHG %r10w,%bx;XCHG %bx,%r10w
 XCHG %r10w,%bx|XCHG %bx,%r10w
-BSWAP %r10w,%bx;BSWAP %bx,%r10w
-BSWAP %r10w,%bx|BSWAP %bx,%r10w
 XCHG %r10w,%cx;XCHG %cx,%r10w
 XCHG %r10w,%cx|XCHG %cx,%r10w
-BSWAP %r10w,%cx;BSWAP %cx,%r10w
-BSWAP %r10w,%cx|BSWAP %cx,%r10w
 XCHG %r10w,%dx;XCHG %dx,%r10w
 XCHG %r10w,%dx|XCHG %dx,%r10w
-BSWAP %r10w,%dx;BSWAP %dx,%r10w
-BSWAP %r10w,%dx|BSWAP %dx,%r10w
 XCHG %r10w,%r8w;XCHG %r8w,%r10w
 XCHG %r10w,%r8w|XCHG %r8w,%r10w
-BSWAP %r10w,%r8w;BSWAP %r8w,%r10w
-BSWAP %r10w,%r8w|BSWAP %r8w,%r10w
 XCHG %r10w,%r9w;XCHG %r9w,%r10w
 XCHG %r10w,%r9w|XCHG %r9w,%r10w
-BSWAP %r10w,%r9w;BSWAP %r9w,%r10w
-BSWAP %r10w,%r9w|BSWAP %r9w,%r10w
 XCHG %r10w,%r10w;XCHG %r10w,%r10w
 XCHG %r10w,%r10w|XCHG %r10w,%r10w
-BSWAP %r10w,%r10w;BSWAP %r10w,%r10w
-BSWAP %r10w,%r10w|BSWAP %r10w,%r10w
 XCHG %r10w,%r11w;XCHG %r11w,%r10w
 XCHG %r10w,%r11w|XCHG %r11w,%r10w
-BSWAP %r10w,%r11w;BSWAP %r11w,%r10w
-BSWAP %r10w,%r11w|BSWAP %r11w,%r10w
 XCHG %r10w,%r12w;XCHG %r12w,%r10w
 XCHG %r10w,%r12w|XCHG %r12w,%r10w
-BSWAP %r10w,%r12w;BSWAP %r12w,%r10w
-BSWAP %r10w,%r12w|BSWAP %r12w,%r10w
 XCHG %r10w,%r13w;XCHG %r13w,%r10w
 XCHG %r10w,%r13w|XCHG %r13w,%r10w
-BSWAP %r10w,%r13w;BSWAP %r13w,%r10w
-BSWAP %r10w,%r13w|BSWAP %r13w,%r10w
 XCHG %r10w,%r14w;XCHG %r14w,%r10w
 XCHG %r10w,%r14w|XCHG %r14w,%r10w
-BSWAP %r10w,%r14w;BSWAP %r14w,%r10w
-BSWAP %r10w,%r14w|BSWAP %r14w,%r10w
 XCHG %r10w,%r15w;XCHG %r15w,%r10w
 XCHG %r10w,%r15w|XCHG %r15w,%r10w
-BSWAP %r10w,%r15w;BSWAP %r15w,%r10w
-BSWAP %r10w,%r15w|BSWAP %r15w,%r10w
 MOV %r11w,%r11w
 XCHG %r11w,%r11w
 NOP %r11w
@@ -2178,69 +1470,45 @@ PUSH %r11w;POP %r11w
 PUSH %r11w|POP %r11w
 NOT %r11w;NOT %r11w
 NOT %r11w|NOT %r11w
-CMOVa %r11w,%r11w
-CMOVc %r11w,%r11w
-CMOVg %r11w,%r11w
-CMOVl %r11w,%r11w
-CMOVo %r11w,%r11w
-CMOVp %r11w,%r11w
-CMOVs %r11w,%r11w
-CMOVz %r11w,%r11w
-CMOVna %r11w,%r11w
-CMOVnc %r11w,%r11w
-CMOVng %r11w,%r11w
-CMOVnl %r11w,%r11w
-CMOVno %r11w,%r11w
-CMOVnp %r11w,%r11w
-CMOVns %r11w,%r11w
+CMOVA %r11w,%r11w
+CMOVC %r11w,%r11w
+CMOVG %r11w,%r11w
+CMOVL %r11w,%r11w
+CMOVO %r11w,%r11w
+CMOVP %r11w,%r11w
+CMOVS %r11w,%r11w
+CMOVZ %r11w,%r11w
+CMOVNA %r11w,%r11w
+CMOVNC %r11w,%r11w
+CMOVNG %r11w,%r11w
+CMOVNL %r11w,%r11w
+CMOVNO %r11w,%r11w
+CMOVNP %r11w,%r11w
+CMOVNS %r11w,%r11w
 XCHG %r11w,%ax;XCHG %ax,%r11w
 XCHG %r11w,%ax|XCHG %ax,%r11w
-BSWAP %r11w,%ax;BSWAP %ax,%r11w
-BSWAP %r11w,%ax|BSWAP %ax,%r11w
 XCHG %r11w,%bx;XCHG %bx,%r11w
 XCHG %r11w,%bx|XCHG %bx,%r11w
-BSWAP %r11w,%bx;BSWAP %bx,%r11w
-BSWAP %r11w,%bx|BSWAP %bx,%r11w
 XCHG %r11w,%cx;XCHG %cx,%r11w
 XCHG %r11w,%cx|XCHG %cx,%r11w
-BSWAP %r11w,%cx;BSWAP %cx,%r11w
-BSWAP %r11w,%cx|BSWAP %cx,%r11w
 XCHG %r11w,%dx;XCHG %dx,%r11w
 XCHG %r11w,%dx|XCHG %dx,%r11w
-BSWAP %r11w,%dx;BSWAP %dx,%r11w
-BSWAP %r11w,%dx|BSWAP %dx,%r11w
 XCHG %r11w,%r8w;XCHG %r8w,%r11w
 XCHG %r11w,%r8w|XCHG %r8w,%r11w
-BSWAP %r11w,%r8w;BSWAP %r8w,%r11w
-BSWAP %r11w,%r8w|BSWAP %r8w,%r11w
 XCHG %r11w,%r9w;XCHG %r9w,%r11w
 XCHG %r11w,%r9w|XCHG %r9w,%r11w
-BSWAP %r11w,%r9w;BSWAP %r9w,%r11w
-BSWAP %r11w,%r9w|BSWAP %r9w,%r11w
 XCHG %r11w,%r10w;XCHG %r10w,%r11w
 XCHG %r11w,%r10w|XCHG %r10w,%r11w
-BSWAP %r11w,%r10w;BSWAP %r10w,%r11w
-BSWAP %r11w,%r10w|BSWAP %r10w,%r11w
 XCHG %r11w,%r11w;XCHG %r11w,%r11w
 XCHG %r11w,%r11w|XCHG %r11w,%r11w
-BSWAP %r11w,%r11w;BSWAP %r11w,%r11w
-BSWAP %r11w,%r11w|BSWAP %r11w,%r11w
 XCHG %r11w,%r12w;XCHG %r12w,%r11w
 XCHG %r11w,%r12w|XCHG %r12w,%r11w
-BSWAP %r11w,%r12w;BSWAP %r12w,%r11w
-BSWAP %r11w,%r12w|BSWAP %r12w,%r11w
 XCHG %r11w,%r13w;XCHG %r13w,%r11w
 XCHG %r11w,%r13w|XCHG %r13w,%r11w
-BSWAP %r11w,%r13w;BSWAP %r13w,%r11w
-BSWAP %r11w,%r13w|BSWAP %r13w,%r11w
 XCHG %r11w,%r14w;XCHG %r14w,%r11w
 XCHG %r11w,%r14w|XCHG %r14w,%r11w
-BSWAP %r11w,%r14w;BSWAP %r14w,%r11w
-BSWAP %r11w,%r14w|BSWAP %r14w,%r11w
 XCHG %r11w,%r15w;XCHG %r15w,%r11w
 XCHG %r11w,%r15w|XCHG %r15w,%r11w
-BSWAP %r11w,%r15w;BSWAP %r15w,%r11w
-BSWAP %r11w,%r15w|BSWAP %r15w,%r11w
 MOV %r12w,%r12w
 XCHG %r12w,%r12w
 NOP %r12w
@@ -2248,69 +1516,45 @@ PUSH %r12w;POP %r12w
 PUSH %r12w|POP %r12w
 NOT %r12w;NOT %r12w
 NOT %r12w|NOT %r12w
-CMOVa %r12w,%r12w
-CMOVc %r12w,%r12w
-CMOVg %r12w,%r12w
-CMOVl %r12w,%r12w
-CMOVo %r12w,%r12w
-CMOVp %r12w,%r12w
-CMOVs %r12w,%r12w
-CMOVz %r12w,%r12w
-CMOVna %r12w,%r12w
-CMOVnc %r12w,%r12w
-CMOVng %r12w,%r12w
-CMOVnl %r12w,%r12w
-CMOVno %r12w,%r12w
-CMOVnp %r12w,%r12w
-CMOVns %r12w,%r12w
+CMOVA %r12w,%r12w
+CMOVC %r12w,%r12w
+CMOVG %r12w,%r12w
+CMOVL %r12w,%r12w
+CMOVO %r12w,%r12w
+CMOVP %r12w,%r12w
+CMOVS %r12w,%r12w
+CMOVZ %r12w,%r12w
+CMOVNA %r12w,%r12w
+CMOVNC %r12w,%r12w
+CMOVNG %r12w,%r12w
+CMOVNL %r12w,%r12w
+CMOVNO %r12w,%r12w
+CMOVNP %r12w,%r12w
+CMOVNS %r12w,%r12w
 XCHG %r12w,%ax;XCHG %ax,%r12w
 XCHG %r12w,%ax|XCHG %ax,%r12w
-BSWAP %r12w,%ax;BSWAP %ax,%r12w
-BSWAP %r12w,%ax|BSWAP %ax,%r12w
 XCHG %r12w,%bx;XCHG %bx,%r12w
 XCHG %r12w,%bx|XCHG %bx,%r12w
-BSWAP %r12w,%bx;BSWAP %bx,%r12w
-BSWAP %r12w,%bx|BSWAP %bx,%r12w
 XCHG %r12w,%cx;XCHG %cx,%r12w
 XCHG %r12w,%cx|XCHG %cx,%r12w
-BSWAP %r12w,%cx;BSWAP %cx,%r12w
-BSWAP %r12w,%cx|BSWAP %cx,%r12w
 XCHG %r12w,%dx;XCHG %dx,%r12w
 XCHG %r12w,%dx|XCHG %dx,%r12w
-BSWAP %r12w,%dx;BSWAP %dx,%r12w
-BSWAP %r12w,%dx|BSWAP %dx,%r12w
 XCHG %r12w,%r8w;XCHG %r8w,%r12w
 XCHG %r12w,%r8w|XCHG %r8w,%r12w
-BSWAP %r12w,%r8w;BSWAP %r8w,%r12w
-BSWAP %r12w,%r8w|BSWAP %r8w,%r12w
 XCHG %r12w,%r9w;XCHG %r9w,%r12w
 XCHG %r12w,%r9w|XCHG %r9w,%r12w
-BSWAP %r12w,%r9w;BSWAP %r9w,%r12w
-BSWAP %r12w,%r9w|BSWAP %r9w,%r12w
 XCHG %r12w,%r10w;XCHG %r10w,%r12w
 XCHG %r12w,%r10w|XCHG %r10w,%r12w
-BSWAP %r12w,%r10w;BSWAP %r10w,%r12w
-BSWAP %r12w,%r10w|BSWAP %r10w,%r12w
 XCHG %r12w,%r11w;XCHG %r11w,%r12w
 XCHG %r12w,%r11w|XCHG %r11w,%r12w
-BSWAP %r12w,%r11w;BSWAP %r11w,%r12w
-BSWAP %r12w,%r11w|BSWAP %r11w,%r12w
 XCHG %r12w,%r12w;XCHG %r12w,%r12w
 XCHG %r12w,%r12w|XCHG %r12w,%r12w
-BSWAP %r12w,%r12w;BSWAP %r12w,%r12w
-BSWAP %r12w,%r12w|BSWAP %r12w,%r12w
 XCHG %r12w,%r13w;XCHG %r13w,%r12w
 XCHG %r12w,%r13w|XCHG %r13w,%r12w
-BSWAP %r12w,%r13w;BSWAP %r13w,%r12w
-BSWAP %r12w,%r13w|BSWAP %r13w,%r12w
 XCHG %r12w,%r14w;XCHG %r14w,%r12w
 XCHG %r12w,%r14w|XCHG %r14w,%r12w
-BSWAP %r12w,%r14w;BSWAP %r14w,%r12w
-BSWAP %r12w,%r14w|BSWAP %r14w,%r12w
 XCHG %r12w,%r15w;XCHG %r15w,%r12w
 XCHG %r12w,%r15w|XCHG %r15w,%r12w
-BSWAP %r12w,%r15w;BSWAP %r15w,%r12w
-BSWAP %r12w,%r15w|BSWAP %r15w,%r12w
 MOV %r13w,%r13w
 XCHG %r13w,%r13w
 NOP %r13w
@@ -2318,69 +1562,45 @@ PUSH %r13w;POP %r13w
 PUSH %r13w|POP %r13w
 NOT %r13w;NOT %r13w
 NOT %r13w|NOT %r13w
-CMOVa %r13w,%r13w
-CMOVc %r13w,%r13w
-CMOVg %r13w,%r13w
-CMOVl %r13w,%r13w
-CMOVo %r13w,%r13w
-CMOVp %r13w,%r13w
-CMOVs %r13w,%r13w
-CMOVz %r13w,%r13w
-CMOVna %r13w,%r13w
-CMOVnc %r13w,%r13w
-CMOVng %r13w,%r13w
-CMOVnl %r13w,%r13w
-CMOVno %r13w,%r13w
-CMOVnp %r13w,%r13w
-CMOVns %r13w,%r13w
+CMOVA %r13w,%r13w
+CMOVC %r13w,%r13w
+CMOVG %r13w,%r13w
+CMOVL %r13w,%r13w
+CMOVO %r13w,%r13w
+CMOVP %r13w,%r13w
+CMOVS %r13w,%r13w
+CMOVZ %r13w,%r13w
+CMOVNA %r13w,%r13w
+CMOVNC %r13w,%r13w
+CMOVNG %r13w,%r13w
+CMOVNL %r13w,%r13w
+CMOVNO %r13w,%r13w
+CMOVNP %r13w,%r13w
+CMOVNS %r13w,%r13w
 XCHG %r13w,%ax;XCHG %ax,%r13w
 XCHG %r13w,%ax|XCHG %ax,%r13w
-BSWAP %r13w,%ax;BSWAP %ax,%r13w
-BSWAP %r13w,%ax|BSWAP %ax,%r13w
 XCHG %r13w,%bx;XCHG %bx,%r13w
 XCHG %r13w,%bx|XCHG %bx,%r13w
-BSWAP %r13w,%bx;BSWAP %bx,%r13w
-BSWAP %r13w,%bx|BSWAP %bx,%r13w
 XCHG %r13w,%cx;XCHG %cx,%r13w
 XCHG %r13w,%cx|XCHG %cx,%r13w
-BSWAP %r13w,%cx;BSWAP %cx,%r13w
-BSWAP %r13w,%cx|BSWAP %cx,%r13w
 XCHG %r13w,%dx;XCHG %dx,%r13w
 XCHG %r13w,%dx|XCHG %dx,%r13w
-BSWAP %r13w,%dx;BSWAP %dx,%r13w
-BSWAP %r13w,%dx|BSWAP %dx,%r13w
 XCHG %r13w,%r8w;XCHG %r8w,%r13w
 XCHG %r13w,%r8w|XCHG %r8w,%r13w
-BSWAP %r13w,%r8w;BSWAP %r8w,%r13w
-BSWAP %r13w,%r8w|BSWAP %r8w,%r13w
 XCHG %r13w,%r9w;XCHG %r9w,%r13w
 XCHG %r13w,%r9w|XCHG %r9w,%r13w
-BSWAP %r13w,%r9w;BSWAP %r9w,%r13w
-BSWAP %r13w,%r9w|BSWAP %r9w,%r13w
 XCHG %r13w,%r10w;XCHG %r10w,%r13w
 XCHG %r13w,%r10w|XCHG %r10w,%r13w
-BSWAP %r13w,%r10w;BSWAP %r10w,%r13w
-BSWAP %r13w,%r10w|BSWAP %r10w,%r13w
 XCHG %r13w,%r11w;XCHG %r11w,%r13w
 XCHG %r13w,%r11w|XCHG %r11w,%r13w
-BSWAP %r13w,%r11w;BSWAP %r11w,%r13w
-BSWAP %r13w,%r11w|BSWAP %r11w,%r13w
 XCHG %r13w,%r12w;XCHG %r12w,%r13w
 XCHG %r13w,%r12w|XCHG %r12w,%r13w
-BSWAP %r13w,%r12w;BSWAP %r12w,%r13w
-BSWAP %r13w,%r12w|BSWAP %r12w,%r13w
 XCHG %r13w,%r13w;XCHG %r13w,%r13w
 XCHG %r13w,%r13w|XCHG %r13w,%r13w
-BSWAP %r13w,%r13w;BSWAP %r13w,%r13w
-BSWAP %r13w,%r13w|BSWAP %r13w,%r13w
 XCHG %r13w,%r14w;XCHG %r14w,%r13w
 XCHG %r13w,%r14w|XCHG %r14w,%r13w
-BSWAP %r13w,%r14w;BSWAP %r14w,%r13w
-BSWAP %r13w,%r14w|BSWAP %r14w,%r13w
 XCHG %r13w,%r15w;XCHG %r15w,%r13w
 XCHG %r13w,%r15w|XCHG %r15w,%r13w
-BSWAP %r13w,%r15w;BSWAP %r15w,%r13w
-BSWAP %r13w,%r15w|BSWAP %r15w,%r13w
 MOV %r14w,%r14w
 XCHG %r14w,%r14w
 NOP %r14w
@@ -2388,69 +1608,45 @@ PUSH %r14w;POP %r14w
 PUSH %r14w|POP %r14w
 NOT %r14w;NOT %r14w
 NOT %r14w|NOT %r14w
-CMOVa %r14w,%r14w
-CMOVc %r14w,%r14w
-CMOVg %r14w,%r14w
-CMOVl %r14w,%r14w
-CMOVo %r14w,%r14w
-CMOVp %r14w,%r14w
-CMOVs %r14w,%r14w
-CMOVz %r14w,%r14w
-CMOVna %r14w,%r14w
-CMOVnc %r14w,%r14w
-CMOVng %r14w,%r14w
-CMOVnl %r14w,%r14w
-CMOVno %r14w,%r14w
-CMOVnp %r14w,%r14w
-CMOVns %r14w,%r14w
+CMOVA %r14w,%r14w
+CMOVC %r14w,%r14w
+CMOVG %r14w,%r14w
+CMOVL %r14w,%r14w
+CMOVO %r14w,%r14w
+CMOVP %r14w,%r14w
+CMOVS %r14w,%r14w
+CMOVZ %r14w,%r14w
+CMOVNA %r14w,%r14w
+CMOVNC %r14w,%r14w
+CMOVNG %r14w,%r14w
+CMOVNL %r14w,%r14w
+CMOVNO %r14w,%r14w
+CMOVNP %r14w,%r14w
+CMOVNS %r14w,%r14w
 XCHG %r14w,%ax;XCHG %ax,%r14w
 XCHG %r14w,%ax|XCHG %ax,%r14w
-BSWAP %r14w,%ax;BSWAP %ax,%r14w
-BSWAP %r14w,%ax|BSWAP %ax,%r14w
 XCHG %r14w,%bx;XCHG %bx,%r14w
 XCHG %r14w,%bx|XCHG %bx,%r14w
-BSWAP %r14w,%bx;BSWAP %bx,%r14w
-BSWAP %r14w,%bx|BSWAP %bx,%r14w
 XCHG %r14w,%cx;XCHG %cx,%r14w
 XCHG %r14w,%cx|XCHG %cx,%r14w
-BSWAP %r14w,%cx;BSWAP %cx,%r14w
-BSWAP %r14w,%cx|BSWAP %cx,%r14w
 XCHG %r14w,%dx;XCHG %dx,%r14w
 XCHG %r14w,%dx|XCHG %dx,%r14w
-BSWAP %r14w,%dx;BSWAP %dx,%r14w
-BSWAP %r14w,%dx|BSWAP %dx,%r14w
 XCHG %r14w,%r8w;XCHG %r8w,%r14w
 XCHG %r14w,%r8w|XCHG %r8w,%r14w
-BSWAP %r14w,%r8w;BSWAP %r8w,%r14w
-BSWAP %r14w,%r8w|BSWAP %r8w,%r14w
 XCHG %r14w,%r9w;XCHG %r9w,%r14w
 XCHG %r14w,%r9w|XCHG %r9w,%r14w
-BSWAP %r14w,%r9w;BSWAP %r9w,%r14w
-BSWAP %r14w,%r9w|BSWAP %r9w,%r14w
 XCHG %r14w,%r10w;XCHG %r10w,%r14w
 XCHG %r14w,%r10w|XCHG %r10w,%r14w
-BSWAP %r14w,%r10w;BSWAP %r10w,%r14w
-BSWAP %r14w,%r10w|BSWAP %r10w,%r14w
 XCHG %r14w,%r11w;XCHG %r11w,%r14w
 XCHG %r14w,%r11w|XCHG %r11w,%r14w
-BSWAP %r14w,%r11w;BSWAP %r11w,%r14w
-BSWAP %r14w,%r11w|BSWAP %r11w,%r14w
 XCHG %r14w,%r12w;XCHG %r12w,%r14w
 XCHG %r14w,%r12w|XCHG %r12w,%r14w
-BSWAP %r14w,%r12w;BSWAP %r12w,%r14w
-BSWAP %r14w,%r12w|BSWAP %r12w,%r14w
 XCHG %r14w,%r13w;XCHG %r13w,%r14w
 XCHG %r14w,%r13w|XCHG %r13w,%r14w
-BSWAP %r14w,%r13w;BSWAP %r13w,%r14w
-BSWAP %r14w,%r13w|BSWAP %r13w,%r14w
 XCHG %r14w,%r14w;XCHG %r14w,%r14w
 XCHG %r14w,%r14w|XCHG %r14w,%r14w
-BSWAP %r14w,%r14w;BSWAP %r14w,%r14w
-BSWAP %r14w,%r14w|BSWAP %r14w,%r14w
 XCHG %r14w,%r15w;XCHG %r15w,%r14w
 XCHG %r14w,%r15w|XCHG %r15w,%r14w
-BSWAP %r14w,%r15w;BSWAP %r15w,%r14w
-BSWAP %r14w,%r15w|BSWAP %r15w,%r14w
 MOV %r15w,%r15w
 XCHG %r15w,%r15w
 NOP %r15w
@@ -2458,377 +1654,49 @@ PUSH %r15w;POP %r15w
 PUSH %r15w|POP %r15w
 NOT %r15w;NOT %r15w
 NOT %r15w|NOT %r15w
-CMOVa %r15w,%r15w
-CMOVc %r15w,%r15w
-CMOVg %r15w,%r15w
-CMOVl %r15w,%r15w
-CMOVo %r15w,%r15w
-CMOVp %r15w,%r15w
-CMOVs %r15w,%r15w
-CMOVz %r15w,%r15w
-CMOVna %r15w,%r15w
-CMOVnc %r15w,%r15w
-CMOVng %r15w,%r15w
-CMOVnl %r15w,%r15w
-CMOVno %r15w,%r15w
-CMOVnp %r15w,%r15w
-CMOVns %r15w,%r15w
+CMOVA %r15w,%r15w
+CMOVC %r15w,%r15w
+CMOVG %r15w,%r15w
+CMOVL %r15w,%r15w
+CMOVO %r15w,%r15w
+CMOVP %r15w,%r15w
+CMOVS %r15w,%r15w
+CMOVZ %r15w,%r15w
+CMOVNA %r15w,%r15w
+CMOVNC %r15w,%r15w
+CMOVNG %r15w,%r15w
+CMOVNL %r15w,%r15w
+CMOVNO %r15w,%r15w
+CMOVNP %r15w,%r15w
+CMOVNS %r15w,%r15w
 XCHG %r15w,%ax;XCHG %ax,%r15w
 XCHG %r15w,%ax|XCHG %ax,%r15w
-BSWAP %r15w,%ax;BSWAP %ax,%r15w
-BSWAP %r15w,%ax|BSWAP %ax,%r15w
 XCHG %r15w,%bx;XCHG %bx,%r15w
 XCHG %r15w,%bx|XCHG %bx,%r15w
-BSWAP %r15w,%bx;BSWAP %bx,%r15w
-BSWAP %r15w,%bx|BSWAP %bx,%r15w
 XCHG %r15w,%cx;XCHG %cx,%r15w
 XCHG %r15w,%cx|XCHG %cx,%r15w
-BSWAP %r15w,%cx;BSWAP %cx,%r15w
-BSWAP %r15w,%cx|BSWAP %cx,%r15w
 XCHG %r15w,%dx;XCHG %dx,%r15w
 XCHG %r15w,%dx|XCHG %dx,%r15w
-BSWAP %r15w,%dx;BSWAP %dx,%r15w
-BSWAP %r15w,%dx|BSWAP %dx,%r15w
 XCHG %r15w,%r8w;XCHG %r8w,%r15w
 XCHG %r15w,%r8w|XCHG %r8w,%r15w
-BSWAP %r15w,%r8w;BSWAP %r8w,%r15w
-BSWAP %r15w,%r8w|BSWAP %r8w,%r15w
 XCHG %r15w,%r9w;XCHG %r9w,%r15w
 XCHG %r15w,%r9w|XCHG %r9w,%r15w
-BSWAP %r15w,%r9w;BSWAP %r9w,%r15w
-BSWAP %r15w,%r9w|BSWAP %r9w,%r15w
 XCHG %r15w,%r10w;XCHG %r10w,%r15w
 XCHG %r15w,%r10w|XCHG %r10w,%r15w
-BSWAP %r15w,%r10w;BSWAP %r10w,%r15w
-BSWAP %r15w,%r10w|BSWAP %r10w,%r15w
 XCHG %r15w,%r11w;XCHG %r11w,%r15w
 XCHG %r15w,%r11w|XCHG %r11w,%r15w
-BSWAP %r15w,%r11w;BSWAP %r11w,%r15w
-BSWAP %r15w,%r11w|BSWAP %r11w,%r15w
 XCHG %r15w,%r12w;XCHG %r12w,%r15w
 XCHG %r15w,%r12w|XCHG %r12w,%r15w
-BSWAP %r15w,%r12w;BSWAP %r12w,%r15w
-BSWAP %r15w,%r12w|BSWAP %r12w,%r15w
 XCHG %r15w,%r13w;XCHG %r13w,%r15w
 XCHG %r15w,%r13w|XCHG %r13w,%r15w
-BSWAP %r15w,%r13w;BSWAP %r13w,%r15w
-BSWAP %r15w,%r13w|BSWAP %r13w,%r15w
 XCHG %r15w,%r14w;XCHG %r14w,%r15w
 XCHG %r15w,%r14w|XCHG %r14w,%r15w
-BSWAP %r15w,%r14w;BSWAP %r14w,%r15w
-BSWAP %r15w,%r14w|BSWAP %r14w,%r15w
 XCHG %r15w,%r15w;XCHG %r15w,%r15w
 XCHG %r15w,%r15w|XCHG %r15w,%r15w
-BSWAP %r15w,%r15w;BSWAP %r15w,%r15w
-BSWAP %r15w,%r15w|BSWAP %r15w,%r15w
-MOV %ah,%ah
-XCHG %ah,%ah
-NOT %ah;NOT %ah
-NOT %ah|NOT %ah
-XCHG %ah,%ah;XCHG %ah,%ah
-XCHG %ah,%ah|XCHG %ah,%ah
-XCHG %ah,%bh;XCHG %bh,%ah
-XCHG %ah,%bh|XCHG %bh,%ah
-XCHG %ah,%ch;XCHG %ch,%ah
-XCHG %ah,%ch|XCHG %ch,%ah
-XCHG %ah,%dh;XCHG %dh,%ah
-XCHG %ah,%dh|XCHG %dh,%ah
-XCHG %ah,%al;XCHG %al,%ah
-XCHG %ah,%al|XCHG %al,%ah
-XCHG %ah,%bl;XCHG %bl,%ah
-XCHG %ah,%bl|XCHG %bl,%ah
-XCHG %ah,%cl;XCHG %cl,%ah
-XCHG %ah,%cl|XCHG %cl,%ah
-XCHG %ah,%dl;XCHG %dl,%ah
-XCHG %ah,%dl|XCHG %dl,%ah
-XCHG %ah,%r8b;XCHG %r8b,%ah
-XCHG %ah,%r8b|XCHG %r8b,%ah
-XCHG %ah,%r9b;XCHG %r9b,%ah
-XCHG %ah,%r9b|XCHG %r9b,%ah
-XCHG %ah,%r10b;XCHG %r10b,%ah
-XCHG %ah,%r10b|XCHG %r10b,%ah
-XCHG %ah,%r11b;XCHG %r11b,%ah
-XCHG %ah,%r11b|XCHG %r11b,%ah
-XCHG %ah,%r12b;XCHG %r12b,%ah
-XCHG %ah,%r12b|XCHG %r12b,%ah
-XCHG %ah,%r13b;XCHG %r13b,%ah
-XCHG %ah,%r13b|XCHG %r13b,%ah
-XCHG %ah,%r14b;XCHG %r14b,%ah
-XCHG %ah,%r14b|XCHG %r14b,%ah
-XCHG %ah,%r15b;XCHG %r15b,%ah
-XCHG %ah,%r15b|XCHG %r15b,%ah
-MOV %bh,%bh
-XCHG %bh,%bh
-NOT %bh;NOT %bh
-NOT %bh|NOT %bh
-XCHG %bh,%ah;XCHG %ah,%bh
-XCHG %bh,%ah|XCHG %ah,%bh
-XCHG %bh,%bh;XCHG %bh,%bh
-XCHG %bh,%bh|XCHG %bh,%bh
-XCHG %bh,%ch;XCHG %ch,%bh
-XCHG %bh,%ch|XCHG %ch,%bh
-XCHG %bh,%dh;XCHG %dh,%bh
-XCHG %bh,%dh|XCHG %dh,%bh
-XCHG %bh,%al;XCHG %al,%bh
-XCHG %bh,%al|XCHG %al,%bh
-XCHG %bh,%bl;XCHG %bl,%bh
-XCHG %bh,%bl|XCHG %bl,%bh
-XCHG %bh,%cl;XCHG %cl,%bh
-XCHG %bh,%cl|XCHG %cl,%bh
-XCHG %bh,%dl;XCHG %dl,%bh
-XCHG %bh,%dl|XCHG %dl,%bh
-XCHG %bh,%r8b;XCHG %r8b,%bh
-XCHG %bh,%r8b|XCHG %r8b,%bh
-XCHG %bh,%r9b;XCHG %r9b,%bh
-XCHG %bh,%r9b|XCHG %r9b,%bh
-XCHG %bh,%r10b;XCHG %r10b,%bh
-XCHG %bh,%r10b|XCHG %r10b,%bh
-XCHG %bh,%r11b;XCHG %r11b,%bh
-XCHG %bh,%r11b|XCHG %r11b,%bh
-XCHG %bh,%r12b;XCHG %r12b,%bh
-XCHG %bh,%r12b|XCHG %r12b,%bh
-XCHG %bh,%r13b;XCHG %r13b,%bh
-XCHG %bh,%r13b|XCHG %r13b,%bh
-XCHG %bh,%r14b;XCHG %r14b,%bh
-XCHG %bh,%r14b|XCHG %r14b,%bh
-XCHG %bh,%r15b;XCHG %r15b,%bh
-XCHG %bh,%r15b|XCHG %r15b,%bh
-MOV %ch,%ch
-XCHG %ch,%ch
-NOT %ch;NOT %ch
-NOT %ch|NOT %ch
-XCHG %ch,%ah;XCHG %ah,%ch
-XCHG %ch,%ah|XCHG %ah,%ch
-XCHG %ch,%bh;XCHG %bh,%ch
-XCHG %ch,%bh|XCHG %bh,%ch
-XCHG %ch,%ch;XCHG %ch,%ch
-XCHG %ch,%ch|XCHG %ch,%ch
-XCHG %ch,%dh;XCHG %dh,%ch
-XCHG %ch,%dh|XCHG %dh,%ch
-XCHG %ch,%al;XCHG %al,%ch
-XCHG %ch,%al|XCHG %al,%ch
-XCHG %ch,%bl;XCHG %bl,%ch
-XCHG %ch,%bl|XCHG %bl,%ch
-XCHG %ch,%cl;XCHG %cl,%ch
-XCHG %ch,%cl|XCHG %cl,%ch
-XCHG %ch,%dl;XCHG %dl,%ch
-XCHG %ch,%dl|XCHG %dl,%ch
-XCHG %ch,%r8b;XCHG %r8b,%ch
-XCHG %ch,%r8b|XCHG %r8b,%ch
-XCHG %ch,%r9b;XCHG %r9b,%ch
-XCHG %ch,%r9b|XCHG %r9b,%ch
-XCHG %ch,%r10b;XCHG %r10b,%ch
-XCHG %ch,%r10b|XCHG %r10b,%ch
-XCHG %ch,%r11b;XCHG %r11b,%ch
-XCHG %ch,%r11b|XCHG %r11b,%ch
-XCHG %ch,%r12b;XCHG %r12b,%ch
-XCHG %ch,%r12b|XCHG %r12b,%ch
-XCHG %ch,%r13b;XCHG %r13b,%ch
-XCHG %ch,%r13b|XCHG %r13b,%ch
-XCHG %ch,%r14b;XCHG %r14b,%ch
-XCHG %ch,%r14b|XCHG %r14b,%ch
-XCHG %ch,%r15b;XCHG %r15b,%ch
-XCHG %ch,%r15b|XCHG %r15b,%ch
-MOV %dh,%dh
-XCHG %dh,%dh
-NOT %dh;NOT %dh
-NOT %dh|NOT %dh
-XCHG %dh,%ah;XCHG %ah,%dh
-XCHG %dh,%ah|XCHG %ah,%dh
-XCHG %dh,%bh;XCHG %bh,%dh
-XCHG %dh,%bh|XCHG %bh,%dh
-XCHG %dh,%ch;XCHG %ch,%dh
-XCHG %dh,%ch|XCHG %ch,%dh
-XCHG %dh,%dh;XCHG %dh,%dh
-XCHG %dh,%dh|XCHG %dh,%dh
-XCHG %dh,%al;XCHG %al,%dh
-XCHG %dh,%al|XCHG %al,%dh
-XCHG %dh,%bl;XCHG %bl,%dh
-XCHG %dh,%bl|XCHG %bl,%dh
-XCHG %dh,%cl;XCHG %cl,%dh
-XCHG %dh,%cl|XCHG %cl,%dh
-XCHG %dh,%dl;XCHG %dl,%dh
-XCHG %dh,%dl|XCHG %dl,%dh
-XCHG %dh,%r8b;XCHG %r8b,%dh
-XCHG %dh,%r8b|XCHG %r8b,%dh
-XCHG %dh,%r9b;XCHG %r9b,%dh
-XCHG %dh,%r9b|XCHG %r9b,%dh
-XCHG %dh,%r10b;XCHG %r10b,%dh
-XCHG %dh,%r10b|XCHG %r10b,%dh
-XCHG %dh,%r11b;XCHG %r11b,%dh
-XCHG %dh,%r11b|XCHG %r11b,%dh
-XCHG %dh,%r12b;XCHG %r12b,%dh
-XCHG %dh,%r12b|XCHG %r12b,%dh
-XCHG %dh,%r13b;XCHG %r13b,%dh
-XCHG %dh,%r13b|XCHG %r13b,%dh
-XCHG %dh,%r14b;XCHG %r14b,%dh
-XCHG %dh,%r14b|XCHG %r14b,%dh
-XCHG %dh,%r15b;XCHG %r15b,%dh
-XCHG %dh,%r15b|XCHG %r15b,%dh
-MOV %al,%al
-XCHG %al,%al
-NOT %al;NOT %al
-NOT %al|NOT %al
-XCHG %al,%ah;XCHG %ah,%al
-XCHG %al,%ah|XCHG %ah,%al
-XCHG %al,%bh;XCHG %bh,%al
-XCHG %al,%bh|XCHG %bh,%al
-XCHG %al,%ch;XCHG %ch,%al
-XCHG %al,%ch|XCHG %ch,%al
-XCHG %al,%dh;XCHG %dh,%al
-XCHG %al,%dh|XCHG %dh,%al
-XCHG %al,%al;XCHG %al,%al
-XCHG %al,%al|XCHG %al,%al
-XCHG %al,%bl;XCHG %bl,%al
-XCHG %al,%bl|XCHG %bl,%al
-XCHG %al,%cl;XCHG %cl,%al
-XCHG %al,%cl|XCHG %cl,%al
-XCHG %al,%dl;XCHG %dl,%al
-XCHG %al,%dl|XCHG %dl,%al
-XCHG %al,%r8b;XCHG %r8b,%al
-XCHG %al,%r8b|XCHG %r8b,%al
-XCHG %al,%r9b;XCHG %r9b,%al
-XCHG %al,%r9b|XCHG %r9b,%al
-XCHG %al,%r10b;XCHG %r10b,%al
-XCHG %al,%r10b|XCHG %r10b,%al
-XCHG %al,%r11b;XCHG %r11b,%al
-XCHG %al,%r11b|XCHG %r11b,%al
-XCHG %al,%r12b;XCHG %r12b,%al
-XCHG %al,%r12b|XCHG %r12b,%al
-XCHG %al,%r13b;XCHG %r13b,%al
-XCHG %al,%r13b|XCHG %r13b,%al
-XCHG %al,%r14b;XCHG %r14b,%al
-XCHG %al,%r14b|XCHG %r14b,%al
-XCHG %al,%r15b;XCHG %r15b,%al
-XCHG %al,%r15b|XCHG %r15b,%al
-MOV %bl,%bl
-XCHG %bl,%bl
-NOT %bl;NOT %bl
-NOT %bl|NOT %bl
-XCHG %bl,%ah;XCHG %ah,%bl
-XCHG %bl,%ah|XCHG %ah,%bl
-XCHG %bl,%bh;XCHG %bh,%bl
-XCHG %bl,%bh|XCHG %bh,%bl
-XCHG %bl,%ch;XCHG %ch,%bl
-XCHG %bl,%ch|XCHG %ch,%bl
-XCHG %bl,%dh;XCHG %dh,%bl
-XCHG %bl,%dh|XCHG %dh,%bl
-XCHG %bl,%al;XCHG %al,%bl
-XCHG %bl,%al|XCHG %al,%bl
-XCHG %bl,%bl;XCHG %bl,%bl
-XCHG %bl,%bl|XCHG %bl,%bl
-XCHG %bl,%cl;XCHG %cl,%bl
-XCHG %bl,%cl|XCHG %cl,%bl
-XCHG %bl,%dl;XCHG %dl,%bl
-XCHG %bl,%dl|XCHG %dl,%bl
-XCHG %bl,%r8b;XCHG %r8b,%bl
-XCHG %bl,%r8b|XCHG %r8b,%bl
-XCHG %bl,%r9b;XCHG %r9b,%bl
-XCHG %bl,%r9b|XCHG %r9b,%bl
-XCHG %bl,%r10b;XCHG %r10b,%bl
-XCHG %bl,%r10b|XCHG %r10b,%bl
-XCHG %bl,%r11b;XCHG %r11b,%bl
-XCHG %bl,%r11b|XCHG %r11b,%bl
-XCHG %bl,%r12b;XCHG %r12b,%bl
-XCHG %bl,%r12b|XCHG %r12b,%bl
-XCHG %bl,%r13b;XCHG %r13b,%bl
-XCHG %bl,%r13b|XCHG %r13b,%bl
-XCHG %bl,%r14b;XCHG %r14b,%bl
-XCHG %bl,%r14b|XCHG %r14b,%bl
-XCHG %bl,%r15b;XCHG %r15b,%bl
-XCHG %bl,%r15b|XCHG %r15b,%bl
-MOV %cl,%cl
-XCHG %cl,%cl
-NOT %cl;NOT %cl
-NOT %cl|NOT %cl
-XCHG %cl,%ah;XCHG %ah,%cl
-XCHG %cl,%ah|XCHG %ah,%cl
-XCHG %cl,%bh;XCHG %bh,%cl
-XCHG %cl,%bh|XCHG %bh,%cl
-XCHG %cl,%ch;XCHG %ch,%cl
-XCHG %cl,%ch|XCHG %ch,%cl
-XCHG %cl,%dh;XCHG %dh,%cl
-XCHG %cl,%dh|XCHG %dh,%cl
-XCHG %cl,%al;XCHG %al,%cl
-XCHG %cl,%al|XCHG %al,%cl
-XCHG %cl,%bl;XCHG %bl,%cl
-XCHG %cl,%bl|XCHG %bl,%cl
-XCHG %cl,%cl;XCHG %cl,%cl
-XCHG %cl,%cl|XCHG %cl,%cl
-XCHG %cl,%dl;XCHG %dl,%cl
-XCHG %cl,%dl|XCHG %dl,%cl
-XCHG %cl,%r8b;XCHG %r8b,%cl
-XCHG %cl,%r8b|XCHG %r8b,%cl
-XCHG %cl,%r9b;XCHG %r9b,%cl
-XCHG %cl,%r9b|XCHG %r9b,%cl
-XCHG %cl,%r10b;XCHG %r10b,%cl
-XCHG %cl,%r10b|XCHG %r10b,%cl
-XCHG %cl,%r11b;XCHG %r11b,%cl
-XCHG %cl,%r11b|XCHG %r11b,%cl
-XCHG %cl,%r12b;XCHG %r12b,%cl
-XCHG %cl,%r12b|XCHG %r12b,%cl
-XCHG %cl,%r13b;XCHG %r13b,%cl
-XCHG %cl,%r13b|XCHG %r13b,%cl
-XCHG %cl,%r14b;XCHG %r14b,%cl
-XCHG %cl,%r14b|XCHG %r14b,%cl
-XCHG %cl,%r15b;XCHG %r15b,%cl
-XCHG %cl,%r15b|XCHG %r15b,%cl
-MOV %dl,%dl
-XCHG %dl,%dl
-NOT %dl;NOT %dl
-NOT %dl|NOT %dl
-XCHG %dl,%ah;XCHG %ah,%dl
-XCHG %dl,%ah|XCHG %ah,%dl
-XCHG %dl,%bh;XCHG %bh,%dl
-XCHG %dl,%bh|XCHG %bh,%dl
-XCHG %dl,%ch;XCHG %ch,%dl
-XCHG %dl,%ch|XCHG %ch,%dl
-XCHG %dl,%dh;XCHG %dh,%dl
-XCHG %dl,%dh|XCHG %dh,%dl
-XCHG %dl,%al;XCHG %al,%dl
-XCHG %dl,%al|XCHG %al,%dl
-XCHG %dl,%bl;XCHG %bl,%dl
-XCHG %dl,%bl|XCHG %bl,%dl
-XCHG %dl,%cl;XCHG %cl,%dl
-XCHG %dl,%cl|XCHG %cl,%dl
-XCHG %dl,%dl;XCHG %dl,%dl
-XCHG %dl,%dl|XCHG %dl,%dl
-XCHG %dl,%r8b;XCHG %r8b,%dl
-XCHG %dl,%r8b|XCHG %r8b,%dl
-XCHG %dl,%r9b;XCHG %r9b,%dl
-XCHG %dl,%r9b|XCHG %r9b,%dl
-XCHG %dl,%r10b;XCHG %r10b,%dl
-XCHG %dl,%r10b|XCHG %r10b,%dl
-XCHG %dl,%r11b;XCHG %r11b,%dl
-XCHG %dl,%r11b|XCHG %r11b,%dl
-XCHG %dl,%r12b;XCHG %r12b,%dl
-XCHG %dl,%r12b|XCHG %r12b,%dl
-XCHG %dl,%r13b;XCHG %r13b,%dl
-XCHG %dl,%r13b|XCHG %r13b,%dl
-XCHG %dl,%r14b;XCHG %r14b,%dl
-XCHG %dl,%r14b|XCHG %r14b,%dl
-XCHG %dl,%r15b;XCHG %r15b,%dl
-XCHG %dl,%r15b|XCHG %r15b,%dl
 MOV %r8b,%r8b
 XCHG %r8b,%r8b
 NOT %r8b;NOT %r8b
 NOT %r8b|NOT %r8b
-XCHG %r8b,%ah;XCHG %ah,%r8b
-XCHG %r8b,%ah|XCHG %ah,%r8b
-XCHG %r8b,%bh;XCHG %bh,%r8b
-XCHG %r8b,%bh|XCHG %bh,%r8b
-XCHG %r8b,%ch;XCHG %ch,%r8b
-XCHG %r8b,%ch|XCHG %ch,%r8b
-XCHG %r8b,%dh;XCHG %dh,%r8b
-XCHG %r8b,%dh|XCHG %dh,%r8b
-XCHG %r8b,%al;XCHG %al,%r8b
-XCHG %r8b,%al|XCHG %al,%r8b
-XCHG %r8b,%bl;XCHG %bl,%r8b
-XCHG %r8b,%bl|XCHG %bl,%r8b
-XCHG %r8b,%cl;XCHG %cl,%r8b
-XCHG %r8b,%cl|XCHG %cl,%r8b
-XCHG %r8b,%dl;XCHG %dl,%r8b
-XCHG %r8b,%dl|XCHG %dl,%r8b
 XCHG %r8b,%r8b;XCHG %r8b,%r8b
 XCHG %r8b,%r8b|XCHG %r8b,%r8b
 XCHG %r8b,%r9b;XCHG %r9b,%r8b
@@ -2849,22 +1717,6 @@ MOV %r9b,%r9b
 XCHG %r9b,%r9b
 NOT %r9b;NOT %r9b
 NOT %r9b|NOT %r9b
-XCHG %r9b,%ah;XCHG %ah,%r9b
-XCHG %r9b,%ah|XCHG %ah,%r9b
-XCHG %r9b,%bh;XCHG %bh,%r9b
-XCHG %r9b,%bh|XCHG %bh,%r9b
-XCHG %r9b,%ch;XCHG %ch,%r9b
-XCHG %r9b,%ch|XCHG %ch,%r9b
-XCHG %r9b,%dh;XCHG %dh,%r9b
-XCHG %r9b,%dh|XCHG %dh,%r9b
-XCHG %r9b,%al;XCHG %al,%r9b
-XCHG %r9b,%al|XCHG %al,%r9b
-XCHG %r9b,%bl;XCHG %bl,%r9b
-XCHG %r9b,%bl|XCHG %bl,%r9b
-XCHG %r9b,%cl;XCHG %cl,%r9b
-XCHG %r9b,%cl|XCHG %cl,%r9b
-XCHG %r9b,%dl;XCHG %dl,%r9b
-XCHG %r9b,%dl|XCHG %dl,%r9b
 XCHG %r9b,%r8b;XCHG %r8b,%r9b
 XCHG %r9b,%r8b|XCHG %r8b,%r9b
 XCHG %r9b,%r9b;XCHG %r9b,%r9b
@@ -2885,22 +1737,6 @@ MOV %r10b,%r10b
 XCHG %r10b,%r10b
 NOT %r10b;NOT %r10b
 NOT %r10b|NOT %r10b
-XCHG %r10b,%ah;XCHG %ah,%r10b
-XCHG %r10b,%ah|XCHG %ah,%r10b
-XCHG %r10b,%bh;XCHG %bh,%r10b
-XCHG %r10b,%bh|XCHG %bh,%r10b
-XCHG %r10b,%ch;XCHG %ch,%r10b
-XCHG %r10b,%ch|XCHG %ch,%r10b
-XCHG %r10b,%dh;XCHG %dh,%r10b
-XCHG %r10b,%dh|XCHG %dh,%r10b
-XCHG %r10b,%al;XCHG %al,%r10b
-XCHG %r10b,%al|XCHG %al,%r10b
-XCHG %r10b,%bl;XCHG %bl,%r10b
-XCHG %r10b,%bl|XCHG %bl,%r10b
-XCHG %r10b,%cl;XCHG %cl,%r10b
-XCHG %r10b,%cl|XCHG %cl,%r10b
-XCHG %r10b,%dl;XCHG %dl,%r10b
-XCHG %r10b,%dl|XCHG %dl,%r10b
 XCHG %r10b,%r8b;XCHG %r8b,%r10b
 XCHG %r10b,%r8b|XCHG %r8b,%r10b
 XCHG %r10b,%r9b;XCHG %r9b,%r10b
@@ -2921,22 +1757,6 @@ MOV %r11b,%r11b
 XCHG %r11b,%r11b
 NOT %r11b;NOT %r11b
 NOT %r11b|NOT %r11b
-XCHG %r11b,%ah;XCHG %ah,%r11b
-XCHG %r11b,%ah|XCHG %ah,%r11b
-XCHG %r11b,%bh;XCHG %bh,%r11b
-XCHG %r11b,%bh|XCHG %bh,%r11b
-XCHG %r11b,%ch;XCHG %ch,%r11b
-XCHG %r11b,%ch|XCHG %ch,%r11b
-XCHG %r11b,%dh;XCHG %dh,%r11b
-XCHG %r11b,%dh|XCHG %dh,%r11b
-XCHG %r11b,%al;XCHG %al,%r11b
-XCHG %r11b,%al|XCHG %al,%r11b
-XCHG %r11b,%bl;XCHG %bl,%r11b
-XCHG %r11b,%bl|XCHG %bl,%r11b
-XCHG %r11b,%cl;XCHG %cl,%r11b
-XCHG %r11b,%cl|XCHG %cl,%r11b
-XCHG %r11b,%dl;XCHG %dl,%r11b
-XCHG %r11b,%dl|XCHG %dl,%r11b
 XCHG %r11b,%r8b;XCHG %r8b,%r11b
 XCHG %r11b,%r8b|XCHG %r8b,%r11b
 XCHG %r11b,%r9b;XCHG %r9b,%r11b
@@ -2957,22 +1777,6 @@ MOV %r12b,%r12b
 XCHG %r12b,%r12b
 NOT %r12b;NOT %r12b
 NOT %r12b|NOT %r12b
-XCHG %r12b,%ah;XCHG %ah,%r12b
-XCHG %r12b,%ah|XCHG %ah,%r12b
-XCHG %r12b,%bh;XCHG %bh,%r12b
-XCHG %r12b,%bh|XCHG %bh,%r12b
-XCHG %r12b,%ch;XCHG %ch,%r12b
-XCHG %r12b,%ch|XCHG %ch,%r12b
-XCHG %r12b,%dh;XCHG %dh,%r12b
-XCHG %r12b,%dh|XCHG %dh,%r12b
-XCHG %r12b,%al;XCHG %al,%r12b
-XCHG %r12b,%al|XCHG %al,%r12b
-XCHG %r12b,%bl;XCHG %bl,%r12b
-XCHG %r12b,%bl|XCHG %bl,%r12b
-XCHG %r12b,%cl;XCHG %cl,%r12b
-XCHG %r12b,%cl|XCHG %cl,%r12b
-XCHG %r12b,%dl;XCHG %dl,%r12b
-XCHG %r12b,%dl|XCHG %dl,%r12b
 XCHG %r12b,%r8b;XCHG %r8b,%r12b
 XCHG %r12b,%r8b|XCHG %r8b,%r12b
 XCHG %r12b,%r9b;XCHG %r9b,%r12b
@@ -2993,22 +1797,6 @@ MOV %r13b,%r13b
 XCHG %r13b,%r13b
 NOT %r13b;NOT %r13b
 NOT %r13b|NOT %r13b
-XCHG %r13b,%ah;XCHG %ah,%r13b
-XCHG %r13b,%ah|XCHG %ah,%r13b
-XCHG %r13b,%bh;XCHG %bh,%r13b
-XCHG %r13b,%bh|XCHG %bh,%r13b
-XCHG %r13b,%ch;XCHG %ch,%r13b
-XCHG %r13b,%ch|XCHG %ch,%r13b
-XCHG %r13b,%dh;XCHG %dh,%r13b
-XCHG %r13b,%dh|XCHG %dh,%r13b
-XCHG %r13b,%al;XCHG %al,%r13b
-XCHG %r13b,%al|XCHG %al,%r13b
-XCHG %r13b,%bl;XCHG %bl,%r13b
-XCHG %r13b,%bl|XCHG %bl,%r13b
-XCHG %r13b,%cl;XCHG %cl,%r13b
-XCHG %r13b,%cl|XCHG %cl,%r13b
-XCHG %r13b,%dl;XCHG %dl,%r13b
-XCHG %r13b,%dl|XCHG %dl,%r13b
 XCHG %r13b,%r8b;XCHG %r8b,%r13b
 XCHG %r13b,%r8b|XCHG %r8b,%r13b
 XCHG %r13b,%r9b;XCHG %r9b,%r13b
@@ -3029,22 +1817,6 @@ MOV %r14b,%r14b
 XCHG %r14b,%r14b
 NOT %r14b;NOT %r14b
 NOT %r14b|NOT %r14b
-XCHG %r14b,%ah;XCHG %ah,%r14b
-XCHG %r14b,%ah|XCHG %ah,%r14b
-XCHG %r14b,%bh;XCHG %bh,%r14b
-XCHG %r14b,%bh|XCHG %bh,%r14b
-XCHG %r14b,%ch;XCHG %ch,%r14b
-XCHG %r14b,%ch|XCHG %ch,%r14b
-XCHG %r14b,%dh;XCHG %dh,%r14b
-XCHG %r14b,%dh|XCHG %dh,%r14b
-XCHG %r14b,%al;XCHG %al,%r14b
-XCHG %r14b,%al|XCHG %al,%r14b
-XCHG %r14b,%bl;XCHG %bl,%r14b
-XCHG %r14b,%bl|XCHG %bl,%r14b
-XCHG %r14b,%cl;XCHG %cl,%r14b
-XCHG %r14b,%cl|XCHG %cl,%r14b
-XCHG %r14b,%dl;XCHG %dl,%r14b
-XCHG %r14b,%dl|XCHG %dl,%r14b
 XCHG %r14b,%r8b;XCHG %r8b,%r14b
 XCHG %r14b,%r8b|XCHG %r8b,%r14b
 XCHG %r14b,%r9b;XCHG %r9b,%r14b
@@ -3065,22 +1837,6 @@ MOV %r15b,%r15b
 XCHG %r15b,%r15b
 NOT %r15b;NOT %r15b
 NOT %r15b|NOT %r15b
-XCHG %r15b,%ah;XCHG %ah,%r15b
-XCHG %r15b,%ah|XCHG %ah,%r15b
-XCHG %r15b,%bh;XCHG %bh,%r15b
-XCHG %r15b,%bh|XCHG %bh,%r15b
-XCHG %r15b,%ch;XCHG %ch,%r15b
-XCHG %r15b,%ch|XCHG %ch,%r15b
-XCHG %r15b,%dh;XCHG %dh,%r15b
-XCHG %r15b,%dh|XCHG %dh,%r15b
-XCHG %r15b,%al;XCHG %al,%r15b
-XCHG %r15b,%al|XCHG %al,%r15b
-XCHG %r15b,%bl;XCHG %bl,%r15b
-XCHG %r15b,%bl|XCHG %bl,%r15b
-XCHG %r15b,%cl;XCHG %cl,%r15b
-XCHG %r15b,%cl|XCHG %cl,%r15b
-XCHG %r15b,%dl;XCHG %dl,%r15b
-XCHG %r15b,%dl|XCHG %dl,%r15b
 XCHG %r15b,%r8b;XCHG %r8b,%r15b
 XCHG %r15b,%r8b|XCHG %r8b,%r15b
 XCHG %r15b,%r9b;XCHG %r9b,%r15b

@@ -11,8 +11,8 @@ $reg32 = ['%eax', '%ebx', '%ecx', '%edx',
 $reg16 = ['%ax', '%bx', '%cx', '%dx', 
           '%r8w', '%r9w', '%r10w', '%r11w', 
           '%r12w', '%r13w', '%r14w', '%r15w']
-$reg8  = ['%ah', '%bh', '%ch', '%dh', 
-          '%al', '%bl', '%cl', '%dl', 
+$reg8  = [#'%ah', '%bh', '%ch', '%dh', 
+          #'%al', '%bl', '%cl', '%dl', 
           '%r8b', '%r9b', '%r10b', '%r11b', 
           '%r12b', '%r13b', '%r14b', '%r15b']
 
@@ -20,14 +20,14 @@ $reg8  = ['%ah', '%bh', '%ch', '%dh',
 #$imm16 = (0..2**16-1).map {|n| "$#{n}"}
 #$imm32 = (0..2**32-1).map {|n| "$#{n}"}
 
-$cond = ["a", "c", "g", "l", "o", "p", "s", "z",
-         "na", "nc", "ng", "nl", "no", "np", "ns"]
+$cond = ["A", "C", "G", "L", "O", "P", "S", "Z",
+         "NA", "NC", "NG", "NL", "NO", "NP", "NS"]
 
 # A generic command for creating opcodes
 def opcode(op,args) "#{op} #{args.join ','}" end
 def copcode(op,cond,args) opcode(op+cond, args) end
 
-# Instructions we cas use for creating semantic nops
+#u Instructions we cas use for creating semantic nops
 def MOVSXD(a,b)     opcode "MOVSXD", [a,b] end
 def MOV(a,b)        opcode "MOV", [a,b] end
 def XCHG(a,b)       opcode "XCHG", [a,b] end
@@ -36,7 +36,7 @@ def CMOV(cond,a,b) copcode "CMOV", cond, [a,b] end
 def PUSH(a)         opcode "PUSH", [a] end
 def POP(a)          opcode "POP", [a] end
 def NOT(a)          opcode "NOT", [a] end
-def BSWAP(a,b)      opcode "BSWAP", [a,b] end
+def BSWAP(a)        opcode "BSWAP", [a] end
 def LEA(a,b)        opcode "LEA", ["(#{a})", b] end
 
 File.open($output, 'w') do |f|
@@ -56,6 +56,9 @@ File.open($output, 'w') do |f|
     f.puts "#{NOT r};#{NOT r}"
     f.puts "#{NOT r}|#{NOT r}"
 
+    f.puts "#{BSWAP r};#{BSWAP r}"
+    f.puts "#{BSWAP r}|#{BSWAP r}"
+
     $cond.each do |cond|
       f.puts CMOV cond, r,r
     end
@@ -64,20 +67,20 @@ File.open($output, 'w') do |f|
       f.puts "#{XCHG r,s};#{XCHG s,r}"
       f.puts "#{XCHG r,s}|#{XCHG s,r}"
 
-      f.puts "#{BSWAP r,s};#{BSWAP s,r}"
-      f.puts "#{BSWAP r,s}|#{BSWAP s,r}"
     end
   end
 
   $reg32.each do |r|
     f.puts MOV r,r
-    f.puts MOVSXD r,r
     f.puts XCHG r,r
     f.puts NOP r
     f.puts LEA r,r
 
     f.puts "#{NOT r};#{NOT r}"
     f.puts "#{NOT r}|#{NOT r}"
+
+    f.puts "#{BSWAP r};#{BSWAP r}"
+    f.puts "#{BSWAP r}|#{BSWAP r}"
 
     $cond.each do |cond|
       f.puts CMOV cond, r,r
@@ -86,9 +89,6 @@ File.open($output, 'w') do |f|
     $reg32.each do |s|
       f.puts "#{XCHG r,s};#{XCHG s,r}"
       f.puts "#{XCHG r,s}|#{XCHG s,r}"
-
-      f.puts "#{BSWAP r,s};#{BSWAP s,r}"
-      f.puts "#{BSWAP r,s}|#{BSWAP s,r}"
     end
   end
 
@@ -103,6 +103,9 @@ File.open($output, 'w') do |f|
     f.puts "#{NOT r};#{NOT r}"
     f.puts "#{NOT r}|#{NOT r}"
 
+    #f.puts "#{BSWAP r};#{BSWAP r}"
+    #f.puts "#{BSWAP r}|#{BSWAP r}"
+
     $cond.each do |cond|
       f.puts CMOV cond, r,r
     end
@@ -110,9 +113,6 @@ File.open($output, 'w') do |f|
     $reg16.each do |s|
       f.puts "#{XCHG r,s};#{XCHG s,r}"
       f.puts "#{XCHG r,s}|#{XCHG s,r}"
-
-      f.puts "#{BSWAP r,s};#{BSWAP s,r}"
-      f.puts "#{BSWAP r,s}|#{BSWAP s,r}"
     end
   end
 

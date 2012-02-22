@@ -1,0 +1,1855 @@
+x86|NOP||90|
+x86|PUSHF; POPF||9c9d|
+x86|PUSHF|POPF|9c|9d
+x86|MOV %rax,%rax||4889c0|
+x86|XCHG %rax,%rax||90|
+x86|LEA (%rax),%rax||488d00|
+x86|PUSH %rax; POP %rax||5058|
+x86|PUSH %rax|POP %rax|50|58
+x86|NOT %rax; NOT %rax||48f7d048f7d0|
+x86|NOT %rax|NOT %rax|48f7d0|48f7d0
+x86|BSWAP %rax; BSWAP %rax||480fc8480fc8|
+x86|BSWAP %rax|BSWAP %rax|480fc8|480fc8
+x86|CMOVA %rax,%rax||480f47c0|
+x86|CMOVC %rax,%rax||480f42c0|
+x86|CMOVG %rax,%rax||480f4fc0|
+x86|CMOVL %rax,%rax||480f4cc0|
+x86|CMOVO %rax,%rax||480f40c0|
+x86|CMOVP %rax,%rax||480f4ac0|
+x86|CMOVS %rax,%rax||480f48c0|
+x86|CMOVZ %rax,%rax||480f44c0|
+x86|CMOVNA %rax,%rax||480f46c0|
+x86|CMOVNC %rax,%rax||480f43c0|
+x86|CMOVNG %rax,%rax||480f4ec0|
+x86|CMOVNL %rax,%rax||480f4dc0|
+x86|CMOVNO %rax,%rax||480f41c0|
+x86|CMOVNP %rax,%rax||480f4bc0|
+x86|CMOVNS %rax,%rax||480f49c0|
+x86|XCHG %rax,%rax; XCHG %rax,%rax||9090|
+x86|XCHG %rax,%rax|XCHG %rax,%rax|90|90
+x86|XCHG %rax,%rbx; XCHG %rbx,%rax||48934893|
+x86|XCHG %rax,%rbx|XCHG %rbx,%rax|4893|4893
+x86|XCHG %rax,%rcx; XCHG %rcx,%rax||48914891|
+x86|XCHG %rax,%rcx|XCHG %rcx,%rax|4891|4891
+x86|XCHG %rax,%rdx; XCHG %rdx,%rax||48924892|
+x86|XCHG %rax,%rdx|XCHG %rdx,%rax|4892|4892
+x86|XCHG %rax,%r8; XCHG %r8,%rax||49904990|
+x86|XCHG %rax,%r8|XCHG %r8,%rax|4990|4990
+x86|XCHG %rax,%r9; XCHG %r9,%rax||49914991|
+x86|XCHG %rax,%r9|XCHG %r9,%rax|4991|4991
+x86|XCHG %rax,%r10; XCHG %r10,%rax||49924992|
+x86|XCHG %rax,%r10|XCHG %r10,%rax|4992|4992
+x86|XCHG %rax,%r11; XCHG %r11,%rax||49934993|
+x86|XCHG %rax,%r11|XCHG %r11,%rax|4993|4993
+x86|XCHG %rax,%r12; XCHG %r12,%rax||49944994|
+x86|XCHG %rax,%r12|XCHG %r12,%rax|4994|4994
+x86|XCHG %rax,%r13; XCHG %r13,%rax||49954995|
+x86|XCHG %rax,%r13|XCHG %r13,%rax|4995|4995
+x86|XCHG %rax,%r14; XCHG %r14,%rax||49964996|
+x86|XCHG %rax,%r14|XCHG %r14,%rax|4996|4996
+x86|XCHG %rax,%r15; XCHG %r15,%rax||49974997|
+x86|XCHG %rax,%r15|XCHG %r15,%rax|4997|4997
+x86|MOV %rbx,%rbx||4889db|
+x86|XCHG %rbx,%rbx||4887db|
+x86|LEA (%rbx),%rbx||488d1b|
+x86|PUSH %rbx; POP %rbx||535b|
+x86|PUSH %rbx|POP %rbx|53|5b
+x86|NOT %rbx; NOT %rbx||48f7d348f7d3|
+x86|NOT %rbx|NOT %rbx|48f7d3|48f7d3
+x86|BSWAP %rbx; BSWAP %rbx||480fcb480fcb|
+x86|BSWAP %rbx|BSWAP %rbx|480fcb|480fcb
+x86|CMOVA %rbx,%rbx||480f47db|
+x86|CMOVC %rbx,%rbx||480f42db|
+x86|CMOVG %rbx,%rbx||480f4fdb|
+x86|CMOVL %rbx,%rbx||480f4cdb|
+x86|CMOVO %rbx,%rbx||480f40db|
+x86|CMOVP %rbx,%rbx||480f4adb|
+x86|CMOVS %rbx,%rbx||480f48db|
+x86|CMOVZ %rbx,%rbx||480f44db|
+x86|CMOVNA %rbx,%rbx||480f46db|
+x86|CMOVNC %rbx,%rbx||480f43db|
+x86|CMOVNG %rbx,%rbx||480f4edb|
+x86|CMOVNL %rbx,%rbx||480f4ddb|
+x86|CMOVNO %rbx,%rbx||480f41db|
+x86|CMOVNP %rbx,%rbx||480f4bdb|
+x86|CMOVNS %rbx,%rbx||480f49db|
+x86|XCHG %rbx,%rax; XCHG %rax,%rbx||48934893|
+x86|XCHG %rbx,%rax|XCHG %rax,%rbx|4893|4893
+x86|XCHG %rbx,%rbx; XCHG %rbx,%rbx||4887db4887db|
+x86|XCHG %rbx,%rbx|XCHG %rbx,%rbx|4887db|4887db
+x86|XCHG %rbx,%rcx; XCHG %rcx,%rbx||4887d94887cb|
+x86|XCHG %rbx,%rcx|XCHG %rcx,%rbx|4887d9|4887cb
+x86|XCHG %rbx,%rdx; XCHG %rdx,%rbx||4887da4887d3|
+x86|XCHG %rbx,%rdx|XCHG %rdx,%rbx|4887da|4887d3
+x86|XCHG %rbx,%r8; XCHG %r8,%rbx||4987d84c87c3|
+x86|XCHG %rbx,%r8|XCHG %r8,%rbx|4987d8|4c87c3
+x86|XCHG %rbx,%r9; XCHG %r9,%rbx||4987d94c87cb|
+x86|XCHG %rbx,%r9|XCHG %r9,%rbx|4987d9|4c87cb
+x86|XCHG %rbx,%r10; XCHG %r10,%rbx||4987da4c87d3|
+x86|XCHG %rbx,%r10|XCHG %r10,%rbx|4987da|4c87d3
+x86|XCHG %rbx,%r11; XCHG %r11,%rbx||4987db4c87db|
+x86|XCHG %rbx,%r11|XCHG %r11,%rbx|4987db|4c87db
+x86|XCHG %rbx,%r12; XCHG %r12,%rbx||4987dc4c87e3|
+x86|XCHG %rbx,%r12|XCHG %r12,%rbx|4987dc|4c87e3
+x86|XCHG %rbx,%r13; XCHG %r13,%rbx||4987dd4c87eb|
+x86|XCHG %rbx,%r13|XCHG %r13,%rbx|4987dd|4c87eb
+x86|XCHG %rbx,%r14; XCHG %r14,%rbx||4987de4c87f3|
+x86|XCHG %rbx,%r14|XCHG %r14,%rbx|4987de|4c87f3
+x86|XCHG %rbx,%r15; XCHG %r15,%rbx||4987df4c87fb|
+x86|XCHG %rbx,%r15|XCHG %r15,%rbx|4987df|4c87fb
+x86|MOV %rcx,%rcx||4889c9|
+x86|XCHG %rcx,%rcx||4887c9|
+x86|LEA (%rcx),%rcx||488d09|
+x86|PUSH %rcx; POP %rcx||5159|
+x86|PUSH %rcx|POP %rcx|51|59
+x86|NOT %rcx; NOT %rcx||48f7d148f7d1|
+x86|NOT %rcx|NOT %rcx|48f7d1|48f7d1
+x86|BSWAP %rcx; BSWAP %rcx||480fc9480fc9|
+x86|BSWAP %rcx|BSWAP %rcx|480fc9|480fc9
+x86|CMOVA %rcx,%rcx||480f47c9|
+x86|CMOVC %rcx,%rcx||480f42c9|
+x86|CMOVG %rcx,%rcx||480f4fc9|
+x86|CMOVL %rcx,%rcx||480f4cc9|
+x86|CMOVO %rcx,%rcx||480f40c9|
+x86|CMOVP %rcx,%rcx||480f4ac9|
+x86|CMOVS %rcx,%rcx||480f48c9|
+x86|CMOVZ %rcx,%rcx||480f44c9|
+x86|CMOVNA %rcx,%rcx||480f46c9|
+x86|CMOVNC %rcx,%rcx||480f43c9|
+x86|CMOVNG %rcx,%rcx||480f4ec9|
+x86|CMOVNL %rcx,%rcx||480f4dc9|
+x86|CMOVNO %rcx,%rcx||480f41c9|
+x86|CMOVNP %rcx,%rcx||480f4bc9|
+x86|CMOVNS %rcx,%rcx||480f49c9|
+x86|XCHG %rcx,%rax; XCHG %rax,%rcx||48914891|
+x86|XCHG %rcx,%rax|XCHG %rax,%rcx|4891|4891
+x86|XCHG %rcx,%rbx; XCHG %rbx,%rcx||4887cb4887d9|
+x86|XCHG %rcx,%rbx|XCHG %rbx,%rcx|4887cb|4887d9
+x86|XCHG %rcx,%rcx; XCHG %rcx,%rcx||4887c94887c9|
+x86|XCHG %rcx,%rcx|XCHG %rcx,%rcx|4887c9|4887c9
+x86|XCHG %rcx,%rdx; XCHG %rdx,%rcx||4887ca4887d1|
+x86|XCHG %rcx,%rdx|XCHG %rdx,%rcx|4887ca|4887d1
+x86|XCHG %rcx,%r8; XCHG %r8,%rcx||4987c84c87c1|
+x86|XCHG %rcx,%r8|XCHG %r8,%rcx|4987c8|4c87c1
+x86|XCHG %rcx,%r9; XCHG %r9,%rcx||4987c94c87c9|
+x86|XCHG %rcx,%r9|XCHG %r9,%rcx|4987c9|4c87c9
+x86|XCHG %rcx,%r10; XCHG %r10,%rcx||4987ca4c87d1|
+x86|XCHG %rcx,%r10|XCHG %r10,%rcx|4987ca|4c87d1
+x86|XCHG %rcx,%r11; XCHG %r11,%rcx||4987cb4c87d9|
+x86|XCHG %rcx,%r11|XCHG %r11,%rcx|4987cb|4c87d9
+x86|XCHG %rcx,%r12; XCHG %r12,%rcx||4987cc4c87e1|
+x86|XCHG %rcx,%r12|XCHG %r12,%rcx|4987cc|4c87e1
+x86|XCHG %rcx,%r13; XCHG %r13,%rcx||4987cd4c87e9|
+x86|XCHG %rcx,%r13|XCHG %r13,%rcx|4987cd|4c87e9
+x86|XCHG %rcx,%r14; XCHG %r14,%rcx||4987ce4c87f1|
+x86|XCHG %rcx,%r14|XCHG %r14,%rcx|4987ce|4c87f1
+x86|XCHG %rcx,%r15; XCHG %r15,%rcx||4987cf4c87f9|
+x86|XCHG %rcx,%r15|XCHG %r15,%rcx|4987cf|4c87f9
+x86|MOV %rdx,%rdx||4889d2|
+x86|XCHG %rdx,%rdx||4887d2|
+x86|LEA (%rdx),%rdx||488d12|
+x86|PUSH %rdx; POP %rdx||525a|
+x86|PUSH %rdx|POP %rdx|52|5a
+x86|NOT %rdx; NOT %rdx||48f7d248f7d2|
+x86|NOT %rdx|NOT %rdx|48f7d2|48f7d2
+x86|BSWAP %rdx; BSWAP %rdx||480fca480fca|
+x86|BSWAP %rdx|BSWAP %rdx|480fca|480fca
+x86|CMOVA %rdx,%rdx||480f47d2|
+x86|CMOVC %rdx,%rdx||480f42d2|
+x86|CMOVG %rdx,%rdx||480f4fd2|
+x86|CMOVL %rdx,%rdx||480f4cd2|
+x86|CMOVO %rdx,%rdx||480f40d2|
+x86|CMOVP %rdx,%rdx||480f4ad2|
+x86|CMOVS %rdx,%rdx||480f48d2|
+x86|CMOVZ %rdx,%rdx||480f44d2|
+x86|CMOVNA %rdx,%rdx||480f46d2|
+x86|CMOVNC %rdx,%rdx||480f43d2|
+x86|CMOVNG %rdx,%rdx||480f4ed2|
+x86|CMOVNL %rdx,%rdx||480f4dd2|
+x86|CMOVNO %rdx,%rdx||480f41d2|
+x86|CMOVNP %rdx,%rdx||480f4bd2|
+x86|CMOVNS %rdx,%rdx||480f49d2|
+x86|XCHG %rdx,%rax; XCHG %rax,%rdx||48924892|
+x86|XCHG %rdx,%rax|XCHG %rax,%rdx|4892|4892
+x86|XCHG %rdx,%rbx; XCHG %rbx,%rdx||4887d34887da|
+x86|XCHG %rdx,%rbx|XCHG %rbx,%rdx|4887d3|4887da
+x86|XCHG %rdx,%rcx; XCHG %rcx,%rdx||4887d14887ca|
+x86|XCHG %rdx,%rcx|XCHG %rcx,%rdx|4887d1|4887ca
+x86|XCHG %rdx,%rdx; XCHG %rdx,%rdx||4887d24887d2|
+x86|XCHG %rdx,%rdx|XCHG %rdx,%rdx|4887d2|4887d2
+x86|XCHG %rdx,%r8; XCHG %r8,%rdx||4987d04c87c2|
+x86|XCHG %rdx,%r8|XCHG %r8,%rdx|4987d0|4c87c2
+x86|XCHG %rdx,%r9; XCHG %r9,%rdx||4987d14c87ca|
+x86|XCHG %rdx,%r9|XCHG %r9,%rdx|4987d1|4c87ca
+x86|XCHG %rdx,%r10; XCHG %r10,%rdx||4987d24c87d2|
+x86|XCHG %rdx,%r10|XCHG %r10,%rdx|4987d2|4c87d2
+x86|XCHG %rdx,%r11; XCHG %r11,%rdx||4987d34c87da|
+x86|XCHG %rdx,%r11|XCHG %r11,%rdx|4987d3|4c87da
+x86|XCHG %rdx,%r12; XCHG %r12,%rdx||4987d44c87e2|
+x86|XCHG %rdx,%r12|XCHG %r12,%rdx|4987d4|4c87e2
+x86|XCHG %rdx,%r13; XCHG %r13,%rdx||4987d54c87ea|
+x86|XCHG %rdx,%r13|XCHG %r13,%rdx|4987d5|4c87ea
+x86|XCHG %rdx,%r14; XCHG %r14,%rdx||4987d64c87f2|
+x86|XCHG %rdx,%r14|XCHG %r14,%rdx|4987d6|4c87f2
+x86|XCHG %rdx,%r15; XCHG %r15,%rdx||4987d74c87fa|
+x86|XCHG %rdx,%r15|XCHG %r15,%rdx|4987d7|4c87fa
+x86|MOV %r8,%r8||4d89c0|
+x86|XCHG %r8,%r8||4d87c0|
+x86|LEA (%r8),%r8||4d8d00|
+x86|PUSH %r8; POP %r8||41504158|
+x86|PUSH %r8|POP %r8|4150|4158
+x86|NOT %r8; NOT %r8||49f7d049f7d0|
+x86|NOT %r8|NOT %r8|49f7d0|49f7d0
+x86|BSWAP %r8; BSWAP %r8||490fc8490fc8|
+x86|BSWAP %r8|BSWAP %r8|490fc8|490fc8
+x86|CMOVA %r8,%r8||4d0f47c0|
+x86|CMOVC %r8,%r8||4d0f42c0|
+x86|CMOVG %r8,%r8||4d0f4fc0|
+x86|CMOVL %r8,%r8||4d0f4cc0|
+x86|CMOVO %r8,%r8||4d0f40c0|
+x86|CMOVP %r8,%r8||4d0f4ac0|
+x86|CMOVS %r8,%r8||4d0f48c0|
+x86|CMOVZ %r8,%r8||4d0f44c0|
+x86|CMOVNA %r8,%r8||4d0f46c0|
+x86|CMOVNC %r8,%r8||4d0f43c0|
+x86|CMOVNG %r8,%r8||4d0f4ec0|
+x86|CMOVNL %r8,%r8||4d0f4dc0|
+x86|CMOVNO %r8,%r8||4d0f41c0|
+x86|CMOVNP %r8,%r8||4d0f4bc0|
+x86|CMOVNS %r8,%r8||4d0f49c0|
+x86|XCHG %r8,%rax; XCHG %rax,%r8||49904990|
+x86|XCHG %r8,%rax|XCHG %rax,%r8|4990|4990
+x86|XCHG %r8,%rbx; XCHG %rbx,%r8||4c87c34987d8|
+x86|XCHG %r8,%rbx|XCHG %rbx,%r8|4c87c3|4987d8
+x86|XCHG %r8,%rcx; XCHG %rcx,%r8||4c87c14987c8|
+x86|XCHG %r8,%rcx|XCHG %rcx,%r8|4c87c1|4987c8
+x86|XCHG %r8,%rdx; XCHG %rdx,%r8||4c87c24987d0|
+x86|XCHG %r8,%rdx|XCHG %rdx,%r8|4c87c2|4987d0
+x86|XCHG %r8,%r8; XCHG %r8,%r8||4d87c04d87c0|
+x86|XCHG %r8,%r8|XCHG %r8,%r8|4d87c0|4d87c0
+x86|XCHG %r8,%r9; XCHG %r9,%r8||4d87c14d87c8|
+x86|XCHG %r8,%r9|XCHG %r9,%r8|4d87c1|4d87c8
+x86|XCHG %r8,%r10; XCHG %r10,%r8||4d87c24d87d0|
+x86|XCHG %r8,%r10|XCHG %r10,%r8|4d87c2|4d87d0
+x86|XCHG %r8,%r11; XCHG %r11,%r8||4d87c34d87d8|
+x86|XCHG %r8,%r11|XCHG %r11,%r8|4d87c3|4d87d8
+x86|XCHG %r8,%r12; XCHG %r12,%r8||4d87c44d87e0|
+x86|XCHG %r8,%r12|XCHG %r12,%r8|4d87c4|4d87e0
+x86|XCHG %r8,%r13; XCHG %r13,%r8||4d87c54d87e8|
+x86|XCHG %r8,%r13|XCHG %r13,%r8|4d87c5|4d87e8
+x86|XCHG %r8,%r14; XCHG %r14,%r8||4d87c64d87f0|
+x86|XCHG %r8,%r14|XCHG %r14,%r8|4d87c6|4d87f0
+x86|XCHG %r8,%r15; XCHG %r15,%r8||4d87c74d87f8|
+x86|XCHG %r8,%r15|XCHG %r15,%r8|4d87c7|4d87f8
+x86|MOV %r9,%r9||4d89c9|
+x86|XCHG %r9,%r9||4d87c9|
+x86|LEA (%r9),%r9||4d8d09|
+x86|PUSH %r9; POP %r9||41514159|
+x86|PUSH %r9|POP %r9|4151|4159
+x86|NOT %r9; NOT %r9||49f7d149f7d1|
+x86|NOT %r9|NOT %r9|49f7d1|49f7d1
+x86|BSWAP %r9; BSWAP %r9||490fc9490fc9|
+x86|BSWAP %r9|BSWAP %r9|490fc9|490fc9
+x86|CMOVA %r9,%r9||4d0f47c9|
+x86|CMOVC %r9,%r9||4d0f42c9|
+x86|CMOVG %r9,%r9||4d0f4fc9|
+x86|CMOVL %r9,%r9||4d0f4cc9|
+x86|CMOVO %r9,%r9||4d0f40c9|
+x86|CMOVP %r9,%r9||4d0f4ac9|
+x86|CMOVS %r9,%r9||4d0f48c9|
+x86|CMOVZ %r9,%r9||4d0f44c9|
+x86|CMOVNA %r9,%r9||4d0f46c9|
+x86|CMOVNC %r9,%r9||4d0f43c9|
+x86|CMOVNG %r9,%r9||4d0f4ec9|
+x86|CMOVNL %r9,%r9||4d0f4dc9|
+x86|CMOVNO %r9,%r9||4d0f41c9|
+x86|CMOVNP %r9,%r9||4d0f4bc9|
+x86|CMOVNS %r9,%r9||4d0f49c9|
+x86|XCHG %r9,%rax; XCHG %rax,%r9||49914991|
+x86|XCHG %r9,%rax|XCHG %rax,%r9|4991|4991
+x86|XCHG %r9,%rbx; XCHG %rbx,%r9||4c87cb4987d9|
+x86|XCHG %r9,%rbx|XCHG %rbx,%r9|4c87cb|4987d9
+x86|XCHG %r9,%rcx; XCHG %rcx,%r9||4c87c94987c9|
+x86|XCHG %r9,%rcx|XCHG %rcx,%r9|4c87c9|4987c9
+x86|XCHG %r9,%rdx; XCHG %rdx,%r9||4c87ca4987d1|
+x86|XCHG %r9,%rdx|XCHG %rdx,%r9|4c87ca|4987d1
+x86|XCHG %r9,%r8; XCHG %r8,%r9||4d87c84d87c1|
+x86|XCHG %r9,%r8|XCHG %r8,%r9|4d87c8|4d87c1
+x86|XCHG %r9,%r9; XCHG %r9,%r9||4d87c94d87c9|
+x86|XCHG %r9,%r9|XCHG %r9,%r9|4d87c9|4d87c9
+x86|XCHG %r9,%r10; XCHG %r10,%r9||4d87ca4d87d1|
+x86|XCHG %r9,%r10|XCHG %r10,%r9|4d87ca|4d87d1
+x86|XCHG %r9,%r11; XCHG %r11,%r9||4d87cb4d87d9|
+x86|XCHG %r9,%r11|XCHG %r11,%r9|4d87cb|4d87d9
+x86|XCHG %r9,%r12; XCHG %r12,%r9||4d87cc4d87e1|
+x86|XCHG %r9,%r12|XCHG %r12,%r9|4d87cc|4d87e1
+x86|XCHG %r9,%r13; XCHG %r13,%r9||4d87cd4d87e9|
+x86|XCHG %r9,%r13|XCHG %r13,%r9|4d87cd|4d87e9
+x86|XCHG %r9,%r14; XCHG %r14,%r9||4d87ce4d87f1|
+x86|XCHG %r9,%r14|XCHG %r14,%r9|4d87ce|4d87f1
+x86|XCHG %r9,%r15; XCHG %r15,%r9||4d87cf4d87f9|
+x86|XCHG %r9,%r15|XCHG %r15,%r9|4d87cf|4d87f9
+x86|MOV %r10,%r10||4d89d2|
+x86|XCHG %r10,%r10||4d87d2|
+x86|LEA (%r10),%r10||4d8d12|
+x86|PUSH %r10; POP %r10||4152415a|
+x86|PUSH %r10|POP %r10|4152|415a
+x86|NOT %r10; NOT %r10||49f7d249f7d2|
+x86|NOT %r10|NOT %r10|49f7d2|49f7d2
+x86|BSWAP %r10; BSWAP %r10||490fca490fca|
+x86|BSWAP %r10|BSWAP %r10|490fca|490fca
+x86|CMOVA %r10,%r10||4d0f47d2|
+x86|CMOVC %r10,%r10||4d0f42d2|
+x86|CMOVG %r10,%r10||4d0f4fd2|
+x86|CMOVL %r10,%r10||4d0f4cd2|
+x86|CMOVO %r10,%r10||4d0f40d2|
+x86|CMOVP %r10,%r10||4d0f4ad2|
+x86|CMOVS %r10,%r10||4d0f48d2|
+x86|CMOVZ %r10,%r10||4d0f44d2|
+x86|CMOVNA %r10,%r10||4d0f46d2|
+x86|CMOVNC %r10,%r10||4d0f43d2|
+x86|CMOVNG %r10,%r10||4d0f4ed2|
+x86|CMOVNL %r10,%r10||4d0f4dd2|
+x86|CMOVNO %r10,%r10||4d0f41d2|
+x86|CMOVNP %r10,%r10||4d0f4bd2|
+x86|CMOVNS %r10,%r10||4d0f49d2|
+x86|XCHG %r10,%rax; XCHG %rax,%r10||49924992|
+x86|XCHG %r10,%rax|XCHG %rax,%r10|4992|4992
+x86|XCHG %r10,%rbx; XCHG %rbx,%r10||4c87d34987da|
+x86|XCHG %r10,%rbx|XCHG %rbx,%r10|4c87d3|4987da
+x86|XCHG %r10,%rcx; XCHG %rcx,%r10||4c87d14987ca|
+x86|XCHG %r10,%rcx|XCHG %rcx,%r10|4c87d1|4987ca
+x86|XCHG %r10,%rdx; XCHG %rdx,%r10||4c87d24987d2|
+x86|XCHG %r10,%rdx|XCHG %rdx,%r10|4c87d2|4987d2
+x86|XCHG %r10,%r8; XCHG %r8,%r10||4d87d04d87c2|
+x86|XCHG %r10,%r8|XCHG %r8,%r10|4d87d0|4d87c2
+x86|XCHG %r10,%r9; XCHG %r9,%r10||4d87d14d87ca|
+x86|XCHG %r10,%r9|XCHG %r9,%r10|4d87d1|4d87ca
+x86|XCHG %r10,%r10; XCHG %r10,%r10||4d87d24d87d2|
+x86|XCHG %r10,%r10|XCHG %r10,%r10|4d87d2|4d87d2
+x86|XCHG %r10,%r11; XCHG %r11,%r10||4d87d34d87da|
+x86|XCHG %r10,%r11|XCHG %r11,%r10|4d87d3|4d87da
+x86|XCHG %r10,%r12; XCHG %r12,%r10||4d87d44d87e2|
+x86|XCHG %r10,%r12|XCHG %r12,%r10|4d87d4|4d87e2
+x86|XCHG %r10,%r13; XCHG %r13,%r10||4d87d54d87ea|
+x86|XCHG %r10,%r13|XCHG %r13,%r10|4d87d5|4d87ea
+x86|XCHG %r10,%r14; XCHG %r14,%r10||4d87d64d87f2|
+x86|XCHG %r10,%r14|XCHG %r14,%r10|4d87d6|4d87f2
+x86|XCHG %r10,%r15; XCHG %r15,%r10||4d87d74d87fa|
+x86|XCHG %r10,%r15|XCHG %r15,%r10|4d87d7|4d87fa
+x86|MOV %r11,%r11||4d89db|
+x86|XCHG %r11,%r11||4d87db|
+x86|LEA (%r11),%r11||4d8d1b|
+x86|PUSH %r11; POP %r11||4153415b|
+x86|PUSH %r11|POP %r11|4153|415b
+x86|NOT %r11; NOT %r11||49f7d349f7d3|
+x86|NOT %r11|NOT %r11|49f7d3|49f7d3
+x86|BSWAP %r11; BSWAP %r11||490fcb490fcb|
+x86|BSWAP %r11|BSWAP %r11|490fcb|490fcb
+x86|CMOVA %r11,%r11||4d0f47db|
+x86|CMOVC %r11,%r11||4d0f42db|
+x86|CMOVG %r11,%r11||4d0f4fdb|
+x86|CMOVL %r11,%r11||4d0f4cdb|
+x86|CMOVO %r11,%r11||4d0f40db|
+x86|CMOVP %r11,%r11||4d0f4adb|
+x86|CMOVS %r11,%r11||4d0f48db|
+x86|CMOVZ %r11,%r11||4d0f44db|
+x86|CMOVNA %r11,%r11||4d0f46db|
+x86|CMOVNC %r11,%r11||4d0f43db|
+x86|CMOVNG %r11,%r11||4d0f4edb|
+x86|CMOVNL %r11,%r11||4d0f4ddb|
+x86|CMOVNO %r11,%r11||4d0f41db|
+x86|CMOVNP %r11,%r11||4d0f4bdb|
+x86|CMOVNS %r11,%r11||4d0f49db|
+x86|XCHG %r11,%rax; XCHG %rax,%r11||49934993|
+x86|XCHG %r11,%rax|XCHG %rax,%r11|4993|4993
+x86|XCHG %r11,%rbx; XCHG %rbx,%r11||4c87db4987db|
+x86|XCHG %r11,%rbx|XCHG %rbx,%r11|4c87db|4987db
+x86|XCHG %r11,%rcx; XCHG %rcx,%r11||4c87d94987cb|
+x86|XCHG %r11,%rcx|XCHG %rcx,%r11|4c87d9|4987cb
+x86|XCHG %r11,%rdx; XCHG %rdx,%r11||4c87da4987d3|
+x86|XCHG %r11,%rdx|XCHG %rdx,%r11|4c87da|4987d3
+x86|XCHG %r11,%r8; XCHG %r8,%r11||4d87d84d87c3|
+x86|XCHG %r11,%r8|XCHG %r8,%r11|4d87d8|4d87c3
+x86|XCHG %r11,%r9; XCHG %r9,%r11||4d87d94d87cb|
+x86|XCHG %r11,%r9|XCHG %r9,%r11|4d87d9|4d87cb
+x86|XCHG %r11,%r10; XCHG %r10,%r11||4d87da4d87d3|
+x86|XCHG %r11,%r10|XCHG %r10,%r11|4d87da|4d87d3
+x86|XCHG %r11,%r11; XCHG %r11,%r11||4d87db4d87db|
+x86|XCHG %r11,%r11|XCHG %r11,%r11|4d87db|4d87db
+x86|XCHG %r11,%r12; XCHG %r12,%r11||4d87dc4d87e3|
+x86|XCHG %r11,%r12|XCHG %r12,%r11|4d87dc|4d87e3
+x86|XCHG %r11,%r13; XCHG %r13,%r11||4d87dd4d87eb|
+x86|XCHG %r11,%r13|XCHG %r13,%r11|4d87dd|4d87eb
+x86|XCHG %r11,%r14; XCHG %r14,%r11||4d87de4d87f3|
+x86|XCHG %r11,%r14|XCHG %r14,%r11|4d87de|4d87f3
+x86|XCHG %r11,%r15; XCHG %r15,%r11||4d87df4d87fb|
+x86|XCHG %r11,%r15|XCHG %r15,%r11|4d87df|4d87fb
+x86|MOV %r12,%r12||4d89e4|
+x86|XCHG %r12,%r12||4d87e4|
+x86|LEA (%r12),%r12||4d8d2424|
+x86|PUSH %r12; POP %r12||4154415c|
+x86|PUSH %r12|POP %r12|4154|415c
+x86|NOT %r12; NOT %r12||49f7d449f7d4|
+x86|NOT %r12|NOT %r12|49f7d4|49f7d4
+x86|BSWAP %r12; BSWAP %r12||490fcc490fcc|
+x86|BSWAP %r12|BSWAP %r12|490fcc|490fcc
+x86|CMOVA %r12,%r12||4d0f47e4|
+x86|CMOVC %r12,%r12||4d0f42e4|
+x86|CMOVG %r12,%r12||4d0f4fe4|
+x86|CMOVL %r12,%r12||4d0f4ce4|
+x86|CMOVO %r12,%r12||4d0f40e4|
+x86|CMOVP %r12,%r12||4d0f4ae4|
+x86|CMOVS %r12,%r12||4d0f48e4|
+x86|CMOVZ %r12,%r12||4d0f44e4|
+x86|CMOVNA %r12,%r12||4d0f46e4|
+x86|CMOVNC %r12,%r12||4d0f43e4|
+x86|CMOVNG %r12,%r12||4d0f4ee4|
+x86|CMOVNL %r12,%r12||4d0f4de4|
+x86|CMOVNO %r12,%r12||4d0f41e4|
+x86|CMOVNP %r12,%r12||4d0f4be4|
+x86|CMOVNS %r12,%r12||4d0f49e4|
+x86|XCHG %r12,%rax; XCHG %rax,%r12||49944994|
+x86|XCHG %r12,%rax|XCHG %rax,%r12|4994|4994
+x86|XCHG %r12,%rbx; XCHG %rbx,%r12||4c87e34987dc|
+x86|XCHG %r12,%rbx|XCHG %rbx,%r12|4c87e3|4987dc
+x86|XCHG %r12,%rcx; XCHG %rcx,%r12||4c87e14987cc|
+x86|XCHG %r12,%rcx|XCHG %rcx,%r12|4c87e1|4987cc
+x86|XCHG %r12,%rdx; XCHG %rdx,%r12||4c87e24987d4|
+x86|XCHG %r12,%rdx|XCHG %rdx,%r12|4c87e2|4987d4
+x86|XCHG %r12,%r8; XCHG %r8,%r12||4d87e04d87c4|
+x86|XCHG %r12,%r8|XCHG %r8,%r12|4d87e0|4d87c4
+x86|XCHG %r12,%r9; XCHG %r9,%r12||4d87e14d87cc|
+x86|XCHG %r12,%r9|XCHG %r9,%r12|4d87e1|4d87cc
+x86|XCHG %r12,%r10; XCHG %r10,%r12||4d87e24d87d4|
+x86|XCHG %r12,%r10|XCHG %r10,%r12|4d87e2|4d87d4
+x86|XCHG %r12,%r11; XCHG %r11,%r12||4d87e34d87dc|
+x86|XCHG %r12,%r11|XCHG %r11,%r12|4d87e3|4d87dc
+x86|XCHG %r12,%r12; XCHG %r12,%r12||4d87e44d87e4|
+x86|XCHG %r12,%r12|XCHG %r12,%r12|4d87e4|4d87e4
+x86|XCHG %r12,%r13; XCHG %r13,%r12||4d87e54d87ec|
+x86|XCHG %r12,%r13|XCHG %r13,%r12|4d87e5|4d87ec
+x86|XCHG %r12,%r14; XCHG %r14,%r12||4d87e64d87f4|
+x86|XCHG %r12,%r14|XCHG %r14,%r12|4d87e6|4d87f4
+x86|XCHG %r12,%r15; XCHG %r15,%r12||4d87e74d87fc|
+x86|XCHG %r12,%r15|XCHG %r15,%r12|4d87e7|4d87fc
+x86|MOV %r13,%r13||4d89ed|
+x86|XCHG %r13,%r13||4d87ed|
+x86|LEA (%r13),%r13||4d8d6d00|
+x86|PUSH %r13; POP %r13||4155415d|
+x86|PUSH %r13|POP %r13|4155|415d
+x86|NOT %r13; NOT %r13||49f7d549f7d5|
+x86|NOT %r13|NOT %r13|49f7d5|49f7d5
+x86|BSWAP %r13; BSWAP %r13||490fcd490fcd|
+x86|BSWAP %r13|BSWAP %r13|490fcd|490fcd
+x86|CMOVA %r13,%r13||4d0f47ed|
+x86|CMOVC %r13,%r13||4d0f42ed|
+x86|CMOVG %r13,%r13||4d0f4fed|
+x86|CMOVL %r13,%r13||4d0f4ced|
+x86|CMOVO %r13,%r13||4d0f40ed|
+x86|CMOVP %r13,%r13||4d0f4aed|
+x86|CMOVS %r13,%r13||4d0f48ed|
+x86|CMOVZ %r13,%r13||4d0f44ed|
+x86|CMOVNA %r13,%r13||4d0f46ed|
+x86|CMOVNC %r13,%r13||4d0f43ed|
+x86|CMOVNG %r13,%r13||4d0f4eed|
+x86|CMOVNL %r13,%r13||4d0f4ded|
+x86|CMOVNO %r13,%r13||4d0f41ed|
+x86|CMOVNP %r13,%r13||4d0f4bed|
+x86|CMOVNS %r13,%r13||4d0f49ed|
+x86|XCHG %r13,%rax; XCHG %rax,%r13||49954995|
+x86|XCHG %r13,%rax|XCHG %rax,%r13|4995|4995
+x86|XCHG %r13,%rbx; XCHG %rbx,%r13||4c87eb4987dd|
+x86|XCHG %r13,%rbx|XCHG %rbx,%r13|4c87eb|4987dd
+x86|XCHG %r13,%rcx; XCHG %rcx,%r13||4c87e94987cd|
+x86|XCHG %r13,%rcx|XCHG %rcx,%r13|4c87e9|4987cd
+x86|XCHG %r13,%rdx; XCHG %rdx,%r13||4c87ea4987d5|
+x86|XCHG %r13,%rdx|XCHG %rdx,%r13|4c87ea|4987d5
+x86|XCHG %r13,%r8; XCHG %r8,%r13||4d87e84d87c5|
+x86|XCHG %r13,%r8|XCHG %r8,%r13|4d87e8|4d87c5
+x86|XCHG %r13,%r9; XCHG %r9,%r13||4d87e94d87cd|
+x86|XCHG %r13,%r9|XCHG %r9,%r13|4d87e9|4d87cd
+x86|XCHG %r13,%r10; XCHG %r10,%r13||4d87ea4d87d5|
+x86|XCHG %r13,%r10|XCHG %r10,%r13|4d87ea|4d87d5
+x86|XCHG %r13,%r11; XCHG %r11,%r13||4d87eb4d87dd|
+x86|XCHG %r13,%r11|XCHG %r11,%r13|4d87eb|4d87dd
+x86|XCHG %r13,%r12; XCHG %r12,%r13||4d87ec4d87e5|
+x86|XCHG %r13,%r12|XCHG %r12,%r13|4d87ec|4d87e5
+x86|XCHG %r13,%r13; XCHG %r13,%r13||4d87ed4d87ed|
+x86|XCHG %r13,%r13|XCHG %r13,%r13|4d87ed|4d87ed
+x86|XCHG %r13,%r14; XCHG %r14,%r13||4d87ee4d87f5|
+x86|XCHG %r13,%r14|XCHG %r14,%r13|4d87ee|4d87f5
+x86|XCHG %r13,%r15; XCHG %r15,%r13||4d87ef4d87fd|
+x86|XCHG %r13,%r15|XCHG %r15,%r13|4d87ef|4d87fd
+x86|MOV %r14,%r14||4d89f6|
+x86|XCHG %r14,%r14||4d87f6|
+x86|LEA (%r14),%r14||4d8d36|
+x86|PUSH %r14; POP %r14||4156415e|
+x86|PUSH %r14|POP %r14|4156|415e
+x86|NOT %r14; NOT %r14||49f7d649f7d6|
+x86|NOT %r14|NOT %r14|49f7d6|49f7d6
+x86|BSWAP %r14; BSWAP %r14||490fce490fce|
+x86|BSWAP %r14|BSWAP %r14|490fce|490fce
+x86|CMOVA %r14,%r14||4d0f47f6|
+x86|CMOVC %r14,%r14||4d0f42f6|
+x86|CMOVG %r14,%r14||4d0f4ff6|
+x86|CMOVL %r14,%r14||4d0f4cf6|
+x86|CMOVO %r14,%r14||4d0f40f6|
+x86|CMOVP %r14,%r14||4d0f4af6|
+x86|CMOVS %r14,%r14||4d0f48f6|
+x86|CMOVZ %r14,%r14||4d0f44f6|
+x86|CMOVNA %r14,%r14||4d0f46f6|
+x86|CMOVNC %r14,%r14||4d0f43f6|
+x86|CMOVNG %r14,%r14||4d0f4ef6|
+x86|CMOVNL %r14,%r14||4d0f4df6|
+x86|CMOVNO %r14,%r14||4d0f41f6|
+x86|CMOVNP %r14,%r14||4d0f4bf6|
+x86|CMOVNS %r14,%r14||4d0f49f6|
+x86|XCHG %r14,%rax; XCHG %rax,%r14||49964996|
+x86|XCHG %r14,%rax|XCHG %rax,%r14|4996|4996
+x86|XCHG %r14,%rbx; XCHG %rbx,%r14||4c87f34987de|
+x86|XCHG %r14,%rbx|XCHG %rbx,%r14|4c87f3|4987de
+x86|XCHG %r14,%rcx; XCHG %rcx,%r14||4c87f14987ce|
+x86|XCHG %r14,%rcx|XCHG %rcx,%r14|4c87f1|4987ce
+x86|XCHG %r14,%rdx; XCHG %rdx,%r14||4c87f24987d6|
+x86|XCHG %r14,%rdx|XCHG %rdx,%r14|4c87f2|4987d6
+x86|XCHG %r14,%r8; XCHG %r8,%r14||4d87f04d87c6|
+x86|XCHG %r14,%r8|XCHG %r8,%r14|4d87f0|4d87c6
+x86|XCHG %r14,%r9; XCHG %r9,%r14||4d87f14d87ce|
+x86|XCHG %r14,%r9|XCHG %r9,%r14|4d87f1|4d87ce
+x86|XCHG %r14,%r10; XCHG %r10,%r14||4d87f24d87d6|
+x86|XCHG %r14,%r10|XCHG %r10,%r14|4d87f2|4d87d6
+x86|XCHG %r14,%r11; XCHG %r11,%r14||4d87f34d87de|
+x86|XCHG %r14,%r11|XCHG %r11,%r14|4d87f3|4d87de
+x86|XCHG %r14,%r12; XCHG %r12,%r14||4d87f44d87e6|
+x86|XCHG %r14,%r12|XCHG %r12,%r14|4d87f4|4d87e6
+x86|XCHG %r14,%r13; XCHG %r13,%r14||4d87f54d87ee|
+x86|XCHG %r14,%r13|XCHG %r13,%r14|4d87f5|4d87ee
+x86|XCHG %r14,%r14; XCHG %r14,%r14||4d87f64d87f6|
+x86|XCHG %r14,%r14|XCHG %r14,%r14|4d87f6|4d87f6
+x86|XCHG %r14,%r15; XCHG %r15,%r14||4d87f74d87fe|
+x86|XCHG %r14,%r15|XCHG %r15,%r14|4d87f7|4d87fe
+x86|MOV %r15,%r15||4d89ff|
+x86|XCHG %r15,%r15||4d87ff|
+x86|LEA (%r15),%r15||4d8d3f|
+x86|PUSH %r15; POP %r15||4157415f|
+x86|PUSH %r15|POP %r15|4157|415f
+x86|NOT %r15; NOT %r15||49f7d749f7d7|
+x86|NOT %r15|NOT %r15|49f7d7|49f7d7
+x86|BSWAP %r15; BSWAP %r15||490fcf490fcf|
+x86|BSWAP %r15|BSWAP %r15|490fcf|490fcf
+x86|CMOVA %r15,%r15||4d0f47ff|
+x86|CMOVC %r15,%r15||4d0f42ff|
+x86|CMOVG %r15,%r15||4d0f4fff|
+x86|CMOVL %r15,%r15||4d0f4cff|
+x86|CMOVO %r15,%r15||4d0f40ff|
+x86|CMOVP %r15,%r15||4d0f4aff|
+x86|CMOVS %r15,%r15||4d0f48ff|
+x86|CMOVZ %r15,%r15||4d0f44ff|
+x86|CMOVNA %r15,%r15||4d0f46ff|
+x86|CMOVNC %r15,%r15||4d0f43ff|
+x86|CMOVNG %r15,%r15||4d0f4eff|
+x86|CMOVNL %r15,%r15||4d0f4dff|
+x86|CMOVNO %r15,%r15||4d0f41ff|
+x86|CMOVNP %r15,%r15||4d0f4bff|
+x86|CMOVNS %r15,%r15||4d0f49ff|
+x86|XCHG %r15,%rax; XCHG %rax,%r15||49974997|
+x86|XCHG %r15,%rax|XCHG %rax,%r15|4997|4997
+x86|XCHG %r15,%rbx; XCHG %rbx,%r15||4c87fb4987df|
+x86|XCHG %r15,%rbx|XCHG %rbx,%r15|4c87fb|4987df
+x86|XCHG %r15,%rcx; XCHG %rcx,%r15||4c87f94987cf|
+x86|XCHG %r15,%rcx|XCHG %rcx,%r15|4c87f9|4987cf
+x86|XCHG %r15,%rdx; XCHG %rdx,%r15||4c87fa4987d7|
+x86|XCHG %r15,%rdx|XCHG %rdx,%r15|4c87fa|4987d7
+x86|XCHG %r15,%r8; XCHG %r8,%r15||4d87f84d87c7|
+x86|XCHG %r15,%r8|XCHG %r8,%r15|4d87f8|4d87c7
+x86|XCHG %r15,%r9; XCHG %r9,%r15||4d87f94d87cf|
+x86|XCHG %r15,%r9|XCHG %r9,%r15|4d87f9|4d87cf
+x86|XCHG %r15,%r10; XCHG %r10,%r15||4d87fa4d87d7|
+x86|XCHG %r15,%r10|XCHG %r10,%r15|4d87fa|4d87d7
+x86|XCHG %r15,%r11; XCHG %r11,%r15||4d87fb4d87df|
+x86|XCHG %r15,%r11|XCHG %r11,%r15|4d87fb|4d87df
+x86|XCHG %r15,%r12; XCHG %r12,%r15||4d87fc4d87e7|
+x86|XCHG %r15,%r12|XCHG %r12,%r15|4d87fc|4d87e7
+x86|XCHG %r15,%r13; XCHG %r13,%r15||4d87fd4d87ef|
+x86|XCHG %r15,%r13|XCHG %r13,%r15|4d87fd|4d87ef
+x86|XCHG %r15,%r14; XCHG %r14,%r15||4d87fe4d87f7|
+x86|XCHG %r15,%r14|XCHG %r14,%r15|4d87fe|4d87f7
+x86|XCHG %r15,%r15; XCHG %r15,%r15||4d87ff4d87ff|
+x86|XCHG %r15,%r15|XCHG %r15,%r15|4d87ff|4d87ff
+x86|MOV %eax,%eax||89c0|
+x86|XCHG %eax,%eax||87c0|
+x86|NOP %eax||0f1fc0|
+x86|LEA (%eax),%eax||678d00|
+x86|NOT %eax; NOT %eax||f7d0f7d0|
+x86|NOT %eax|NOT %eax|f7d0|f7d0
+x86|BSWAP %eax; BSWAP %eax||0fc80fc8|
+x86|BSWAP %eax|BSWAP %eax|0fc8|0fc8
+x86|CMOVA %eax,%eax||0f47c0|
+x86|CMOVC %eax,%eax||0f42c0|
+x86|CMOVG %eax,%eax||0f4fc0|
+x86|CMOVL %eax,%eax||0f4cc0|
+x86|CMOVO %eax,%eax||0f40c0|
+x86|CMOVP %eax,%eax||0f4ac0|
+x86|CMOVS %eax,%eax||0f48c0|
+x86|CMOVZ %eax,%eax||0f44c0|
+x86|CMOVNA %eax,%eax||0f46c0|
+x86|CMOVNC %eax,%eax||0f43c0|
+x86|CMOVNG %eax,%eax||0f4ec0|
+x86|CMOVNL %eax,%eax||0f4dc0|
+x86|CMOVNO %eax,%eax||0f41c0|
+x86|CMOVNP %eax,%eax||0f4bc0|
+x86|CMOVNS %eax,%eax||0f49c0|
+x86|XCHG %eax,%eax; XCHG %eax,%eax||87c087c0|
+x86|XCHG %eax,%eax|XCHG %eax,%eax|87c0|87c0
+x86|XCHG %eax,%ebx; XCHG %ebx,%eax||9393|
+x86|XCHG %eax,%ebx|XCHG %ebx,%eax|93|93
+x86|XCHG %eax,%ecx; XCHG %ecx,%eax||9191|
+x86|XCHG %eax,%ecx|XCHG %ecx,%eax|91|91
+x86|XCHG %eax,%edx; XCHG %edx,%eax||9292|
+x86|XCHG %eax,%edx|XCHG %edx,%eax|92|92
+x86|XCHG %eax,%r8d; XCHG %r8d,%eax||41904190|
+x86|XCHG %eax,%r8d|XCHG %r8d,%eax|4190|4190
+x86|XCHG %eax,%r9d; XCHG %r9d,%eax||41914191|
+x86|XCHG %eax,%r9d|XCHG %r9d,%eax|4191|4191
+x86|XCHG %eax,%r10d; XCHG %r10d,%eax||41924192|
+x86|XCHG %eax,%r10d|XCHG %r10d,%eax|4192|4192
+x86|XCHG %eax,%r11d; XCHG %r11d,%eax||41934193|
+x86|XCHG %eax,%r11d|XCHG %r11d,%eax|4193|4193
+x86|XCHG %eax,%r12d; XCHG %r12d,%eax||41944194|
+x86|XCHG %eax,%r12d|XCHG %r12d,%eax|4194|4194
+x86|XCHG %eax,%r13d; XCHG %r13d,%eax||41954195|
+x86|XCHG %eax,%r13d|XCHG %r13d,%eax|4195|4195
+x86|XCHG %eax,%r14d; XCHG %r14d,%eax||41964196|
+x86|XCHG %eax,%r14d|XCHG %r14d,%eax|4196|4196
+x86|XCHG %eax,%r15d; XCHG %r15d,%eax||41974197|
+x86|XCHG %eax,%r15d|XCHG %r15d,%eax|4197|4197
+x86|MOV %ebx,%ebx||89db|
+x86|XCHG %ebx,%ebx||87db|
+x86|NOP %ebx||0f1fc3|
+x86|LEA (%ebx),%ebx||678d1b|
+x86|NOT %ebx; NOT %ebx||f7d3f7d3|
+x86|NOT %ebx|NOT %ebx|f7d3|f7d3
+x86|BSWAP %ebx; BSWAP %ebx||0fcb0fcb|
+x86|BSWAP %ebx|BSWAP %ebx|0fcb|0fcb
+x86|CMOVA %ebx,%ebx||0f47db|
+x86|CMOVC %ebx,%ebx||0f42db|
+x86|CMOVG %ebx,%ebx||0f4fdb|
+x86|CMOVL %ebx,%ebx||0f4cdb|
+x86|CMOVO %ebx,%ebx||0f40db|
+x86|CMOVP %ebx,%ebx||0f4adb|
+x86|CMOVS %ebx,%ebx||0f48db|
+x86|CMOVZ %ebx,%ebx||0f44db|
+x86|CMOVNA %ebx,%ebx||0f46db|
+x86|CMOVNC %ebx,%ebx||0f43db|
+x86|CMOVNG %ebx,%ebx||0f4edb|
+x86|CMOVNL %ebx,%ebx||0f4ddb|
+x86|CMOVNO %ebx,%ebx||0f41db|
+x86|CMOVNP %ebx,%ebx||0f4bdb|
+x86|CMOVNS %ebx,%ebx||0f49db|
+x86|XCHG %ebx,%eax; XCHG %eax,%ebx||9393|
+x86|XCHG %ebx,%eax|XCHG %eax,%ebx|93|93
+x86|XCHG %ebx,%ebx; XCHG %ebx,%ebx||87db87db|
+x86|XCHG %ebx,%ebx|XCHG %ebx,%ebx|87db|87db
+x86|XCHG %ebx,%ecx; XCHG %ecx,%ebx||87d987cb|
+x86|XCHG %ebx,%ecx|XCHG %ecx,%ebx|87d9|87cb
+x86|XCHG %ebx,%edx; XCHG %edx,%ebx||87da87d3|
+x86|XCHG %ebx,%edx|XCHG %edx,%ebx|87da|87d3
+x86|XCHG %ebx,%r8d; XCHG %r8d,%ebx||4187d84487c3|
+x86|XCHG %ebx,%r8d|XCHG %r8d,%ebx|4187d8|4487c3
+x86|XCHG %ebx,%r9d; XCHG %r9d,%ebx||4187d94487cb|
+x86|XCHG %ebx,%r9d|XCHG %r9d,%ebx|4187d9|4487cb
+x86|XCHG %ebx,%r10d; XCHG %r10d,%ebx||4187da4487d3|
+x86|XCHG %ebx,%r10d|XCHG %r10d,%ebx|4187da|4487d3
+x86|XCHG %ebx,%r11d; XCHG %r11d,%ebx||4187db4487db|
+x86|XCHG %ebx,%r11d|XCHG %r11d,%ebx|4187db|4487db
+x86|XCHG %ebx,%r12d; XCHG %r12d,%ebx||4187dc4487e3|
+x86|XCHG %ebx,%r12d|XCHG %r12d,%ebx|4187dc|4487e3
+x86|XCHG %ebx,%r13d; XCHG %r13d,%ebx||4187dd4487eb|
+x86|XCHG %ebx,%r13d|XCHG %r13d,%ebx|4187dd|4487eb
+x86|XCHG %ebx,%r14d; XCHG %r14d,%ebx||4187de4487f3|
+x86|XCHG %ebx,%r14d|XCHG %r14d,%ebx|4187de|4487f3
+x86|XCHG %ebx,%r15d; XCHG %r15d,%ebx||4187df4487fb|
+x86|XCHG %ebx,%r15d|XCHG %r15d,%ebx|4187df|4487fb
+x86|MOV %ecx,%ecx||89c9|
+x86|XCHG %ecx,%ecx||87c9|
+x86|NOP %ecx||0f1fc1|
+x86|LEA (%ecx),%ecx||678d09|
+x86|NOT %ecx; NOT %ecx||f7d1f7d1|
+x86|NOT %ecx|NOT %ecx|f7d1|f7d1
+x86|BSWAP %ecx; BSWAP %ecx||0fc90fc9|
+x86|BSWAP %ecx|BSWAP %ecx|0fc9|0fc9
+x86|CMOVA %ecx,%ecx||0f47c9|
+x86|CMOVC %ecx,%ecx||0f42c9|
+x86|CMOVG %ecx,%ecx||0f4fc9|
+x86|CMOVL %ecx,%ecx||0f4cc9|
+x86|CMOVO %ecx,%ecx||0f40c9|
+x86|CMOVP %ecx,%ecx||0f4ac9|
+x86|CMOVS %ecx,%ecx||0f48c9|
+x86|CMOVZ %ecx,%ecx||0f44c9|
+x86|CMOVNA %ecx,%ecx||0f46c9|
+x86|CMOVNC %ecx,%ecx||0f43c9|
+x86|CMOVNG %ecx,%ecx||0f4ec9|
+x86|CMOVNL %ecx,%ecx||0f4dc9|
+x86|CMOVNO %ecx,%ecx||0f41c9|
+x86|CMOVNP %ecx,%ecx||0f4bc9|
+x86|CMOVNS %ecx,%ecx||0f49c9|
+x86|XCHG %ecx,%eax; XCHG %eax,%ecx||9191|
+x86|XCHG %ecx,%eax|XCHG %eax,%ecx|91|91
+x86|XCHG %ecx,%ebx; XCHG %ebx,%ecx||87cb87d9|
+x86|XCHG %ecx,%ebx|XCHG %ebx,%ecx|87cb|87d9
+x86|XCHG %ecx,%ecx; XCHG %ecx,%ecx||87c987c9|
+x86|XCHG %ecx,%ecx|XCHG %ecx,%ecx|87c9|87c9
+x86|XCHG %ecx,%edx; XCHG %edx,%ecx||87ca87d1|
+x86|XCHG %ecx,%edx|XCHG %edx,%ecx|87ca|87d1
+x86|XCHG %ecx,%r8d; XCHG %r8d,%ecx||4187c84487c1|
+x86|XCHG %ecx,%r8d|XCHG %r8d,%ecx|4187c8|4487c1
+x86|XCHG %ecx,%r9d; XCHG %r9d,%ecx||4187c94487c9|
+x86|XCHG %ecx,%r9d|XCHG %r9d,%ecx|4187c9|4487c9
+x86|XCHG %ecx,%r10d; XCHG %r10d,%ecx||4187ca4487d1|
+x86|XCHG %ecx,%r10d|XCHG %r10d,%ecx|4187ca|4487d1
+x86|XCHG %ecx,%r11d; XCHG %r11d,%ecx||4187cb4487d9|
+x86|XCHG %ecx,%r11d|XCHG %r11d,%ecx|4187cb|4487d9
+x86|XCHG %ecx,%r12d; XCHG %r12d,%ecx||4187cc4487e1|
+x86|XCHG %ecx,%r12d|XCHG %r12d,%ecx|4187cc|4487e1
+x86|XCHG %ecx,%r13d; XCHG %r13d,%ecx||4187cd4487e9|
+x86|XCHG %ecx,%r13d|XCHG %r13d,%ecx|4187cd|4487e9
+x86|XCHG %ecx,%r14d; XCHG %r14d,%ecx||4187ce4487f1|
+x86|XCHG %ecx,%r14d|XCHG %r14d,%ecx|4187ce|4487f1
+x86|XCHG %ecx,%r15d; XCHG %r15d,%ecx||4187cf4487f9|
+x86|XCHG %ecx,%r15d|XCHG %r15d,%ecx|4187cf|4487f9
+x86|MOV %edx,%edx||89d2|
+x86|XCHG %edx,%edx||87d2|
+x86|NOP %edx||0f1fc2|
+x86|LEA (%edx),%edx||678d12|
+x86|NOT %edx; NOT %edx||f7d2f7d2|
+x86|NOT %edx|NOT %edx|f7d2|f7d2
+x86|BSWAP %edx; BSWAP %edx||0fca0fca|
+x86|BSWAP %edx|BSWAP %edx|0fca|0fca
+x86|CMOVA %edx,%edx||0f47d2|
+x86|CMOVC %edx,%edx||0f42d2|
+x86|CMOVG %edx,%edx||0f4fd2|
+x86|CMOVL %edx,%edx||0f4cd2|
+x86|CMOVO %edx,%edx||0f40d2|
+x86|CMOVP %edx,%edx||0f4ad2|
+x86|CMOVS %edx,%edx||0f48d2|
+x86|CMOVZ %edx,%edx||0f44d2|
+x86|CMOVNA %edx,%edx||0f46d2|
+x86|CMOVNC %edx,%edx||0f43d2|
+x86|CMOVNG %edx,%edx||0f4ed2|
+x86|CMOVNL %edx,%edx||0f4dd2|
+x86|CMOVNO %edx,%edx||0f41d2|
+x86|CMOVNP %edx,%edx||0f4bd2|
+x86|CMOVNS %edx,%edx||0f49d2|
+x86|XCHG %edx,%eax; XCHG %eax,%edx||9292|
+x86|XCHG %edx,%eax|XCHG %eax,%edx|92|92
+x86|XCHG %edx,%ebx; XCHG %ebx,%edx||87d387da|
+x86|XCHG %edx,%ebx|XCHG %ebx,%edx|87d3|87da
+x86|XCHG %edx,%ecx; XCHG %ecx,%edx||87d187ca|
+x86|XCHG %edx,%ecx|XCHG %ecx,%edx|87d1|87ca
+x86|XCHG %edx,%edx; XCHG %edx,%edx||87d287d2|
+x86|XCHG %edx,%edx|XCHG %edx,%edx|87d2|87d2
+x86|XCHG %edx,%r8d; XCHG %r8d,%edx||4187d04487c2|
+x86|XCHG %edx,%r8d|XCHG %r8d,%edx|4187d0|4487c2
+x86|XCHG %edx,%r9d; XCHG %r9d,%edx||4187d14487ca|
+x86|XCHG %edx,%r9d|XCHG %r9d,%edx|4187d1|4487ca
+x86|XCHG %edx,%r10d; XCHG %r10d,%edx||4187d24487d2|
+x86|XCHG %edx,%r10d|XCHG %r10d,%edx|4187d2|4487d2
+x86|XCHG %edx,%r11d; XCHG %r11d,%edx||4187d34487da|
+x86|XCHG %edx,%r11d|XCHG %r11d,%edx|4187d3|4487da
+x86|XCHG %edx,%r12d; XCHG %r12d,%edx||4187d44487e2|
+x86|XCHG %edx,%r12d|XCHG %r12d,%edx|4187d4|4487e2
+x86|XCHG %edx,%r13d; XCHG %r13d,%edx||4187d54487ea|
+x86|XCHG %edx,%r13d|XCHG %r13d,%edx|4187d5|4487ea
+x86|XCHG %edx,%r14d; XCHG %r14d,%edx||4187d64487f2|
+x86|XCHG %edx,%r14d|XCHG %r14d,%edx|4187d6|4487f2
+x86|XCHG %edx,%r15d; XCHG %r15d,%edx||4187d74487fa|
+x86|XCHG %edx,%r15d|XCHG %r15d,%edx|4187d7|4487fa
+x86|MOV %r8d,%r8d||4589c0|
+x86|XCHG %r8d,%r8d||4587c0|
+x86|NOP %r8d||410f1fc0|
+x86|LEA (%r8d),%r8d||67458d00|
+x86|NOT %r8d; NOT %r8d||41f7d041f7d0|
+x86|NOT %r8d|NOT %r8d|41f7d0|41f7d0
+x86|BSWAP %r8d; BSWAP %r8d||410fc8410fc8|
+x86|BSWAP %r8d|BSWAP %r8d|410fc8|410fc8
+x86|CMOVA %r8d,%r8d||450f47c0|
+x86|CMOVC %r8d,%r8d||450f42c0|
+x86|CMOVG %r8d,%r8d||450f4fc0|
+x86|CMOVL %r8d,%r8d||450f4cc0|
+x86|CMOVO %r8d,%r8d||450f40c0|
+x86|CMOVP %r8d,%r8d||450f4ac0|
+x86|CMOVS %r8d,%r8d||450f48c0|
+x86|CMOVZ %r8d,%r8d||450f44c0|
+x86|CMOVNA %r8d,%r8d||450f46c0|
+x86|CMOVNC %r8d,%r8d||450f43c0|
+x86|CMOVNG %r8d,%r8d||450f4ec0|
+x86|CMOVNL %r8d,%r8d||450f4dc0|
+x86|CMOVNO %r8d,%r8d||450f41c0|
+x86|CMOVNP %r8d,%r8d||450f4bc0|
+x86|CMOVNS %r8d,%r8d||450f49c0|
+x86|XCHG %r8d,%eax; XCHG %eax,%r8d||41904190|
+x86|XCHG %r8d,%eax|XCHG %eax,%r8d|4190|4190
+x86|XCHG %r8d,%ebx; XCHG %ebx,%r8d||4487c34187d8|
+x86|XCHG %r8d,%ebx|XCHG %ebx,%r8d|4487c3|4187d8
+x86|XCHG %r8d,%ecx; XCHG %ecx,%r8d||4487c14187c8|
+x86|XCHG %r8d,%ecx|XCHG %ecx,%r8d|4487c1|4187c8
+x86|XCHG %r8d,%edx; XCHG %edx,%r8d||4487c24187d0|
+x86|XCHG %r8d,%edx|XCHG %edx,%r8d|4487c2|4187d0
+x86|XCHG %r8d,%r8d; XCHG %r8d,%r8d||4587c04587c0|
+x86|XCHG %r8d,%r8d|XCHG %r8d,%r8d|4587c0|4587c0
+x86|XCHG %r8d,%r9d; XCHG %r9d,%r8d||4587c14587c8|
+x86|XCHG %r8d,%r9d|XCHG %r9d,%r8d|4587c1|4587c8
+x86|XCHG %r8d,%r10d; XCHG %r10d,%r8d||4587c24587d0|
+x86|XCHG %r8d,%r10d|XCHG %r10d,%r8d|4587c2|4587d0
+x86|XCHG %r8d,%r11d; XCHG %r11d,%r8d||4587c34587d8|
+x86|XCHG %r8d,%r11d|XCHG %r11d,%r8d|4587c3|4587d8
+x86|XCHG %r8d,%r12d; XCHG %r12d,%r8d||4587c44587e0|
+x86|XCHG %r8d,%r12d|XCHG %r12d,%r8d|4587c4|4587e0
+x86|XCHG %r8d,%r13d; XCHG %r13d,%r8d||4587c54587e8|
+x86|XCHG %r8d,%r13d|XCHG %r13d,%r8d|4587c5|4587e8
+x86|XCHG %r8d,%r14d; XCHG %r14d,%r8d||4587c64587f0|
+x86|XCHG %r8d,%r14d|XCHG %r14d,%r8d|4587c6|4587f0
+x86|XCHG %r8d,%r15d; XCHG %r15d,%r8d||4587c74587f8|
+x86|XCHG %r8d,%r15d|XCHG %r15d,%r8d|4587c7|4587f8
+x86|MOV %r9d,%r9d||4589c9|
+x86|XCHG %r9d,%r9d||4587c9|
+x86|NOP %r9d||410f1fc1|
+x86|LEA (%r9d),%r9d||67458d09|
+x86|NOT %r9d; NOT %r9d||41f7d141f7d1|
+x86|NOT %r9d|NOT %r9d|41f7d1|41f7d1
+x86|BSWAP %r9d; BSWAP %r9d||410fc9410fc9|
+x86|BSWAP %r9d|BSWAP %r9d|410fc9|410fc9
+x86|CMOVA %r9d,%r9d||450f47c9|
+x86|CMOVC %r9d,%r9d||450f42c9|
+x86|CMOVG %r9d,%r9d||450f4fc9|
+x86|CMOVL %r9d,%r9d||450f4cc9|
+x86|CMOVO %r9d,%r9d||450f40c9|
+x86|CMOVP %r9d,%r9d||450f4ac9|
+x86|CMOVS %r9d,%r9d||450f48c9|
+x86|CMOVZ %r9d,%r9d||450f44c9|
+x86|CMOVNA %r9d,%r9d||450f46c9|
+x86|CMOVNC %r9d,%r9d||450f43c9|
+x86|CMOVNG %r9d,%r9d||450f4ec9|
+x86|CMOVNL %r9d,%r9d||450f4dc9|
+x86|CMOVNO %r9d,%r9d||450f41c9|
+x86|CMOVNP %r9d,%r9d||450f4bc9|
+x86|CMOVNS %r9d,%r9d||450f49c9|
+x86|XCHG %r9d,%eax; XCHG %eax,%r9d||41914191|
+x86|XCHG %r9d,%eax|XCHG %eax,%r9d|4191|4191
+x86|XCHG %r9d,%ebx; XCHG %ebx,%r9d||4487cb4187d9|
+x86|XCHG %r9d,%ebx|XCHG %ebx,%r9d|4487cb|4187d9
+x86|XCHG %r9d,%ecx; XCHG %ecx,%r9d||4487c94187c9|
+x86|XCHG %r9d,%ecx|XCHG %ecx,%r9d|4487c9|4187c9
+x86|XCHG %r9d,%edx; XCHG %edx,%r9d||4487ca4187d1|
+x86|XCHG %r9d,%edx|XCHG %edx,%r9d|4487ca|4187d1
+x86|XCHG %r9d,%r8d; XCHG %r8d,%r9d||4587c84587c1|
+x86|XCHG %r9d,%r8d|XCHG %r8d,%r9d|4587c8|4587c1
+x86|XCHG %r9d,%r9d; XCHG %r9d,%r9d||4587c94587c9|
+x86|XCHG %r9d,%r9d|XCHG %r9d,%r9d|4587c9|4587c9
+x86|XCHG %r9d,%r10d; XCHG %r10d,%r9d||4587ca4587d1|
+x86|XCHG %r9d,%r10d|XCHG %r10d,%r9d|4587ca|4587d1
+x86|XCHG %r9d,%r11d; XCHG %r11d,%r9d||4587cb4587d9|
+x86|XCHG %r9d,%r11d|XCHG %r11d,%r9d|4587cb|4587d9
+x86|XCHG %r9d,%r12d; XCHG %r12d,%r9d||4587cc4587e1|
+x86|XCHG %r9d,%r12d|XCHG %r12d,%r9d|4587cc|4587e1
+x86|XCHG %r9d,%r13d; XCHG %r13d,%r9d||4587cd4587e9|
+x86|XCHG %r9d,%r13d|XCHG %r13d,%r9d|4587cd|4587e9
+x86|XCHG %r9d,%r14d; XCHG %r14d,%r9d||4587ce4587f1|
+x86|XCHG %r9d,%r14d|XCHG %r14d,%r9d|4587ce|4587f1
+x86|XCHG %r9d,%r15d; XCHG %r15d,%r9d||4587cf4587f9|
+x86|XCHG %r9d,%r15d|XCHG %r15d,%r9d|4587cf|4587f9
+x86|MOV %r10d,%r10d||4589d2|
+x86|XCHG %r10d,%r10d||4587d2|
+x86|NOP %r10d||410f1fc2|
+x86|LEA (%r10d),%r10d||67458d12|
+x86|NOT %r10d; NOT %r10d||41f7d241f7d2|
+x86|NOT %r10d|NOT %r10d|41f7d2|41f7d2
+x86|BSWAP %r10d; BSWAP %r10d||410fca410fca|
+x86|BSWAP %r10d|BSWAP %r10d|410fca|410fca
+x86|CMOVA %r10d,%r10d||450f47d2|
+x86|CMOVC %r10d,%r10d||450f42d2|
+x86|CMOVG %r10d,%r10d||450f4fd2|
+x86|CMOVL %r10d,%r10d||450f4cd2|
+x86|CMOVO %r10d,%r10d||450f40d2|
+x86|CMOVP %r10d,%r10d||450f4ad2|
+x86|CMOVS %r10d,%r10d||450f48d2|
+x86|CMOVZ %r10d,%r10d||450f44d2|
+x86|CMOVNA %r10d,%r10d||450f46d2|
+x86|CMOVNC %r10d,%r10d||450f43d2|
+x86|CMOVNG %r10d,%r10d||450f4ed2|
+x86|CMOVNL %r10d,%r10d||450f4dd2|
+x86|CMOVNO %r10d,%r10d||450f41d2|
+x86|CMOVNP %r10d,%r10d||450f4bd2|
+x86|CMOVNS %r10d,%r10d||450f49d2|
+x86|XCHG %r10d,%eax; XCHG %eax,%r10d||41924192|
+x86|XCHG %r10d,%eax|XCHG %eax,%r10d|4192|4192
+x86|XCHG %r10d,%ebx; XCHG %ebx,%r10d||4487d34187da|
+x86|XCHG %r10d,%ebx|XCHG %ebx,%r10d|4487d3|4187da
+x86|XCHG %r10d,%ecx; XCHG %ecx,%r10d||4487d14187ca|
+x86|XCHG %r10d,%ecx|XCHG %ecx,%r10d|4487d1|4187ca
+x86|XCHG %r10d,%edx; XCHG %edx,%r10d||4487d24187d2|
+x86|XCHG %r10d,%edx|XCHG %edx,%r10d|4487d2|4187d2
+x86|XCHG %r10d,%r8d; XCHG %r8d,%r10d||4587d04587c2|
+x86|XCHG %r10d,%r8d|XCHG %r8d,%r10d|4587d0|4587c2
+x86|XCHG %r10d,%r9d; XCHG %r9d,%r10d||4587d14587ca|
+x86|XCHG %r10d,%r9d|XCHG %r9d,%r10d|4587d1|4587ca
+x86|XCHG %r10d,%r10d; XCHG %r10d,%r10d||4587d24587d2|
+x86|XCHG %r10d,%r10d|XCHG %r10d,%r10d|4587d2|4587d2
+x86|XCHG %r10d,%r11d; XCHG %r11d,%r10d||4587d34587da|
+x86|XCHG %r10d,%r11d|XCHG %r11d,%r10d|4587d3|4587da
+x86|XCHG %r10d,%r12d; XCHG %r12d,%r10d||4587d44587e2|
+x86|XCHG %r10d,%r12d|XCHG %r12d,%r10d|4587d4|4587e2
+x86|XCHG %r10d,%r13d; XCHG %r13d,%r10d||4587d54587ea|
+x86|XCHG %r10d,%r13d|XCHG %r13d,%r10d|4587d5|4587ea
+x86|XCHG %r10d,%r14d; XCHG %r14d,%r10d||4587d64587f2|
+x86|XCHG %r10d,%r14d|XCHG %r14d,%r10d|4587d6|4587f2
+x86|XCHG %r10d,%r15d; XCHG %r15d,%r10d||4587d74587fa|
+x86|XCHG %r10d,%r15d|XCHG %r15d,%r10d|4587d7|4587fa
+x86|MOV %r11d,%r11d||4589db|
+x86|XCHG %r11d,%r11d||4587db|
+x86|NOP %r11d||410f1fc3|
+x86|LEA (%r11d),%r11d||67458d1b|
+x86|NOT %r11d; NOT %r11d||41f7d341f7d3|
+x86|NOT %r11d|NOT %r11d|41f7d3|41f7d3
+x86|BSWAP %r11d; BSWAP %r11d||410fcb410fcb|
+x86|BSWAP %r11d|BSWAP %r11d|410fcb|410fcb
+x86|CMOVA %r11d,%r11d||450f47db|
+x86|CMOVC %r11d,%r11d||450f42db|
+x86|CMOVG %r11d,%r11d||450f4fdb|
+x86|CMOVL %r11d,%r11d||450f4cdb|
+x86|CMOVO %r11d,%r11d||450f40db|
+x86|CMOVP %r11d,%r11d||450f4adb|
+x86|CMOVS %r11d,%r11d||450f48db|
+x86|CMOVZ %r11d,%r11d||450f44db|
+x86|CMOVNA %r11d,%r11d||450f46db|
+x86|CMOVNC %r11d,%r11d||450f43db|
+x86|CMOVNG %r11d,%r11d||450f4edb|
+x86|CMOVNL %r11d,%r11d||450f4ddb|
+x86|CMOVNO %r11d,%r11d||450f41db|
+x86|CMOVNP %r11d,%r11d||450f4bdb|
+x86|CMOVNS %r11d,%r11d||450f49db|
+x86|XCHG %r11d,%eax; XCHG %eax,%r11d||41934193|
+x86|XCHG %r11d,%eax|XCHG %eax,%r11d|4193|4193
+x86|XCHG %r11d,%ebx; XCHG %ebx,%r11d||4487db4187db|
+x86|XCHG %r11d,%ebx|XCHG %ebx,%r11d|4487db|4187db
+x86|XCHG %r11d,%ecx; XCHG %ecx,%r11d||4487d94187cb|
+x86|XCHG %r11d,%ecx|XCHG %ecx,%r11d|4487d9|4187cb
+x86|XCHG %r11d,%edx; XCHG %edx,%r11d||4487da4187d3|
+x86|XCHG %r11d,%edx|XCHG %edx,%r11d|4487da|4187d3
+x86|XCHG %r11d,%r8d; XCHG %r8d,%r11d||4587d84587c3|
+x86|XCHG %r11d,%r8d|XCHG %r8d,%r11d|4587d8|4587c3
+x86|XCHG %r11d,%r9d; XCHG %r9d,%r11d||4587d94587cb|
+x86|XCHG %r11d,%r9d|XCHG %r9d,%r11d|4587d9|4587cb
+x86|XCHG %r11d,%r10d; XCHG %r10d,%r11d||4587da4587d3|
+x86|XCHG %r11d,%r10d|XCHG %r10d,%r11d|4587da|4587d3
+x86|XCHG %r11d,%r11d; XCHG %r11d,%r11d||4587db4587db|
+x86|XCHG %r11d,%r11d|XCHG %r11d,%r11d|4587db|4587db
+x86|XCHG %r11d,%r12d; XCHG %r12d,%r11d||4587dc4587e3|
+x86|XCHG %r11d,%r12d|XCHG %r12d,%r11d|4587dc|4587e3
+x86|XCHG %r11d,%r13d; XCHG %r13d,%r11d||4587dd4587eb|
+x86|XCHG %r11d,%r13d|XCHG %r13d,%r11d|4587dd|4587eb
+x86|XCHG %r11d,%r14d; XCHG %r14d,%r11d||4587de4587f3|
+x86|XCHG %r11d,%r14d|XCHG %r14d,%r11d|4587de|4587f3
+x86|XCHG %r11d,%r15d; XCHG %r15d,%r11d||4587df4587fb|
+x86|XCHG %r11d,%r15d|XCHG %r15d,%r11d|4587df|4587fb
+x86|MOV %r12d,%r12d||4589e4|
+x86|XCHG %r12d,%r12d||4587e4|
+x86|NOP %r12d||410f1fc4|
+x86|LEA (%r12d),%r12d||67458d2424|
+x86|NOT %r12d; NOT %r12d||41f7d441f7d4|
+x86|NOT %r12d|NOT %r12d|41f7d4|41f7d4
+x86|BSWAP %r12d; BSWAP %r12d||410fcc410fcc|
+x86|BSWAP %r12d|BSWAP %r12d|410fcc|410fcc
+x86|CMOVA %r12d,%r12d||450f47e4|
+x86|CMOVC %r12d,%r12d||450f42e4|
+x86|CMOVG %r12d,%r12d||450f4fe4|
+x86|CMOVL %r12d,%r12d||450f4ce4|
+x86|CMOVO %r12d,%r12d||450f40e4|
+x86|CMOVP %r12d,%r12d||450f4ae4|
+x86|CMOVS %r12d,%r12d||450f48e4|
+x86|CMOVZ %r12d,%r12d||450f44e4|
+x86|CMOVNA %r12d,%r12d||450f46e4|
+x86|CMOVNC %r12d,%r12d||450f43e4|
+x86|CMOVNG %r12d,%r12d||450f4ee4|
+x86|CMOVNL %r12d,%r12d||450f4de4|
+x86|CMOVNO %r12d,%r12d||450f41e4|
+x86|CMOVNP %r12d,%r12d||450f4be4|
+x86|CMOVNS %r12d,%r12d||450f49e4|
+x86|XCHG %r12d,%eax; XCHG %eax,%r12d||41944194|
+x86|XCHG %r12d,%eax|XCHG %eax,%r12d|4194|4194
+x86|XCHG %r12d,%ebx; XCHG %ebx,%r12d||4487e34187dc|
+x86|XCHG %r12d,%ebx|XCHG %ebx,%r12d|4487e3|4187dc
+x86|XCHG %r12d,%ecx; XCHG %ecx,%r12d||4487e14187cc|
+x86|XCHG %r12d,%ecx|XCHG %ecx,%r12d|4487e1|4187cc
+x86|XCHG %r12d,%edx; XCHG %edx,%r12d||4487e24187d4|
+x86|XCHG %r12d,%edx|XCHG %edx,%r12d|4487e2|4187d4
+x86|XCHG %r12d,%r8d; XCHG %r8d,%r12d||4587e04587c4|
+x86|XCHG %r12d,%r8d|XCHG %r8d,%r12d|4587e0|4587c4
+x86|XCHG %r12d,%r9d; XCHG %r9d,%r12d||4587e14587cc|
+x86|XCHG %r12d,%r9d|XCHG %r9d,%r12d|4587e1|4587cc
+x86|XCHG %r12d,%r10d; XCHG %r10d,%r12d||4587e24587d4|
+x86|XCHG %r12d,%r10d|XCHG %r10d,%r12d|4587e2|4587d4
+x86|XCHG %r12d,%r11d; XCHG %r11d,%r12d||4587e34587dc|
+x86|XCHG %r12d,%r11d|XCHG %r11d,%r12d|4587e3|4587dc
+x86|XCHG %r12d,%r12d; XCHG %r12d,%r12d||4587e44587e4|
+x86|XCHG %r12d,%r12d|XCHG %r12d,%r12d|4587e4|4587e4
+x86|XCHG %r12d,%r13d; XCHG %r13d,%r12d||4587e54587ec|
+x86|XCHG %r12d,%r13d|XCHG %r13d,%r12d|4587e5|4587ec
+x86|XCHG %r12d,%r14d; XCHG %r14d,%r12d||4587e64587f4|
+x86|XCHG %r12d,%r14d|XCHG %r14d,%r12d|4587e6|4587f4
+x86|XCHG %r12d,%r15d; XCHG %r15d,%r12d||4587e74587fc|
+x86|XCHG %r12d,%r15d|XCHG %r15d,%r12d|4587e7|4587fc
+x86|MOV %r13d,%r13d||4589ed|
+x86|XCHG %r13d,%r13d||4587ed|
+x86|NOP %r13d||410f1fc5|
+x86|LEA (%r13d),%r13d||67458d6d00|
+x86|NOT %r13d; NOT %r13d||41f7d541f7d5|
+x86|NOT %r13d|NOT %r13d|41f7d5|41f7d5
+x86|BSWAP %r13d; BSWAP %r13d||410fcd410fcd|
+x86|BSWAP %r13d|BSWAP %r13d|410fcd|410fcd
+x86|CMOVA %r13d,%r13d||450f47ed|
+x86|CMOVC %r13d,%r13d||450f42ed|
+x86|CMOVG %r13d,%r13d||450f4fed|
+x86|CMOVL %r13d,%r13d||450f4ced|
+x86|CMOVO %r13d,%r13d||450f40ed|
+x86|CMOVP %r13d,%r13d||450f4aed|
+x86|CMOVS %r13d,%r13d||450f48ed|
+x86|CMOVZ %r13d,%r13d||450f44ed|
+x86|CMOVNA %r13d,%r13d||450f46ed|
+x86|CMOVNC %r13d,%r13d||450f43ed|
+x86|CMOVNG %r13d,%r13d||450f4eed|
+x86|CMOVNL %r13d,%r13d||450f4ded|
+x86|CMOVNO %r13d,%r13d||450f41ed|
+x86|CMOVNP %r13d,%r13d||450f4bed|
+x86|CMOVNS %r13d,%r13d||450f49ed|
+x86|XCHG %r13d,%eax; XCHG %eax,%r13d||41954195|
+x86|XCHG %r13d,%eax|XCHG %eax,%r13d|4195|4195
+x86|XCHG %r13d,%ebx; XCHG %ebx,%r13d||4487eb4187dd|
+x86|XCHG %r13d,%ebx|XCHG %ebx,%r13d|4487eb|4187dd
+x86|XCHG %r13d,%ecx; XCHG %ecx,%r13d||4487e94187cd|
+x86|XCHG %r13d,%ecx|XCHG %ecx,%r13d|4487e9|4187cd
+x86|XCHG %r13d,%edx; XCHG %edx,%r13d||4487ea4187d5|
+x86|XCHG %r13d,%edx|XCHG %edx,%r13d|4487ea|4187d5
+x86|XCHG %r13d,%r8d; XCHG %r8d,%r13d||4587e84587c5|
+x86|XCHG %r13d,%r8d|XCHG %r8d,%r13d|4587e8|4587c5
+x86|XCHG %r13d,%r9d; XCHG %r9d,%r13d||4587e94587cd|
+x86|XCHG %r13d,%r9d|XCHG %r9d,%r13d|4587e9|4587cd
+x86|XCHG %r13d,%r10d; XCHG %r10d,%r13d||4587ea4587d5|
+x86|XCHG %r13d,%r10d|XCHG %r10d,%r13d|4587ea|4587d5
+x86|XCHG %r13d,%r11d; XCHG %r11d,%r13d||4587eb4587dd|
+x86|XCHG %r13d,%r11d|XCHG %r11d,%r13d|4587eb|4587dd
+x86|XCHG %r13d,%r12d; XCHG %r12d,%r13d||4587ec4587e5|
+x86|XCHG %r13d,%r12d|XCHG %r12d,%r13d|4587ec|4587e5
+x86|XCHG %r13d,%r13d; XCHG %r13d,%r13d||4587ed4587ed|
+x86|XCHG %r13d,%r13d|XCHG %r13d,%r13d|4587ed|4587ed
+x86|XCHG %r13d,%r14d; XCHG %r14d,%r13d||4587ee4587f5|
+x86|XCHG %r13d,%r14d|XCHG %r14d,%r13d|4587ee|4587f5
+x86|XCHG %r13d,%r15d; XCHG %r15d,%r13d||4587ef4587fd|
+x86|XCHG %r13d,%r15d|XCHG %r15d,%r13d|4587ef|4587fd
+x86|MOV %r14d,%r14d||4589f6|
+x86|XCHG %r14d,%r14d||4587f6|
+x86|NOP %r14d||410f1fc6|
+x86|LEA (%r14d),%r14d||67458d36|
+x86|NOT %r14d; NOT %r14d||41f7d641f7d6|
+x86|NOT %r14d|NOT %r14d|41f7d6|41f7d6
+x86|BSWAP %r14d; BSWAP %r14d||410fce410fce|
+x86|BSWAP %r14d|BSWAP %r14d|410fce|410fce
+x86|CMOVA %r14d,%r14d||450f47f6|
+x86|CMOVC %r14d,%r14d||450f42f6|
+x86|CMOVG %r14d,%r14d||450f4ff6|
+x86|CMOVL %r14d,%r14d||450f4cf6|
+x86|CMOVO %r14d,%r14d||450f40f6|
+x86|CMOVP %r14d,%r14d||450f4af6|
+x86|CMOVS %r14d,%r14d||450f48f6|
+x86|CMOVZ %r14d,%r14d||450f44f6|
+x86|CMOVNA %r14d,%r14d||450f46f6|
+x86|CMOVNC %r14d,%r14d||450f43f6|
+x86|CMOVNG %r14d,%r14d||450f4ef6|
+x86|CMOVNL %r14d,%r14d||450f4df6|
+x86|CMOVNO %r14d,%r14d||450f41f6|
+x86|CMOVNP %r14d,%r14d||450f4bf6|
+x86|CMOVNS %r14d,%r14d||450f49f6|
+x86|XCHG %r14d,%eax; XCHG %eax,%r14d||41964196|
+x86|XCHG %r14d,%eax|XCHG %eax,%r14d|4196|4196
+x86|XCHG %r14d,%ebx; XCHG %ebx,%r14d||4487f34187de|
+x86|XCHG %r14d,%ebx|XCHG %ebx,%r14d|4487f3|4187de
+x86|XCHG %r14d,%ecx; XCHG %ecx,%r14d||4487f14187ce|
+x86|XCHG %r14d,%ecx|XCHG %ecx,%r14d|4487f1|4187ce
+x86|XCHG %r14d,%edx; XCHG %edx,%r14d||4487f24187d6|
+x86|XCHG %r14d,%edx|XCHG %edx,%r14d|4487f2|4187d6
+x86|XCHG %r14d,%r8d; XCHG %r8d,%r14d||4587f04587c6|
+x86|XCHG %r14d,%r8d|XCHG %r8d,%r14d|4587f0|4587c6
+x86|XCHG %r14d,%r9d; XCHG %r9d,%r14d||4587f14587ce|
+x86|XCHG %r14d,%r9d|XCHG %r9d,%r14d|4587f1|4587ce
+x86|XCHG %r14d,%r10d; XCHG %r10d,%r14d||4587f24587d6|
+x86|XCHG %r14d,%r10d|XCHG %r10d,%r14d|4587f2|4587d6
+x86|XCHG %r14d,%r11d; XCHG %r11d,%r14d||4587f34587de|
+x86|XCHG %r14d,%r11d|XCHG %r11d,%r14d|4587f3|4587de
+x86|XCHG %r14d,%r12d; XCHG %r12d,%r14d||4587f44587e6|
+x86|XCHG %r14d,%r12d|XCHG %r12d,%r14d|4587f4|4587e6
+x86|XCHG %r14d,%r13d; XCHG %r13d,%r14d||4587f54587ee|
+x86|XCHG %r14d,%r13d|XCHG %r13d,%r14d|4587f5|4587ee
+x86|XCHG %r14d,%r14d; XCHG %r14d,%r14d||4587f64587f6|
+x86|XCHG %r14d,%r14d|XCHG %r14d,%r14d|4587f6|4587f6
+x86|XCHG %r14d,%r15d; XCHG %r15d,%r14d||4587f74587fe|
+x86|XCHG %r14d,%r15d|XCHG %r15d,%r14d|4587f7|4587fe
+x86|MOV %r15d,%r15d||4589ff|
+x86|XCHG %r15d,%r15d||4587ff|
+x86|NOP %r15d||410f1fc7|
+x86|LEA (%r15d),%r15d||67458d3f|
+x86|NOT %r15d; NOT %r15d||41f7d741f7d7|
+x86|NOT %r15d|NOT %r15d|41f7d7|41f7d7
+x86|BSWAP %r15d; BSWAP %r15d||410fcf410fcf|
+x86|BSWAP %r15d|BSWAP %r15d|410fcf|410fcf
+x86|CMOVA %r15d,%r15d||450f47ff|
+x86|CMOVC %r15d,%r15d||450f42ff|
+x86|CMOVG %r15d,%r15d||450f4fff|
+x86|CMOVL %r15d,%r15d||450f4cff|
+x86|CMOVO %r15d,%r15d||450f40ff|
+x86|CMOVP %r15d,%r15d||450f4aff|
+x86|CMOVS %r15d,%r15d||450f48ff|
+x86|CMOVZ %r15d,%r15d||450f44ff|
+x86|CMOVNA %r15d,%r15d||450f46ff|
+x86|CMOVNC %r15d,%r15d||450f43ff|
+x86|CMOVNG %r15d,%r15d||450f4eff|
+x86|CMOVNL %r15d,%r15d||450f4dff|
+x86|CMOVNO %r15d,%r15d||450f41ff|
+x86|CMOVNP %r15d,%r15d||450f4bff|
+x86|CMOVNS %r15d,%r15d||450f49ff|
+x86|XCHG %r15d,%eax; XCHG %eax,%r15d||41974197|
+x86|XCHG %r15d,%eax|XCHG %eax,%r15d|4197|4197
+x86|XCHG %r15d,%ebx; XCHG %ebx,%r15d||4487fb4187df|
+x86|XCHG %r15d,%ebx|XCHG %ebx,%r15d|4487fb|4187df
+x86|XCHG %r15d,%ecx; XCHG %ecx,%r15d||4487f94187cf|
+x86|XCHG %r15d,%ecx|XCHG %ecx,%r15d|4487f9|4187cf
+x86|XCHG %r15d,%edx; XCHG %edx,%r15d||4487fa4187d7|
+x86|XCHG %r15d,%edx|XCHG %edx,%r15d|4487fa|4187d7
+x86|XCHG %r15d,%r8d; XCHG %r8d,%r15d||4587f84587c7|
+x86|XCHG %r15d,%r8d|XCHG %r8d,%r15d|4587f8|4587c7
+x86|XCHG %r15d,%r9d; XCHG %r9d,%r15d||4587f94587cf|
+x86|XCHG %r15d,%r9d|XCHG %r9d,%r15d|4587f9|4587cf
+x86|XCHG %r15d,%r10d; XCHG %r10d,%r15d||4587fa4587d7|
+x86|XCHG %r15d,%r10d|XCHG %r10d,%r15d|4587fa|4587d7
+x86|XCHG %r15d,%r11d; XCHG %r11d,%r15d||4587fb4587df|
+x86|XCHG %r15d,%r11d|XCHG %r11d,%r15d|4587fb|4587df
+x86|XCHG %r15d,%r12d; XCHG %r12d,%r15d||4587fc4587e7|
+x86|XCHG %r15d,%r12d|XCHG %r12d,%r15d|4587fc|4587e7
+x86|XCHG %r15d,%r13d; XCHG %r13d,%r15d||4587fd4587ef|
+x86|XCHG %r15d,%r13d|XCHG %r13d,%r15d|4587fd|4587ef
+x86|XCHG %r15d,%r14d; XCHG %r14d,%r15d||4587fe4587f7|
+x86|XCHG %r15d,%r14d|XCHG %r14d,%r15d|4587fe|4587f7
+x86|XCHG %r15d,%r15d; XCHG %r15d,%r15d||4587ff4587ff|
+x86|XCHG %r15d,%r15d|XCHG %r15d,%r15d|4587ff|4587ff
+x86|MOV %ax,%ax||6689c0|
+x86|XCHG %ax,%ax||6690|
+x86|NOP %ax||660f1fc0|
+x86|PUSH %ax; POP %ax||66506658|
+x86|PUSH %ax|POP %ax|6650|6658
+x86|NOT %ax; NOT %ax||66f7d066f7d0|
+x86|NOT %ax|NOT %ax|66f7d0|66f7d0
+x86|CMOVA %ax,%ax||660f47c0|
+x86|CMOVC %ax,%ax||660f42c0|
+x86|CMOVG %ax,%ax||660f4fc0|
+x86|CMOVL %ax,%ax||660f4cc0|
+x86|CMOVO %ax,%ax||660f40c0|
+x86|CMOVP %ax,%ax||660f4ac0|
+x86|CMOVS %ax,%ax||660f48c0|
+x86|CMOVZ %ax,%ax||660f44c0|
+x86|CMOVNA %ax,%ax||660f46c0|
+x86|CMOVNC %ax,%ax||660f43c0|
+x86|CMOVNG %ax,%ax||660f4ec0|
+x86|CMOVNL %ax,%ax||660f4dc0|
+x86|CMOVNO %ax,%ax||660f41c0|
+x86|CMOVNP %ax,%ax||660f4bc0|
+x86|CMOVNS %ax,%ax||660f49c0|
+x86|XCHG %ax,%ax; XCHG %ax,%ax||66906690|
+x86|XCHG %ax,%ax|XCHG %ax,%ax|6690|6690
+x86|XCHG %ax,%bx; XCHG %bx,%ax||66936693|
+x86|XCHG %ax,%bx|XCHG %bx,%ax|6693|6693
+x86|XCHG %ax,%cx; XCHG %cx,%ax||66916691|
+x86|XCHG %ax,%cx|XCHG %cx,%ax|6691|6691
+x86|XCHG %ax,%dx; XCHG %dx,%ax||66926692|
+x86|XCHG %ax,%dx|XCHG %dx,%ax|6692|6692
+x86|XCHG %ax,%r8w; XCHG %r8w,%ax||664190664190|
+x86|XCHG %ax,%r8w|XCHG %r8w,%ax|664190|664190
+x86|XCHG %ax,%r9w; XCHG %r9w,%ax||664191664191|
+x86|XCHG %ax,%r9w|XCHG %r9w,%ax|664191|664191
+x86|XCHG %ax,%r10w; XCHG %r10w,%ax||664192664192|
+x86|XCHG %ax,%r10w|XCHG %r10w,%ax|664192|664192
+x86|XCHG %ax,%r11w; XCHG %r11w,%ax||664193664193|
+x86|XCHG %ax,%r11w|XCHG %r11w,%ax|664193|664193
+x86|XCHG %ax,%r12w; XCHG %r12w,%ax||664194664194|
+x86|XCHG %ax,%r12w|XCHG %r12w,%ax|664194|664194
+x86|XCHG %ax,%r13w; XCHG %r13w,%ax||664195664195|
+x86|XCHG %ax,%r13w|XCHG %r13w,%ax|664195|664195
+x86|XCHG %ax,%r14w; XCHG %r14w,%ax||664196664196|
+x86|XCHG %ax,%r14w|XCHG %r14w,%ax|664196|664196
+x86|XCHG %ax,%r15w; XCHG %r15w,%ax||664197664197|
+x86|XCHG %ax,%r15w|XCHG %r15w,%ax|664197|664197
+x86|MOV %bx,%bx||6689db|
+x86|XCHG %bx,%bx||6687db|
+x86|NOP %bx||660f1fc3|
+x86|PUSH %bx; POP %bx||6653665b|
+x86|PUSH %bx|POP %bx|6653|665b
+x86|NOT %bx; NOT %bx||66f7d366f7d3|
+x86|NOT %bx|NOT %bx|66f7d3|66f7d3
+x86|CMOVA %bx,%bx||660f47db|
+x86|CMOVC %bx,%bx||660f42db|
+x86|CMOVG %bx,%bx||660f4fdb|
+x86|CMOVL %bx,%bx||660f4cdb|
+x86|CMOVO %bx,%bx||660f40db|
+x86|CMOVP %bx,%bx||660f4adb|
+x86|CMOVS %bx,%bx||660f48db|
+x86|CMOVZ %bx,%bx||660f44db|
+x86|CMOVNA %bx,%bx||660f46db|
+x86|CMOVNC %bx,%bx||660f43db|
+x86|CMOVNG %bx,%bx||660f4edb|
+x86|CMOVNL %bx,%bx||660f4ddb|
+x86|CMOVNO %bx,%bx||660f41db|
+x86|CMOVNP %bx,%bx||660f4bdb|
+x86|CMOVNS %bx,%bx||660f49db|
+x86|XCHG %bx,%ax; XCHG %ax,%bx||66936693|
+x86|XCHG %bx,%ax|XCHG %ax,%bx|6693|6693
+x86|XCHG %bx,%bx; XCHG %bx,%bx||6687db6687db|
+x86|XCHG %bx,%bx|XCHG %bx,%bx|6687db|6687db
+x86|XCHG %bx,%cx; XCHG %cx,%bx||6687d96687cb|
+x86|XCHG %bx,%cx|XCHG %cx,%bx|6687d9|6687cb
+x86|XCHG %bx,%dx; XCHG %dx,%bx||6687da6687d3|
+x86|XCHG %bx,%dx|XCHG %dx,%bx|6687da|6687d3
+x86|XCHG %bx,%r8w; XCHG %r8w,%bx||664187d8664487c3|
+x86|XCHG %bx,%r8w|XCHG %r8w,%bx|664187d8|664487c3
+x86|XCHG %bx,%r9w; XCHG %r9w,%bx||664187d9664487cb|
+x86|XCHG %bx,%r9w|XCHG %r9w,%bx|664187d9|664487cb
+x86|XCHG %bx,%r10w; XCHG %r10w,%bx||664187da664487d3|
+x86|XCHG %bx,%r10w|XCHG %r10w,%bx|664187da|664487d3
+x86|XCHG %bx,%r11w; XCHG %r11w,%bx||664187db664487db|
+x86|XCHG %bx,%r11w|XCHG %r11w,%bx|664187db|664487db
+x86|XCHG %bx,%r12w; XCHG %r12w,%bx||664187dc664487e3|
+x86|XCHG %bx,%r12w|XCHG %r12w,%bx|664187dc|664487e3
+x86|XCHG %bx,%r13w; XCHG %r13w,%bx||664187dd664487eb|
+x86|XCHG %bx,%r13w|XCHG %r13w,%bx|664187dd|664487eb
+x86|XCHG %bx,%r14w; XCHG %r14w,%bx||664187de664487f3|
+x86|XCHG %bx,%r14w|XCHG %r14w,%bx|664187de|664487f3
+x86|XCHG %bx,%r15w; XCHG %r15w,%bx||664187df664487fb|
+x86|XCHG %bx,%r15w|XCHG %r15w,%bx|664187df|664487fb
+x86|MOV %cx,%cx||6689c9|
+x86|XCHG %cx,%cx||6687c9|
+x86|NOP %cx||660f1fc1|
+x86|PUSH %cx; POP %cx||66516659|
+x86|PUSH %cx|POP %cx|6651|6659
+x86|NOT %cx; NOT %cx||66f7d166f7d1|
+x86|NOT %cx|NOT %cx|66f7d1|66f7d1
+x86|CMOVA %cx,%cx||660f47c9|
+x86|CMOVC %cx,%cx||660f42c9|
+x86|CMOVG %cx,%cx||660f4fc9|
+x86|CMOVL %cx,%cx||660f4cc9|
+x86|CMOVO %cx,%cx||660f40c9|
+x86|CMOVP %cx,%cx||660f4ac9|
+x86|CMOVS %cx,%cx||660f48c9|
+x86|CMOVZ %cx,%cx||660f44c9|
+x86|CMOVNA %cx,%cx||660f46c9|
+x86|CMOVNC %cx,%cx||660f43c9|
+x86|CMOVNG %cx,%cx||660f4ec9|
+x86|CMOVNL %cx,%cx||660f4dc9|
+x86|CMOVNO %cx,%cx||660f41c9|
+x86|CMOVNP %cx,%cx||660f4bc9|
+x86|CMOVNS %cx,%cx||660f49c9|
+x86|XCHG %cx,%ax; XCHG %ax,%cx||66916691|
+x86|XCHG %cx,%ax|XCHG %ax,%cx|6691|6691
+x86|XCHG %cx,%bx; XCHG %bx,%cx||6687cb6687d9|
+x86|XCHG %cx,%bx|XCHG %bx,%cx|6687cb|6687d9
+x86|XCHG %cx,%cx; XCHG %cx,%cx||6687c96687c9|
+x86|XCHG %cx,%cx|XCHG %cx,%cx|6687c9|6687c9
+x86|XCHG %cx,%dx; XCHG %dx,%cx||6687ca6687d1|
+x86|XCHG %cx,%dx|XCHG %dx,%cx|6687ca|6687d1
+x86|XCHG %cx,%r8w; XCHG %r8w,%cx||664187c8664487c1|
+x86|XCHG %cx,%r8w|XCHG %r8w,%cx|664187c8|664487c1
+x86|XCHG %cx,%r9w; XCHG %r9w,%cx||664187c9664487c9|
+x86|XCHG %cx,%r9w|XCHG %r9w,%cx|664187c9|664487c9
+x86|XCHG %cx,%r10w; XCHG %r10w,%cx||664187ca664487d1|
+x86|XCHG %cx,%r10w|XCHG %r10w,%cx|664187ca|664487d1
+x86|XCHG %cx,%r11w; XCHG %r11w,%cx||664187cb664487d9|
+x86|XCHG %cx,%r11w|XCHG %r11w,%cx|664187cb|664487d9
+x86|XCHG %cx,%r12w; XCHG %r12w,%cx||664187cc664487e1|
+x86|XCHG %cx,%r12w|XCHG %r12w,%cx|664187cc|664487e1
+x86|XCHG %cx,%r13w; XCHG %r13w,%cx||664187cd664487e9|
+x86|XCHG %cx,%r13w|XCHG %r13w,%cx|664187cd|664487e9
+x86|XCHG %cx,%r14w; XCHG %r14w,%cx||664187ce664487f1|
+x86|XCHG %cx,%r14w|XCHG %r14w,%cx|664187ce|664487f1
+x86|XCHG %cx,%r15w; XCHG %r15w,%cx||664187cf664487f9|
+x86|XCHG %cx,%r15w|XCHG %r15w,%cx|664187cf|664487f9
+x86|MOV %dx,%dx||6689d2|
+x86|XCHG %dx,%dx||6687d2|
+x86|NOP %dx||660f1fc2|
+x86|PUSH %dx; POP %dx||6652665a|
+x86|PUSH %dx|POP %dx|6652|665a
+x86|NOT %dx; NOT %dx||66f7d266f7d2|
+x86|NOT %dx|NOT %dx|66f7d2|66f7d2
+x86|CMOVA %dx,%dx||660f47d2|
+x86|CMOVC %dx,%dx||660f42d2|
+x86|CMOVG %dx,%dx||660f4fd2|
+x86|CMOVL %dx,%dx||660f4cd2|
+x86|CMOVO %dx,%dx||660f40d2|
+x86|CMOVP %dx,%dx||660f4ad2|
+x86|CMOVS %dx,%dx||660f48d2|
+x86|CMOVZ %dx,%dx||660f44d2|
+x86|CMOVNA %dx,%dx||660f46d2|
+x86|CMOVNC %dx,%dx||660f43d2|
+x86|CMOVNG %dx,%dx||660f4ed2|
+x86|CMOVNL %dx,%dx||660f4dd2|
+x86|CMOVNO %dx,%dx||660f41d2|
+x86|CMOVNP %dx,%dx||660f4bd2|
+x86|CMOVNS %dx,%dx||660f49d2|
+x86|XCHG %dx,%ax; XCHG %ax,%dx||66926692|
+x86|XCHG %dx,%ax|XCHG %ax,%dx|6692|6692
+x86|XCHG %dx,%bx; XCHG %bx,%dx||6687d36687da|
+x86|XCHG %dx,%bx|XCHG %bx,%dx|6687d3|6687da
+x86|XCHG %dx,%cx; XCHG %cx,%dx||6687d16687ca|
+x86|XCHG %dx,%cx|XCHG %cx,%dx|6687d1|6687ca
+x86|XCHG %dx,%dx; XCHG %dx,%dx||6687d26687d2|
+x86|XCHG %dx,%dx|XCHG %dx,%dx|6687d2|6687d2
+x86|XCHG %dx,%r8w; XCHG %r8w,%dx||664187d0664487c2|
+x86|XCHG %dx,%r8w|XCHG %r8w,%dx|664187d0|664487c2
+x86|XCHG %dx,%r9w; XCHG %r9w,%dx||664187d1664487ca|
+x86|XCHG %dx,%r9w|XCHG %r9w,%dx|664187d1|664487ca
+x86|XCHG %dx,%r10w; XCHG %r10w,%dx||664187d2664487d2|
+x86|XCHG %dx,%r10w|XCHG %r10w,%dx|664187d2|664487d2
+x86|XCHG %dx,%r11w; XCHG %r11w,%dx||664187d3664487da|
+x86|XCHG %dx,%r11w|XCHG %r11w,%dx|664187d3|664487da
+x86|XCHG %dx,%r12w; XCHG %r12w,%dx||664187d4664487e2|
+x86|XCHG %dx,%r12w|XCHG %r12w,%dx|664187d4|664487e2
+x86|XCHG %dx,%r13w; XCHG %r13w,%dx||664187d5664487ea|
+x86|XCHG %dx,%r13w|XCHG %r13w,%dx|664187d5|664487ea
+x86|XCHG %dx,%r14w; XCHG %r14w,%dx||664187d6664487f2|
+x86|XCHG %dx,%r14w|XCHG %r14w,%dx|664187d6|664487f2
+x86|XCHG %dx,%r15w; XCHG %r15w,%dx||664187d7664487fa|
+x86|XCHG %dx,%r15w|XCHG %r15w,%dx|664187d7|664487fa
+x86|MOV %r8w,%r8w||664589c0|
+x86|XCHG %r8w,%r8w||664587c0|
+x86|NOP %r8w||66410f1fc0|
+x86|PUSH %r8w; POP %r8w||664150664158|
+x86|PUSH %r8w|POP %r8w|664150|664158
+x86|NOT %r8w; NOT %r8w||6641f7d06641f7d0|
+x86|NOT %r8w|NOT %r8w|6641f7d0|6641f7d0
+x86|CMOVA %r8w,%r8w||66450f47c0|
+x86|CMOVC %r8w,%r8w||66450f42c0|
+x86|CMOVG %r8w,%r8w||66450f4fc0|
+x86|CMOVL %r8w,%r8w||66450f4cc0|
+x86|CMOVO %r8w,%r8w||66450f40c0|
+x86|CMOVP %r8w,%r8w||66450f4ac0|
+x86|CMOVS %r8w,%r8w||66450f48c0|
+x86|CMOVZ %r8w,%r8w||66450f44c0|
+x86|CMOVNA %r8w,%r8w||66450f46c0|
+x86|CMOVNC %r8w,%r8w||66450f43c0|
+x86|CMOVNG %r8w,%r8w||66450f4ec0|
+x86|CMOVNL %r8w,%r8w||66450f4dc0|
+x86|CMOVNO %r8w,%r8w||66450f41c0|
+x86|CMOVNP %r8w,%r8w||66450f4bc0|
+x86|CMOVNS %r8w,%r8w||66450f49c0|
+x86|XCHG %r8w,%ax; XCHG %ax,%r8w||664190664190|
+x86|XCHG %r8w,%ax|XCHG %ax,%r8w|664190|664190
+x86|XCHG %r8w,%bx; XCHG %bx,%r8w||664487c3664187d8|
+x86|XCHG %r8w,%bx|XCHG %bx,%r8w|664487c3|664187d8
+x86|XCHG %r8w,%cx; XCHG %cx,%r8w||664487c1664187c8|
+x86|XCHG %r8w,%cx|XCHG %cx,%r8w|664487c1|664187c8
+x86|XCHG %r8w,%dx; XCHG %dx,%r8w||664487c2664187d0|
+x86|XCHG %r8w,%dx|XCHG %dx,%r8w|664487c2|664187d0
+x86|XCHG %r8w,%r8w; XCHG %r8w,%r8w||664587c0664587c0|
+x86|XCHG %r8w,%r8w|XCHG %r8w,%r8w|664587c0|664587c0
+x86|XCHG %r8w,%r9w; XCHG %r9w,%r8w||664587c1664587c8|
+x86|XCHG %r8w,%r9w|XCHG %r9w,%r8w|664587c1|664587c8
+x86|XCHG %r8w,%r10w; XCHG %r10w,%r8w||664587c2664587d0|
+x86|XCHG %r8w,%r10w|XCHG %r10w,%r8w|664587c2|664587d0
+x86|XCHG %r8w,%r11w; XCHG %r11w,%r8w||664587c3664587d8|
+x86|XCHG %r8w,%r11w|XCHG %r11w,%r8w|664587c3|664587d8
+x86|XCHG %r8w,%r12w; XCHG %r12w,%r8w||664587c4664587e0|
+x86|XCHG %r8w,%r12w|XCHG %r12w,%r8w|664587c4|664587e0
+x86|XCHG %r8w,%r13w; XCHG %r13w,%r8w||664587c5664587e8|
+x86|XCHG %r8w,%r13w|XCHG %r13w,%r8w|664587c5|664587e8
+x86|XCHG %r8w,%r14w; XCHG %r14w,%r8w||664587c6664587f0|
+x86|XCHG %r8w,%r14w|XCHG %r14w,%r8w|664587c6|664587f0
+x86|XCHG %r8w,%r15w; XCHG %r15w,%r8w||664587c7664587f8|
+x86|XCHG %r8w,%r15w|XCHG %r15w,%r8w|664587c7|664587f8
+x86|MOV %r9w,%r9w||664589c9|
+x86|XCHG %r9w,%r9w||664587c9|
+x86|NOP %r9w||66410f1fc1|
+x86|PUSH %r9w; POP %r9w||664151664159|
+x86|PUSH %r9w|POP %r9w|664151|664159
+x86|NOT %r9w; NOT %r9w||6641f7d16641f7d1|
+x86|NOT %r9w|NOT %r9w|6641f7d1|6641f7d1
+x86|CMOVA %r9w,%r9w||66450f47c9|
+x86|CMOVC %r9w,%r9w||66450f42c9|
+x86|CMOVG %r9w,%r9w||66450f4fc9|
+x86|CMOVL %r9w,%r9w||66450f4cc9|
+x86|CMOVO %r9w,%r9w||66450f40c9|
+x86|CMOVP %r9w,%r9w||66450f4ac9|
+x86|CMOVS %r9w,%r9w||66450f48c9|
+x86|CMOVZ %r9w,%r9w||66450f44c9|
+x86|CMOVNA %r9w,%r9w||66450f46c9|
+x86|CMOVNC %r9w,%r9w||66450f43c9|
+x86|CMOVNG %r9w,%r9w||66450f4ec9|
+x86|CMOVNL %r9w,%r9w||66450f4dc9|
+x86|CMOVNO %r9w,%r9w||66450f41c9|
+x86|CMOVNP %r9w,%r9w||66450f4bc9|
+x86|CMOVNS %r9w,%r9w||66450f49c9|
+x86|XCHG %r9w,%ax; XCHG %ax,%r9w||664191664191|
+x86|XCHG %r9w,%ax|XCHG %ax,%r9w|664191|664191
+x86|XCHG %r9w,%bx; XCHG %bx,%r9w||664487cb664187d9|
+x86|XCHG %r9w,%bx|XCHG %bx,%r9w|664487cb|664187d9
+x86|XCHG %r9w,%cx; XCHG %cx,%r9w||664487c9664187c9|
+x86|XCHG %r9w,%cx|XCHG %cx,%r9w|664487c9|664187c9
+x86|XCHG %r9w,%dx; XCHG %dx,%r9w||664487ca664187d1|
+x86|XCHG %r9w,%dx|XCHG %dx,%r9w|664487ca|664187d1
+x86|XCHG %r9w,%r8w; XCHG %r8w,%r9w||664587c8664587c1|
+x86|XCHG %r9w,%r8w|XCHG %r8w,%r9w|664587c8|664587c1
+x86|XCHG %r9w,%r9w; XCHG %r9w,%r9w||664587c9664587c9|
+x86|XCHG %r9w,%r9w|XCHG %r9w,%r9w|664587c9|664587c9
+x86|XCHG %r9w,%r10w; XCHG %r10w,%r9w||664587ca664587d1|
+x86|XCHG %r9w,%r10w|XCHG %r10w,%r9w|664587ca|664587d1
+x86|XCHG %r9w,%r11w; XCHG %r11w,%r9w||664587cb664587d9|
+x86|XCHG %r9w,%r11w|XCHG %r11w,%r9w|664587cb|664587d9
+x86|XCHG %r9w,%r12w; XCHG %r12w,%r9w||664587cc664587e1|
+x86|XCHG %r9w,%r12w|XCHG %r12w,%r9w|664587cc|664587e1
+x86|XCHG %r9w,%r13w; XCHG %r13w,%r9w||664587cd664587e9|
+x86|XCHG %r9w,%r13w|XCHG %r13w,%r9w|664587cd|664587e9
+x86|XCHG %r9w,%r14w; XCHG %r14w,%r9w||664587ce664587f1|
+x86|XCHG %r9w,%r14w|XCHG %r14w,%r9w|664587ce|664587f1
+x86|XCHG %r9w,%r15w; XCHG %r15w,%r9w||664587cf664587f9|
+x86|XCHG %r9w,%r15w|XCHG %r15w,%r9w|664587cf|664587f9
+x86|MOV %r10w,%r10w||664589d2|
+x86|XCHG %r10w,%r10w||664587d2|
+x86|NOP %r10w||66410f1fc2|
+x86|PUSH %r10w; POP %r10w||66415266415a|
+x86|PUSH %r10w|POP %r10w|664152|66415a
+x86|NOT %r10w; NOT %r10w||6641f7d26641f7d2|
+x86|NOT %r10w|NOT %r10w|6641f7d2|6641f7d2
+x86|CMOVA %r10w,%r10w||66450f47d2|
+x86|CMOVC %r10w,%r10w||66450f42d2|
+x86|CMOVG %r10w,%r10w||66450f4fd2|
+x86|CMOVL %r10w,%r10w||66450f4cd2|
+x86|CMOVO %r10w,%r10w||66450f40d2|
+x86|CMOVP %r10w,%r10w||66450f4ad2|
+x86|CMOVS %r10w,%r10w||66450f48d2|
+x86|CMOVZ %r10w,%r10w||66450f44d2|
+x86|CMOVNA %r10w,%r10w||66450f46d2|
+x86|CMOVNC %r10w,%r10w||66450f43d2|
+x86|CMOVNG %r10w,%r10w||66450f4ed2|
+x86|CMOVNL %r10w,%r10w||66450f4dd2|
+x86|CMOVNO %r10w,%r10w||66450f41d2|
+x86|CMOVNP %r10w,%r10w||66450f4bd2|
+x86|CMOVNS %r10w,%r10w||66450f49d2|
+x86|XCHG %r10w,%ax; XCHG %ax,%r10w||664192664192|
+x86|XCHG %r10w,%ax|XCHG %ax,%r10w|664192|664192
+x86|XCHG %r10w,%bx; XCHG %bx,%r10w||664487d3664187da|
+x86|XCHG %r10w,%bx|XCHG %bx,%r10w|664487d3|664187da
+x86|XCHG %r10w,%cx; XCHG %cx,%r10w||664487d1664187ca|
+x86|XCHG %r10w,%cx|XCHG %cx,%r10w|664487d1|664187ca
+x86|XCHG %r10w,%dx; XCHG %dx,%r10w||664487d2664187d2|
+x86|XCHG %r10w,%dx|XCHG %dx,%r10w|664487d2|664187d2
+x86|XCHG %r10w,%r8w; XCHG %r8w,%r10w||664587d0664587c2|
+x86|XCHG %r10w,%r8w|XCHG %r8w,%r10w|664587d0|664587c2
+x86|XCHG %r10w,%r9w; XCHG %r9w,%r10w||664587d1664587ca|
+x86|XCHG %r10w,%r9w|XCHG %r9w,%r10w|664587d1|664587ca
+x86|XCHG %r10w,%r10w; XCHG %r10w,%r10w||664587d2664587d2|
+x86|XCHG %r10w,%r10w|XCHG %r10w,%r10w|664587d2|664587d2
+x86|XCHG %r10w,%r11w; XCHG %r11w,%r10w||664587d3664587da|
+x86|XCHG %r10w,%r11w|XCHG %r11w,%r10w|664587d3|664587da
+x86|XCHG %r10w,%r12w; XCHG %r12w,%r10w||664587d4664587e2|
+x86|XCHG %r10w,%r12w|XCHG %r12w,%r10w|664587d4|664587e2
+x86|XCHG %r10w,%r13w; XCHG %r13w,%r10w||664587d5664587ea|
+x86|XCHG %r10w,%r13w|XCHG %r13w,%r10w|664587d5|664587ea
+x86|XCHG %r10w,%r14w; XCHG %r14w,%r10w||664587d6664587f2|
+x86|XCHG %r10w,%r14w|XCHG %r14w,%r10w|664587d6|664587f2
+x86|XCHG %r10w,%r15w; XCHG %r15w,%r10w||664587d7664587fa|
+x86|XCHG %r10w,%r15w|XCHG %r15w,%r10w|664587d7|664587fa
+x86|MOV %r11w,%r11w||664589db|
+x86|XCHG %r11w,%r11w||664587db|
+x86|NOP %r11w||66410f1fc3|
+x86|PUSH %r11w; POP %r11w||66415366415b|
+x86|PUSH %r11w|POP %r11w|664153|66415b
+x86|NOT %r11w; NOT %r11w||6641f7d36641f7d3|
+x86|NOT %r11w|NOT %r11w|6641f7d3|6641f7d3
+x86|CMOVA %r11w,%r11w||66450f47db|
+x86|CMOVC %r11w,%r11w||66450f42db|
+x86|CMOVG %r11w,%r11w||66450f4fdb|
+x86|CMOVL %r11w,%r11w||66450f4cdb|
+x86|CMOVO %r11w,%r11w||66450f40db|
+x86|CMOVP %r11w,%r11w||66450f4adb|
+x86|CMOVS %r11w,%r11w||66450f48db|
+x86|CMOVZ %r11w,%r11w||66450f44db|
+x86|CMOVNA %r11w,%r11w||66450f46db|
+x86|CMOVNC %r11w,%r11w||66450f43db|
+x86|CMOVNG %r11w,%r11w||66450f4edb|
+x86|CMOVNL %r11w,%r11w||66450f4ddb|
+x86|CMOVNO %r11w,%r11w||66450f41db|
+x86|CMOVNP %r11w,%r11w||66450f4bdb|
+x86|CMOVNS %r11w,%r11w||66450f49db|
+x86|XCHG %r11w,%ax; XCHG %ax,%r11w||664193664193|
+x86|XCHG %r11w,%ax|XCHG %ax,%r11w|664193|664193
+x86|XCHG %r11w,%bx; XCHG %bx,%r11w||664487db664187db|
+x86|XCHG %r11w,%bx|XCHG %bx,%r11w|664487db|664187db
+x86|XCHG %r11w,%cx; XCHG %cx,%r11w||664487d9664187cb|
+x86|XCHG %r11w,%cx|XCHG %cx,%r11w|664487d9|664187cb
+x86|XCHG %r11w,%dx; XCHG %dx,%r11w||664487da664187d3|
+x86|XCHG %r11w,%dx|XCHG %dx,%r11w|664487da|664187d3
+x86|XCHG %r11w,%r8w; XCHG %r8w,%r11w||664587d8664587c3|
+x86|XCHG %r11w,%r8w|XCHG %r8w,%r11w|664587d8|664587c3
+x86|XCHG %r11w,%r9w; XCHG %r9w,%r11w||664587d9664587cb|
+x86|XCHG %r11w,%r9w|XCHG %r9w,%r11w|664587d9|664587cb
+x86|XCHG %r11w,%r10w; XCHG %r10w,%r11w||664587da664587d3|
+x86|XCHG %r11w,%r10w|XCHG %r10w,%r11w|664587da|664587d3
+x86|XCHG %r11w,%r11w; XCHG %r11w,%r11w||664587db664587db|
+x86|XCHG %r11w,%r11w|XCHG %r11w,%r11w|664587db|664587db
+x86|XCHG %r11w,%r12w; XCHG %r12w,%r11w||664587dc664587e3|
+x86|XCHG %r11w,%r12w|XCHG %r12w,%r11w|664587dc|664587e3
+x86|XCHG %r11w,%r13w; XCHG %r13w,%r11w||664587dd664587eb|
+x86|XCHG %r11w,%r13w|XCHG %r13w,%r11w|664587dd|664587eb
+x86|XCHG %r11w,%r14w; XCHG %r14w,%r11w||664587de664587f3|
+x86|XCHG %r11w,%r14w|XCHG %r14w,%r11w|664587de|664587f3
+x86|XCHG %r11w,%r15w; XCHG %r15w,%r11w||664587df664587fb|
+x86|XCHG %r11w,%r15w|XCHG %r15w,%r11w|664587df|664587fb
+x86|MOV %r12w,%r12w||664589e4|
+x86|XCHG %r12w,%r12w||664587e4|
+x86|NOP %r12w||66410f1fc4|
+x86|PUSH %r12w; POP %r12w||66415466415c|
+x86|PUSH %r12w|POP %r12w|664154|66415c
+x86|NOT %r12w; NOT %r12w||6641f7d46641f7d4|
+x86|NOT %r12w|NOT %r12w|6641f7d4|6641f7d4
+x86|CMOVA %r12w,%r12w||66450f47e4|
+x86|CMOVC %r12w,%r12w||66450f42e4|
+x86|CMOVG %r12w,%r12w||66450f4fe4|
+x86|CMOVL %r12w,%r12w||66450f4ce4|
+x86|CMOVO %r12w,%r12w||66450f40e4|
+x86|CMOVP %r12w,%r12w||66450f4ae4|
+x86|CMOVS %r12w,%r12w||66450f48e4|
+x86|CMOVZ %r12w,%r12w||66450f44e4|
+x86|CMOVNA %r12w,%r12w||66450f46e4|
+x86|CMOVNC %r12w,%r12w||66450f43e4|
+x86|CMOVNG %r12w,%r12w||66450f4ee4|
+x86|CMOVNL %r12w,%r12w||66450f4de4|
+x86|CMOVNO %r12w,%r12w||66450f41e4|
+x86|CMOVNP %r12w,%r12w||66450f4be4|
+x86|CMOVNS %r12w,%r12w||66450f49e4|
+x86|XCHG %r12w,%ax; XCHG %ax,%r12w||664194664194|
+x86|XCHG %r12w,%ax|XCHG %ax,%r12w|664194|664194
+x86|XCHG %r12w,%bx; XCHG %bx,%r12w||664487e3664187dc|
+x86|XCHG %r12w,%bx|XCHG %bx,%r12w|664487e3|664187dc
+x86|XCHG %r12w,%cx; XCHG %cx,%r12w||664487e1664187cc|
+x86|XCHG %r12w,%cx|XCHG %cx,%r12w|664487e1|664187cc
+x86|XCHG %r12w,%dx; XCHG %dx,%r12w||664487e2664187d4|
+x86|XCHG %r12w,%dx|XCHG %dx,%r12w|664487e2|664187d4
+x86|XCHG %r12w,%r8w; XCHG %r8w,%r12w||664587e0664587c4|
+x86|XCHG %r12w,%r8w|XCHG %r8w,%r12w|664587e0|664587c4
+x86|XCHG %r12w,%r9w; XCHG %r9w,%r12w||664587e1664587cc|
+x86|XCHG %r12w,%r9w|XCHG %r9w,%r12w|664587e1|664587cc
+x86|XCHG %r12w,%r10w; XCHG %r10w,%r12w||664587e2664587d4|
+x86|XCHG %r12w,%r10w|XCHG %r10w,%r12w|664587e2|664587d4
+x86|XCHG %r12w,%r11w; XCHG %r11w,%r12w||664587e3664587dc|
+x86|XCHG %r12w,%r11w|XCHG %r11w,%r12w|664587e3|664587dc
+x86|XCHG %r12w,%r12w; XCHG %r12w,%r12w||664587e4664587e4|
+x86|XCHG %r12w,%r12w|XCHG %r12w,%r12w|664587e4|664587e4
+x86|XCHG %r12w,%r13w; XCHG %r13w,%r12w||664587e5664587ec|
+x86|XCHG %r12w,%r13w|XCHG %r13w,%r12w|664587e5|664587ec
+x86|XCHG %r12w,%r14w; XCHG %r14w,%r12w||664587e6664587f4|
+x86|XCHG %r12w,%r14w|XCHG %r14w,%r12w|664587e6|664587f4
+x86|XCHG %r12w,%r15w; XCHG %r15w,%r12w||664587e7664587fc|
+x86|XCHG %r12w,%r15w|XCHG %r15w,%r12w|664587e7|664587fc
+x86|MOV %r13w,%r13w||664589ed|
+x86|XCHG %r13w,%r13w||664587ed|
+x86|NOP %r13w||66410f1fc5|
+x86|PUSH %r13w; POP %r13w||66415566415d|
+x86|PUSH %r13w|POP %r13w|664155|66415d
+x86|NOT %r13w; NOT %r13w||6641f7d56641f7d5|
+x86|NOT %r13w|NOT %r13w|6641f7d5|6641f7d5
+x86|CMOVA %r13w,%r13w||66450f47ed|
+x86|CMOVC %r13w,%r13w||66450f42ed|
+x86|CMOVG %r13w,%r13w||66450f4fed|
+x86|CMOVL %r13w,%r13w||66450f4ced|
+x86|CMOVO %r13w,%r13w||66450f40ed|
+x86|CMOVP %r13w,%r13w||66450f4aed|
+x86|CMOVS %r13w,%r13w||66450f48ed|
+x86|CMOVZ %r13w,%r13w||66450f44ed|
+x86|CMOVNA %r13w,%r13w||66450f46ed|
+x86|CMOVNC %r13w,%r13w||66450f43ed|
+x86|CMOVNG %r13w,%r13w||66450f4eed|
+x86|CMOVNL %r13w,%r13w||66450f4ded|
+x86|CMOVNO %r13w,%r13w||66450f41ed|
+x86|CMOVNP %r13w,%r13w||66450f4bed|
+x86|CMOVNS %r13w,%r13w||66450f49ed|
+x86|XCHG %r13w,%ax; XCHG %ax,%r13w||664195664195|
+x86|XCHG %r13w,%ax|XCHG %ax,%r13w|664195|664195
+x86|XCHG %r13w,%bx; XCHG %bx,%r13w||664487eb664187dd|
+x86|XCHG %r13w,%bx|XCHG %bx,%r13w|664487eb|664187dd
+x86|XCHG %r13w,%cx; XCHG %cx,%r13w||664487e9664187cd|
+x86|XCHG %r13w,%cx|XCHG %cx,%r13w|664487e9|664187cd
+x86|XCHG %r13w,%dx; XCHG %dx,%r13w||664487ea664187d5|
+x86|XCHG %r13w,%dx|XCHG %dx,%r13w|664487ea|664187d5
+x86|XCHG %r13w,%r8w; XCHG %r8w,%r13w||664587e8664587c5|
+x86|XCHG %r13w,%r8w|XCHG %r8w,%r13w|664587e8|664587c5
+x86|XCHG %r13w,%r9w; XCHG %r9w,%r13w||664587e9664587cd|
+x86|XCHG %r13w,%r9w|XCHG %r9w,%r13w|664587e9|664587cd
+x86|XCHG %r13w,%r10w; XCHG %r10w,%r13w||664587ea664587d5|
+x86|XCHG %r13w,%r10w|XCHG %r10w,%r13w|664587ea|664587d5
+x86|XCHG %r13w,%r11w; XCHG %r11w,%r13w||664587eb664587dd|
+x86|XCHG %r13w,%r11w|XCHG %r11w,%r13w|664587eb|664587dd
+x86|XCHG %r13w,%r12w; XCHG %r12w,%r13w||664587ec664587e5|
+x86|XCHG %r13w,%r12w|XCHG %r12w,%r13w|664587ec|664587e5
+x86|XCHG %r13w,%r13w; XCHG %r13w,%r13w||664587ed664587ed|
+x86|XCHG %r13w,%r13w|XCHG %r13w,%r13w|664587ed|664587ed
+x86|XCHG %r13w,%r14w; XCHG %r14w,%r13w||664587ee664587f5|
+x86|XCHG %r13w,%r14w|XCHG %r14w,%r13w|664587ee|664587f5
+x86|XCHG %r13w,%r15w; XCHG %r15w,%r13w||664587ef664587fd|
+x86|XCHG %r13w,%r15w|XCHG %r15w,%r13w|664587ef|664587fd
+x86|MOV %r14w,%r14w||664589f6|
+x86|XCHG %r14w,%r14w||664587f6|
+x86|NOP %r14w||66410f1fc6|
+x86|PUSH %r14w; POP %r14w||66415666415e|
+x86|PUSH %r14w|POP %r14w|664156|66415e
+x86|NOT %r14w; NOT %r14w||6641f7d66641f7d6|
+x86|NOT %r14w|NOT %r14w|6641f7d6|6641f7d6
+x86|CMOVA %r14w,%r14w||66450f47f6|
+x86|CMOVC %r14w,%r14w||66450f42f6|
+x86|CMOVG %r14w,%r14w||66450f4ff6|
+x86|CMOVL %r14w,%r14w||66450f4cf6|
+x86|CMOVO %r14w,%r14w||66450f40f6|
+x86|CMOVP %r14w,%r14w||66450f4af6|
+x86|CMOVS %r14w,%r14w||66450f48f6|
+x86|CMOVZ %r14w,%r14w||66450f44f6|
+x86|CMOVNA %r14w,%r14w||66450f46f6|
+x86|CMOVNC %r14w,%r14w||66450f43f6|
+x86|CMOVNG %r14w,%r14w||66450f4ef6|
+x86|CMOVNL %r14w,%r14w||66450f4df6|
+x86|CMOVNO %r14w,%r14w||66450f41f6|
+x86|CMOVNP %r14w,%r14w||66450f4bf6|
+x86|CMOVNS %r14w,%r14w||66450f49f6|
+x86|XCHG %r14w,%ax; XCHG %ax,%r14w||664196664196|
+x86|XCHG %r14w,%ax|XCHG %ax,%r14w|664196|664196
+x86|XCHG %r14w,%bx; XCHG %bx,%r14w||664487f3664187de|
+x86|XCHG %r14w,%bx|XCHG %bx,%r14w|664487f3|664187de
+x86|XCHG %r14w,%cx; XCHG %cx,%r14w||664487f1664187ce|
+x86|XCHG %r14w,%cx|XCHG %cx,%r14w|664487f1|664187ce
+x86|XCHG %r14w,%dx; XCHG %dx,%r14w||664487f2664187d6|
+x86|XCHG %r14w,%dx|XCHG %dx,%r14w|664487f2|664187d6
+x86|XCHG %r14w,%r8w; XCHG %r8w,%r14w||664587f0664587c6|
+x86|XCHG %r14w,%r8w|XCHG %r8w,%r14w|664587f0|664587c6
+x86|XCHG %r14w,%r9w; XCHG %r9w,%r14w||664587f1664587ce|
+x86|XCHG %r14w,%r9w|XCHG %r9w,%r14w|664587f1|664587ce
+x86|XCHG %r14w,%r10w; XCHG %r10w,%r14w||664587f2664587d6|
+x86|XCHG %r14w,%r10w|XCHG %r10w,%r14w|664587f2|664587d6
+x86|XCHG %r14w,%r11w; XCHG %r11w,%r14w||664587f3664587de|
+x86|XCHG %r14w,%r11w|XCHG %r11w,%r14w|664587f3|664587de
+x86|XCHG %r14w,%r12w; XCHG %r12w,%r14w||664587f4664587e6|
+x86|XCHG %r14w,%r12w|XCHG %r12w,%r14w|664587f4|664587e6
+x86|XCHG %r14w,%r13w; XCHG %r13w,%r14w||664587f5664587ee|
+x86|XCHG %r14w,%r13w|XCHG %r13w,%r14w|664587f5|664587ee
+x86|XCHG %r14w,%r14w; XCHG %r14w,%r14w||664587f6664587f6|
+x86|XCHG %r14w,%r14w|XCHG %r14w,%r14w|664587f6|664587f6
+x86|XCHG %r14w,%r15w; XCHG %r15w,%r14w||664587f7664587fe|
+x86|XCHG %r14w,%r15w|XCHG %r15w,%r14w|664587f7|664587fe
+x86|MOV %r15w,%r15w||664589ff|
+x86|XCHG %r15w,%r15w||664587ff|
+x86|NOP %r15w||66410f1fc7|
+x86|PUSH %r15w; POP %r15w||66415766415f|
+x86|PUSH %r15w|POP %r15w|664157|66415f
+x86|NOT %r15w; NOT %r15w||6641f7d76641f7d7|
+x86|NOT %r15w|NOT %r15w|6641f7d7|6641f7d7
+x86|CMOVA %r15w,%r15w||66450f47ff|
+x86|CMOVC %r15w,%r15w||66450f42ff|
+x86|CMOVG %r15w,%r15w||66450f4fff|
+x86|CMOVL %r15w,%r15w||66450f4cff|
+x86|CMOVO %r15w,%r15w||66450f40ff|
+x86|CMOVP %r15w,%r15w||66450f4aff|
+x86|CMOVS %r15w,%r15w||66450f48ff|
+x86|CMOVZ %r15w,%r15w||66450f44ff|
+x86|CMOVNA %r15w,%r15w||66450f46ff|
+x86|CMOVNC %r15w,%r15w||66450f43ff|
+x86|CMOVNG %r15w,%r15w||66450f4eff|
+x86|CMOVNL %r15w,%r15w||66450f4dff|
+x86|CMOVNO %r15w,%r15w||66450f41ff|
+x86|CMOVNP %r15w,%r15w||66450f4bff|
+x86|CMOVNS %r15w,%r15w||66450f49ff|
+x86|XCHG %r15w,%ax; XCHG %ax,%r15w||664197664197|
+x86|XCHG %r15w,%ax|XCHG %ax,%r15w|664197|664197
+x86|XCHG %r15w,%bx; XCHG %bx,%r15w||664487fb664187df|
+x86|XCHG %r15w,%bx|XCHG %bx,%r15w|664487fb|664187df
+x86|XCHG %r15w,%cx; XCHG %cx,%r15w||664487f9664187cf|
+x86|XCHG %r15w,%cx|XCHG %cx,%r15w|664487f9|664187cf
+x86|XCHG %r15w,%dx; XCHG %dx,%r15w||664487fa664187d7|
+x86|XCHG %r15w,%dx|XCHG %dx,%r15w|664487fa|664187d7
+x86|XCHG %r15w,%r8w; XCHG %r8w,%r15w||664587f8664587c7|
+x86|XCHG %r15w,%r8w|XCHG %r8w,%r15w|664587f8|664587c7
+x86|XCHG %r15w,%r9w; XCHG %r9w,%r15w||664587f9664587cf|
+x86|XCHG %r15w,%r9w|XCHG %r9w,%r15w|664587f9|664587cf
+x86|XCHG %r15w,%r10w; XCHG %r10w,%r15w||664587fa664587d7|
+x86|XCHG %r15w,%r10w|XCHG %r10w,%r15w|664587fa|664587d7
+x86|XCHG %r15w,%r11w; XCHG %r11w,%r15w||664587fb664587df|
+x86|XCHG %r15w,%r11w|XCHG %r11w,%r15w|664587fb|664587df
+x86|XCHG %r15w,%r12w; XCHG %r12w,%r15w||664587fc664587e7|
+x86|XCHG %r15w,%r12w|XCHG %r12w,%r15w|664587fc|664587e7
+x86|XCHG %r15w,%r13w; XCHG %r13w,%r15w||664587fd664587ef|
+x86|XCHG %r15w,%r13w|XCHG %r13w,%r15w|664587fd|664587ef
+x86|XCHG %r15w,%r14w; XCHG %r14w,%r15w||664587fe664587f7|
+x86|XCHG %r15w,%r14w|XCHG %r14w,%r15w|664587fe|664587f7
+x86|XCHG %r15w,%r15w; XCHG %r15w,%r15w||664587ff664587ff|
+x86|XCHG %r15w,%r15w|XCHG %r15w,%r15w|664587ff|664587ff
+x86|MOV %r8b,%r8b||4588c0|
+x86|XCHG %r8b,%r8b||4586c0|
+x86|NOT %r8b; NOT %r8b||41f6d041f6d0|
+x86|NOT %r8b|NOT %r8b|41f6d0|41f6d0
+x86|XCHG %r8b,%r8b; XCHG %r8b,%r8b||4586c04586c0|
+x86|XCHG %r8b,%r8b|XCHG %r8b,%r8b|4586c0|4586c0
+x86|XCHG %r8b,%r9b; XCHG %r9b,%r8b||4586c14586c8|
+x86|XCHG %r8b,%r9b|XCHG %r9b,%r8b|4586c1|4586c8
+x86|XCHG %r8b,%r10b; XCHG %r10b,%r8b||4586c24586d0|
+x86|XCHG %r8b,%r10b|XCHG %r10b,%r8b|4586c2|4586d0
+x86|XCHG %r8b,%r11b; XCHG %r11b,%r8b||4586c34586d8|
+x86|XCHG %r8b,%r11b|XCHG %r11b,%r8b|4586c3|4586d8
+x86|XCHG %r8b,%r12b; XCHG %r12b,%r8b||4586c44586e0|
+x86|XCHG %r8b,%r12b|XCHG %r12b,%r8b|4586c4|4586e0
+x86|XCHG %r8b,%r13b; XCHG %r13b,%r8b||4586c54586e8|
+x86|XCHG %r8b,%r13b|XCHG %r13b,%r8b|4586c5|4586e8
+x86|XCHG %r8b,%r14b; XCHG %r14b,%r8b||4586c64586f0|
+x86|XCHG %r8b,%r14b|XCHG %r14b,%r8b|4586c6|4586f0
+x86|XCHG %r8b,%r15b; XCHG %r15b,%r8b||4586c74586f8|
+x86|XCHG %r8b,%r15b|XCHG %r15b,%r8b|4586c7|4586f8
+x86|MOV %r9b,%r9b||4588c9|
+x86|XCHG %r9b,%r9b||4586c9|
+x86|NOT %r9b; NOT %r9b||41f6d141f6d1|
+x86|NOT %r9b|NOT %r9b|41f6d1|41f6d1
+x86|XCHG %r9b,%r8b; XCHG %r8b,%r9b||4586c84586c1|
+x86|XCHG %r9b,%r8b|XCHG %r8b,%r9b|4586c8|4586c1
+x86|XCHG %r9b,%r9b; XCHG %r9b,%r9b||4586c94586c9|
+x86|XCHG %r9b,%r9b|XCHG %r9b,%r9b|4586c9|4586c9
+x86|XCHG %r9b,%r10b; XCHG %r10b,%r9b||4586ca4586d1|
+x86|XCHG %r9b,%r10b|XCHG %r10b,%r9b|4586ca|4586d1
+x86|XCHG %r9b,%r11b; XCHG %r11b,%r9b||4586cb4586d9|
+x86|XCHG %r9b,%r11b|XCHG %r11b,%r9b|4586cb|4586d9
+x86|XCHG %r9b,%r12b; XCHG %r12b,%r9b||4586cc4586e1|
+x86|XCHG %r9b,%r12b|XCHG %r12b,%r9b|4586cc|4586e1
+x86|XCHG %r9b,%r13b; XCHG %r13b,%r9b||4586cd4586e9|
+x86|XCHG %r9b,%r13b|XCHG %r13b,%r9b|4586cd|4586e9
+x86|XCHG %r9b,%r14b; XCHG %r14b,%r9b||4586ce4586f1|
+x86|XCHG %r9b,%r14b|XCHG %r14b,%r9b|4586ce|4586f1
+x86|XCHG %r9b,%r15b; XCHG %r15b,%r9b||4586cf4586f9|
+x86|XCHG %r9b,%r15b|XCHG %r15b,%r9b|4586cf|4586f9
+x86|MOV %r10b,%r10b||4588d2|
+x86|XCHG %r10b,%r10b||4586d2|
+x86|NOT %r10b; NOT %r10b||41f6d241f6d2|
+x86|NOT %r10b|NOT %r10b|41f6d2|41f6d2
+x86|XCHG %r10b,%r8b; XCHG %r8b,%r10b||4586d04586c2|
+x86|XCHG %r10b,%r8b|XCHG %r8b,%r10b|4586d0|4586c2
+x86|XCHG %r10b,%r9b; XCHG %r9b,%r10b||4586d14586ca|
+x86|XCHG %r10b,%r9b|XCHG %r9b,%r10b|4586d1|4586ca
+x86|XCHG %r10b,%r10b; XCHG %r10b,%r10b||4586d24586d2|
+x86|XCHG %r10b,%r10b|XCHG %r10b,%r10b|4586d2|4586d2
+x86|XCHG %r10b,%r11b; XCHG %r11b,%r10b||4586d34586da|
+x86|XCHG %r10b,%r11b|XCHG %r11b,%r10b|4586d3|4586da
+x86|XCHG %r10b,%r12b; XCHG %r12b,%r10b||4586d44586e2|
+x86|XCHG %r10b,%r12b|XCHG %r12b,%r10b|4586d4|4586e2
+x86|XCHG %r10b,%r13b; XCHG %r13b,%r10b||4586d54586ea|
+x86|XCHG %r10b,%r13b|XCHG %r13b,%r10b|4586d5|4586ea
+x86|XCHG %r10b,%r14b; XCHG %r14b,%r10b||4586d64586f2|
+x86|XCHG %r10b,%r14b|XCHG %r14b,%r10b|4586d6|4586f2
+x86|XCHG %r10b,%r15b; XCHG %r15b,%r10b||4586d74586fa|
+x86|XCHG %r10b,%r15b|XCHG %r15b,%r10b|4586d7|4586fa
+x86|MOV %r11b,%r11b||4588db|
+x86|XCHG %r11b,%r11b||4586db|
+x86|NOT %r11b; NOT %r11b||41f6d341f6d3|
+x86|NOT %r11b|NOT %r11b|41f6d3|41f6d3
+x86|XCHG %r11b,%r8b; XCHG %r8b,%r11b||4586d84586c3|
+x86|XCHG %r11b,%r8b|XCHG %r8b,%r11b|4586d8|4586c3
+x86|XCHG %r11b,%r9b; XCHG %r9b,%r11b||4586d94586cb|
+x86|XCHG %r11b,%r9b|XCHG %r9b,%r11b|4586d9|4586cb
+x86|XCHG %r11b,%r10b; XCHG %r10b,%r11b||4586da4586d3|
+x86|XCHG %r11b,%r10b|XCHG %r10b,%r11b|4586da|4586d3
+x86|XCHG %r11b,%r11b; XCHG %r11b,%r11b||4586db4586db|
+x86|XCHG %r11b,%r11b|XCHG %r11b,%r11b|4586db|4586db
+x86|XCHG %r11b,%r12b; XCHG %r12b,%r11b||4586dc4586e3|
+x86|XCHG %r11b,%r12b|XCHG %r12b,%r11b|4586dc|4586e3
+x86|XCHG %r11b,%r13b; XCHG %r13b,%r11b||4586dd4586eb|
+x86|XCHG %r11b,%r13b|XCHG %r13b,%r11b|4586dd|4586eb
+x86|XCHG %r11b,%r14b; XCHG %r14b,%r11b||4586de4586f3|
+x86|XCHG %r11b,%r14b|XCHG %r14b,%r11b|4586de|4586f3
+x86|XCHG %r11b,%r15b; XCHG %r15b,%r11b||4586df4586fb|
+x86|XCHG %r11b,%r15b|XCHG %r15b,%r11b|4586df|4586fb
+x86|MOV %r12b,%r12b||4588e4|
+x86|XCHG %r12b,%r12b||4586e4|
+x86|NOT %r12b; NOT %r12b||41f6d441f6d4|
+x86|NOT %r12b|NOT %r12b|41f6d4|41f6d4
+x86|XCHG %r12b,%r8b; XCHG %r8b,%r12b||4586e04586c4|
+x86|XCHG %r12b,%r8b|XCHG %r8b,%r12b|4586e0|4586c4
+x86|XCHG %r12b,%r9b; XCHG %r9b,%r12b||4586e14586cc|
+x86|XCHG %r12b,%r9b|XCHG %r9b,%r12b|4586e1|4586cc
+x86|XCHG %r12b,%r10b; XCHG %r10b,%r12b||4586e24586d4|
+x86|XCHG %r12b,%r10b|XCHG %r10b,%r12b|4586e2|4586d4
+x86|XCHG %r12b,%r11b; XCHG %r11b,%r12b||4586e34586dc|
+x86|XCHG %r12b,%r11b|XCHG %r11b,%r12b|4586e3|4586dc
+x86|XCHG %r12b,%r12b; XCHG %r12b,%r12b||4586e44586e4|
+x86|XCHG %r12b,%r12b|XCHG %r12b,%r12b|4586e4|4586e4
+x86|XCHG %r12b,%r13b; XCHG %r13b,%r12b||4586e54586ec|
+x86|XCHG %r12b,%r13b|XCHG %r13b,%r12b|4586e5|4586ec
+x86|XCHG %r12b,%r14b; XCHG %r14b,%r12b||4586e64586f4|
+x86|XCHG %r12b,%r14b|XCHG %r14b,%r12b|4586e6|4586f4
+x86|XCHG %r12b,%r15b; XCHG %r15b,%r12b||4586e74586fc|
+x86|XCHG %r12b,%r15b|XCHG %r15b,%r12b|4586e7|4586fc
+x86|MOV %r13b,%r13b||4588ed|
+x86|XCHG %r13b,%r13b||4586ed|
+x86|NOT %r13b; NOT %r13b||41f6d541f6d5|
+x86|NOT %r13b|NOT %r13b|41f6d5|41f6d5
+x86|XCHG %r13b,%r8b; XCHG %r8b,%r13b||4586e84586c5|
+x86|XCHG %r13b,%r8b|XCHG %r8b,%r13b|4586e8|4586c5
+x86|XCHG %r13b,%r9b; XCHG %r9b,%r13b||4586e94586cd|
+x86|XCHG %r13b,%r9b|XCHG %r9b,%r13b|4586e9|4586cd
+x86|XCHG %r13b,%r10b; XCHG %r10b,%r13b||4586ea4586d5|
+x86|XCHG %r13b,%r10b|XCHG %r10b,%r13b|4586ea|4586d5
+x86|XCHG %r13b,%r11b; XCHG %r11b,%r13b||4586eb4586dd|
+x86|XCHG %r13b,%r11b|XCHG %r11b,%r13b|4586eb|4586dd
+x86|XCHG %r13b,%r12b; XCHG %r12b,%r13b||4586ec4586e5|
+x86|XCHG %r13b,%r12b|XCHG %r12b,%r13b|4586ec|4586e5
+x86|XCHG %r13b,%r13b; XCHG %r13b,%r13b||4586ed4586ed|
+x86|XCHG %r13b,%r13b|XCHG %r13b,%r13b|4586ed|4586ed
+x86|XCHG %r13b,%r14b; XCHG %r14b,%r13b||4586ee4586f5|
+x86|XCHG %r13b,%r14b|XCHG %r14b,%r13b|4586ee|4586f5
+x86|XCHG %r13b,%r15b; XCHG %r15b,%r13b||4586ef4586fd|
+x86|XCHG %r13b,%r15b|XCHG %r15b,%r13b|4586ef|4586fd
+x86|MOV %r14b,%r14b||4588f6|
+x86|XCHG %r14b,%r14b||4586f6|
+x86|NOT %r14b; NOT %r14b||41f6d641f6d6|
+x86|NOT %r14b|NOT %r14b|41f6d6|41f6d6
+x86|XCHG %r14b,%r8b; XCHG %r8b,%r14b||4586f04586c6|
+x86|XCHG %r14b,%r8b|XCHG %r8b,%r14b|4586f0|4586c6
+x86|XCHG %r14b,%r9b; XCHG %r9b,%r14b||4586f14586ce|
+x86|XCHG %r14b,%r9b|XCHG %r9b,%r14b|4586f1|4586ce
+x86|XCHG %r14b,%r10b; XCHG %r10b,%r14b||4586f24586d6|
+x86|XCHG %r14b,%r10b|XCHG %r10b,%r14b|4586f2|4586d6
+x86|XCHG %r14b,%r11b; XCHG %r11b,%r14b||4586f34586de|
+x86|XCHG %r14b,%r11b|XCHG %r11b,%r14b|4586f3|4586de
+x86|XCHG %r14b,%r12b; XCHG %r12b,%r14b||4586f44586e6|
+x86|XCHG %r14b,%r12b|XCHG %r12b,%r14b|4586f4|4586e6
+x86|XCHG %r14b,%r13b; XCHG %r13b,%r14b||4586f54586ee|
+x86|XCHG %r14b,%r13b|XCHG %r13b,%r14b|4586f5|4586ee
+x86|XCHG %r14b,%r14b; XCHG %r14b,%r14b||4586f64586f6|
+x86|XCHG %r14b,%r14b|XCHG %r14b,%r14b|4586f6|4586f6
+x86|XCHG %r14b,%r15b; XCHG %r15b,%r14b||4586f74586fe|
+x86|XCHG %r14b,%r15b|XCHG %r15b,%r14b|4586f7|4586fe
+x86|MOV %r15b,%r15b||4588ff|
+x86|XCHG %r15b,%r15b||4586ff|
+x86|NOT %r15b; NOT %r15b||41f6d741f6d7|
+x86|NOT %r15b|NOT %r15b|41f6d7|41f6d7
+x86|XCHG %r15b,%r8b; XCHG %r8b,%r15b||4586f84586c7|
+x86|XCHG %r15b,%r8b|XCHG %r8b,%r15b|4586f8|4586c7
+x86|XCHG %r15b,%r9b; XCHG %r9b,%r15b||4586f94586cf|
+x86|XCHG %r15b,%r9b|XCHG %r9b,%r15b|4586f9|4586cf
+x86|XCHG %r15b,%r10b; XCHG %r10b,%r15b||4586fa4586d7|
+x86|XCHG %r15b,%r10b|XCHG %r10b,%r15b|4586fa|4586d7
+x86|XCHG %r15b,%r11b; XCHG %r11b,%r15b||4586fb4586df|
+x86|XCHG %r15b,%r11b|XCHG %r11b,%r15b|4586fb|4586df
+x86|XCHG %r15b,%r12b; XCHG %r12b,%r15b||4586fc4586e7|
+x86|XCHG %r15b,%r12b|XCHG %r12b,%r15b|4586fc|4586e7
+x86|XCHG %r15b,%r13b; XCHG %r13b,%r15b||4586fd4586ef|
+x86|XCHG %r15b,%r13b|XCHG %r13b,%r15b|4586fd|4586ef
+x86|XCHG %r15b,%r14b; XCHG %r14b,%r15b||4586fe4586f7|
+x86|XCHG %r15b,%r14b|XCHG %r14b,%r15b|4586fe|4586f7
+x86|XCHG %r15b,%r15b; XCHG %r15b,%r15b||4586ff4586ff|
+x86|XCHG %r15b,%r15b|XCHG %r15b,%r15b|4586ff|4586ff

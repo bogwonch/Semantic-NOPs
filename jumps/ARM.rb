@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # Jump instructions for ARM
-$output = "/dev/stdout"
+$output = "ARM-jumps"
 
 $condition = ['EQ','NE','CS','CC','MI',
               'PL','VS','VC','HI','LS',
