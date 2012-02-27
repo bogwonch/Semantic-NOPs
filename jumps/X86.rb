@@ -50,7 +50,7 @@ def opcode(op,args) "#{op} #{args.join ','}" end
 def copcode(op,cond,args) opcode(op+cond, args) end
 
 def JMP(addr) opcode "JMP", ["$+#{addr}"] end
-def CJMP(cond,addr) copcode "JMP", cond, ["$+#{addr}"] end
+def CJMP(cond,addr) copcode "J", cond, ["$+#{addr}"] end
 
 File.open($output, 'w') do |f|
   $addresses.each do |addr|
