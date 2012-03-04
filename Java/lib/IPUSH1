@@ -1,0 +1,9 @@
+iconst_m1 => 02
+iconst_0 => 03
+iconst_1 => 04
+iconst_2 => 05
+iconst_3 => 06
+iconst_4 => 07
+iconst_5 => 08
+bipush . => 10..
+sipush . , => 11..,,

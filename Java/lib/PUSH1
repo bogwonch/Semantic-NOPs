@@ -1,0 +1,7 @@
+aconst_null => 01
+
+DPUSH1
+FPUSH1
+IPUSH1
+LPUSH1
+PUSH1

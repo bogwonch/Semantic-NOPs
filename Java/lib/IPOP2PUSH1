@@ -1,0 +1,8 @@
+iadd => 60
+imul => 68
+ishl => 78
+ishr => 7a
+isub => 64
+iushr => 7c
+ixor => 82
+

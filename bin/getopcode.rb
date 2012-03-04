@@ -88,6 +88,4 @@ ARGF.each_line do |line|
           compiled_suffixes.any? {|inst| inst == ''} )
     print "#{$machine}|#{prefixes.join '; '}|#{suffixes.join ';'}|#{compiled_prefixes.join}|#{compiled_suffixes.join}\n"
   end
-
-
 end
