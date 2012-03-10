@@ -1,4 +1,4 @@
-
+#! /usr/bin/env ruby
 # Conditional jumps all over the place
 (0x70 .. 0x80).step(2).each do |op|
   puts "#{op.to_s 16}..#{(op+1).to_s 16}.."

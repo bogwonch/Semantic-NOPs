@@ -1,3 +1,4 @@
+#! /usr/bin/env ruby
 def endian_switch(x)
   x0 = x[6]
   x1 = x[7]
