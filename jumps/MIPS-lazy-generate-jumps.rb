@@ -8,7 +8,8 @@ def endian_switch(x)
   x6 = x[0]
   x7 = x[1]
 
-  return [x0,x1,x2,x3,x4,x5,x6,x7].join
+  return x
+  #return [x0,x1,x2,x3,x4,x5,x6,x7].join
 end
 
 # Unconditional jump
